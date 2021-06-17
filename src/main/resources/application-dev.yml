@@ -1,0 +1,15 @@
+server:
+  port: 8082
+
+spring:
+  elasticsearch:
+    jest:
+      uris: 'http://localhost:9200'
+
+logging:
+  level:
+    org.springframework: ERROR
+    com: ERROR
+    springfox: ERROR
+    br.leg.camara: INFO
+    net.sf.ehcache: ERROR

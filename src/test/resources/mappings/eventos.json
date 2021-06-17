@@ -1,0 +1,94 @@
+{
+	"request": {
+		"method": "POST",
+		"url": "/eventos/_search"
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json"
+    	},
+		"jsonBody": {
+			"took": 1,
+			"timed_out": false,
+			"_shards": {
+				"total": 5,
+				"successful": 5,
+				"skipped": 0,
+				"failed": 0
+			},
+			"hits": {
+				"total": 2,
+				"max_score": 1,
+				"hits": [
+					{
+						"_index": "eventos",
+						"_type": "eventos",
+						"_id": "legislativos-59497",
+						"_score": 1,
+						"_source": {
+							"tipo": "Reunião Deliberativa",
+							"orgao": "Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 199-A, de 2019, do Sr. Alex Manente e outros, que \"altera os arts. 102 e 105 da Constituição, transformando os recursos extraordinário e especial em ações revisionais de competência originária do Supremo Tribunal Federal e do Superior Tribunal de Justiça\"",
+							"emTransmissao": false,
+							"categoria": "Comissões",
+							"origem": "Sileg",
+							"nome": "Reunião Deliberativa Ordinária",
+							"inicioApos": "",
+							"idOriginal": "59497",
+							"apelidoOrgao": "PEC 199/19 - PRISÃO EM 2ª INSTÂNCIA",
+							"local": "Anexo II, Plenário 09",
+							"descricao": "Audiência Pública e Deliberação de Requerimentos",
+							"dataHoraInicio": "2020-03-17T14:30:00-03:00",
+							"descricaoSituacao": "Convocada",
+							"idOrgao": "538736",
+							"id": "legislativos-59497",
+							"descricaoDetalhada": "Audiência Pública e Deliberação de Requerimentos apresentados até a véspera da reunião. Audiência Pública Convidado: Nelson Nery Jr., Jurista - Req. 7/20 (confirmado por videoconferência). Requerimento atendido: REQ 7/20 - Dep. Marcelo Ramos (PL/AM).",
+							"codigoSituacao": "2",
+							"pauta": [
+								{
+									"idProposicao": 2229938,
+									"ementaProposicao": "Altera os arts. 102 e 105 da Constituição, transformando os recursos extraordinário e especial em ações revisionais de competência originária do Supremo Tribunal Federal e do Superior Tribunal de Justiça",
+									"nomeProposicao": "PEC 199/2019"
+								}
+							]
+						}
+					},
+					{
+						"_index": "eventos",
+						"_type": "eventos",
+						"_id": "legislativos-59274",
+						"_score": 1,
+						"_source": {
+							"tipo": "Reunião Deliberativa",
+							"orgao": "Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 199-A, de 2019, do Sr. Alex Manente e outros, que \"altera os arts. 102 e 105 da Constituição, transformando os recursos extraordinário e especial em ações revisionais de competência originária do Supremo Tribunal Federal e do Superior Tribunal de Justiça\"",
+							"emTransmissao": false,
+							"categoria": "Comissões",
+							"origem": "Sileg",
+							"nome": "Reunião Deliberativa Ordinária",
+							"inicioApos": "",
+							"idOriginal": "59274",
+							"apelidoOrgao": "PEC 199/19 - PRISÃO EM 2ª INSTÂNCIA",
+							"local": "Anexo II, Plenário 01",
+							"descricao": "Audiência Pública e Deliberação de Requerimentos",
+							"dataHoraInicio": "2020-02-12T10:00:00-03:00",
+							"descricaoSituacao": "Convocada",
+							"idOrgao": "538736",
+							"id": "legislativos-59274",
+							"descricaoDetalhada": "Audiência Pública e Deliberação de Requerimentos apresentados até às 18h da véspera da reunião Audiência Pública Convidado: Sérgio Moro, Ministro de Estado da Justiça e Segurança Pública (confirmado). Requerimentos atendidos: REQ 1/19 - Dep. Júnior Ferrari (PSD/PA); REQ 5/19 - Dep. Orlando Silva (PCdoB/SP); REQ 12/19 - Dep. José Nelto (PODE/GO).",
+							"codigoSituacao": "2",
+							"pauta": [
+								{
+									"idProposicao": 2229938,
+									"ementaProposicao": "Altera os arts. 102 e 105 da Constituição, transformando os recursos extraordinário e especial em ações revisionais de competência originária do Supremo Tribunal Federal e do Superior Tribunal de Justiça",
+									"nomeProposicao": "PEC 199/2019"
+								}
+							]
+						}
+					}
+				]
+			},
+			"aggregations": {
+			}
+		}
+	}
+}

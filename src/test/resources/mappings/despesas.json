@@ -1,0 +1,386 @@
+{
+   "request":{
+      "method":"POST",
+      "url":"/despesas/_search"
+   },
+   "response":{
+      "status":200,
+      "headers":{
+         "Content-Type":"application/json"
+      },
+	    "jsonBody":{
+		    "took": 1,
+		    "timed_out": false,
+		    "_shards": {
+		        "total": 5,
+		        "successful": 5,
+		        "skipped": 0,
+		        "failed": 0
+		    },
+		    "hits": {
+		        "total": 5,
+		        "max_score": null,
+		        "hits": [
+		            {
+		                "_index": "despesas",
+		                "_type": "despesas",
+		                "_id": "2020NS002339-369771",
+		                "_score": null,
+		                "_source": {
+		                    "id": "2020NS002339-369771",
+		                    "idDespesa": 369771,
+		                    "documento": "2020NS002339",
+		                    "codFaseDespesa": 2,
+		                    "fase": "Liquidação",
+		                    "tipoDocumento": "NS",
+		                    "data": "2020-01-23T00:00",
+		                    "codigoUnidadeOrcamentaria": "010001",
+		                    "nomeUnidadeOrcamentaria": "CAMARA DOS DEPUTADOS",
+		                    "codigoUnidadeGestao": "00001",
+		                    "nomeUnidadeGestao": "1 - TESOURO NACIONAL",
+		                    "tipoEmpenho": "Estimativo",
+		                    "especieEmpenho": "Anulação de Despesa",
+		                    "programaTrabalhoResumido": "167420",
+		                    "codItemNaturezaDespesaSIAFI": "319001",
+		                    "codNaturezaDespesa": "01",
+		                    "tipoDespesa": "APOSENTADORIAS E REFORMAS",
+		                    "codModalidadeLicitacaoSIAFI": "08",
+		                    "modalidadeLicitacao": "NAO SE APLICA",
+		                    "cpfCnpjFavorecido": "010001/00001",
+		                    "nomeFavorecido": "CAMARA DEPUTADOS",
+		                    "valor": -15009.02,
+		                    "observacoes": "DCAP-3031-01/2020. GRUPO 3. REGISTRO DE DESPESA A ANULAR. PAGAMENTO DE AUXÍLIO-FUNERAL EM DECORRÊNCIA DO FALECIMENTO DO EX-SERVIDOR APOSENTADO ANÍBAL RODRIGUES COELHO. EDOC 213030/2020.",
+		                    "processo": "100778/2006",
+		                    "codFonteRecurso": "100",
+		                    "fonteRecurso": "Recursos Ordinários",
+		                    "codCategoriaEconomica": 3,
+		                    "categoriaEconomica": "DESPESA CORRENTE",
+		                    "codGrupoDespesa": 1,
+		                    "grupoDespesa": "PESSOAL E ENCARGOS SOCIAIS",
+		                    "codModalidadeAplicacao": 90,
+		                    "modalidadeAplicacao": "APLICACOES DIRETAS",
+		                    "faixaValor": "Até R$ 176.000",
+		                    "anoDespesa": 2020,
+		                    "relacionadas": [
+		                        {
+		                            "txtFaseDespesaOriginal": "Empenho",
+		                            "txtNaturezaDespesaOriginal": "APOSENTADORIAS E REFORMAS",
+		                            "datEmissaoOriginal": "2020-01-15T00:00",
+		                            "codCPFCNPJFornOriginal": "010001/00001",
+		                            "vlrDocumentoOriginal": 210345106,
+		                            "nomeFornecedor": "CAMARA DEPUTADOS",
+		                            "txtEspecieDocumentoOriginal": "Original",
+		                            "idDespesa": 369771,
+		                            "idOriginal": 76579,
+		                            "documentoRelacionado": "2020NE000548"
+		                        }
+		                    ]
+		                }
+		            },
+		            {
+		                "_index": "despesas",
+		                "_type": "despesas",
+		                "_id": "2020NS002339-369773",
+		                "_score": null,
+		                "_source": {
+		                    "id": "2020NS002339-369773",
+		                    "idDespesa": 369773,
+		                    "documento": "2020NS002339",
+		                    "codFaseDespesa": 2,
+		                    "fase": "Liquidação",
+		                    "tipoDocumento": "NS",
+		                    "data": "2020-01-23T00:00",
+		                    "codigoUnidadeOrcamentaria": "010001",
+		                    "nomeUnidadeOrcamentaria": "CAMARA DOS DEPUTADOS",
+		                    "codigoUnidadeGestao": "00001",
+		                    "nomeUnidadeGestao": "1 - TESOURO NACIONAL",
+		                    "tipoEmpenho": "Estimativo",
+		                    "especieEmpenho": "Anulação de Despesa",
+		                    "programaTrabalhoResumido": "167420",
+		                    "codItemNaturezaDespesaSIAFI": "319001",
+		                    "codNaturezaDespesa": "01",
+		                    "tipoDespesa": "APOSENTADORIAS E REFORMAS",
+		                    "codModalidadeLicitacaoSIAFI": "08",
+		                    "modalidadeLicitacao": "NAO SE APLICA",
+		                    "cpfCnpjFavorecido": "010001/00001",
+		                    "nomeFavorecido": "CAMARA DEPUTADOS",
+		                    "valor": -1576.28,
+		                    "observacoes": "DCAP-3031-01/2020. GRUPO 3. REGISTRO DE DESPESA A ANULAR. PAGAMENTO DE AUXÍLIO-FUNERAL EM DECORRÊNCIA DO FALECIMENTO DO EX-SERVIDOR APOSENTADO ANÍBAL RODRIGUES COELHO. EDOC 213030/2020.",
+		                    "processo": "100778/2006",
+		                    "codFonteRecurso": "100",
+		                    "fonteRecurso": "Recursos Ordinários",
+		                    "codCategoriaEconomica": 3,
+		                    "categoriaEconomica": "DESPESA CORRENTE",
+		                    "codGrupoDespesa": 1,
+		                    "grupoDespesa": "PESSOAL E ENCARGOS SOCIAIS",
+		                    "codModalidadeAplicacao": 90,
+		                    "modalidadeAplicacao": "APLICACOES DIRETAS",
+		                    "faixaValor": "Até R$ 176.000",
+		                    "anoDespesa": 2020,
+		                    "relacionadas": [
+		                        {
+		                            "txtFaseDespesaOriginal": "Empenho",
+		                            "txtNaturezaDespesaOriginal": "APOSENTADORIAS E REFORMAS",
+		                            "datEmissaoOriginal": "2020-01-15T00:00",
+		                            "codCPFCNPJFornOriginal": "010001/00001",
+		                            "vlrDocumentoOriginal": 971544443,
+		                            "nomeFornecedor": "CAMARA DEPUTADOS",
+		                            "txtEspecieDocumentoOriginal": "Original",
+		                            "idDespesa": 369773,
+		                            "idOriginal": 76581,
+		                            "documentoRelacionado": "2020NE000550"
+		                        }
+		                    ]
+		                }
+		            },
+		            {
+		                "_index": "despesas",
+		                "_type": "despesas",
+		                "_id": "2020NS002343-369776",
+		                "_score": null,
+		                "_source": {
+		                    "id": "2020NS002343-369776",
+		                    "idDespesa": 369776,
+		                    "documento": "2020NS002343",
+		                    "codFaseDespesa": 2,
+		                    "fase": "Liquidação",
+		                    "tipoDocumento": "NS",
+		                    "data": "2020-01-23T00:00",
+		                    "codigoUnidadeOrcamentaria": "010001",
+		                    "nomeUnidadeOrcamentaria": "CAMARA DOS DEPUTADOS",
+		                    "codigoUnidadeGestao": "00001",
+		                    "nomeUnidadeGestao": "1 - TESOURO NACIONAL",
+		                    "tipoEmpenho": "Estimativo",
+		                    "especieEmpenho": "Apropriação de Despesa",
+		                    "programaTrabalhoResumido": "167417",
+		                    "codItemNaturezaDespesaSIAFI": "319113",
+		                    "codNaturezaDespesa": "13",
+		                    "tipoDespesa": "OBRIGACOES PATRONAIS - OP.INTRA-ORCAMENTARIAS",
+		                    "codModalidadeLicitacaoSIAFI": "08",
+		                    "modalidadeLicitacao": "NAO SE APLICA",
+		                    "cpfCnpjFavorecido": "170010/00001",
+		                    "nomeFavorecido": "RFB-BRASILIA",
+		                    "valor": 15295137.76,
+		                    "observacoes": "DCAP-005-01/2020. ENCARGO. FOPAG JAN/2020. EDOC 215100/2020?- RECOLHIMENTO DE ENCARGO PATRONAL DE PSSS",
+		                    "processo": "100778/2006",
+		                    "codFonteRecurso": "100",
+		                    "fonteRecurso": "Recursos Ordinários",
+		                    "codCategoriaEconomica": 3,
+		                    "categoriaEconomica": "DESPESA CORRENTE",
+		                    "codGrupoDespesa": 1,
+		                    "grupoDespesa": "PESSOAL E ENCARGOS SOCIAIS",
+		                    "codModalidadeAplicacao": 91,
+		                    "modalidadeAplicacao": "APLICACOES DIRETAS - OPER.INTRA-ORCAMENTARIAS",
+		                    "faixaValor": "Acima de R$ 3.300.000",
+		                    "anoDespesa": 2020,
+		                    "relacionadas": [
+		                        {
+		                            "txtFaseDespesaOriginal": "Empenho",
+		                            "txtNaturezaDespesaOriginal": "OBRIGACOES PATRONAIS - OP.INTRA-ORCAMENTARIAS",
+		                            "datEmissaoOriginal": "2020-01-15T00:00",
+		                            "codCPFCNPJFornOriginal": "170010/00001",
+		                            "vlrDocumentoOriginal": 224786206,
+		                            "nomeFornecedor": "RFB-BRASILIA",
+		                            "txtEspecieDocumentoOriginal": "Original",
+		                            "idDespesa": 369776,
+		                            "idOriginal": 76564,
+		                            "documentoRelacionado": "2020NE000532"
+		                        }
+		                    ]
+		                }
+		            },
+		            {
+		                "_index": "despesas",
+		                "_type": "despesas",
+		                "_id": "2020OB800006-307563",
+		                "_score": null,
+		                "_source": {
+		                    "id": "2020OB800006-307563",
+		                    "idDespesa": 307563,
+		                    "documento": "2020OB800006",
+		                    "codFaseDespesa": 3,
+		                    "fase": "Pagamento",
+		                    "tipoDocumento": "OB",
+		                    "data": "2020-01-23T00:00",
+		                    "codigoUnidadeOrcamentaria": "010090",
+		                    "nomeUnidadeOrcamentaria": "FUNDO ROTATIVO DA CAMARA DOS DEPUTADOS",
+		                    "codigoUnidadeGestao": "00001",
+		                    "nomeUnidadeGestao": "1 - TESOURO NACIONAL",
+		                    "tipoEmpenho": "Ordinário",
+		                    "especieEmpenho": "Pagamento",
+		                    "programaTrabalhoResumido": "167438",
+		                    "codItemNaturezaDespesaSIAFI": "339039",
+		                    "codNaturezaDespesa": "39",
+		                    "tipoDespesa": "OUTROS SERVICOS DE TERCEIROS-PESSOA JURIDICA",
+		                    "codModalidadeLicitacaoSIAFI": "06",
+		                    "modalidadeLicitacao": "DISPENSA DE LICITACAO",
+		                    "cpfCnpjFavorecido": "70.953.385/0001-97",
+		                    "nomeFavorecido": "CICLO CEAP",
+		                    "valor": 1890,
+		                    "observacoes": "NFS-E 2020/97 - PARTICIPAÇÃO DA SERVIDORA PATRÍCIA MENDES MOREIRA NO CURSO AVALIAÇÃO NEURO-PSICOLÓGICA DO ADULTO E IDOSO, REALIZADO ENTRE OS DIAS 13 E 16 DE JANEIRO DE 2020, NA CIDADE BELO HORIZONTE-MG - TRIBUTOS FEDERAIS NÃO RETIDOS (OPTANTE PELO SIMPLES NACIONAL). PROCESSO EDOC 621130/2019. RELAÇÃO 26/2020.",
+		                    "processo": "621130/2019",
+		                    "codFonteRecurso": "150",
+		                    "fonteRecurso": "Recursos Próprios Não-Financeiros",
+		                    "codCategoriaEconomica": 3,
+		                    "categoriaEconomica": "DESPESA CORRENTE",
+		                    "codGrupoDespesa": 3,
+		                    "grupoDespesa": "OUTRAS DESPESAS CORRENTES",
+		                    "codModalidadeAplicacao": 90,
+		                    "modalidadeAplicacao": "APLICACOES DIRETAS",
+		                    "faixaValor": "Até R$ 176.000",
+		                    "anoDespesa": 2020,
+		                    "relacionadas": [
+		                        {
+		                            "txtFaseDespesaOriginal": "Empenho",
+		                            "txtNaturezaDespesaOriginal": "OUTROS SERVICOS DE TERCEIROS-PESSOA JURIDICA",
+		                            "datEmissaoOriginal": "2020-01-16T00:00",
+		                            "codCPFCNPJFornOriginal": "70.953.385/0001-97",
+		                            "vlrDocumentoOriginal": 1890,
+		                            "nomeFornecedor": "CICLO CEAP",
+		                            "txtEspecieDocumentoOriginal": "Original",
+		                            "idDespesa": 307563,
+		                            "idOriginal": 76618,
+		                            "documentoRelacionado": "2020NE000008"
+		                        }
+		                    ]
+		                }
+		            },
+		            {
+		                "_index": "despesas",
+		                "_type": "despesas",
+		                "_id": "2020OB801566-307564",
+		                "_score": null,
+		                "_source": {
+		                    "id": "2020OB801566-307564",
+		                    "idDespesa": 307564,
+		                    "documento": "2020OB801566",
+		                    "codFaseDespesa": 3,
+		                    "fase": "Pagamento",
+		                    "tipoDocumento": "OB",
+		                    "data": "2020-01-23T00:00",
+		                    "codigoUnidadeOrcamentaria": "010001",
+		                    "nomeUnidadeOrcamentaria": "CAMARA DOS DEPUTADOS",
+		                    "codigoUnidadeGestao": "00001",
+		                    "nomeUnidadeGestao": "1 - TESOURO NACIONAL",
+		                    "tipoEmpenho": "Estimativo",
+		                    "especieEmpenho": "Pagamento",
+		                    "programaTrabalhoResumido": "084360",
+		                    "codItemNaturezaDespesaSIAFI": "339033",
+		                    "codNaturezaDespesa": "33",
+		                    "tipoDespesa": "PASSAGENS E DESPESAS COM LOCOMOCAO",
+		                    "codModalidadeLicitacaoSIAFI": "08",
+		                    "modalidadeLicitacao": "NAO SE APLICA",
+		                    "cpfCnpjFavorecido": "07.575.651/0001-59",
+		                    "nomeFavorecido": "VARIG",
+		                    "valor": 332949.05,
+		                    "observacoes": "FATURA 37/2019, COTA GOL, ATO DA MESA 43/09 (PROCESSO EDOC 204251/2020), B.CÁLCULO (IN RFB 1234/12): GOL(R$ 699.717,73). DESCONTO VALOR DE R$ 317.438,58, SENDO R$ 1.352,26 REF. REEMBOLSO 2018 E 316.086,32 REF. REEMBOLSO 2019, DE PASSAGENS AÉREAS.",
+		                    "processo": "201555/2019",
+		                    "codFonteRecurso": "100",
+		                    "fonteRecurso": "Recursos Ordinários",
+		                    "codCategoriaEconomica": 3,
+		                    "categoriaEconomica": "DESPESA CORRENTE",
+		                    "codGrupoDespesa": 3,
+		                    "grupoDespesa": "OUTRAS DESPESAS CORRENTES",
+		                    "codModalidadeAplicacao": 90,
+		                    "modalidadeAplicacao": "APLICACOES DIRETAS",
+		                    "faixaValor": "De R$ 330.000 a R$ 1.430.000",
+		                    "anoDespesa": 2020,
+		                    "relacionadas": [
+		                        {
+		                            "txtFaseDespesaOriginal": "Empenho",
+		                            "txtNaturezaDespesaOriginal": "PASSAGENS E DESPESAS COM LOCOMOCAO",
+		                            "datEmissaoOriginal": "2019-01-08T00:00",
+		                            "codCPFCNPJFornOriginal": "07.575.651/0001-59",
+		                            "vlrDocumentoOriginal": 2250000,
+		                            "nomeFornecedor": "VARIG",
+		                            "txtEspecieDocumentoOriginal": "Original",
+		                            "idDespesa": 307564,
+		                            "idOriginal": 73486,
+		                            "documentoRelacionado": "2019NE000116"
+		                        }
+		                    ]
+		                }
+		            }
+		        ]
+		    },
+			
+   "aggregations":{ 
+      "ano":{ 
+         "doc_count_error_upper_bound":0,
+         "sum_other_doc_count":0,
+         "buckets":[ 
+            { 
+               "key":2020,
+               "doc_count":5
+            },
+            { 
+               "key":2019,
+               "doc_count":1
+            }
+         ]
+      },
+      
+        "faixaValor": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+                {
+                    "key": "Até R$ 176.000",
+                    "doc_count": 3
+                },
+                {
+                    "key": "Acima de R$ 3.300.000",
+                    "doc_count": 1
+                },
+                {
+                    "key": "De R$ 330.000 a R$ 1.430.000",
+                    "doc_count": 1
+                }
+            ]
+        },
+        "fase": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+                {
+                    "key": "Liquidação",
+                    "doc_count": 3
+                },
+                {
+                    "key": "Pagamento",
+                    "doc_count": 1
+                }
+            ]
+        },
+        "tipoDespesa": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+                {
+                    "key": "APOSENTADORIAS E REFORMAS",
+                    "doc_count": 3
+                },
+                {
+                    "key": "PASSAGENS E DESPESAS COM LOCOMOCAO",
+                    "doc_count": 1
+                }
+            ]
+        },
+        "nomeUnidadeOrcamentaria": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+                {
+                    "key": "CAMARA DOS DEPUTADOS",
+                    "doc_count": 3
+                },
+                {
+                    "key": "FUNDO ROTATIVO DA CAMARA DOS DEPUTADOS",
+                    "doc_count": 1
+                }
+            ]
+        }
+   }
+		}
+   }
+}

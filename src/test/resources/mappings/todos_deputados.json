@@ -1,0 +1,583 @@
+{
+   "request":{
+      "method":"POST",
+      "url":"/servidores/_search"
+   },
+   "response":{
+      "status":200,
+      "headers":{
+         "Content-Type":"application/json"
+      },
+	      "jsonBody":{
+		    "took": 0,
+		    "timed_out": false,
+		    "_shards": {
+		        "total": 5,
+		        "successful": 5,
+		        "skipped": 0,
+		        "failed": 0
+		    },
+            "hits": {
+                "total": 1986,
+                "max_score": 3.106705,
+                "hits": [
+                  {
+                    "_index": "servidores",
+                    "_type": "servidores",
+                    "_id": "D_811136",
+                    "_score": 3.106705,
+                    "_source": {
+                      "situacao": "Ativo",
+                      "situacaoMandato": "Licenciado",
+                      "ponto": "D_811136",
+                      "ideCadatro": 74374,
+                      "legislaturas": [
+                        {
+                          "estado": "MS",
+                          "legislatura": 56,
+                          "nomePartidoAtual": "Partido da Social Democracia Brasileira",
+                          "siglaPartidoAtual": "PSDB",
+                          "condicao": "Suplente",
+                          "nomeParlamentar": "GERALDO RESENDE",
+                          "matricula": 56530,
+                          "idInfoleg": "1118699",
+                          "situacaoMandato": "Licenciado",
+                          "sexo": "M",
+                          "partidos": [
+                            "PSDB"
+                          ]
+                        },
+                        {
+                          "estado": "MS",
+                          "legislatura": 55,
+                          "nomePartidoAtual": "Partido da Social Democracia Brasileira",
+                          "siglaPartidoAtual": "PSDB",
+                          "condicao": "Titular",
+                          "nomeParlamentar": "GERALDO RESENDE",
+                          "matricula": 55435,
+                          "idInfoleg": "5310512",
+                          "situacaoMandato": "Ex-deputado",
+                          "sexo": "M",
+                          "partidos": [
+                            "PSDB",
+                            "PMDB"
+                          ]
+                        },
+                        {
+                          "estado": "MS",
+                          "legislatura": 54,
+                          "nomePartidoAtual": "Partido do Movimento Democratico Brasileiro",
+                          "siglaPartidoAtual": "PMDB",
+                          "condicao": "Titular",
+                          "nomeParlamentar": "GERALDO RESENDE",
+                          "matricula": 54435,
+                          "idInfoleg": "1466",
+                          "situacaoMandato": "Ex-deputado",
+                          "sexo": "M",
+                          "partidos": [
+                            "PMDB"
+                          ]
+                        },
+                        {
+                          "estado": "MS",
+                          "legislatura": 53,
+                          "nomePartidoAtual": "Partido do Movimento Democratico Brasileiro",
+                          "siglaPartidoAtual": "PMDB",
+                          "condicao": "Titular",
+                          "nomeParlamentar": "GERALDO RESENDE",
+                          "matricula": 53435,
+                          "idInfoleg": "5301466",
+                          "situacaoMandato": "Ex-deputado",
+                          "sexo": "M",
+                          "partidos": [
+                            "PMDB",
+                            "PPS"
+                          ]
+                        },
+                        {
+                          "estado": "MS",
+                          "legislatura": 52,
+                          "nomePartidoAtual": "Partido Popular Socialista",
+                          "siglaPartidoAtual": "PPS",
+                          "condicao": "Titular",
+                          "nomeParlamentar": "GERALDO RESENDE",
+                          "matricula": 52435,
+                          "idInfoleg": "5201466",
+                          "situacaoMandato": "Ex-deputado",
+                          "sexo": "M",
+                          "partidos": [
+                            "PPS"
+                          ]
+                        }
+                      ],
+                      "areaAtuacao": "Gabinetes dos Deputados",
+                      "nome": "GERALDO RESENDE PEREIRA",
+                      "id": "D_811136",
+                      "categoriaFuncional": "Deputado"
+                    }
+                  },
+                  {
+                    "_index": "servidores",
+                    "_type": "servidores",
+                    "_id": "D_811902",
+                    "_score": 3.106705,
+                    "_source": {
+                      "situacao": "Ativo",
+                      "situacaoMandato": "Licenciado",
+                      "ponto": "D_811902",
+                      "ideCadatro": 178901,
+                      "legislaturas": [
+                        {
+                          "estado": "MS",
+                          "legislatura": 56,
+                          "nomePartidoAtual": "Democratas",
+                          "siglaPartidoAtual": "DEM",
+                          "condicao": "Titular",
+                          "nomeParlamentar": "TEREZA CRISTINA",
+                          "matricula": 56437,
+                          "idInfoleg": "1117331",
+                          "situacaoMandato": "Licenciado",
+                          "sexo": "F",
+                          "partidos": [
+                            "DEM"
+                          ]
+                        },
+                        {
+                          "estado": "MS",
+                          "legislatura": 55,
+                          "nomePartidoAtual": "Democratas",
+                          "siglaPartidoAtual": "DEM",
+                          "condicao": "Titular",
+                          "nomeParlamentar": "TEREZA CRISTINA",
+                          "matricula": 55437,
+                          "idInfoleg": "5310732",
+                          "situacaoMandato": "Ex-deputado",
+                          "sexo": "F",
+                          "partidos": [
+                            "DEM",
+                            "PSB"
+                          ]
+                        }
+                      ],
+                      "areaAtuacao": "Gabinetes dos Deputados",
+                      "nome": "TEREZA CRISTINA CORREA DA COSTA DIAS",
+                      "id": "D_811902",
+                      "categoriaFuncional": "Deputado",
+                      "codigoDepartamento": "2000",
+                      "codigoLotacao": "5949"
+                    }
+                  },
+                  {
+                    "_index": "servidores",
+                    "_type": "servidores",
+                    "_id": "D_811947",
+                    "_score": 3.106705,
+                    "_source": {
+                      "situacao": "Ativo",
+                      "situacaoMandato": "Licenciado",
+                      "ponto": "D_811947",
+                      "ideCadatro": 178887,
+                      "legislaturas": [
+                        {
+                          "estado": "MA",
+                          "legislatura": 56,
+                          "nomePartidoAtual": "Partido Comunista do Brasil",
+                          "siglaPartidoAtual": "PCdoB",
+                          "condicao": "Titular",
+                          "nomeParlamentar": "RUBENS PEREIRA JÚNIOR",
+                          "matricula": 56081,
+                          "idInfoleg": "1117643",
+                          "situacaoMandato": "Licenciado",
+                          "sexo": "M",
+                          "partidos": [
+                            "PCdoB"
+                          ]
+                        },
+                        {
+                          "estado": "MA",
+                          "legislatura": 55,
+                          "nomePartidoAtual": "Partido Comunista do Brasil",
+                          "siglaPartidoAtual": "PCdoB",
+                          "condicao": "Titular",
+                          "nomeParlamentar": "RUBENS PEREIRA JÚNIOR",
+                          "matricula": 55081,
+                          "idInfoleg": "5310306",
+                          "situacaoMandato": "Ex-deputado",
+                          "sexo": "M",
+                          "partidos": [
+                            "PCdoB"
+                          ]
+                        }
+                      ],
+                      "areaAtuacao": "Gabinetes dos Deputados",
+                      "nome": "RUBENS PEREIRA E SILVA JUNIOR",
+                      "id": "D_811947",
+                      "categoriaFuncional": "Deputado",
+                      "codigoDepartamento": "2000",
+                      "codigoLotacao": "5891"
+                    }
+                  },
+                  {
+                    "_index": "servidores",
+                    "_type": "servidores",
+                    "_id": "D_811332",
+                    "_score": 3.106705,
+                    "_source": {
+                      "situacao": "Ativo",
+                      "situacaoMandato": "Licenciado",
+                      "ponto": "D_811332",
+                      "ideCadatro": 141513,
+                      "legislaturas": [
+                        {
+                          "estado": "MG",
+                          "legislatura": 56,
+                          "nomePartidoAtual": "Democratas",
+                          "siglaPartidoAtual": "DEM",
+                          "condicao": "Titular",
+                          "nomeParlamentar": "BILAC PINTO",
+                          "matricula": 56232,
+                          "idInfoleg": "1117214",
+                          "situacaoMandato": "Licenciado",
+                          "sexo": "M",
+                          "partidos": [
+                            "DEM"
+                          ]
+                        },
+                        {
+                          "estado": "MG",
+                          "legislatura": 55,
+                          "nomePartidoAtual": "Democratas",
+                          "siglaPartidoAtual": "DEM",
+                          "condicao": "Titular",
+                          "nomeParlamentar": "BILAC PINTO",
+                          "matricula": 55232,
+                          "idInfoleg": "5310796",
+                          "situacaoMandato": "Ex-deputado",
+                          "sexo": "M",
+                          "partidos": [
+                            "DEM",
+                            "PR"
+                          ]
+                        },
+                        {
+                          "estado": "MG",
+                          "legislatura": 54,
+                          "nomePartidoAtual": "Partido da Republica",
+                          "siglaPartidoAtual": "PR",
+                          "condicao": "Titular",
+                          "nomeParlamentar": "BILAC PINTO",
+                          "matricula": 54232,
+                          "idInfoleg": "5865",
+                          "situacaoMandato": "Ex-deputado",
+                          "sexo": "M",
+                          "partidos": [
+                            "PR"
+                          ]
+                        },
+                        {
+                          "estado": "MG",
+                          "legislatura": 53,
+                          "nomePartidoAtual": "Partido da Republica",
+                          "siglaPartidoAtual": "PR",
+                          "condicao": "Titular",
+                          "nomeParlamentar": "BILAC PINTO",
+                          "matricula": 53232,
+                          "idInfoleg": "5305865",
+                          "situacaoMandato": "Ex-deputado",
+                          "sexo": "M",
+                          "partidos": [
+                            "PR",
+                            "PL"
+                          ]
+                        }
+                      ],
+                      "areaAtuacao": "Gabinetes dos Deputados",
+                      "nome": "OLAVO BILAC PINTO NETO",
+                      "id": "D_811332",
+                      "categoriaFuncional": "Deputado",
+                      "codigoDepartamento": "2000",
+                      "codigoLotacao": "6602"
+                    }
+                  },
+                  {
+                    "_index": "servidores",
+                    "_type": "servidores",
+                    "_id": "D_811638",
+                    "_score": 3.106705,
+                    "_source": {
+                      "situacao": "Ativo",
+                      "situacaoMandato": "Licenciado",
+                      "ponto": "D_811638",
+                      "ideCadatro": 160621,
+                      "legislaturas": [
+                        {
+                          "estado": "PR",
+                          "legislatura": 56,
+                          "nomePartidoAtual": "Partido Social Democratico",
+                          "siglaPartidoAtual": "PSD",
+                          "condicao": "Titular",
+                          "nomeParlamentar": "SANDRO ALEX",
+                          "matricula": 56465,
+                          "idInfoleg": "1117271",
+                          "situacaoMandato": "Licenciado",
+                          "sexo": "M",
+                          "partidos": [
+                            "PSD"
+                          ]
+                        },
+                        {
+                          "estado": "PR",
+                          "legislatura": 55,
+                          "nomePartidoAtual": "Partido Social Democratico",
+                          "siglaPartidoAtual": "PSD",
+                          "condicao": "Titular",
+                          "nomeParlamentar": "SANDRO ALEX",
+                          "matricula": 55465,
+                          "idInfoleg": "5310763",
+                          "situacaoMandato": "Ex-deputado",
+                          "sexo": "M",
+                          "partidos": [
+                            "PSD",
+                            "PPS"
+                          ]
+                        },
+                        {
+                          "estado": "PR",
+                          "legislatura": 54,
+                          "nomePartidoAtual": "Partido Popular Socialista",
+                          "siglaPartidoAtual": "PPS",
+                          "condicao": "Titular",
+                          "nomeParlamentar": "SANDRO ALEX",
+                          "matricula": 54465,
+                          "idInfoleg": "10122",
+                          "situacaoMandato": "Ex-deputado",
+                          "sexo": "M",
+                          "partidos": [
+                            "PPS"
+                          ]
+                        }
+                      ],
+                      "areaAtuacao": "Gabinetes dos Deputados",
+                      "nome": "SANDRO ALEX CRUZ DE OLIVEIRA",
+                      "id": "D_811638",
+                      "categoriaFuncional": "Deputado",
+                      "codigoDepartamento": "2000",
+                      "codigoLotacao": "5129"
+                    }
+                  },
+                  {
+                    "_index": "servidores",
+                    "_type": "servidores",
+                    "_id": "D_805506",
+                    "_score": 3.106705,
+                    "_source": {
+                      "situacao": "Ativo",
+                      "situacaoMandato": "Em exercício",
+                      "ponto": "D_805506",
+                      "ideCadatro": 133968,
+                      "legislaturas": [
+                        {
+                          "estado": "RJ",
+                          "legislatura": 56,
+                          "nomePartidoAtual": "Partido Democratico Trabalhista",
+                          "siglaPartidoAtual": "PDT",
+                          "condicao": "Titular",
+                          "nomeParlamentar": "PAULO RAMOS",
+                          "matricula": 56319,
+                          "idInfoleg": "1117316",
+                          "situacaoMandato": "Em exercício",
+                          "sexo": "M",
+                          "partidos": [
+                            "PDT"
+                          ]
+                        },
+                        {
+                          "estado": "RJ",
+                          "legislatura": 49,
+                          "nomePartidoAtual": "Partido Democratico Trabalhista",
+                          "siglaPartidoAtual": "PDT",
+                          "condicao": "Titular",
+                          "nomeParlamentar": "PAULO RAMOS",
+                          "matricula": 49000,
+                          "idInfoleg": "0",
+                          "situacaoMandato": "Ex-deputado",
+                          "sexo": "M",
+                          "partidos": [
+                            "PDT"
+                          ]
+                        },
+                        {
+                          "estado": "RJ",
+                          "legislatura": 48,
+                          "nomePartidoAtual": "Partido Democratico Trabalhista",
+                          "siglaPartidoAtual": "PDT",
+                          "condicao": "Titular",
+                          "nomeParlamentar": "PAULO RAMOS",
+                          "matricula": 48000,
+                          "idInfoleg": "0",
+                          "situacaoMandato": "Ex-deputado",
+                          "sexo": "M",
+                          "partidos": [
+                            "PDT",
+                            "PMDB"
+                          ]
+                        }
+                      ],
+                      "areaAtuacao": "Gabinetes dos Deputados",
+                      "nome": "Paulo Sérgio Ramos Barboza",
+                      "id": "D_805506",
+                      "categoriaFuncional": "Deputado",
+                      "codigoDepartamento": "2000",
+                      "codigoLotacao": "2419",
+                      "lotacao": "Gabinete Paulo Ramos"
+                    }
+                  },
+                  {
+                    "_index": "servidores",
+                    "_type": "servidores",
+                    "_id": "D_812017",
+                    "_score": 3.106705,
+                    "_source": {
+                      "situacao": "Ativo",
+                      "situacaoMandato": "Em exercício",
+                      "ponto": "D_812017",
+                      "ideCadatro": 179587,
+                      "legislaturas": [
+                        {
+                          "estado": "GO",
+                          "legislatura": 56,
+                          "nomePartidoAtual": "Partido Social Liberal",
+                          "siglaPartidoAtual": "PSL",
+                          "condicao": "Titular",
+                          "nomeParlamentar": "VITOR HUGO",
+                          "matricula": 56429,
+                          "idInfoleg": "1117516",
+                          "situacaoMandato": "Em exercício",
+                          "sexo": "M",
+                          "partidos": [
+                            "PSL"
+                          ]
+                        }
+                      ],
+                      "areaAtuacao": "Gabinetes dos Deputados",
+                      "nome": "VITOR HUGO DE ARAUJO ALMEIDA",
+                      "id": "D_812017",
+                      "categoriaFuncional": "Deputado",
+                      "codigoDepartamento": "2000",
+                      "codigoLotacao": "10157",
+                      "lotacao": "Gabinete Vitor Hugo"
+                    }
+                  },
+                  {
+                    "_index": "servidores",
+                    "_type": "servidores",
+                    "_id": "D_812013",
+                    "_score": 3.106705,
+                    "_source": {
+                      "situacao": "Ativo",
+                      "situacaoMandato": "Em exercício",
+                      "ponto": "D_812013",
+                      "ideCadatro": 204412,
+                      "legislaturas": [
+                        {
+                          "estado": "GO",
+                          "legislatura": 56,
+                          "nomePartidoAtual": "Democratas",
+                          "siglaPartidoAtual": "DEM",
+                          "condicao": "Titular",
+                          "nomeParlamentar": "DR. ZACHARIAS CALIL",
+                          "matricula": 56420,
+                          "idInfoleg": "1117537",
+                          "situacaoMandato": "Em exercício",
+                          "sexo": "M",
+                          "partidos": [
+                            "DEM"
+                          ]
+                        }
+                      ],
+                      "areaAtuacao": "Gabinetes dos Deputados",
+                      "nome": "ZACARIAS CALIL HAMU",
+                      "id": "D_812013",
+                      "categoriaFuncional": "Deputado",
+                      "codigoDepartamento": "2000",
+                      "codigoLotacao": "10069",
+                      "lotacao": "Gabinete Dr . Zacharias Calil"
+                    }
+                  },
+                  {
+                    "_index": "servidores",
+                    "_type": "servidores",
+                    "_id": "D_812023",
+                    "_score": 3.106705,
+                    "_source": {
+                      "situacao": "Ativo",
+                      "situacaoMandato": "Em exercício",
+                      "ponto": "D_812023",
+                      "ideCadatro": 204561,
+                      "legislaturas": [
+                        {
+                          "estado": "MA",
+                          "legislatura": 56,
+                          "nomePartidoAtual": "Partido Socialista Brasileiro",
+                          "siglaPartidoAtual": "PSB",
+                          "condicao": "Titular",
+                          "nomeParlamentar": "BIRA DO PINDARÉ",
+                          "matricula": 56071,
+                          "idInfoleg": "1117653",
+                          "situacaoMandato": "Em exercício",
+                          "sexo": "M",
+                          "partidos": [
+                            "PSB"
+                          ]
+                        }
+                      ],
+                      "areaAtuacao": "Gabinetes dos Deputados",
+                      "nome": "UBIRAJARA DO PINDARÉ ALMEIDA SOUSA",
+                      "id": "D_812023",
+                      "categoriaFuncional": "Deputado",
+                      "codigoDepartamento": "2000",
+                      "codigoLotacao": "10026",
+                      "lotacao": "Gabinete Bira do Pindaré"
+                    }
+                  },
+                  {
+                    "_index": "servidores",
+                    "_type": "servidores",
+                    "_id": "D_812024",
+                    "_score": 3.106705,
+                    "_source": {
+                      "situacao": "Ativo",
+                      "situacaoMandato": "Em exercício",
+                      "ponto": "D_812024",
+                      "ideCadatro": 157130,
+                      "legislaturas": [
+                        {
+                          "estado": "PE",
+                          "legislatura": 56,
+                          "nomePartidoAtual": "Partido Democratico Trabalhista",
+                          "siglaPartidoAtual": "PDT",
+                          "condicao": "Titular",
+                          "nomeParlamentar": "TÚLIO GADÊLHA",
+                          "matricula": 56163,
+                          "idInfoleg": "1117443",
+                          "situacaoMandato": "Em exercício",
+                          "sexo": "M",
+                          "partidos": [
+                            "PDT"
+                          ]
+                        }
+                      ],
+                      "areaAtuacao": "Gabinetes dos Deputados",
+                      "nome": "TÚLIO GADÊLHA SALES DE MELO",
+                      "id": "D_812024",
+                      "categoriaFuncional": "Deputado",
+                      "codigoDepartamento": "2000",
+                      "codigoLotacao": "10232",
+                      "lotacao": "Gabinete Túlio Gadêlha"
+                    }
+                  }
+                ]
+            }
+        }
+    }
+}

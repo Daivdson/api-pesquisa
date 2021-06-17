@@ -1,0 +1,561 @@
+{
+	"request": {
+		"method": "POST",
+		"url": "/materias-orcamento/_search"
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json"
+		},
+		"jsonBody": {
+			"took": 0,
+			"timed_out": false,
+			"_shards": {
+				"total": 5,
+				"successful": 5,
+				"skipped": 0,
+				"failed": 0
+			},
+		    "hits": {
+		        "total": 3821,
+		        "max_score": 1,
+		        "hits": [
+		            {
+		                "_index": "materias-orcamento",
+		                "_type": "materias-orcamento",
+		                "_id": "07526E81-94F6-4E8B-97F3-5BB2A7DFAFC0",
+		                "_score": 1,
+		                "_source": {
+		                    "id": "07526E81-94F6-4E8B-97F3-5BB2A7DFAFC0",
+		                    "numeroMateria": "035",
+		                    "anoMateria": 2013,
+		                    "anoExercicioFinanceiro": 2013,
+		                    "ementa": "Encaminha, em cumprimento ao artigo 5º, inciso I, da Lei n° 10.028, de 19 de outubro de 2000, cópia do Relatório de Gestão Fiscal do Tribunal Superior do Trabalho, referente ao período de setembro/2012 a agosto/2013.",
+		                    "tipoMateria": "Relatório de Gestão Fiscal",
+		                    "siglaTipoMateria": "RGF",
+		                    "siglaTipoProposicaoSileg": "OFN",
+		                    "tipoProposicaoSileg": "Ofício  CN",
+		                    "codigoProposicaoSileg": 594008,
+		                    "dataEntradaCMO": "2013-10-01T00:00:00-0300",
+		                    "prazoEmendasAlterado": false,
+		                    "dataSaidaCMO": "2015-09-24T00:00:00-0300",
+		                    "situacaoCMO": "Arquivamento",
+		                    "numeroMensagemOrigem": 435,
+		                    "anoMensagemOrigem": 2013,
+		                    "orgaoPrestacaoContas": "Judiciário/TST",
+		                    "dataVotacaoRelatorio": "2015-09-22T00:00:00-0300",
+		                    "dataRelatorio": "2015-09-10T00:00:00-0300",
+		                    "existeArquivoRelatorio": 0,
+		                    "idRelatorio": "AA5A56AA-425C-4F20-842A-081CE3141F20",
+		                    "tramitacoes": [
+		                        {
+		                            "data": "2013-09-27T00:00:00-0300",
+		                            "id": "07526E81-94F6-4E8B-97F3-5BB2A7DFAFC0",
+		                            "descricao": "Leitura em Sessão do Senado Federal."
+		                        },
+		                        {
+		                            "data": "2013-10-01T00:00:00-0300",
+		                            "id": "07526E81-94F6-4E8B-97F3-5BB2A7DFAFC0",
+		                            "descricao": "Entrada na CMO."
+		                        },
+		                        {
+		                            "data": "2013-10-09T00:00:00-0300",
+		                            "id": "07526E81-94F6-4E8B-97F3-5BB2A7DFAFC0",
+		                            "descricao": "Designado Relatora a Deputada Nilda Gondim, conforme Of. Pres. n. 339/2013/CMO, de 08.10.2013. Anexado à folha de nº 9."
+		                        },
+		                        {
+		                            "data": "2013-10-17T00:00:00-0300",
+		                            "id": "07526E81-94F6-4E8B-97F3-5BB2A7DFAFC0",
+		                            "descricao": "À SSCLCN, por solicitação."
+		                        },
+		                        {
+		                            "data": "2013-10-29T00:00:00-0200",
+		                            "id": "07526E81-94F6-4E8B-97F3-5BB2A7DFAFC0",
+		                            "descricao": "Anexado à folha nº 74, Of. Sec. n. 045/2013/CMO de 22.10.2013, encaminhando à Relatora, Deputada Nilda Gondim, cópia do Ofício n.169/2013/TRT-DG anexado à matéria."
+		                        },
+		                        {
+		                            "data": "2013-11-05T00:00:00-0200",
+		                            "id": "07526E81-94F6-4E8B-97F3-5BB2A7DFAFC0",
+		                            "descricao": "Anexado à folha de nº 76, Ofício nº 829 (CN) de 31.10.2013, do Presidente da Mesa do Congresso Nacional, ao Presidente da Câmara dos Deputados, comunicando o recebimento dos Relatórios de Gestão Fiscal, referentes ao 2º Quadrimestre de 2013, dos Tribunais Regionais do Trabalho da 3ª e 9ª Região, juntados ao OFN nº 35/2013."
+		                        },
+		                        {
+		                            "data": "2014-03-25T00:00:00-0300",
+		                            "id": "07526E81-94F6-4E8B-97F3-5BB2A7DFAFC0",
+		                            "descricao": "Em virtude do estabelecido no art. 10 da Resolução nº 1/2006-CN, encerra-se, nesta data, a relatoria da matéria."
+		                        },
+		                        {
+		                            "data": "2014-04-08T00:00:00-0300",
+		                            "id": "07526E81-94F6-4E8B-97F3-5BB2A7DFAFC0",
+		                            "descricao": "Designado para Relator o Deputado CLÁUDIO PUTY (PT/PA), conforme Of. Pres. n. 068/2014/CMO. de 08/04/2014."
+		                        },
+		                        {
+		                            "data": "2014-05-14T00:00:00-0300",
+		                            "id": "07526E81-94F6-4E8B-97F3-5BB2A7DFAFC0",
+		                            "descricao": "Anexada a folha de nº 78, referente ao Ofício nº 218 (CN), de 13.05.14, do Presidente da Mesa do Congresso Nacional, comunicando ao Senhor Presidente da Câmara dos Deputados o recebimento dos Ofícios nº's 95 e 71 dos Tribunais Regionais do Trabalho da 3ª e 23ª Regiões, respectivamente."
+		                        },
+		                        {
+		                            "data": "2014-10-15T00:00:00-0300",
+		                            "id": "07526E81-94F6-4E8B-97F3-5BB2A7DFAFC0",
+		                            "descricao": "Recebido, do Relator, Deputado CLAUDIO PUTY, relatório com voto no sentido de que a Comissão tome conhecimento da matéria, e, determine o seu arquivamento.Original encontra-se anexado ao prossessado do AVN 6, de 2011 nas folhas de nº's 155 a 161."
+		                        },
+		                        {
+		                            "data": "2014-10-28T00:00:00-0200",
+		                            "id": "07526E81-94F6-4E8B-97F3-5BB2A7DFAFC0",
+		                            "descricao": "Matéria incluída na pauta da reunião."
+		                        },
+		                        {
+		                            "data": "2015-01-31T00:00:00-0200",
+		                            "id": "07526E81-94F6-4E8B-97F3-5BB2A7DFAFC0",
+		                            "descricao": "Em virtude do término da 54ª Legislatura deixa o Dep. Cláudio Puty de ser relator da matéria."
+		                        },
+		                        {
+		                            "data": "2013-10-29T00:00:00-0200",
+		                            "id": "07526E81-94F6-4E8B-97F3-5BB2A7DFAFC0",
+		                            "descricao": "Anexado à folha de nº 75, Ofício nº 821 (CN) de 23.10.2013, do Presidente da Mesa do Congresso Nacional, ao Presidente da Câmara dos Deputados, comunicando o recebimento dos Relatórios de Gestão Fiscal, referentes ao 2º Quadrimestre de 2013, juntados aos OFN’s 31, 25, 35, 39 e 24/2013."
+		                        },
+		                        {
+		                            "data": "2013-11-05T00:00:00-0200",
+		                            "id": "07526E81-94F6-4E8B-97F3-5BB2A7DFAFC0",
+		                            "descricao": "Anexado à folha de nº 76, Ofício nº 829 (CN) de 31.10.2013, do Presidente da Mesa do Congresso Nacional, ao Presidente da Câmara dos Deputados, comunicando o recebimento dos Relatórios de Gestão Fiscal, referentes ao 2º Quadrimestre de 2013, dos Tribunais Regionais do Trabalho da 3ª e 9ª Região, juntados ao OFN nº 35/2013."
+		                        }
+		                    ]
+		                }
+		            },
+		            {
+		                "_index": "materias-orcamento",
+		                "_type": "materias-orcamento",
+		                "_id": "5EC7CB20-40D4-4786-908C-5BE56ABBEB3C",
+		                "_score": 1,
+		                "_source": {
+		                    "id": "5EC7CB20-40D4-4786-908C-5BE56ABBEB3C",
+		                    "numeroMateria": "060",
+		                    "anoMateria": 1995,
+		                    "ementa": "\"Autoriza o Poder Executivo a abrir ao Orçamento Fiscal da União, em favor da Câmara dos Deputados, crédito suplementar no valor de R$ 979.000,00, para os fins que especifica\".",
+		                    "tipoMateria": "Crédito Suplementar",
+		                    "siglaTipoMateria": "CSup",
+		                    "siglaTipoProposicaoSileg": "PLN",
+		                    "tipoProposicaoSileg": "Projeto de Lei  CN",
+		                    "dataEntradaCMO": "1995-10-23T00:00:00-0200",
+		                    "dataInicioPrazoEmendas": "1995-10-25T00:00:00-0200",
+		                    "dataFimPrazoEmendas": "1995-11-01T00:00:00-0200",
+		                    "quantidadeEmendas": 0,
+		                    "dataPublicacaoDO": "1995-12-14T00:00:00-0200",
+		                    "dataSaidaCMO": "1995-12-06T00:00:00-0200",
+		                    "dataVotacaoCN": "1995-12-07T00:00:00-0200",
+		                    "numeroParecer": "65",
+		                    "situacaoCN": "Projeto",
+		                    "dataPublicacaoLei": "1995-12-14T00:00:00-0200",
+		                    "numeroMensagemOrigem": 0,
+		                    "anoMensagemOrigem": 0,
+		                    "anoMensagemCN": 0,
+		                    "numeroMensagemCN": 0,
+		                    "valorMateria": 0,
+		                    "descricaoUO": "FUNDO ROTATIVO DA CD/CD",
+		                    "dataVotacaoRelatorio": "1995-12-06T00:00:00-0200",
+		                    "dataRelatorio": "1980-01-01T00:00:00-0300",
+		                    "existeArquivoRelatorio": 0,
+		                    "idRelatorio": "FA7BA135-8337-40D6-90E8-BA2B2F8599C9",
+		                    "cronogramas": [
+		                        {
+		                            "dataFim": "1995-10-19T00:00:00-0200",
+		                            "ordem": 1,
+		                            "id": "5EC7CB20-40D4-4786-908C-5BE56ABBEB3C",
+		                            "descricao": "Leitura em Sessão no Senado Federal"
+		                        },
+		                        {
+		                            "dataFim": "1995-10-24T00:00:00-0200",
+		                            "ordem": 2,
+		                            "id": "5EC7CB20-40D4-4786-908C-5BE56ABBEB3C",
+		                            "descricao": "Distribuição de Avulsos"
+		                        },
+		                        {
+		                            "dataFim": "1995-11-01T00:00:00-0200",
+		                            "ordem": 3,
+		                            "id": "5EC7CB20-40D4-4786-908C-5BE56ABBEB3C",
+		                            "dataInicio": "1995-10-25T00:00:00-0200",
+		                            "descricao": "Apresentação de Emendas na Comissão *"
+		                        }
+		                    ],
+		                    "tramitacoes": [
+		                        {
+		                            "data": "1995-10-19T00:00:00-0200",
+		                            "ordem": 1,
+		                            "id": "5EC7CB20-40D4-4786-908C-5BE56ABBEB3C",
+		                            "descricao": "\n19/10/95 - Leitura no CNþ\r\n23/10/95 - Entrada na CMPOPF þ\r\n01/11/95 - Ao Projeto não foram apresendas emendasþ\r\n07/11/95 - Designado Relator o Deputado SÉRGIO MIRANDAþ\r\n06/12/95 - Aprovado, por unanimidade, o Parecer do Re-þ\r\n           lator, Deputado Sérgio Miranda,  favorávelþ\r\n           nos termos propostos no projetoþ\r\n06/12/95 - À Subsecretaria de Coordenação Legislativa doþ\r\n           Congresso Nacionalþ\r\n07/12/95 - Aprovado no Plenário do Congresso Nacional o Pare-þ\r\n           cer n.065, nos termos propostos no Projetoþ\r\n14/12/95 - Publicação no D.O.U. da Lei n.9.148/95þ"
+		                        }
+		                    ]
+		                }
+		            },
+		            {
+		                "_index": "materias-orcamento",
+		                "_type": "materias-orcamento",
+		                "_id": "E836E21E-EFF1-45E0-AAC6-5D26800DB299",
+		                "_score": 1,
+		                "_source": {
+		                    "id": "E836E21E-EFF1-45E0-AAC6-5D26800DB299",
+		                    "numeroMateria": "061",
+		                    "anoMateria": 1991,
+		                    "ementa": "\"Autoriza o Poder Executivo a abrir ao Orçamento Fiscal da União créditos adicionais no valor de  Cr$ 724.000.000,00  p/ os fins que especifica.\"",
+		                    "tipoMateria": "Crédito Suplementar",
+		                    "siglaTipoMateria": "CSup",
+		                    "siglaTipoProposicaoSileg": "PLN",
+		                    "tipoProposicaoSileg": "Projeto de Lei  CN",
+		                    "dataEntradaCMO": "1991-11-13T00:00:00-0200",
+		                    "dataInicioPrazoEmendas": "1991-11-14T00:00:00-0200",
+		                    "dataFimPrazoEmendas": "1991-11-21T00:00:00-0200",
+		                    "quantidadeEmendas": 0,
+		                    "dataPublicacaoDO": "1991-12-24T00:00:00-0200",
+		                    "dataSaidaCMO": "1991-12-11T00:00:00-0200",
+		                    "dataVotacaoCN": "1991-12-17T00:00:00-0200",
+		                    "numeroParecer": "",
+		                    "dataPublicacaoLei": "1991-12-24T00:00:00-0200",
+		                    "numeroMensagemOrigem": 0,
+		                    "anoMensagemOrigem": 0,
+		                    "anoMensagemCN": 0,
+		                    "numeroMensagemCN": 0,
+		                    "valorMateria": 724000,
+		                    "descricaoUO": "STJ/JUST ELEITORAL/JUST TRAB",
+		                    "existeArquivoRelatorio": 0,
+		                    "cronogramas": [
+		                        {
+		                            "dataFim": "1991-11-12T00:00:00-0200",
+		                            "ordem": 1,
+		                            "id": "E836E21E-EFF1-45E0-AAC6-5D26800DB299",
+		                            "descricao": "Leitura em Sessão no Senado Federal"
+		                        },
+		                        {
+		                            "dataFim": "1991-11-13T00:00:00-0200",
+		                            "ordem": 2,
+		                            "id": "E836E21E-EFF1-45E0-AAC6-5D26800DB299",
+		                            "descricao": "Distribuição de Avulsos"
+		                        },
+		                        {
+		                            "dataFim": "1991-11-21T00:00:00-0200",
+		                            "ordem": 3,
+		                            "id": "E836E21E-EFF1-45E0-AAC6-5D26800DB299",
+		                            "dataInicio": "1991-11-14T00:00:00-0200",
+		                            "descricao": "Apresentação de Emendas na Comissão *"
+		                        }
+		                    ],
+		                    "relatores": [
+		                        {
+		                            "tipoParlamentar": "D",
+		                            "siglaUF": "DF",
+		                            "tipo": "Relator",
+		                            "siglaPartido": "PSDB",
+		                            "nome": "SIGMARINGA SEIXAS",
+		                            "id": "E836E21E-EFF1-45E0-AAC6-5D26800DB299",
+		                            "sexo": "M"
+		                        }
+		                    ],
+		                    "tramitacoes": [
+		                        {
+		                            "data": "1991-11-12T00:00:00-0200",
+		                            "ordem": 1,
+		                            "id": "E836E21E-EFF1-45E0-AAC6-5D26800DB299",
+		                            "descricao": "\n12/11/1991   - Leitura em Sessão Conjunta\r\n13/11/1991   - Entrada na Comissão\r\n13/11/1991   - Distribuição de Avulsos\r\n21/11/1991   - Designado Relator o Deputado SIGMARINA SEIXAS\r\n14 a 21/11   - Apresentação de Emendas na Comissão\r\n06/12/1991   - Votação na CMPOPF\r\n11/12/1991   - Saída da CMPOPF\r\n17/12/1991   - Votação no CN\r\n24/12/1991   - Publicação no DOU, Lei nº 008318/91"
+		                        }
+		                    ]
+		                }
+		            },
+		            {
+		                "_index": "materias-orcamento",
+		                "_type": "materias-orcamento",
+		                "_id": "C9B9D7F2-1AA1-4404-A8E2-5D9913450235",
+		                "_score": 1,
+		                "_source": {
+		                    "id": "C9B9D7F2-1AA1-4404-A8E2-5D9913450235",
+		                    "numeroMateria": "059",
+		                    "anoMateria": 1995,
+		                    "ementa": "\"Autoriza o Poder Executivo a abrir ao Orçamento de Seguridade Social da União, em favor do Ministério da Previdência e Assistência Social, crédito especial até o limite de R$ 160.000.000,00, para os fins que especifica\".",
+		                    "tipoMateria": "Crédito Especial",
+		                    "siglaTipoMateria": "CEsp",
+		                    "siglaTipoProposicaoSileg": "PLN",
+		                    "tipoProposicaoSileg": "Projeto de Lei  CN",
+		                    "dataEntradaCMO": "1995-10-23T00:00:00-0200",
+		                    "dataInicioPrazoEmendas": "1995-10-25T00:00:00-0200",
+		                    "dataFimPrazoEmendas": "1995-11-01T00:00:00-0200",
+		                    "quantidadeEmendas": 389,
+		                    "dataPublicacaoDO": "1995-12-23T00:00:00-0200",
+		                    "dataSaidaCMO": "1995-12-06T00:00:00-0200",
+		                    "dataVotacaoCN": "1995-12-14T00:00:00-0200",
+		                    "numeroParecer": "64",
+		                    "situacaoCN": "Substitutivo",
+		                    "dataPublicacaoLei": "1995-12-23T00:00:00-0200",
+		                    "numeroMensagemOrigem": 0,
+		                    "anoMensagemOrigem": 0,
+		                    "anoMensagemCN": 0,
+		                    "numeroMensagemCN": 0,
+		                    "valorMateria": 0,
+		                    "descricaoUO": "ADM.DIR.e FNAS/MPAS",
+		                    "dataVotacaoRelatorio": "1995-11-29T00:00:00-0200",
+		                    "dataRelatorio": "1980-01-01T00:00:00-0300",
+		                    "existeArquivoRelatorio": 0,
+		                    "idRelatorio": "5A146E0A-2FFC-4251-8996-C730B3780769",
+		                    "cronogramas": [
+		                        {
+		                            "dataFim": "1995-10-19T00:00:00-0200",
+		                            "ordem": 1,
+		                            "id": "C9B9D7F2-1AA1-4404-A8E2-5D9913450235",
+		                            "descricao": "Leitura em Sessão no Senado Federal"
+		                        },
+		                        {
+		                            "dataFim": "1995-10-24T00:00:00-0200",
+		                            "ordem": 2,
+		                            "id": "C9B9D7F2-1AA1-4404-A8E2-5D9913450235",
+		                            "descricao": "Distribuição de Avulsos"
+		                        },
+		                        {
+		                            "dataFim": "1995-11-01T00:00:00-0200",
+		                            "ordem": 3,
+		                            "id": "C9B9D7F2-1AA1-4404-A8E2-5D9913450235",
+		                            "dataInicio": "1995-10-25T00:00:00-0200",
+		                            "descricao": "Apresentação de Emendas na Comissão *"
+		                        }
+		                    ],
+		                    "tramitacoes": [
+		                        {
+		                            "data": "1995-10-19T00:00:00-0200",
+		                            "ordem": 1,
+		                            "id": "C9B9D7F2-1AA1-4404-A8E2-5D9913450235",
+		                            "descricao": "\n19/10/95 - Leitura no CNþ\r\n23/10/95 - Entrada na CMPOPF þ\r\n31/10/95 - Ao Projeto, até a presente data, foram apresentadas 18 emendasþ\r\n31/10/95 - Encaminhado à Subsecretaria de Coordenação Legislativa do  CN,þ\r\n           em virtude de Requerimento de Urgência para tramitaçãoþ\r\n01/11/95 - Retornou à Comissão em virtude de retirada do Requerimento  deþ\r\n           de Urgência, para tramitação da matéria.þ\r\n01/11/95 - Ao Projeto foram apresentadas 389 emendasþ\r\n03/11/95 - Encaminhado à Subsecretaria de Ata do SF  para  publicação dasþ\r\n           Emendasþ\r\n03/11/95 - Retorno da Subsecretaria de Ata. Publicação no DCN de 01/11/95þ\r\n07/11/95 - Designado Relator o Senhor Deputado PEDRINHO ABRÃOþ\r\n08/11/95 - Encaminhado Ofício n. S-116/95-CMPOPF ao Senhor Relator, soli-þ\r\n           citando  desconsideração  da  emenda n. 059.00017-5,  de auto-þ\r\n           ria da Deputada Zila Bezerra, tendo  em  vista  protocolamentoþ\r\n           indevido pela Comissãoþ\r\n09/11/95 - Encaminhado a Coordenação Legislativa do  Congresso  Nacional,þ\r\n           tendo em vista Requerimento de  Urgência para tramitaçãoþ\r\n10/11/95 - Retorno da Coordenação Legislativa do Congresso Nacional, paraþ\r\n           continuidade da tramitaçãoþ\r\n23/11/95 - Recebido o Parecer do Relator, favorável ao Projeto nos termosþ\r\n           do Substitutivo apresentadoþ\r\n29/11/95 - Aprovado, contra o voto do Deputado João Fassarella o  Parecerþ\r\n           do Relator, favorável ao Projeto nos  termos  do  Substitutivoþ\r\n           apresentado. Das  389  emendas a presentadas ao Projeto, foramþ\r\n           aprovadas 254, das quais  metade  parcialmente,  e  rejeitadasþ\r\n           134. Nesse  quantitativo já se encontram computadas as altera-þ\r\n           ções decorrentes  das  emendas   aprovadas   por  destaque  noþ\r\n           Plenário da CMPOPF, quais sejam:  emendas n's 298-4,  300-0  eþ\r\n           302-6,  aprovadas integralmente ( destaques  n's  13-2, 11-6 eþ\r\n           12-4 ) e emendas n's 031-1, 033-7,  034-5, 037-0, 156-2, 173-2þ\r\n           e 319-1, aprovadas parcialmente  ( destaques  n's 004-3, 002-7þ\r\n           005-1, 006-0, 008-6 e 007-8). A emenda de n. 025, foi retiradaþ\r\n           pelo Autor e a emenda n. 017, não pertencia a este Projeto,  eþ\r\n           sim ao PLN 061/95. Foram apresentadas 65 emendas de Relator þ\r\n06/12/95 - Encaminhado à Coordenação Legislativa do Congresso Nacionalþ\r\n14/12/95 - Aprovado no Plenário do Congresso Nacional o Pare-þ\r\n           cer n. 064, nos termos propostos no Substitutivoþ\r\n23/12/95 - Publicação no D.O.U. da Lei n.9.231/95þ\r\n29/01/96 - Recebido o Projeto, via Assessoria, para elaboração deþ\r\n           retificação conforme folhas 522 e 523 referente ao Ofícioþ\r\n           de autoria do Deputado Pedrinho Abrãoþ\r\n28/02/96 - Encaminhado à Coordenação Legislativa do CN com cópia doþ\r\n           Ofício no. 01/96 - Rel. de 16/02/96, do Deputado Pedrinhoþ\r\n           Abrãoþ\r\n06/03/96 - Recebido o Projeto com vista às solicitações contidasþ\r\n           nas folhas nos. 522 a 526.þ\r\n19/03/96 - Encaminhado à Coordenação Legislativo do CN, com as retifi-þ\r\n           cações solicitadas, conforme Ofício no. P-013/96-CMPOPF deþ\r\n           19/03/96.þ\r\n28/11/96 - À SSCLCN o Parecer do Relator Pedrinho Abrão, conforme Ofí-þ\r\n           cio no. 133/96 de 27/09/96 e P-353/96-CMPOPF, de 21/11/96 a-þ\r\n           nexados ao Processado, Atendendo solicitação do Ofício no. þ\r\n           013/96 de 13/08/96, conforme folha 561 do processadoþ"
+		                        }
+		                    ]
+		                }
+		            },
+		            {
+		                "_index": "materias-orcamento",
+		                "_type": "materias-orcamento",
+		                "_id": "9C41699D-87D2-403F-8CD6-5E292B7D9A33",
+		                "_score": 1,
+		                "_source": {
+		                    "id": "9C41699D-87D2-403F-8CD6-5E292B7D9A33",
+		                    "numeroMateria": "040",
+		                    "anoMateria": 1992,
+		                    "ementa": "\"Autoriza o Poder Executivo a abrir ao Orçamento da  União, em favor do Ministério da Economia, Fazenda  e  Planejamento, créditos adicionais até  o limite  de  Cr$ 326.630.684.000,00 para os fins que especifica.\"",
+		                    "tipoMateria": "Crédito Suplementar",
+		                    "siglaTipoMateria": "CSup",
+		                    "siglaTipoProposicaoSileg": "PLN",
+		                    "tipoProposicaoSileg": "Projeto de Lei  CN",
+		                    "dataEntradaCMO": "1992-08-27T00:00:00-0300",
+		                    "dataInicioPrazoEmendas": "1992-09-01T00:00:00-0300",
+		                    "dataFimPrazoEmendas": "1992-09-08T00:00:00-0300",
+		                    "quantidadeEmendas": 0,
+		                    "dataPublicacaoDO": "1992-11-19T00:00:00-0200",
+		                    "dataSaidaCMO": "1992-11-05T00:00:00-0200",
+		                    "dataVotacaoCN": "1992-11-11T00:00:00-0200",
+		                    "numeroParecer": "",
+		                    "dataPublicacaoLei": "1992-11-19T00:00:00-0200",
+		                    "numeroMensagemOrigem": 0,
+		                    "anoMensagemOrigem": 0,
+		                    "anoMensagemCN": 0,
+		                    "numeroMensagemCN": 0,
+		                    "valorMateria": 326630684,
+		                    "descricaoUO": "MIN. ECON.,FAZ. E PLANEJAMENTO",
+		                    "existeArquivoRelatorio": 0,
+		                    "cronogramas": [
+		                        {
+		                            "dataFim": "1992-08-27T00:00:00-0300",
+		                            "ordem": 1,
+		                            "id": "9C41699D-87D2-403F-8CD6-5E292B7D9A33",
+		                            "descricao": "Leitura em Sessão no Senado Federal"
+		                        },
+		                        {
+		                            "dataFim": "1992-08-31T00:00:00-0300",
+		                            "ordem": 2,
+		                            "id": "9C41699D-87D2-403F-8CD6-5E292B7D9A33",
+		                            "descricao": "Distribuição de Avulsos"
+		                        },
+		                        {
+		                            "dataFim": "1992-09-08T00:00:00-0300",
+		                            "ordem": 3,
+		                            "id": "9C41699D-87D2-403F-8CD6-5E292B7D9A33",
+		                            "dataInicio": "1992-09-01T00:00:00-0300",
+		                            "descricao": "Apresentação de Emendas na Comissão *"
+		                        }
+		                    ],
+		                    "relatores": [
+		                        {
+		                            "tipoParlamentar": "D",
+		                            "siglaUF": "SC",
+		                            "tipo": "Plenário",
+		                            "siglaPartido": "PP",
+		                            "ideCadastro": 160649,
+		                            "nome": "ESPERIDIÃO AMIN",
+		                            "id": "9C41699D-87D2-403F-8CD6-5E292B7D9A33",
+		                            "sexo": "M"
+		                        }
+		                    ],
+		                    "tramitacoes": [
+		                        {
+		                            "data": "1992-08-27T00:00:00-0300",
+		                            "ordem": 1,
+		                            "id": "9C41699D-87D2-403F-8CD6-5E292B7D9A33",
+		                            "descricao": "\n27/08        - Leitura em SessÆo Conjunta às 19:00 horas\r\n27/08        - Entrada na ComissÆo\r\n01/09 a 08/09- NÆo foram apresentadas Emendas ao Projeto\r\n09/09        - Designado Relator do Deputado VALDOMIRO LIMA\r\n05/11        - Encaminhado em carácter de Urgência a SSCL/ CN\r\n11/11        - VotaçÆo no CN\r\n19/11        - Publicado no D.O.U. Lei No. 8.486/92"
+		                        }
+		                    ]
+		                }
+		            }
+		        ]
+		    },
+		    "aggregations": {
+		        "anoMateria": {
+		            "doc_count_error_upper_bound": 0,
+		            "sum_other_doc_count": 0,
+		            "buckets": [
+		                {
+		                    "key": 2020,
+		                    "doc_count": 71
+		                },
+		                {
+		                    "key": 2019,
+		                    "doc_count": 105
+		                },
+		                {
+		                    "key": 2018,
+		                    "doc_count": 119
+		                },
+		                {
+		                    "key": 2017,
+		                    "doc_count": 91
+		                },
+		                {
+		                    "key": 2016,
+		                    "doc_count": 112
+		                },
+		                {
+		                    "key": 2015,
+		                    "doc_count": 95
+		                },
+		                {
+		                    "key": 2014,
+		                    "doc_count": 117
+		                },
+		                {
+		                    "key": 2013,
+		                    "doc_count": 122
+		                },
+		                {
+		                    "key": 2012,
+		                    "doc_count": 164
+		                },
+		                {
+		                    "key": 2011,
+		                    "doc_count": 188
+		                },
+		                {
+		                    "key": 2010,
+		                    "doc_count": 196
+		                },
+		                {
+		                    "key": 2009,
+		                    "doc_count": 211
+		                },
+		                {
+		                    "key": 2008,
+		                    "doc_count": 183
+		                },
+		                {
+		                    "key": 2007,
+		                    "doc_count": 158
+		                },
+		                {
+		                    "key": 2006,
+		                    "doc_count": 99
+		                },
+		                {
+		                    "key": 2005,
+		                    "doc_count": 103
+		                },
+		                {
+		                    "key": 2004,
+		                    "doc_count": 162
+		                },
+		                {
+		                    "key": 2003,
+		                    "doc_count": 84
+		                },
+		                {
+		                    "key": 2002,
+		                    "doc_count": 126
+		                },
+		                {
+		                    "key": 2001,
+		                    "doc_count": 136
+		                },
+		                {
+		                    "key": 2000,
+		                    "doc_count": 141
+		                },
+		                {
+		                    "key": 1999,
+		                    "doc_count": 86
+		                },
+		                {
+		                    "key": 1998,
+		                    "doc_count": 75
+		                },
+		                {
+		                    "key": 1997,
+		                    "doc_count": 87
+		                },
+		                {
+		                    "key": 1996,
+		                    "doc_count": 92
+		                },
+		                {
+		                    "key": 1995,
+		                    "doc_count": 141
+		                },
+		                {
+		                    "key": 1994,
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": 1993,
+		                    "doc_count": 125
+		                },
+		                {
+		                    "key": 1992,
+		                    "doc_count": 137
+		                },
+		                {
+		                    "key": 1991,
+		                    "doc_count": 124
+		                },
+		                {
+		                    "key": 1990,
+		                    "doc_count": 55
+		                },
+		                {
+		                    "key": 1989,
+		                    "doc_count": 108
+		                },
+		                {
+		                    "key": 1988,
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": 1987,
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": 1986,
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": 1985,
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": 1984,
+		                    "doc_count": 1
+		                }
+		            ]
+		        }
+		    }
+		}
+	}
+}
+	

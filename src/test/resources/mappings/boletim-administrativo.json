@@ -1,0 +1,44 @@
+{
+	"request": {
+		"method": "POST",
+		"url": "/boletim-administrativo/_search"
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json"
+		},
+		"jsonBody": {
+			"took": 4,
+			"timed_out": false,
+			"_shards": {
+				"total": 10,
+				"successful": 10,
+				"skipped": 0,
+				"failed": 0
+			},
+			"hits": {
+				"total": 111698,
+				"max_score": 1,
+				"hits": [
+					{
+						"_index": "boletim-administrativo",
+						"_type": "boletim-administrativo",
+						"_id": "SP160594",
+						"_score": 1,
+						"_source": {
+							"tipo": "Suplemento",
+							"conteudo": "--",
+							"data": "1994-05-16",
+							"nomeArquivo": "SP160594.pdf",
+							"id": "SP160594",
+							"ano": "1994"
+						}
+					}
+				]
+			}
+		}
+	}
+}
+    
+    

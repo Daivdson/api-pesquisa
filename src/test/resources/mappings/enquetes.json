@@ -1,0 +1,3185 @@
+{
+   "request":{
+      "method":"POST",
+      "url":"/enquetes/_search"
+   },
+   "response":{
+      "status":200,
+      "headers":{
+         "Content-Type":"application/json"
+      },
+      "jsonBody":{
+           "took": 26,
+            "timed_out": false,
+            "_shards": {
+                "total": 5,
+                "successful": 5,
+                "skipped": 0,
+                "failed": 0
+            },
+            "hits": {
+                "total": 2260,
+                "max_score": null,
+                "hits": [
+                    {
+                        "_index": "enquetes",
+                        "_type": "enquetes",
+                        "_id": "156851",
+                        "_score": null,
+                        "_source": {
+                            "id": 156851,
+                            "idProposta": "518663",
+                            "tituloEnquete": "PRL 1 CAPADR => PL 1384/2011",
+                            "siglaTipoProposta": "PRL       ",
+                            "numeroProposta": "1/2011",
+                            "tipoProposta": "Parecer do Relator",
+                            "uriEnqueteProposta": "http://www.camara.gov.br/proposicoesWeb/fichadetramitacao?idProposicao=518663",
+                            "enqueteAutomatica": true,
+                            "numeroVotacaoEm7Dias": 0,
+                            "numeroVotacaoEm1Mes": 0,
+                            "numeroVotacaoEm6Meses": 0,
+                            "numeroComentarioEm7Dias": 0,
+                            "numeroComentarioEm1Mes": 0,
+                            "numeroComentarioEm6Meses": 0,
+                            "descricaoEnquete": "Parecer do Relator, Dep. Abelardo Lupion (DEM-PR), pela aprovação, com substitutivo.#",
+                            "url": "/ex/enquetes/518663",
+                            "proposicao": {
+                                "id": 518663,
+                                "emTramitacao": "Sim",
+                                "temaPortal": [
+                                    "Agropecuária"
+                                ]
+                            }
+                        },
+                        "sort": [
+                            0
+                        ]
+                    },
+                    {
+                        "_index": "enquetes",
+                        "_type": "enquetes",
+                        "_id": "140466",
+                        "_score": null,
+                        "_source": {
+                            "id": 140466,
+                            "idProposta": "556680",
+                            "tituloEnquete": "PRL 1 CDEICS => PL 52/2011",
+                            "siglaTipoProposta": "PRL       ",
+                            "numeroProposta": "1/2012",
+                            "tipoProposta": "Parecer do Relator",
+                            "uriEnqueteProposta": "http://www.camara.gov.br/proposicoesWeb/fichadetramitacao?idProposicao=556680",
+                            "enqueteAutomatica": true,
+                            "numeroVotacaoEm7Dias": 0,
+                            "numeroVotacaoEm1Mes": 0,
+                            "numeroVotacaoEm6Meses": 0,
+                            "numeroComentarioEm7Dias": 0,
+                            "numeroComentarioEm1Mes": 0,
+                            "numeroComentarioEm6Meses": 0,
+                            "descricaoEnquete": "Parecer do Relator, Dep. Ângelo Agnolin (PDT-TO), pela aprovação.#",
+                            "url": "/ex/enquetes/556680",
+                            "proposicao": {
+                                "id": 556680,
+                                "emTramitacao": "Sim",
+                                "temaPortal": [
+                                    "Economia",
+                                    "Agropecuária",
+                                    "Direitos humanos"
+                                ]
+                            }
+                        },
+                        "sort": [
+                            0
+                        ]
+                    },
+                    {
+                        "_index": "enquetes",
+                        "_type": "enquetes",
+                        "_id": "120203",
+                        "_score": null,
+                        "_source": {
+                            "id": 120203,
+                            "idProposta": "595064",
+                            "tituloEnquete": "EMC 515/2013 MPV62113 => MPV 621/2013",
+                            "siglaTipoProposta": "EMC       ",
+                            "numeroProposta": "515/2013",
+                            "tipoProposta": "Emenda na Comissão",
+                            "uriEnqueteProposta": "http://www.camara.gov.br/proposicoesWeb/fichadetramitacao?idProposicao=595064",
+                            "enqueteAutomatica": true,
+                            "numeroVotacaoEm7Dias": 0,
+                            "numeroVotacaoEm1Mes": 0,
+                            "numeroVotacaoEm6Meses": 0,
+                            "numeroComentarioEm7Dias": 0,
+                            "numeroComentarioEm1Mes": 0,
+                            "numeroComentarioEm6Meses": 0,
+                            "descricaoEnquete": "Dá nova redação à MPV 621/2013#",
+                            "url": "/ex/enquetes/595064",
+                            "proposicao": {
+                                "temaPortal": "Agropecuária",
+                                "id": 595064,
+                                "emTramitacao": "Sim"
+                            }
+                        },
+                        "sort": [
+                            0
+                        ]
+                    },
+                    {
+                        "_index": "enquetes",
+                        "_type": "enquetes",
+                        "_id": "193500",
+                        "_score": null,
+                        "_source": {
+                            "id": 193500,
+                            "idProposta": "462032",
+                            "tituloEnquete": "EMR 1 CCJC => PL 4903/2009",
+                            "siglaTipoProposta": "EMR       ",
+                            "numeroProposta": "1/2009",
+                            "tipoProposta": "Emenda de Relator",
+                            "uriEnqueteProposta": "http://www.camara.gov.br/proposicoesWeb/fichadetramitacao?idProposicao=462032",
+                            "enqueteAutomatica": true,
+                            "numeroVotacaoEm7Dias": 0,
+                            "numeroVotacaoEm1Mes": 0,
+                            "numeroVotacaoEm6Meses": 0,
+                            "numeroComentarioEm7Dias": 0,
+                            "numeroComentarioEm1Mes": 0,
+                            "numeroComentarioEm6Meses": 0,
+                            "descricaoEnquete": "Dê-se ao  art.5º#",
+                            "url": "/ex/enquetes/462032",
+                            "proposicao": {
+                                "id": 462032,
+                                "emTramitacao": "Sim",
+                                "temaPortal": [
+                                    "Política e administração pública",
+                                    "Agropecuária"
+                                ]
+                            }
+                        },
+                        "sort": [
+                            0
+                        ]
+                    },
+                    {
+                        "_index": "enquetes",
+                        "_type": "enquetes",
+                        "_id": "160894",
+                        "_score": null,
+                        "_source": {
+                            "id": 160894,
+                            "idProposta": "527118",
+                            "tituloEnquete": "EMC 71/2011 CEREFPOL => APJ 2/2011 CEREFPOL",
+                            "siglaTipoProposta": "EMC       ",
+                            "numeroProposta": "71/2011",
+                            "tipoProposta": "Emenda na Comissão",
+                            "uriEnqueteProposta": "http://www.camara.gov.br/proposicoesWeb/fichadetramitacao?idProposicao=527118",
+                            "enqueteAutomatica": true,
+                            "numeroVotacaoEm7Dias": 0,
+                            "numeroVotacaoEm1Mes": 0,
+                            "numeroVotacaoEm6Meses": 0,
+                            "numeroComentarioEm7Dias": 0,
+                            "numeroComentarioEm1Mes": 0,
+                            "numeroComentarioEm6Meses": 0,
+                            "descricaoEnquete": "Modifica o prazo de filiação partidária.#",
+                            "url": "/ex/enquetes/527118",
+                            "proposicao": {
+                                "id": 527118,
+                                "emTramitacao": "Sim",
+                                "temaPortal": [
+                                    "Política e administração pública",
+                                    "Agropecuária"
+                                ]
+                            }
+                        },
+                        "sort": [
+                            0
+                        ]
+                    },
+                    {
+                        "_index": "enquetes",
+                        "_type": "enquetes",
+                        "_id": "140214",
+                        "_score": null,
+                        "_source": {
+                            "id": 140214,
+                            "idProposta": "556391",
+                            "tituloEnquete": "SBT 1 CAPADR => PL 5/2011",
+                            "siglaTipoProposta": "SBT       ",
+                            "numeroProposta": "1/2012",
+                            "tipoProposta": "Substitutivo",
+                            "uriEnqueteProposta": "http://www.camara.gov.br/proposicoesWeb/fichadetramitacao?idProposicao=556391",
+                            "enqueteAutomatica": true,
+                            "numeroVotacaoEm7Dias": 0,
+                            "numeroVotacaoEm1Mes": 0,
+                            "numeroVotacaoEm6Meses": 0,
+                            "numeroComentarioEm7Dias": 0,
+                            "numeroComentarioEm1Mes": 0,
+                            "numeroComentarioEm6Meses": 0,
+                            "descricaoEnquete": "Dispõe sobre a criação do Programa Nacional de Produção de Biocombustíveis por Cooperativas (PNBC) e dá outras providências.#",
+                            "url": "/ex/enquetes/556391",
+                            "proposicao": {
+                                "id": 556391,
+                                "emTramitacao": "Sim",
+                                "temaPortal": [
+                                    "Agropecuária",
+                                    "Meio ambiente e energia"
+                                ]
+                            }
+                        },
+                        "sort": [
+                            0
+                        ]
+                    }
+                ]
+            },
+            "aggregations": {
+                "numeroComentarioEm6Meses": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                        {
+                            "key": 0,
+                            "doc_count": 2260
+                        }
+                    ]
+                },
+                "idProposta": {
+                    "doc_count_error_upper_bound": 5,
+                    "sum_other_doc_count": 2160,
+                    "buckets": [
+                        {
+                            "key": "101381",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "102227",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "102283",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "102557",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1028998",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1029031",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "103506",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1049258",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1050638",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "105463",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "105762",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "107611",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "108986",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "109786",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "110323",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "110324",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "110839",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "113763",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "114270",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "115061",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1150824",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1150831",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1150832",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "117513",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "118304",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "118307",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "118936",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1197072",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1197836",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1198251",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1198519",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1198553",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1198834",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1198835",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1198990",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1203027",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1203554",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "120747",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1212424",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1212524",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1212534",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1212535",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1214823",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1215043",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1215529",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1215540",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1215671",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1215850",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1215907",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "122230",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1228053",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1228060",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1228067",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1228069",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1228071",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1228074",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1228447",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1228555",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1228660",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1228663",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1228825",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1228888",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1229568",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1229647",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1229801",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1229869",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1230053",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1230082",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1230185",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1230189",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1230202",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1230265",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1230295",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1234224",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1243666",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1243912",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "124435",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "126473",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "126523",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1266582",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "126711",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "126769",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "126832",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "126862",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "127004",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "127334",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "127363",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "127364",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1279033",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1279115",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1279184",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1279392",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1279526",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1279558",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1279713",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1279938",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1279961",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1279985",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "1280237",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "128602",
+                            "doc_count": 1
+                        }
+                    ]
+                },
+                "numeroProposta": {
+                    "doc_count_error_upper_bound": 5,
+                    "sum_other_doc_count": 749,
+                    "buckets": [
+                        {
+                            "key": "1/2015",
+                            "doc_count": 158
+                        },
+                        {
+                            "key": "1/2013",
+                            "doc_count": 115
+                        },
+                        {
+                            "key": "1/2008",
+                            "doc_count": 98
+                        },
+                        {
+                            "key": "1/2012",
+                            "doc_count": 97
+                        },
+                        {
+                            "key": "1/2007",
+                            "doc_count": 88
+                        },
+                        {
+                            "key": "1/2009",
+                            "doc_count": 81
+                        },
+                        {
+                            "key": "1/2011",
+                            "doc_count": 70
+                        },
+                        {
+                            "key": "1/2016",
+                            "doc_count": 69
+                        },
+                        {
+                            "key": "1/2003",
+                            "doc_count": 64
+                        },
+                        {
+                            "key": "1/2014",
+                            "doc_count": 57
+                        },
+                        {
+                            "key": "1/2017",
+                            "doc_count": 56
+                        },
+                        {
+                            "key": "1/2002",
+                            "doc_count": 38
+                        },
+                        {
+                            "key": "1/2010",
+                            "doc_count": 34
+                        },
+                        {
+                            "key": "2/2015",
+                            "doc_count": 32
+                        },
+                        {
+                            "key": "1/2005",
+                            "doc_count": 30
+                        },
+                        {
+                            "key": "2/2013",
+                            "doc_count": 30
+                        },
+                        {
+                            "key": "1/2004",
+                            "doc_count": 27
+                        },
+                        {
+                            "key": "1/2001",
+                            "doc_count": 25
+                        },
+                        {
+                            "key": "2/2011",
+                            "doc_count": 18
+                        },
+                        {
+                            "key": "2/2012",
+                            "doc_count": 17
+                        },
+                        {
+                            "key": "2/2009",
+                            "doc_count": 16
+                        },
+                        {
+                            "key": "4/2015",
+                            "doc_count": 15
+                        },
+                        {
+                            "key": "1/2006",
+                            "doc_count": 14
+                        },
+                        {
+                            "key": "3/2015",
+                            "doc_count": 14
+                        },
+                        {
+                            "key": "2/2008",
+                            "doc_count": 12
+                        },
+                        {
+                            "key": "2/2017",
+                            "doc_count": 12
+                        },
+                        {
+                            "key": "2/2007",
+                            "doc_count": 11
+                        },
+                        {
+                            "key": "2/2014",
+                            "doc_count": 11
+                        },
+                        {
+                            "key": "2/2016",
+                            "doc_count": 11
+                        },
+                        {
+                            "key": "2/2010",
+                            "doc_count": 8
+                        },
+                        {
+                            "key": "3/2008",
+                            "doc_count": 7
+                        },
+                        {
+                            "key": "3/2013",
+                            "doc_count": 7
+                        },
+                        {
+                            "key": "3/2009",
+                            "doc_count": 6
+                        },
+                        {
+                            "key": "3/2010",
+                            "doc_count": 6
+                        },
+                        {
+                            "key": "3/2014",
+                            "doc_count": 5
+                        },
+                        {
+                            "key": "3/2016",
+                            "doc_count": 5
+                        },
+                        {
+                            "key": "10/2015",
+                            "doc_count": 4
+                        },
+                        {
+                            "key": "12/2015",
+                            "doc_count": 4
+                        },
+                        {
+                            "key": "3/2007",
+                            "doc_count": 4
+                        },
+                        {
+                            "key": "3/2012",
+                            "doc_count": 4
+                        },
+                        {
+                            "key": "4/2013",
+                            "doc_count": 4
+                        },
+                        {
+                            "key": "4/2017",
+                            "doc_count": 4
+                        },
+                        {
+                            "key": "12/2013",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "16/2016",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "18/2016",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "21/2016",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "3/2011",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "35/2015",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "4/2008",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "4/2011",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "5/2013",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "7/2015",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "8/2015",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "83/2015",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "10/2007",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "10/2008",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "10/2011",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "10/2013",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "107/2017",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "108/2012",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "13/2015",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "14/2012",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "15/2015",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "15/2016",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "156/2012",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "16/2015",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "19/2011",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "2/2003",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "20/2016",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "24/2016",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "24/2017",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "26/2016",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "27/2015",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "28/2016",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "29/2011",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "3/2002",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "3/2017",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "31/2011",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "32/2016",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "33/2015",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "34/2015",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "36/2015",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "39/2011",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "4/2012",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "4/2014",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "40/2016",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "46/2015",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "47/2011",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "5/2001",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "5/2011",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "6/2015",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "64/2011",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "65/2011",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "8/2009",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "81/2015",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "0/2012",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "10/2001",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "10/2012",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "100/2012",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "102/2012",
+                            "doc_count": 1
+                        }
+                    ]
+                },
+                "descricaoEnquete": {
+                    "doc_count_error_upper_bound": 5,
+                    "sum_other_doc_count": 1500,
+                    "buckets": [
+                        {
+                            "key": "Redacao Final#",
+                            "doc_count": 30
+                        },
+                        {
+                            "key": "#",
+                            "doc_count": 28
+                        },
+                        {
+                            "key": "Parecer do Relator, Dep. Narcio Rodrigues (PSDB-MG), pela aprovação.#",
+                            "doc_count": 27
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 621/2013#",
+                            "doc_count": 15
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 627/2013#",
+                            "doc_count": 13
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 595/2012#",
+                            "doc_count": 12
+                        },
+                        {
+                            "key": "Institui a Política Nacional de Incentivo à Formação de Bancos Comunitários de Sementes e Mudas de Variedades e Cultivares Locais, Tradicionais ou Crioulos. #",
+                            "doc_count": 7
+                        },
+                        {
+                            "key": "Parecer do Relator, Dep. Waldir Maranhão (PP-MA), pela aprovação.#",
+                            "doc_count": 7
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 568/2012.#",
+                            "doc_count": 6
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 726/2016 #",
+                            "doc_count": 6
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 783/2017 #",
+                            "doc_count": 6
+                        },
+                        {
+                            "key": "Parecer do Relator, Dep. Inocêncio Oliveira, pela aprovação.#",
+                            "doc_count": 6
+                        },
+                        {
+                            "key": "Altera o art. 17 da Constituição Federal, condicionando o acesso dos partidos políticos ao fundo partidário e ao uso gratuito do rádio e da televisão a prévia disputa eleitoral e à eleição de representante para a Câmara dos Deputados ou o Senado Federal.#",
+                            "doc_count": 5
+                        },
+                        {
+                            "key": "Autoriza o Poder Executivo federal a instituir Serviço Social Autônomo denominado Agência Nacional de Assistência Técnica e Extensão Rural - Anater, e dá outras providências. #",
+                            "doc_count": 5
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 651/2014#",
+                            "doc_count": 5
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 672/2015#",
+                            "doc_count": 5
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 746/2016 #",
+                            "doc_count": 5
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 759/2016 #",
+                            "doc_count": 5
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 765/2016 #",
+                            "doc_count": 5
+                        },
+                        {
+                            "key": "Altera a Lei n° 6.001, de 19 de dezembro de 1973. #",
+                            "doc_count": 4
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 579/2012.#",
+                            "doc_count": 4
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 617/2013#",
+                            "doc_count": 4
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 620/2013#",
+                            "doc_count": 4
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 680/2015 #",
+                            "doc_count": 4
+                        },
+                        {
+                            "key": "Parecer do Relator, Dep. Moreira Mendes (PPS-RO), pela aprovação.#",
+                            "doc_count": 4
+                        },
+                        {
+                            "key": "Dispõe sobre a gestão de florestas públicas para produção sustentável, institui, na estrutura do Ministério do Meio Ambiente, o Serviço Florestal Brasileiro - SFB, cria o Fundo Nacional de Desenvolvimento Florestal - FNDF , e dá outras providências.#",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "Dispõe sobre os fundamentos e a política do agroturismo ou turismo rural e dá outras providências.#",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 563/2012.#",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 586/2012.#",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 670/2015#",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 684/2015 #",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 723/2016 #",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "Parecer do Relator, Dep. Dilceu Sperafico (PP-PR), pela aprovação.#",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "Parecer do Relator, Dep. Valdir Colatto (PMDB-SC), pela aprovação.#",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "Parecer do Relator, Dep. Valdir Colatto (PMDB-SC), pela rejeição.#",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "Acrescente-se o seguinte artigo à Medida Provisória nº 372, de 22 de maio de 2007, renumerando-se os demais:#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Acrescente-se um novo artigo 26  à Medida Provisória nº 303, de 2006.#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Altera a Lei nº 7.802, de 11 de julho de 1989, para disciplinar a prescrição de produtos destinados ao tratamento de culturas com suporte fitossanitário insuficiente.#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Altera o art. 3º do projeto de lei.#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Aprovado o Parecer.. \r\nParecer do Relator, Dep. Claudio Cajado (DEM-BA), pela aprovação.#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Aprovado o Parecer.. \r\nParecer do Relator, Dep. João Campos (PSDB-GO), pela constitucionalidade, juridicidade e técnica legislativa.#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Aprovado o Parecer.. \r\nParecer do Relator, Dep. Osmar Serraglio (PMDB-PR), pela constitucionalidade, juridicidade e técnica legislativa.#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Aprovado por Unanimidade o Parecer.. \r\nParecer do Relator, Dep. Eduardo Barbosa (PSDB-MG), pela aprovação.#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Aprovado por Unanimidade o Parecer.. \r\nParecer do Relator, Dep. Jorge Bittar (PT-RJ), pela aprovação.#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Conclusões do Relator, Deputado Luis Carlos Heinze, com recomendações aos órgãos responsáveis pela Reforma Agrária, e a formação de três Conselhos: Nacional, Estadual e Municipal, para avaliar os assentamentos rurais.#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Disciplina o aproveitamento de carcaças de animais de produção e resíduos animais no campo para fins não comestíveis.#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Dispõe acerca da constituiçao de imóvel rural ou fração deste como patrimônio de afetação, institui a cédula imobiliária rural, e dá outras providências.#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Dispõe sobre a Política Nacional de Incentivo à Produção de Frutas in Natura e de Produtos Derivados #",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Dispõe sobre a conservação e a utilização sustentável da vegetação nativa do Bioma Cerrado.#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Dispõe sobre as embalagens destinadas ao acondicionamento de produtos hortícolas \"in natura\".#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Dispõe sobre o abate humanitário de animais em todo o território nacional e dá outras providências.#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Dá nova redação ao inciso V do §3º do art. 14 da Constituição Federal. #",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 580/2012.#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 614/2013#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 657/2014#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 679/2015 #",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 685/2015#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 691/2015 #",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 695/2015 #",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 724/2016 #",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 766/2017#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 767/2017#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Dá nova redação à MPV 768/2017 #",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Emenda ao PL 5807/13, que dispõe sobre a atividade de mineração, cria o Conselho Nacional de Política Mineral e a Agência Nacional de Mineração - ANM, e dá outras providências.#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Emenda ao PL 6424/2005 que altera a Lei nº 4.771, e 15 de setembro de 1965, que institui o novo Código Florestal, para permitir a reposição florestal e a recomposição da reserva legal mediante o plantio de palmáceas em áreas alteradas.#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Parecer do Relator, Dep. Beto Faro (PT-PA), pela aprovação, com substitutivo.#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Parecer do Relator, Dep. Celso Maldaner (PMDB-SC), pela aprovação, com substitutivo.#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Parecer do Relator, Dep. Celso Maldaner (PMDB-SC), pela aprovação.#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Parecer do Relator, Dep. Davi Alcolumbre (DEM-AP), pela aprovação.#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Parecer do Relator, Dep. Edio Lopes (PMDB-RR), pela aprovação.#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Parecer do Relator, Dep. Josias Gomes (PT-BA), pela aprovação, com substitutivo.#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Parecer do Relator, Dep. José Carlos Elias, pela aprovação.#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Parecer do Relator, Dep. João Oliveira (DEM-TO), pela aprovação.#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Parecer do Relator, Dep. Lira Maia (DEM-PA), pela aprovação.#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Parecer do Relator, Dep. Luis Carlos Heinze (PP-RS), pela aprovação.#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Parecer do Relator, Dep. Pedro Wilson (PT-GO), pela rejeição.#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Sugere a prorrogação das dívidas decorrentes de operações de crédito rural dos produtores dos municípios do estado de Roraima em que tenha sido reconhecida situação de emergência.#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Suprima-se#",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "\r\nDá nova redação ao art. 1º da PEC nº 438, de 2001, para acrescentar o art. 243-A à Constituição Federal, estabelecendo que responderá por crime hediondo todo aquele que concorrer para a exploração de trabalho escravo.\r\n#",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "\r\nRequer a realização de Audiência Pública para debater propostas relativas à Reforma Política.\r\n#",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "        Acrescente-se ao art. 6º do Projeto de Lei  nº 7938, de 2010 e seus incisos VIII; IX e X.\r\n#",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": " #",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": " Altera a Lei nº 4.771, de 15 de setembro de 1965, que institui o novo Código Florestal, para permitir a reposição florestal e a recomposição de reserva legal mediante o plantio de palmáceas em áreas alteradas.#",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": " Altera a Lei nº 7.802, de 11 de julho de 1989, para disciplinar a prescrição de produtos destinados ao tratamento de culturas com suporte fitossanitário insuficiente.  #",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": " Altera o art. 10#",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": " EMENDA Nº 1 (SUPRESSIVA)\r\nSuprimam-se os §§ 7º e 9º do art. 3º propostos à Lei n.º 7.802, de 1989, pelo art. 1º do projeto de lei em epígrafe, renumerando-se os demais parágrafos.\r\n#",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": " Emenda atitiva Acrescente-se a parte final do art. 9º a seguinte expressão - estando proibida a certificação de sementes hidridas. #",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": " Projeto de Lei 5.288, de 2009, que altera a Lei nº 8.629, de 25 de fevereiro de 1993, para dispor sobre a fixação e o ajuste dos parâmetros, índices e indicadores de produtividade.#",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": " Suprimem-se o parágrafo único do art. 6 e o art. 5º do projeto, renumerando-se os que seguem a esse último.#",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "\"Altera a Carteira de Pescador Profissional, criando três categorias e diferenciando o profissional.\"#",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "\"Altera a Lei 8.171, de 17 de janeiro de 1991, que dispõe sobre a política agrícola, para dispor sobre a implantação de agroflorestas em áreas rurais desmatadas\".\r\n#",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "\"Altera o inciso I, do art. 3º, da Lei nº 10.823, de 19 de dezembro de 2003.\" #",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "\"Dispõe sobre a obrigatoriedade da inclusão de alimentos orgânicos na alimentação escolar e dá outras providências.\"#",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "\"Dispõe sobre o incentivo ao sistema orgânico de produção agropecuária, ao financiamento de projetos de conversão a este sistema e à certificação de produtos orgânicos, alterando a Lei nº 10.831, de 23 de dezembro 2003. \"#",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "\"Propõe que a Comissão de Agricultura e Política Rural fiscalize o Instituto Nacional de Colonização e Reforma Agrária - INCRA, bem como as suas Superintendências Regionais quanto ao cumprimento da legislação em vigor relativa aos assuntos fundiários\"\r\n#",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "\"Suprima-se o parágrafo segundo do art. 2º, da Medida Provisória nº 223 de 14 de outubro de 2004.\"#",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "\"Suprima-se o parágrafo único do art. 1º, da Medida Provisória nº 223 de 14 de outubro de 2004\"#",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "\"__. Que sejam estabelecidos critérios visando assegurar que, ao final da apuração do pleito, seja garantida a alternância de gênero entre os parlamentares eleitos.\"#",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "A Câmara Municipal poderá apos transcorrido metade mandato, propor realização de plebiscito destituinte. #",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "A suspensão é devida e os estudos toxicológicos devem continuar.#",
+                            "doc_count": 1
+                        }
+                    ]
+                },
+                "url": {
+                    "doc_count_error_upper_bound": 5,
+                    "sum_other_doc_count": 2160,
+                    "buckets": [
+                        {
+                            "key": "/ex/enquetes/101381",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/102227",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/102283",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/102557",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1028998",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1029031",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/103506",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1049258",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1050638",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/105463",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/105762",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/107611",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/108986",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/109786",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/110323",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/110324",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/110839",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/113763",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/114270",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/115061",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1150824",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1150831",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1150832",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/117513",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/118304",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/118307",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/118936",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1197072",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1197836",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1198251",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1198519",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1198553",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1198834",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1198835",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1198990",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1203027",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1203554",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/120747",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1212424",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1212524",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1212534",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1212535",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1214823",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1215043",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1215529",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1215540",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1215671",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1215850",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1215907",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/122230",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1228053",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1228060",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1228067",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1228069",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1228071",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1228074",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1228447",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1228555",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1228660",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1228663",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1228825",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1228888",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1229568",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1229647",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1229801",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1229869",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1230053",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1230082",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1230185",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1230189",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1230202",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1230265",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1230295",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1234224",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1243666",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1243912",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/124435",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/126473",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/126523",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1266582",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/126711",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/126769",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/126832",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/126862",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/127004",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/127334",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/127363",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/127364",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1279033",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1279115",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1279184",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1279392",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1279526",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1279558",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1279713",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1279938",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1279961",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1279985",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/1280237",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "/ex/enquetes/128602",
+                            "doc_count": 1
+                        }
+                    ]
+                },
+                "tipoProposta": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                        {
+                            "key": "Parecer do Relator",
+                            "doc_count": 584
+                        },
+                        {
+                            "key": "Emenda na Comissão",
+                            "doc_count": 344
+                        },
+                        {
+                            "key": "Parecer de Comissão",
+                            "doc_count": 176
+                        },
+                        {
+                            "key": "Projeto de Lei",
+                            "doc_count": 143
+                        },
+                        {
+                            "key": "Requerimento",
+                            "doc_count": 138
+                        },
+                        {
+                            "key": "Substitutivo",
+                            "doc_count": 135
+                        },
+                        {
+                            "key": "Emenda de Relator",
+                            "doc_count": 130
+                        },
+                        {
+                            "key": "Indicação",
+                            "doc_count": 90
+                        },
+                        {
+                            "key": "Voto em Separado",
+                            "doc_count": 86
+                        },
+                        {
+                            "key": "Emenda de Plenário",
+                            "doc_count": 58
+                        },
+                        {
+                            "key": "Requerimento de Informação",
+                            "doc_count": 48
+                        },
+                        {
+                            "key": "Complementação de Voto",
+                            "doc_count": 43
+                        },
+                        {
+                            "key": "Redação Final",
+                            "doc_count": 37
+                        },
+                        {
+                            "key": "Parecer de Comissão para Redação Final",
+                            "doc_count": 36
+                        },
+                        {
+                            "key": "Projeto de Decreto Legislativo",
+                            "doc_count": 26
+                        },
+                        {
+                            "key": "Substitutivo adotado pela Comissão",
+                            "doc_count": 23
+                        },
+                        {
+                            "key": "Emenda Adotada pela Comissão",
+                            "doc_count": 16
+                        },
+                        {
+                            "key": "Relatório Final",
+                            "doc_count": 15
+                        },
+                        {
+                            "key": "Mensagem",
+                            "doc_count": 14
+                        },
+                        {
+                            "key": "Parecer Proferido em Plenário",
+                            "doc_count": 14
+                        },
+                        {
+                            "key": "Relatório Prévio",
+                            "doc_count": 14
+                        },
+                        {
+                            "key": "Emenda ao Substitutivo",
+                            "doc_count": 10
+                        },
+                        {
+                            "key": "Proposta de Emenda à Constituição",
+                            "doc_count": 9
+                        },
+                        {
+                            "key": "Parecer Vencedor",
+                            "doc_count": 7
+                        },
+                        {
+                            "key": "Emenda Aglutinativa de Plenário",
+                            "doc_count": 6
+                        },
+                        {
+                            "key": "Relatório do Relator",
+                            "doc_count": 6
+                        },
+                        {
+                            "key": "Parecer às emendas apresentadas ao Substitutivo do Relator",
+                            "doc_count": 5
+                        },
+                        {
+                            "key": "Projeto de Lei Complementar",
+                            "doc_count": 5
+                        },
+                        {
+                            "key": "Parecer às Emendas ou ao Substitutivo do Senado",
+                            "doc_count": 4
+                        },
+                        {
+                            "key": "Projeto de Resolução",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "Proposta de Fiscalização e Controle",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "Subemenda",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "Subemenda de Relator",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "Sugestão de Emenda a Relatório",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "Destaque",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Errata",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Parecer Reformulado",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Relatório Setorial",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Requerimento de Instituição de CPI",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Subemenda Adotada pela Comissão",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Anteprojeto",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "Declaração de Voto",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "Emenda/Substitutivo do Senado",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "Parecer do Relator Parcial",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "Parecer às Emendas de Plenario",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "Projeto de Lei de Conversão",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "Recurso",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "Solicitação de Informação ao TCU",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "Sugestão a Projeto de Consolidação de Leis",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "Sugestão de Emenda ao Orçamento - Comissões",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "Termo de Implementação",
+                            "doc_count": 1
+                        }
+                    ]
+                },
+                "numeroVotacaoEm7Dias": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                        {
+                            "key": 0,
+                            "doc_count": 2260
+                        }
+                    ]
+                },
+                "tituloEnquete": {
+                    "doc_count_error_upper_bound": 5,
+                    "sum_other_doc_count": 2160,
+                    "buckets": [
+                        {
+                            "key": "APJ 2/2011 CEREFPOL",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CAPADR => PL 1008/2011",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CAPADR => PL 1146/2003",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CAPADR => PL 1274/2011",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CAPADR => PL 1435/2011",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CAPADR => PL 189/2003",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CAPADR => PL 2824/2008",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CAPADR => PL 2938/2004",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CAPADR => PL 3338/2004",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CAPADR => PL 3611/2008",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CAPADR => PL 3854/1997",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CAPADR => PL 3855/2012",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CAPADR => PL 3877/2012",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CAPADR => PL 3933/2004",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CAPADR => PL 5016/2005",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CAPADR => PL 5194/2005",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CAPADR => PL 5270/2001",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CAPADR => PL 547/2003",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CAPADR => PL 5740/2013",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CAPADR => PL 5919/2013",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CAPADR => PL 6008/2001",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CAPADR => PL 6424/2005",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CAPADR => PL 6432/2013",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CAPADR => PL 6480/2009",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CAPADR => PL 708/2007",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CAPADR => PL 76/2007",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CAPADR => PL 827/2011",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CAPADR => PLP 143/2000",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CAPADR => PLP 151/2004",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CEPOLITI => RPA 3/2017 CEPOLITI",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CFT => PL 730/2003",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CFT => PL 7713/2010",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CINDRA => PL 2833/2003",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CINDRA => PL 6100/2005",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CMADS => PL 2161/2007",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 1 CMADS => PL 5665/2009",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 2 CAPADR => PFC 126/2010",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 2 CAPADR => PL 18/2011",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 2 CAPADR => PL 271/2011",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 2 CAPADR => PL 360/2007",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 2 CAPADR => PL 5194/2005",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 2 CAPADR => PL 7980/2010",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 3 CAPADR => PL 380/2011",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "CVO 3 CEPOLITI => RPA 3/2017 CEPOLITI",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "DTQ 1 CAPADR => SBT 1 CAPADR => PLP 12/2003",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "DTQ 24 CFT => PL 4372/2012",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "DVT 2 => PL 7922/2014",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMA 1/2015 => PLP 366/2013",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMA 1/2016 => MPV 726/2016 ",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMA 34/2015 => PEC 182/2007",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMA 4/2015 => PEC 171/1993",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMA 4/2015 => PEC 443/2009",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMA 7/2015 => PEC 443/2009",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 1/2001 CAPADR => PL 4895/2001",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 1/2001 CAPADR => PL 5211/2001",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 1/2001 CAPADR => PL 5331/2001",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 1/2002 CAPADR => PL 5797/2001",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 1/2003 => PL 2401/2003",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 1/2004 PEC43801 => PEC 438/2001",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 1/2007 CAPADR => PL 1171/2007",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 1/2007 CAPADR => PL 360/2007",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 1/2008 CAPADR => PL 2323/2007",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 1/2008 CAPADR => PL 2486/2007",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 1/2008 CAPADR => PL 3500/2008",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 1/2008 CAPADR => PL 3611/2008",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 1/2008 CAPADR => PL 4006/2008",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 1/2011 CAPADR => PL 2025/2011",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 1/2011 CAPADR => PL 7326/2010",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 1/2011 CAPADR => PL 7938/2010",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 1/2012 CAPADR => PL 3067/2011",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 1/2012 CAPADR => PL 4515/2012",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 1/2013 CAPADR => PL 5010/2013",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 1/2013 MPV62013 => MPV 620/2013",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 1/2015 CAPADR => PL 6837/2013",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 1/2015 CFT => PL 1356/2015",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 1/2015 CFT => PL 7039/2014",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 1/2015 CMO => PLN 18/2015 CN",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 1/2016 CMO => MPV 711/2016 ",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 1/2016 MPV72316 => MPV 723/2016 ",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 10/2007 CAPADR => PL 6424/2005",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 10/2008 CTASP => PL 3118/2008",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 10/2008 PL626405 => PL 6264/2005",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 10/2011 MPV55011 => MPV 550/2011",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 10/2011 MPV55111 => MPV 551/2011",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 10/2012 MPV58612 => MPV 586/2012",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 10/2013 MPV61513 => MPV 615/2013",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 10/2015 MPV69515 => MPV 695/2015 ",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 100/2012 MPV56312 => MPV 563/2012",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 102/2012 CEREFPOL => APJ 3/2012 CEREFPOL",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 102/2013 MPV62113 => MPV 621/2013",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 103/2012 CEREFPOL => APJ 3/2012 CEREFPOL",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 104/2012 CEREFPOL => APJ 3/2012 CEREFPOL",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 106/2015 MPV67015 => MPV 670/2015",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 107/2017 MPV76516 => MPV 765/2016 ",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 107/2017 MPV76717 => MPV 767/2017",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 108/2012 CEREFPOL => APJ 3/2012 CEREFPOL",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 108/2012 MPV58212 => MPV 582/2012",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 109/2012 CEREFPOL => APJ 3/2012 CEREFPOL",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 11/2007 CAPADR => PL 6424/2005",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMC 11/2012 MPV57412 => MPV 574/2012",
+                            "doc_count": 1
+                        }
+                    ]
+                },
+                "numeroComentarioEm7Dias": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                        {
+                            "key": 0,
+                            "doc_count": 2260
+                        }
+                    ]
+                },
+                "numeroVotacaoEm6Meses": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                        {
+                            "key": 0,
+                            "doc_count": 2243
+                        },
+                        {
+                            "key": 1,
+                            "doc_count": 11
+                        },
+                        {
+                            "key": 3,
+                            "doc_count": 2
+                        },
+                        {
+                            "key": 2,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 4,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 5,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 20,
+                            "doc_count": 1
+                        }
+                    ]
+                },
+                "numeroVotacaoEm1Mes": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                        {
+                            "key": 0,
+                            "doc_count": 2254
+                        },
+                        {
+                            "key": 1,
+                            "doc_count": 5
+                        },
+                        {
+                            "key": 2,
+                            "doc_count": 1
+                        }
+                    ]
+                },
+                "numeroComentarioEm1Mes": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                        {
+                            "key": 0,
+                            "doc_count": 2260
+                        }
+                    ]
+                },
+                "id": {
+                    "doc_count_error_upper_bound": 5,
+                    "sum_other_doc_count": 2160,
+                    "buckets": [
+                        {
+                            "key": 2418,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 2564,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 2633,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 3079,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 3094,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 3228,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 3368,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 3522,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 3583,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 3633,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 3645,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 3736,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 3941,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 4250,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 4299,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 4405,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 4459,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 4691,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 4699,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 5060,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 5143,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 5720,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 5745,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 5974,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 6787,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 6821,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 7207,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 7219,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 7338,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 7614,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 7702,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 7703,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 7711,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 7849,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 8030,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 8059,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 8299,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 8324,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 8424,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 8562,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 8634,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 8641,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 8740,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 8741,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 8778,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 9028,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 9135,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 9182,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 9278,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 9495,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 9548,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 9550,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 9657,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 9815,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 9817,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 9862,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 9866,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 9870,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 10093,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 10129,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 10856,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 10857,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 11124,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 11246,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 11416,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 11656,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 11798,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 12012,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 12024,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 12104,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 12160,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 12285,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 12544,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 12818,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 12861,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 12862,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 12934,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 13041,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 13174,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 13303,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 13635,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 13645,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 13876,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 13879,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 13881,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 13886,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 13898,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 13900,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 14043,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 14074,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 14121,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 14124,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 14136,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 14221,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 14223,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 14387,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 14402,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 14403,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 14419,
+                            "doc_count": 1
+                        },
+                        {
+                            "key": 14577,
+                            "doc_count": 1
+                        }
+                    ]
+                },
+                "siglaTipoProposta": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                        {
+                            "key": "PRL       ",
+                            "doc_count": 584
+                        },
+                        {
+                            "key": "EMC       ",
+                            "doc_count": 344
+                        },
+                        {
+                            "key": "PAR       ",
+                            "doc_count": 176
+                        },
+                        {
+                            "key": "PL        ",
+                            "doc_count": 143
+                        },
+                        {
+                            "key": "REQ       ",
+                            "doc_count": 138
+                        },
+                        {
+                            "key": "SBT       ",
+                            "doc_count": 135
+                        },
+                        {
+                            "key": "EMR       ",
+                            "doc_count": 130
+                        },
+                        {
+                            "key": "INC       ",
+                            "doc_count": 90
+                        },
+                        {
+                            "key": "VTS       ",
+                            "doc_count": 86
+                        },
+                        {
+                            "key": "EMP       ",
+                            "doc_count": 58
+                        },
+                        {
+                            "key": "RIC       ",
+                            "doc_count": 48
+                        },
+                        {
+                            "key": "CVO       ",
+                            "doc_count": 43
+                        },
+                        {
+                            "key": "RDF       ",
+                            "doc_count": 37
+                        },
+                        {
+                            "key": "PARF      ",
+                            "doc_count": 36
+                        },
+                        {
+                            "key": "PDC       ",
+                            "doc_count": 26
+                        },
+                        {
+                            "key": "SBT-A     ",
+                            "doc_count": 23
+                        },
+                        {
+                            "key": "EMC-A     ",
+                            "doc_count": 16
+                        },
+                        {
+                            "key": "RLF       ",
+                            "doc_count": 15
+                        },
+                        {
+                            "key": "MSC       ",
+                            "doc_count": 14
+                        },
+                        {
+                            "key": "PPP       ",
+                            "doc_count": 14
+                        },
+                        {
+                            "key": "RLP       ",
+                            "doc_count": 14
+                        },
+                        {
+                            "key": "ESB       ",
+                            "doc_count": 10
+                        },
+                        {
+                            "key": "PEC       ",
+                            "doc_count": 9
+                        },
+                        {
+                            "key": "PRV       ",
+                            "doc_count": 7
+                        },
+                        {
+                            "key": "EMA       ",
+                            "doc_count": 6
+                        },
+                        {
+                            "key": "RRL       ",
+                            "doc_count": 6
+                        },
+                        {
+                            "key": "PES       ",
+                            "doc_count": 5
+                        },
+                        {
+                            "key": "PLP       ",
+                            "doc_count": 5
+                        },
+                        {
+                            "key": "PSS       ",
+                            "doc_count": 4
+                        },
+                        {
+                            "key": "PFC       ",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "PRC       ",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "SBE       ",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "SBR       ",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "SRL       ",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "DTQ       ",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "ERR       ",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "PRR       ",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "RAT       ",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "RCP       ",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "SBE-A     ",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "APJ       ",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "DVT       ",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "EMS       ",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "PEP       ",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "PLV       ",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "PRP       ",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "REC       ",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "SIT       ",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "SOR       ",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "SUC       ",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "TER       ",
+                            "doc_count": 1
+                        }
+                    ]
+                }
+            }
+      }
+   }
+}

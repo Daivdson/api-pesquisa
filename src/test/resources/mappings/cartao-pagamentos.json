@@ -1,0 +1,409 @@
+{
+	"request": {
+		"method": "POST",
+		"url": "/cartao-pagamentos/_search"
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json"
+		},
+		"jsonBody": {
+			"took": 0,
+			"timed_out": false,
+			"_shards": {
+				"total": 5,
+				"successful": 5,
+				"skipped": 0,
+				"failed": 0
+			},
+			"hits": {
+				"total": 1582,
+				"max_score": 1,
+				"hits": [
+					{
+						"_index": "cartao-pagamentos",
+						"_type": "cartao-pagamentos",
+						"_id": "92",
+						"_score": 1,
+						"_source": {
+							"id": 92,
+							"dataTransacao": "2013-06-04T00:00",
+							"descricao": "ESTORNO DE PAGAMENTO BR",
+							"cnpjEstabelecimento": "00000000000000",
+							"nomeEstabelecimento": "Teste LTDA",
+							"nomePortador": "CRISTIANO F S FARIA",
+							"cpfPortador": "000.000.000-00",
+							"valor": -150.05,
+							"anoFatura": 2013,
+							"mesFatura": 7,
+							"faixaValor": "Até R$ 500.00"
+						}
+					},
+					{
+						"_index": "cartao-pagamentos",
+						"_type": "cartao-pagamentos",
+						"_id": "302",
+						"_score": 1,
+						"_source": {
+							"id": 302,
+							"dataTransacao": "2014-08-27T00:00",
+							"descricao": "AJUSTE A DEBITO VAR.CAMBIAL COMPRA EXT",
+							"cnpjEstabelecimento": "00000000000000",
+							"nomeEstabelecimento": " ",
+							"nomePortador": "CRISTIANO F S FARIA",
+							"cpfPortador": "***.313.341-**",
+							"valor": -0.28,
+							"anoFatura": 2014,
+							"mesFatura": 9,
+							"faixaValor": "Até R$ 500.00"
+						}
+					},
+					{
+						"_index": "cartao-pagamentos",
+						"_type": "cartao-pagamentos",
+						"_id": "313",
+						"_score": 1,
+						"_source": {
+							"id": 313,
+							"dataTransacao": "2014-11-26T00:00",
+							"descricao": "AJUSTE A CREDITO VAR.CAMBIAL COMPRA EXT",
+							"cnpjEstabelecimento": "00000000000000",
+							"nomeEstabelecimento": " ",
+							"nomePortador": "CRISTIANO F S FARIA ",
+							"cpfPortador": "***.313.341-**",
+							"valor": 2.02,
+							"anoFatura": 2014,
+							"mesFatura": 12,
+							"faixaValor": "Até R$ 500.00"
+						}
+					},
+					{
+						"_index": "cartao-pagamentos",
+						"_type": "cartao-pagamentos",
+						"_id": "322",
+						"_score": 1,
+						"_source": {
+							"id": 322,
+							"dataTransacao": "2014-09-15T00:00",
+							"descricao": "AJUSTE A CREDITO VAR.CAMBIAL COMPRA EXT",
+							"cnpjEstabelecimento": "00000000000000",
+							"nomeEstabelecimento": " ",
+							"nomePortador": "PAULO A L COSTA",
+							"cpfPortador": "***.932.771-**",
+							"valor": 320.78,
+							"anoFatura": 2014,
+							"mesFatura": 10,
+							"faixaValor": "Até R$ 500.00"
+						}
+					},
+					{
+						"_index": "cartao-pagamentos",
+						"_type": "cartao-pagamentos",
+						"_id": "338",
+						"_score": 1,
+						"_source": {
+							"id": 338,
+							"dataTransacao": "2013-03-07T00:00",
+							"descricao": "POSTO JACUTINGA NATAL BR",
+							"cnpjEstabelecimento": "03154296000193",
+							"nomeEstabelecimento": "R G DE BARROS VASCONCELOS",
+							"nomePortador": "CARLOS E M MORAES",
+							"cpfPortador": "***.614.691-**",
+							"valor": -174,
+							"anoFatura": 2013,
+							"mesFatura": 4,
+							"faixaValor": "Até R$ 500.00"
+						}
+					},
+					{
+						"_index": "cartao-pagamentos",
+						"_type": "cartao-pagamentos",
+						"_id": "340",
+						"_score": 1,
+						"_source": {
+							"id": 340,
+							"dataTransacao": "2013-03-09T00:00",
+							"descricao": "POSTO JACUTINGA NATAL BR",
+							"cnpjEstabelecimento": "03154296000193",
+							"nomeEstabelecimento": "R G DE BARROS VASCONCELOS",
+							"nomePortador": "CARLOS E M MORAES",
+							"cpfPortador": "***.614.691-**",
+							"valor": -156,
+							"anoFatura": 2013,
+							"mesFatura": 4,
+							"faixaValor": "Até R$ 500.00"
+						}
+					},
+					{
+						"_index": "cartao-pagamentos",
+						"_type": "cartao-pagamentos",
+						"_id": "343",
+						"_score": 1,
+						"_source": {
+							"id": 343,
+							"dataTransacao": "2013-03-15T00:00",
+							"descricao": "POSTO JACUTINGA NATAL BR",
+							"cnpjEstabelecimento": "03154296000193",
+							"nomeEstabelecimento": "R G DE BARROS VASCONCELOS",
+							"nomePortador": "CARLOS E M MORAES",
+							"cpfPortador": "***.614.691-**",
+							"valor": -77.48,
+							"anoFatura": 2013,
+							"mesFatura": 4,
+							"faixaValor": "Até R$ 500.00"
+						}
+					},
+					{
+						"_index": "cartao-pagamentos",
+						"_type": "cartao-pagamentos",
+						"_id": "349",
+						"_score": 1,
+						"_source": {
+							"id": 349,
+							"dataTransacao": "2013-08-31T00:00",
+							"descricao": "BLEND RENTAL SAO PAULO BR",
+							"cnpjEstabelecimento": "13931281000148",
+							"nomeEstabelecimento": "BLEND LOCACAO DE VEICULOS",
+							"nomePortador": "CARLOS E M MORAES",
+							"cpfPortador": "***.614.691-**",
+							"valor": -2400,
+							"anoFatura": 2013,
+							"mesFatura": 10,
+							"faixaValor": "Até R$ 500.00"
+						}
+					},
+					{
+						"_index": "cartao-pagamentos",
+						"_type": "cartao-pagamentos",
+						"_id": "351",
+						"_score": 1,
+						"_source": {
+							"id": 351,
+							"dataTransacao": "2013-09-13T00:00",
+							"descricao": "POSTO JACUTINGA NATAL BR",
+							"cnpjEstabelecimento": "03154296000193",
+							"nomeEstabelecimento": "R G DE BARROS VASCONCELOS",
+							"nomePortador": "CARLOS E M MORAES",
+							"cpfPortador": "***.614.691-**",
+							"valor": -86.01,
+							"anoFatura": 2013,
+							"mesFatura": 10,
+							"faixaValor": "Até R$ 500.00"
+						}
+					},
+					{
+						"_index": "cartao-pagamentos",
+						"_type": "cartao-pagamentos",
+						"_id": "356",
+						"_score": 1,
+						"_source": {
+							"id": 356,
+							"dataTransacao": "2013-09-25T00:00",
+							"descricao": "POSTO JACUTINGA NATAL BR",
+							"cnpjEstabelecimento": "03154296000193",
+							"nomeEstabelecimento": "R G DE BARROS VASCONCELOS",
+							"nomePortador": "CARLOS E M MORAES",
+							"cpfPortador": "***.614.691-**",
+							"valor": -114.27,
+							"anoFatura": 2013,
+							"mesFatura": 11,
+							"faixaValor": "Até R$ 500.00"
+						}
+					}
+				]
+			},
+			
+   "aggregations":{ 
+      "anoFatura":{ 
+         "doc_count_error_upper_bound":0,
+         "sum_other_doc_count":0,
+         "buckets":[ 
+            { 
+               "key":2012,
+               "doc_count":29
+            },
+            { 
+               "key":2013,
+               "doc_count":400
+            },
+            { 
+               "key":2015,
+               "doc_count":457
+            },
+            { 
+               "key":2014,
+               "doc_count":696
+            }
+         ]
+      },
+      
+        "mesFatura": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+                {
+                    "key": 2,
+                    "doc_count": 47
+                },
+                {
+                    "key": 1,
+                    "doc_count": 75
+                },
+                {
+                    "key": 3,
+                    "doc_count": 88
+                },
+                {
+                    "key": 5,
+                    "doc_count": 112
+                },
+                {
+                    "key": 4,
+                    "doc_count": 135
+                }
+            ]
+        },
+        "faixaValor": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+                {
+                    "key": "De R$ 500.00 a R$ 1000.00 ",
+                    "doc_count": 195
+                },
+                {
+                    "key": "Até R$ 500.00",
+                    "doc_count": 1161
+                },
+                {
+                    "key": "Acima de R$ 1.000.00 ",
+                    "doc_count": 226
+                }
+            ]
+        },
+        "situacao": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+                {
+                    "key": "Aprovada",
+                    "doc_count": 400
+                }
+            ]
+        },
+        "nomePortador": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+                {
+                    "key": "ALLEN A CERQUEIRA",
+                    "doc_count": 2
+                },
+                {
+                    "key": "Informações protegidas por sigilo, nos termos do ATO DA MESA Nº 45 de 16/07/2012",
+                    "doc_count": 2
+                },
+                {
+                    "key": "CARLOS E M MORAES",
+                    "doc_count": 3
+                },
+                {
+                    "key": "ANTONIO C XAVIER",
+                    "doc_count": 4
+                },
+                {
+                    "key": "IVANILSON R SANTOS",
+                    "doc_count": 4
+                },
+                {
+                    "key": "WELLYNGTON MOREIRA",
+                    "doc_count": 4
+                },
+                {
+                    "key": "CRISTIANO F S FARIA",
+                    "doc_count": 6
+                },
+                {
+                    "key": "FRANCISCO GONZAGA",
+                    "doc_count": 6
+                },
+                {
+                    "key": "MARTINHO R PAIVA",
+                    "doc_count": 6
+                },
+                {
+                    "key": "EDUARDO M J DE DEUS",
+                    "doc_count": 7
+                },
+                {
+                    "key": "FABIO H PIMENTEL",
+                    "doc_count": 7
+                },
+                {
+                    "key": "JOSE E MENDES",
+                    "doc_count": 7
+                },
+                {
+                    "key": "RAPHAEL RIBEIRO",
+                    "doc_count": 7
+                },
+                {
+                    "key": "JOSE E MACHADO",
+                    "doc_count": 9
+                },
+                {
+                    "key": "PAULO H G SOUTO",
+                    "doc_count": 10
+                },
+                {
+                    "key": "WELLINGTON MONTEIRO",
+                    "doc_count": 10
+                },
+                {
+                    "key": "IVAN DE SOUZA COSTA",
+                    "doc_count": 11
+                },
+                {
+                    "key": "RENAN ORNELAS MOTA",
+                    "doc_count": 12
+                },
+                {
+                    "key": "JORGE E G BARROS",
+                    "doc_count": 13
+                },
+                {
+                    "key": "PAUL PIERRE DEETER",
+                    "doc_count": 14
+                },
+                {
+                    "key": "SUPRECILIO BARROS",
+                    "doc_count": 17
+                },
+                {
+                    "key": "SILVIO P SANTOS",
+                    "doc_count": 19
+                },
+                {
+                    "key": "JOUBER DE OLIVEIRA",
+                    "doc_count": 20
+                },
+                {
+                    "key": "GENIVAL J CASSEMIRO",
+                    "doc_count": 63
+                },
+                {
+                    "key": "PEDRO GOMES M NETO",
+                    "doc_count": 77
+                },
+                {
+                    "key": "FRANCISCO GONCALVES",
+                    "doc_count": 117
+                }
+            ]
+        }
+        
+   }
+		}
+	}
+}

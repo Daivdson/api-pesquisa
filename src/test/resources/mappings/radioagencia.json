@@ -1,0 +1,245 @@
+{
+	"request": {
+		"method": "POST",
+		"url": "/radioagencia/_search"
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json"
+		},
+		"jsonBody": {
+			
+    "took": 4,
+    "timed_out": false,
+    "_shards": {
+        "total": 10,
+        "successful": 10,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": 111698,
+        "max_score": 1,
+        "hits": [
+            {
+                "_index": "programas-radio",
+                "_type": "programas-radio",
+                "_id": "354428",
+                "_score": 1,
+                "_source": {
+                    "id": 354428,
+                    "titulo": "Agenda da Semana - de 4 a 8 de julho",
+                    "resumo": "",
+                    "programa": "Agenda da Semana",
+                    "materia": "1. Seis das oito medidas provisórias que estão na pauta do plenário esta semana trancam as votações, além do projeto de lei que institui o Pronatec, que está tramitando em caráter de urgência. Um dos destaques é a MP 528, que altera os valores da tabela do Imposto sobre a Renda da Pessoa Física, e a MP 535, que cria o Programa de Apoio à Conservação Ambiental e o Programa de Fomento às Atividades Produtivas Rurais. Na sessão desta terça, deverá ser eleita a Comissão Representativa do Congresso Nacional, que vai funcionar durante o recesso parlamentar. 2. O ministro da Agricultura, Wagner Rossi, participa, nesta terça-feira, de reunião da Comissão de Agricultura, Pecuária, Abastecimento e Desenvolvimento Rural da Câmara, em conjunto com a subcomissão formada para acompanhar o processo de fusão entre Perdigão e Sadia, JBS e Bertin, Marfrig e Seara, Citrosuco e Citrovita. Em pauta, a proposta de revisão do Regulamento de Inspeção Industrial e Sanitária dos Produtos de Origem Animal. 3. Os ministros do Planejamento, Miriam Belchior, e da Saúde, Alexandre Padilha, devem participar, nesta terça-feira, de audiência pública na Comissão Especial que trata da criação de empregos públicos na Funasa, Fundação Nacional de Sáude. Também foram convidados para o debate a presidente da Confederação Nacional dos Agentes Comunitários de Saúde, Ruth Brilhante, e o presidente da Confederação Nacional dos Municípios, Paulo Ziulkoski, entre outros. 4. A Comissão de Defesa do Consumidor vai debater, nesta terça-feira, as implicações para os consumidores brasileiros da fusão entre Sadia e Perdigão e da criação da Brasil Foods. O requerimento pedindo a audiência pública é dos deputados Reguffe, do PDT do Distrito Federal, e Ivan Valente, do PSOL paulista. Entre os convidados, estão o conselheiro relator do processo de fusão do Conselho Administrativo de Defesa Econômica, Carlos Emmanuel Ragazzo, e o presidente da Brasil Foods, José Antônio do Prado. 5. O sistema de cartões de crédito no Brasil será debatido em audiência pública prevista para terça-feira, na Comissão de Finanças e Tributação da Câmara. Entre os convidados, estão a procuradora regional da República, Valquíria Oliveira Quixadá, o coordenador-geral de análise econômica da Secretaria de Direito Econômico do Ministério da Justiça, Alexandre Henriksen, e o diretor-presidente da Associação Brasileira das Empresas de Cartões de Crédito e Serviços, Cláudio Yamaguti. 6. O ministro do Trabalho, Carlos Lupi, participa, na quarta-feira, de audiência pública na comissão especial que trata do trabalho terceirizado, para debater a regulamentação do setor. Também foram convidados para a audiência o secretário-geral da Presidência da República, Gilberto Carvalho, o professor José Pastore e o presidente da Associação Nacional dos Procuradores do Trabalho, Sebastião Caixeta. 7. A questão do reconhecimento dos diplomas dos brasileiros que fizeram pós-graduação no exterior será tema de audiência pública promovida, na próxima quinta-feira, pela Comissão de Educação e Cultura da Câmara. Participam da audiência o representante da Secretaria de Educação Superior do MEC, Luiz Cláudio Costa; o representante da Associação Nacional dos Dirigentes das Instituições Federais de Ensino Superior, Edward Brasil, e o representante do Conselho Nacional de Educação, Antônio Carlos Caruso. 8. A Comissão de Agricultura, em conjunto com a subcomissão que analisa medidas sobre o processo de aquisição de áreas rurais no Brasil por pessoas físicas e jurídicas estrangeiras, realiza audiência pública na quarta-feira. Os deputados vão ouvir representantes do Ministério da Defesa, da Casa Civil da Presidência e da Advocacia-Geral da União. Entre os temas em debate, estarão as experiências internacionais, restrições territoriais por imposições de soberania e o marco regulatório atual no Brasil. 9. Os problemas que afligem o sistema portuário nacional serão debatidos em audiência pública, nesta terça-feira, na Comissão de Viação e Transportes. Foram convidados para o debate o coordenador-geral de programas da Secretaria de Gestão dos Programas de Transportes do Ministério dos Transportes, Edison de Oliveira, o diretor de revitalização portuária da Secretaria Especial de Portos, Antônio Maurício, e a presidente da Confederação Nacional da Agricultura, senadora Kátia Abreu. O encontro ocorre às 2 horas da tarde. 10. A importância da autorregulação da mídia para a defesa da liberdade de expressão será o tema da audiência pública promovida pela Frente Parlamentar pela Liberdade de Expressão e o Direito à Comunicação. O encontro será realizado na quinta-feira, no auditório da TV Câmara, e terá a participação do consultor internacional da Unesco, Andrew Puddephatt, do representante da Unesco Brasil, Guilherme Canela, e do professor da UnB, Venício Lima. 11. A Câmara vai sediar três seminários esta semana. Na terça, às 3 horas da tarde, a Frente Parlamentar em Defesa do Estudante Universitário vai debater o tema \"O estudante universitário e a qualidade do ensino superior no Brasil\", com a participação de representantes de instituições de ensino superior, professores e estudantes universitários. Na quarta, a comissão especial criada para debater as políticas públicas de combate às drogas promove o seminário \"Políticas públicas de combate às drogas\", a ser realizado no auditório Nereu Ramos. Na quinta, um seminário promovido pela Associação Nacional dos Auditores Fiscais da Receita Federal vai tratar sobre desoneração da folha de pagamento. 12. A estrutura administrativa da Advocacia-Geral da União será tema de debate na Comissão do Trabalho, de Administração e Serviço Público, nesta terça-feira. Entre os convidados, estão o ministro advogado-geral da União, Luís Inácio Adams, o presidente da Associação dos Servidores da Advocacia-Geral da União, Paulo de Tarso, e a secretária de gestão do Ministério do Planejamento, Ana Lúcia Amorim. 13. Brasília será a sexta cidade-sede a receber a comitiva de parlamentares do Fórum Legislativo das Cidades-Sede da Copa do Mundo de 2014. O encontro, que será realizado na manhã de terça-feira, na Câmara Legislativa do Distrito Federal, prossegue à tarde, quando a comitiva fará visita técnica a obras de preparação para a Copa, como o futuro Estádio Nacional de Brasília e o Aeroporto Internacional Juscelino Kubitschek. O fórum é organizado pela Comissão de Turismo e Desporto da Câmara e pela Comissão de Desenvolvimento Regional e Turismo do Senado, com apoio do Fórum Nacional de Secretários e Dirigentes Estaduais de Turismo e dos ministérios do Esporte e do Turismo. A meta é visitar todas as 12 cidades-sede até outubro.",
+                    "data": "2011-07-02T21:00:00-0300",
+                    "ano": 2011,
+                    "veiculo": "radio-camara",
+                    "dataOrdenacao": "2011-07-02T21:00:00-0300",
+                    "url": "www.camara.leg.br/radio/354428-AGENDA-DA-SEMANA---DE-4-A-8-DE-JULHO",
+                    "categoria": [
+                        "Acervo"
+                    ]
+                }
+            },
+            {
+                "_index": "programas-radio",
+                "_type": "programas-radio",
+                "_id": "354523",
+                "_score": 1,
+                "_source": {
+                    "id": 354523,
+                    "titulo": "Entrevista: deputado Marllos Sampaio afirma que PEC 300 não deve ser votada neste semestre",
+                    "resumo": "",
+                    "programa": "Manhã no Parlamento",
+                    "materia": "O membro da comissão de Segurança Pública e Combate ao Crime Organizado, deputado Marllos Sampaio )PMDB-PI), afirmou aos jornalistas Lincon Macário e Danielle Popov que o episódio dos bombeiros no Rio de Janeiro deu força à Proposta de Emenda à Constituição, que ficou conhecida como PEC 300, mas não o suficiente para que ela seja aprovada neste semestre. Representantes de policiais e bombeiros, de todo o país, marcaram para hoje uma manifestação na Câmara, com o objetivo de pressionar os deputados a definir uma data para a votação, em segundo turno, da proposta. A PEC tramita desde 2008 e foi aprovada, em março de 2010, em primeiro turno, a proposta determina a criação de um piso salarial definitivo dos policiais civis e militares e bombeiros. Ou as faculdades devem ser fechadas, ou mec não está fazendo o seu papel, ou a OAB está muito rigorosa",
+                    "data": "2011-07-04T21:00:00-0300",
+                    "ano": 2011,
+                    "veiculo": "radio-camara",
+                    "dataOrdenacao": "2011-07-04T21:00:00-0300",
+                    "url": "www.camara.leg.br/radio/354523-ENTREVISTA:-DEPUTADO-MARLLOS-SAMPAIO-AFIRMA-QUE-PEC-300-NAO-DEVE-SER-VOTADA-NESTE-SEMESTRE",
+                    "categoria": [
+                        "Acervo"
+                    ]
+                }
+            },
+            {
+                "_index": "programas-radio",
+                "_type": "programas-radio",
+                "_id": "358512",
+                "_score": 1,
+                "_source": {
+                    "id": 358512,
+                    "titulo": "Walter Ihoshi defende porte de armas de fogo para guarda-parque",
+                    "resumo": "",
+                    "programa": "Palavra Aberta",
+                    "materia": "Os guarda-parques atuam em unidades de conservação, onde prestam serviços de proteção ambiental, primeiros socorros e resgate de pessoas. Uma proposta aprovada na Comissão de Segurança Pública prevê que esses profissionais também tenham porte de armas de fogo, assim como outras categorias policiais. O projeto de lei altera o Estatuto do Desarmamento para oferecer mais segurança nas áreas de proteção ambiental. Sandro Farias, da TV Câmara, conversou sobre o assunto com o deputado Walter Ihoshi, do Dem de São Paulo.",
+                    "data": "2011-09-18T21:00:00-0300",
+                    "ano": 2011,
+                    "veiculo": "radio-camara",
+                    "dataOrdenacao": "2011-09-18T21:00:00-0300",
+                    "url": "www.camara.leg.br/radio/358512-WALTER-IHOSHI-DEFENDE-PORTE-DE-ARMAS-DE-FOGO-PARA-GUARDA-PARQUE",
+                    "categoria": [
+                        "Acervo"
+                    ]
+                }
+            },
+            {
+                "_index": "programas-radio",
+                "_type": "programas-radio",
+                "_id": "359108",
+                "_score": 1,
+                "_source": {
+                    "id": 359108,
+                    "titulo": "Resumo da Semana - 26 a 30 de setembro",
+                    "resumo": "",
+                    "programa": "Resumo da Semana",
+                    "materia": "1 O ministro da Advocacia Geral da União, Luiz Inácio Adams, veio à Câmara, na quarta-feira, pedir ao presidente da Casa, deputado Marco Maia, atenção a projetos de lei do Executivo que permitem negociação tributária com empresas devedoras da União. A dívida ativa hoje está em um trilhão de reais, mas segundo Adams, apenas 2% disso são realmente pagos. Se as propostas que tramitam na Câmara virarem lei, será possível aumentar esse percentual e, consequentemente, os recursos que vão retornar aos cofres públicos, porque serão permitidas novas formas de cobrança e pagamento. 2 A Comissão de Constituição e Justiça admitiu a tramitação da Proposta de Emenda Constitucional, de iniciativa do deputado Efraim Filho, do Democratas da Paraíba, que reserva vagas para os moradores de municípios de até vinte mil habitantes, em concursos realizados pelas prefeituras dessas cidades. O relator, deputado Felipe Maia, do Democratas do Rio Grande do Norte, baseou a aprovação da proposta no artigo terceiro da Constuição, que traz como objetivo da República Federativa do Brasil a erradicação da pobreza e da marginalização e a redução das desigualdades sociais e regionais. Durante a discussão, ele rejeitou a ideia de que a proposta viola o princípio da igualdade entre todos os cidadãos. Já o deputado Arthur Oliveira Maia, do PMDB da Bahia, apresentou voto em separado em que considera o projeto inconstitucional, uma vez que, admitindo-se essa mudança, nada impediria que os estados mais pobres tomem a mesma medida e também os mais ricos, numa sucessão. 3 Foi relançada, no Congresso Nacional, com a presença da ministra da Cultura, Ana de Hollanda, a Frente Parlamentar Mista do Livro e da Leitura. Mais de duzentos deputados e senadores integram o grupo, que também tem o apoio de representantes da sociedade civil. Segundo a presidente da Comissão de Educação e Cultura da Câmara, deputada Fátima Bezerra, do PT do Rio Grande do Norte, o objetivo da frente é estimular a leitura e a produção de livros no Brasil e conseguir o apoio dos parlamentares nesse sentido. Um dos projetos destacados por Fátima Bezerra é o que cria o Vale-Cultura, destinado a trabalhadores que ganham até cinco salários mínimos. O vale mensal de cinquenta reais vai ser distribuído pelas empresas que aderirem ao Programa Cultura do Trabalhador e poderá ser usado na compra de serviços ou produtos culturais, como livros e ingressos para cinemas, teatros e museus. A Câmara ainda precisa votar as emendas do Senado a esse projeto. 4 O ministro da Ciência e Tecnologia, Aloizio Mercadante, defendeu, na quinta-feira, a manutenção do veto do ex-presidente Lula às novas regras de distribuição de royalties e participações de petróleo. A manutenção ou não do veto vai ser decidida pelo Congresso, na próxima semana. O artigo vetado prevê que royalties e participações especiais têm que ser divididos entre todos os estados e municípios de acordo com os critérios dos fundos federais. Ao participar, nesta quinta-feira, de ato público promovido pela comunidade científica em defesa da destinação dos recursos do petróleo para educação, ciência, tecnologia e inovação, Mercadante disse que caso o veto seja derrubado os prejuízos serão consideráveis. 5 O presidente da Câmara, Marco Maia, participou, na quinta-feira, de solenidade, no Palácio do Planalto, de assinatura pela presidente Dilma Rousseff da Medida Provisória que diminui ou dispensa do pagamento de impostos produtos relacionadas à área da defesa. Com a medida, os fabricantes de produtos militares vão ficar isentos, por cinco anos, de impostos como IPI, Imposto sobre Produtos Industrializados e Cofins, Contribuição para o Financiamento da Seguridade Social. A isenção vale também para compra de insumos, como máquinas e equipamentos, inclusive importados. A MP vai ser encaminhada para análise da Câmara dos Deputados. 6 O relator da reforma política, deputado Henrique Fontana, do PT gaúcho, anunciou a realização de ato de apoio à proposta, na próxima terça-feira, véspera da votação de seu relatório, na comissão especial que analisa o tema. O evento vai ser realizado às duas e meia da tarde, no auditório Nereu Ramos, da Câmara. Segundo o deputado, vão participar do evento representantes de diversas entidades, como a Ordem dos Advogados do Brasil, a CNBB, e a União Nacional dos Estudantes. Entre as mudanças sugeridas pelo relator está a redução de oito para quatro anos o período de mandato dos senadores, que também terão sua idade mínima para assumir o cargo diminuída de 35 anos, como é hoje, para 30 anos. O novo relatório também prevê a realização de segundo turno para prefeito nos municípios que tenham mais de 100 mil eleitores - atualmente, essa possibilidade só ocorre em localidades com mais de 200 mil eleitores. 7 Com um plenário lotado por representantes de diferentes comunidades e povos tradicionais, a Comissão de Educação debateu, na quinta-feira, o projeto de lei que estabelece diretrizes para as políticas públicas de desenvolvimento sustentável para a população tradicional no país. De autoria do deputado Luiz Alberto, do PT da Bahia, o projeto define o que são povos e comunidades tradicionais e seus territórios, além de apontar os critérios que devem ser seguidos na formulação e implementação de políticas públicas destinadas ao desenvolvimento sustentável dessas populações. O texto tem como inspiração o decreto 6.040, editado em 2007, pelo então presidente Luiz Inácio Lula da Silva. Na avaliação do autor da proposta, é preciso dar força de lei ao que hoje é regulado pelo decreto. 8 O líder do governo na Câmara, deputado Cândido Vaccarezza, afirmou, na quinta-feira, que vai convidar o PSD, Partido Social Democrático, a fazer parte da base de apoio ao governo. Vaccarezza disse que já conversou com o deputado Guilherme Campos, atualmente no DEM paulista, mas de mudança para o PSD e provável líder da legenda na Câmara. O PSD obteve seu registro na terça-feira, após decisão do Tribunal Superior Eleitoral. Idealizado pelo prefeito de São Paulo, Gilberto Kassab, também saído do DEM, o PSD pode contar com até 50 deputados na Câmara e já se declarou de Centro e independente nas votações. O PTB anunciou, no entanto, que vai recorrer ao STF contra a criação do partido. O PPS também avisou que vai recorrer à Justiça para manter os mandatos de três deputados eleitos pelo partido e que já anunciaram filiação ao PSD. 9 A diretora do Movimento de Combate à Corrupção Eleitoral, Jovita José Rosa, entregou, na quinta-feira, ao coordenador da Frente de Combate à Corrupção, deputado Francisco Praciano, do PT do Amazonas, carta endereçada à presidente Dilma Rousseff, pedindo que seja indicado para o Supremo Tribunal Federal um ministro que esteja comprometido com a Lei da Ficha Limpa. A presidente Dilma terá que indicar um substituto para a vaga da ministra Ellen Gracie. A lei, que completou um ano nesta quinta, busca barrar a candidatura de políticos que estejam sendo processados na Justiça. Mas o Supremo ainda vai julgar a constitucionalidade da lei, pois há quem argumente contra a norma por causa do princípio de que as pessoas devem ser consideradas inocentes até que haja um julgamento judicial definitivo. 10 Manifestantes levaram vassouras verdes e amarelas para a rampa de acesso do Congresso Nacional, na quarta-feira, num ato simbólico em favor da ética no Parlamento brasileiro. A iniciativa foi da organização não-governamental Rio da Paz. Os manifestantes defenderam a aplicação da Lei da Ficha Limpa e o voto aberto de parlamentares. No mesmo dia, integrantes da Frente de Combate à Corrupção realizaram manifestação, no Salão Verde, da Câmara, para sensibilizar deputados e senadores sobre a necessidade de votação de propostas que combatem a prática da corrupção. De acordo o coordenador da Frente, deputado Francisco Praciano, do PT do Amazonas, existem mais de cem proposições tramitando na Câmara e mais de quarenta no Senado sobre o tema. 11 Por 16 votos a 2, o Conselho de Ética e Decoro Parlamentar rejeitou a admissibilidade do processo disciplinar contra o deputado Valdemar Costa Neto, do PR paulista. Na prática, as acusações de quebra de decoro não foram aceitas e o parlamentar deverá ser absolvido. O processo contra Valdemar Costa Neto foi iniciado por representação do PSol e do PPS. Os partidos queriam investigação do possível envolvimento de Valdemar Costa Neto com irregularidades no Ministério dos Transportes. Mas para o relator do processo, deputado Fernando Francischini, do PSDB paranaense, as acusações contra Valdemar Costa Neto são graves e deveriam ser investigadas. Ele lamentou a decisão do Conselho de Ética. 12 O presidente da Câmara, Marco Maia, vai discutir com os líderes partidários, até a próxima semana, a inclusão, na pauta de votações do Plenário, da proposta de emenda à Constituição que acaba com o voto secreto no Congresso Nacional. Na última terça-feira, ele recebeu integrantes da Frente Parlamentar em Defesa do Voto Aberto, que levaram ao presidente documento com duzentos e setenta assinaturas de parlamentares, entre deputados e senadores, que pede a votação em segundo turno da PEC que acaba com o voto secreto. A proposta foi aprovada em primeiro turno, em 2006. Marco Maia disse ser favorável ao fim do voto secreto, com exceção para a eleição das Mesas Diretoras da Câmara e do Senado. 13 O governo federal aceitou diminuir em 4 pontos percentuais a parcela a que a União tem direito na participação especial relativa à exploração do petróleo, para chegar a um acordo com os estados sobre a divisão dos tributos gerados pela exploração petrolífera no Brasil. A informação foi divulgada pelo líder do PT, deputado Paulo Teixeira, após reunião no Ministério da Fazenda na terça-feira. Participação especial é um valor distribuído pelas empresas que exploram petróleo por causa da alta rentabilidade de alguns poços. Paulo Teixeira afirmou que o governo federal chegou ao seu limite na negociação para encontrar um acordo sobre a distribuição dos royalties.",
+                    "data": "2011-09-29T21:00:00-0300",
+                    "ano": 2011,
+                    "veiculo": "radio-camara",
+                    "dataOrdenacao": "2011-09-29T21:00:00-0300",
+                    "url": "www.camara.leg.br/radio/359108-RESUMO-DA-SEMANA---26-A-30-DE-SETEMBRO",
+                    "categoria": [
+                        "Acervo"
+                    ]
+                }
+            },
+            {
+                "_index": "programas-radio",
+                "_type": "programas-radio",
+                "_id": "359281",
+                "_score": 1,
+                "_source": {
+                    "id": 359281,
+                    "titulo": "Neri Geller debate regularização fundiária",
+                    "resumo": "",
+                    "programa": "Palavra Aberta",
+                    "materia": "Criado para resolver o problema de regularização fundiária na Amazônia, o programa Terra Legal ainda não é executado a contento. Apenas 5% dos 48 milhões de hectares de terras federais estão prontas para a entrega dos títulos aos atuais proprietários. O programa é coordenado pelo Ministério do Desenvolvimento Agrário, que argumenta: para sair inteiramente do papel, o projeto ainda precisa de infra-estrutura e mão de obra. Beto Seabra, da TV Câmara, conversou sobre o assunto com o deputado Neri Geller, do PP do Mato Grosso.",
+                    "data": "2011-10-02T21:00:00-0300",
+                    "ano": 2011,
+                    "veiculo": "radio-camara",
+                    "dataOrdenacao": "2011-10-02T21:00:00-0300",
+                    "url": "www.camara.leg.br/radio/359281-NERI-GELLER-DEBATE-REGULARIZACAO-FUNDIARIA",
+                    "categoria": [
+                        "Acervo"
+                    ]
+                }
+            },
+            {
+                "_index": "programas-radio",
+                "_type": "programas-radio",
+                "_id": "363589",
+                "_score": 1,
+                "_source": {
+                    "id": 363589,
+                    "titulo": "Entrevista: Juliano Costa Couto analisa liminar que limita poderes do Conselho Nacional de Justiça (15’34”)",
+                    "resumo": "",
+                    "programa": "Manhã no Parlamento",
+                    "materia": "Uma polêmica liminar, concedida pelo ministro do Supremo Tribunal Federal, Marco Aurélio Mello, reacendeu o debate sobre a atuação do Conselho Nacional de Justiça - CNJ. Pela decisão, o Conselho não pode investigar juízes por desvio de conduta antes de a denúncia ser analisada pela Corregedoria do Tribunal, onde atua o acusado. A medida enfraquece o Conselho, que vinha investigando casos de corrupção na magistratura, sem a necessidade de aguardar uma decisão do tribunal. Sobre o assunto, o Manhã no Parlamento conversou com o professor constitucionalista, Juliano Costa Couto. Confira a entrevista com os jornalistas Lincon Macário e Danielle Popov.",
+                    "data": "2011-12-19T22:00:00-0200",
+                    "ano": 2011,
+                    "veiculo": "radio-camara",
+                    "dataOrdenacao": "2011-12-19T22:00:00-0200",
+                    "url": "www.camara.leg.br/radio/363589-ENTREVISTA:-JULIANO-COSTA-COUTO-ANALISA-LIMINAR-QUE-LIMITA-PODERES-DO-CONSELHO-NACIONAL-DE-JUSTICA-(15’34”)",
+                    "categoria": [
+                        "Acervo"
+                    ]
+                }
+            },
+            {
+                "_index": "programas-radio",
+                "_type": "programas-radio",
+                "_id": "363978",
+                "_score": 1,
+                "_source": {
+                    "id": 363978,
+                    "titulo": "Destino ao Centro da Cidade - Bloco 02(20'07\")",
+                    "resumo": "",
+                    "programa": "Casa da Árvore",
+                    "materia": "",
+                    "data": "2011-12-30T22:00:00-0200",
+                    "ano": 2011,
+                    "veiculo": "radio-camara",
+                    "dataOrdenacao": "2011-12-30T22:00:00-0200",
+                    "url": "www.camara.leg.br/radio/363978-DESTINO-AO-CENTRO-DA-CIDADE---BLOCO-02(20'07)",
+                    "categoria": [
+                        "Acervo"
+                    ]
+                }
+            },
+            {
+                "_index": "programas-radio",
+                "_type": "programas-radio",
+                "_id": "366801",
+                "_score": 1,
+                "_source": {
+                    "id": 366801,
+                    "titulo": "Aids tem remédio. Preconceito não.",
+                    "resumo": "",
+                    "programa": "Dia da Infância e da Juventude",
+                    "materia": "Um programa dedicado a crianças e adolescentes, com entrevistas, reportagens e bate-papos produzidos por eles. A voz de jovens de várias regiões do país transmitida aqui, com suas histórias, suas opiniões e suas realidades. A data também foi lembrada pelos programas Música do Dia, Trilha das Artes, Aplauso e Instrumental Brasil.",
+                    "data": "2012-03-03T21:01:00-0300",
+                    "ano": 2012,
+                    "veiculo": "radio-camara",
+                    "dataOrdenacao": "2012-03-03T21:01:00-0300",
+                    "url": "www.camara.leg.br/radio/366801-AIDS-TEM-REMEDIO.-PRECONCEITO-NAO.",
+                    "categoria": [
+                        "Acervo"
+                    ]
+                }
+            },
+            {
+                "_index": "programas-radio",
+                "_type": "programas-radio",
+                "_id": "368977",
+                "_score": 1,
+                "_source": {
+                    "id": 368977,
+                    "titulo": "Hoje é o Dia do Chocolate",
+                    "resumo": "Há vários tipos de chocolate, como o amargo, ao leite e branco. Para uns, chocolate mesmo só o amargo. O ao leite é batizado e o branco, então, nem se pode chamar de chocolate, pois é feito de manteiga de cacau e não de massa de cacau.",
+                    "programa": "A Música do Dia",
+                    "materia": "Há vários tipos de chocolate, como o amargo, ao leite e branco. Para uns, chocolate mesmo só o amargo. O ao leite é batizado e o branco, então, nem se pode chamar de chocolate, pois é feito de manteiga de cacau e não de massa de cacau. O fato é que, branco, preto, amargo ou doce, o chocolate hoje é bem diferente de sua origem asteca: xocolatl, “água amarga”. Edição e apresentação de Luiz Cláudio Canuto",
+                    "data": "2012-03-26T12:47:18-0300",
+                    "ano": 2012,
+                    "veiculo": "radio-camara",
+                    "dataOrdenacao": "2012-03-26T12:47:18-0300",
+                    "rodape": "Edição e apresentação de Luiz Cláudio Canuto",
+                    "url": "www.camara.leg.br/radio/368977-HOJE-E-O-DIA-DO-CHOCOLATE",
+                    "categoria": [
+                        "Cultura"
+                    ]
+                }
+            },
+            {
+                "_index": "programas-radio",
+                "_type": "programas-radio",
+                "_id": "369680",
+                "_score": 1,
+                "_source": {
+                    "id": 369680,
+                    "titulo": "Hoje é primeiro de abril, Dia da Mentira. Pega na mentira...",
+                    "resumo": "",
+                    "programa": "A Música do Dia",
+                    "materia": "A TV foi inaugurada no Brasil em 1950, com a TV Tupi em São Paulo. Em 1955 surge a TV Rio. Em 1957 foi inaugurada as transmissões entre cidades, por meio de um link entre a TV Rio e a TV Record. Em 1959 o videotape começa a ser usado na TV brasileira e no dia 31 de março de 1972 foi inaugurada a TV em cores no Brasil. Edição e apresentação de Luiz Cláudio Canuto",
+                    "data": "2012-03-30T14:19:40-0300",
+                    "ano": 2012,
+                    "veiculo": "radio-camara",
+                    "dataOrdenacao": "2012-03-30T14:19:40-0300",
+                    "rodape": "Edição e apresentação de Luiz Cláudio Canuto",
+                    "url": "www.camara.leg.br/radio/369680-HOJE-E-PRIMEIRO-DE-ABRIL,-DIA-DA-MENTIRA.-PEGA-NA-MENTIRA...",
+                    "categoria": [
+                        "Cultura"
+                    ]
+                }
+            }
+        ]
+    }
+			
+			
+		}
+	}
+}
+    
+    

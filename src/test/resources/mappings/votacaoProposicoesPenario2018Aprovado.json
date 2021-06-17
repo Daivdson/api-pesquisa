@@ -1,0 +1,45 @@
+{
+	"request": {
+		"method": "POST",
+		"url": "/proposicoes/_search"
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json"
+		},
+		"jsonBody": {
+			"proposicoes": [
+				{
+					"quantidade": 3,
+					"tipo": "Medida Provisória"
+				},
+				{
+					"quantidade": 1,
+					"tipo": "Mensagem"
+				},
+				{
+					"quantidade": 1,
+					"tipo": "Projeto de Decreto Legislativo"
+				},
+				{
+					"quantidade": 25,
+					"tipo": "Projeto de Decreto Legislativo de Acordos, tratados ou atos internacionais"
+				},
+				{
+					"quantidade": 16,
+					"tipo": "Projeto de Lei"
+				},
+				{
+					"quantidade": 1,
+					"tipo": "Projeto de Resolução"
+				},
+				{
+					"quantidade": 1,
+					"tipo": "Projeto de Resolução de Alteração do Regimento e outros"
+				}
+			],
+			"total": 48
+		}
+	}
+}

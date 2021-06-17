@@ -1,0 +1,606 @@
+{
+   "request":{
+      "method":"POST",
+      "url":"/proposicoes2/_search"
+   },
+   "response":{
+      "status":200,
+      "headers":{
+         "Content-Type":"application/json"
+      },
+      "jsonBody":{
+	      	"took": 9,
+		    "timed_out": false,
+		    "_shards": {
+		        "total": 5,
+		        "successful": 5,
+		        "skipped": 0,
+		        "failed": 0
+		    },
+		    "hits": {
+		        "total": 1,
+		        "max_score": 75.39808,
+		        "hits": [
+		            {
+		                "_index": "proposicoes",
+		                "_type": "proposicoes",
+		                "_id": "2177563",
+		                "_score": 75.39808,
+		                "_source": {
+		                    "id": 2177563,
+		                    "url": 2177563,
+		                    "titulo": "PL 10337/2018",
+		                    "siglaProposicao": "PL",
+		                    "codTipoProposicao": 139,
+		                    "descricaoProposicao": "Projeto de Lei",
+		                    "codApreciacao": 4,
+		                    "txtApreciacao": "Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II",
+		                    "codRegime": 14,
+		                    "txtRegime": "Ordinária (Art. 151, III, RICD)",
+		                    "codArquivoTeor": 1665392,
+		                    "codArquivoTeorCitacao": 1665842,
+		                    "numero": 10337,
+		                    "anoApresentacao": 2018,
+		                    "ano": 2018,
+		                    "mesApresentacao": 6,
+		                    "dataApresentacao": "2018-06-05T15:50:00",
+		                    "indexacao": "Alteração, Código de Processo Civil (2015), inclusão, contrato eletrônico, assinatura digital,  Título executivo extrajudicial. ",
+		                    "ementa": "\"Altera a Lei nº 13.105, de 16 de março de 2015 - Código de Processo Civil, para dispor sobre os títulos executivos extrajudiciais\". ",
+		                    "explicacaoEmenta": "",
+		                    "generoTipoProposicao": "o",
+		                    "orgaoOrigem": "Plenário",
+		                    "siglaOrgaoOrigem": "PLEN",
+		                    "codigoOrgaoOrigem": 180,
+		                    "codArquivoTeorAvulso": 1669716,
+		                    "dataDaUltimaTramitacao": "2019-02-22T18:30:00",
+		                    "dataDaUltimaMovimentacao": "2018-06-18T16:56:00",
+		                    "urlEnquete": "https://forms.camara.leg.br/em/enquetes/2177563",
+		                    "dataOrdenacao": "2018-06-05T15:50:00Z",
+		                    "melhoresHits": [
+		                        "pl 10337/2018",
+		                        "pl 10337",
+		                        "pl 10337/18",
+		                        "projeto de lei 10337 de 18",
+		                        "projeto de lei 10337 de 2018",
+		                        "pl 10.337/2018",
+		                        "pl 10.337",
+		                        "pl 10.337/18",
+		                        "projeto de lei 10.337 de 18",
+		                        "projeto de lei 10.337 de 2018"
+		                    ],
+		                    "linkVideo": "https://youtu.be/LJI9-1f-pgg",
+		                    "autores": [
+		                        {
+		                            "siglaUF": "RJ",
+		                            "codParlamentar": 5310707,
+		                            "indSexo": "M",
+		                            "tipoAutor": "Deputado",
+		                            "siglaPartido": "DEM",
+		                            "numSequencial": 1,
+		                            "descricaoPartido": "Democratas",
+		                            "ideCadastro": 160677,
+		                            "bolAutor": true,
+		                            "bolAutorExibir": true,
+		                            "nome": "FRANCISCO FLORIANO",
+		                            "id": 2177563
+		                        }
+		                    ],
+		                    "tramitacoes": [
+		                        {
+		                            "codOrgao": 4,
+		                            "codArquivoTeor": 1713574,
+		                            "orgao": "Mesa Diretora da Câmara dos Deputados",
+		                            "legislatura": 56,
+		                            "codTipoTramitacao": 640,
+		                            "bolInterna": false,
+		                            "numOrdem": 24,
+		                            "codTramitacao": 24,
+		                            "textoTramitacao": "Devido a desarquivamento desta proposição em requerimento anterior, foi declarada prejudicada a solicitação de desarquivamento constante do REQ-538/2019.",
+		                            "siglaOrgao": "MESA",
+		                            "bolUltimaAcao": false,
+		                            "dataTramitacao": "2019-02-22T18:30:00",
+		                            "interna": false,
+		                            "id": 2177563,
+		                            "orgaoSiglaNome": "MESA - Mesa Diretora da Câmara dos Deputados",
+		                            "bolExibeNoRoteiro": true
+		                        },
+		                        {
+		                            "codOrgao": 4,
+		                            "codArquivoTeor": 1712469,
+		                            "orgao": "Mesa Diretora da Câmara dos Deputados",
+		                            "legislatura": 56,
+		                            "codTipoTramitacao": 640,
+		                            "bolInterna": false,
+		                            "numOrdem": 23,
+		                            "codTramitacao": 23,
+		                            "textoTramitacao": "Devido a desarquivamento desta proposição em requerimento anterior, foi declarada prejudicada a solicitação de desarquivamento constante do REQ-363/2019.",
+		                            "siglaOrgao": "MESA",
+		                            "bolUltimaAcao": false,
+		                            "dataTramitacao": "2019-02-20T21:21:00",
+		                            "interna": false,
+		                            "id": 2177563,
+		                            "orgaoSiglaNome": "MESA - Mesa Diretora da Câmara dos Deputados",
+		                            "bolExibeNoRoteiro": true
+		                        },
+		                        {
+		                            "codOrgao": 4,
+		                            "codArquivoTeor": 1712075,
+		                            "orgao": "Mesa Diretora da Câmara dos Deputados",
+		                            "legislatura": 56,
+		                            "codTipoTramitacao": 640,
+		                            "bolInterna": false,
+		                            "numOrdem": 22,
+		                            "codTramitacao": 22,
+		                            "textoTramitacao": "Devido a desarquivamento desta proposição em requerimento anterior, foi declarada prejudicada a solicitação de desarquivamento constante do REQ-268/2019.",
+		                            "siglaOrgao": "MESA",
+		                            "bolUltimaAcao": false,
+		                            "dataTramitacao": "2019-02-20T20:37:00",
+		                            "interna": false,
+		                            "id": 2177563,
+		                            "orgaoSiglaNome": "MESA - Mesa Diretora da Câmara dos Deputados",
+		                            "bolExibeNoRoteiro": true
+		                        },
+		                        {
+		                            "codOrgao": 4,
+		                            "codArquivoTeor": 1711936,
+		                            "orgao": "Mesa Diretora da Câmara dos Deputados",
+		                            "legislatura": 56,
+		                            "codTipoTramitacao": 640,
+		                            "bolInterna": false,
+		                            "numOrdem": 19,
+		                            "codTramitacao": 19,
+		                            "textoTramitacao": "Desarquivado nos termos do Artigo 105 do RICD, em conformidade com o despacho exarado no REQ-196/2019.",
+		                            "siglaOrgao": "MESA",
+		                            "bolUltimaAcao": false,
+		                            "dataTramitacao": "2019-02-20T19:59:00",
+		                            "interna": false,
+		                            "id": 2177563,
+		                            "orgaoSiglaNome": "MESA - Mesa Diretora da Câmara dos Deputados",
+		                            "bolExibeNoRoteiro": true
+		                        },
+		                        {
+		                            "codOrgao": 100047,
+		                            "orgao": "Seção de Cadastro e Controle",
+		                            "legislatura": 56,
+		                            "codTipoTramitacao": 630,
+		                            "bolInterna": true,
+		                            "numOrdem": 20,
+		                            "codTramitacao": 20,
+		                            "textoTramitacao": "Reentrada na comissão por motivo de desarquivamento",
+		                            "siglaOrgao": "SECAD(SGM)",
+		                            "bolUltimaAcao": false,
+		                            "dataTramitacao": "2019-02-20T19:59:00",
+		                            "interna": true,
+		                            "id": 2177563,
+		                            "orgaoSiglaNome": "SECAD(SGM) - Seção de Cadastro e Controle",
+		                            "bolExibeNoRoteiro": true
+		                        },
+		                        {
+		                            "codOrgao": 100047,
+		                            "orgao": "Seção de Cadastro e Controle",
+		                            "legislatura": 56,
+		                            "codTipoTramitacao": 630,
+		                            "bolInterna": true,
+		                            "numOrdem": 21,
+		                            "codTramitacao": 21,
+		                            "textoTramitacao": "Reentrada na comissão por motivo de desarquivamento",
+		                            "siglaOrgao": "SECAD(SGM)",
+		                            "bolUltimaAcao": true,
+		                            "dataTramitacao": "2019-02-20T19:59:00",
+		                            "interna": true,
+		                            "id": 2177563,
+		                            "orgaoSiglaNome": "SECAD(SGM) - Seção de Cadastro e Controle",
+		                            "bolExibeNoRoteiro": true
+		                        },
+		                        {
+		                            "codOrgao": 4,
+		                            "orgao": "Mesa Diretora da Câmara dos Deputados",
+		                            "legislatura": 55,
+		                            "codTipoTramitacao": 502,
+		                            "bolInterna": false,
+		                            "numOrdem": 18,
+		                            "codTramitacao": 18,
+		                            "textoTramitacao": "Arquivado nos termos do Artigo 105 do Regimento Interno da Câmara dos Deputados.",
+		                            "siglaOrgao": "MESA",
+		                            "bolUltimaAcao": false,
+		                            "dataTramitacao": "2019-01-31T00:00:00",
+		                            "interna": false,
+		                            "id": 2177563,
+		                            "orgaoSiglaNome": "MESA - Mesa Diretora da Câmara dos Deputados",
+		                            "bolExibeNoRoteiro": true
+		                        },
+		                        {
+		                            "codOrgao": 2008,
+		                            "orgao": "Comissão de Desenvolvimento Econômico, Indústria, Comércio e Serviços",
+		                            "legislatura": 55,
+		                            "codTipoTramitacao": 106,
+		                            "bolInterna": true,
+		                            "numOrdem": 16,
+		                            "codTramitacao": 16,
+		                            "textoTramitacao": "Apensação desta proposição ao PL 3213/2008.",
+		                            "siglaOrgao": "CDEICS",
+		                            "bolUltimaAcao": false,
+		                            "dataTramitacao": "2018-06-18T16:58:01",
+		                            "interna": true,
+		                            "id": 2177563,
+		                            "orgaoSiglaNome": "CDEICS - Comissão de Desenvolvimento Econômico, Indústria, Comércio e Serviços"
+		                        },
+		                        {
+		                            "codOrgao": 2008,
+		                            "orgao": "Comissão de Desenvolvimento Econômico, Indústria, Comércio e Serviços",
+		                            "legislatura": 55,
+		                            "codTipoTramitacao": 500,
+		                            "bolInterna": false,
+		                            "numOrdem": 15,
+		                            "codTramitacao": 15,
+		                            "textoTramitacao": "Recebimento pela CDEICS.",
+		                            "siglaOrgao": "CDEICS",
+		                            "bolUltimaAcao": false,
+		                            "dataTramitacao": "2018-06-18T16:56:00",
+		                            "interna": false,
+		                            "id": 2177563,
+		                            "orgaoSiglaNome": "CDEICS - Comissão de Desenvolvimento Econômico, Indústria, Comércio e Serviços"
+		                        },
+		                        {
+		                            "codOrgao": 186,
+		                            "orgao": "COORDENAÇÃO DE COMISSÕES PERMANENTES",
+		                            "legislatura": 55,
+		                            "codTipoTramitacao": 180,
+		                            "bolInterna": true,
+		                            "numOrdem": 13,
+		                            "codTramitacao": 13,
+		                            "textoTramitacao": "Encaminhado à(ao) CDEICS através da guia de Remessa (GR/CCP) nº 14227/2018.",
+		                            "siglaOrgao": "CCP",
+		                            "bolUltimaAcao": false,
+		                            "dataTramitacao": "2018-06-18T15:00:00",
+		                            "interna": true,
+		                            "id": 2177563,
+		                            "orgaoSiglaNome": "CCP - COORDENAÇÃO DE COMISSÕES PERMANENTES"
+		                        },
+		                        {
+		                            "codOrgao": 186,
+		                            "codArquivoTeor": 1696565,
+		                            "orgao": "COORDENAÇÃO DE COMISSÕES PERMANENTES",
+		                            "legislatura": 55,
+		                            "codTipoTramitacao": 604,
+		                            "bolInterna": false,
+		                            "numOrdem": 14,
+		                            "codTramitacao": 14,
+		                            "textoTramitacao": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 19/06/18 PÁG 120 COL 01.",
+		                            "siglaOrgao": "CCP",
+		                            "bolUltimaAcao": false,
+		                            "dataTramitacao": "2018-06-18T00:00:00",
+		                            "interna": false,
+		                            "id": 2177563,
+		                            "orgaoSiglaNome": "CCP - COORDENAÇÃO DE COMISSÕES PERMANENTES"
+		                        },
+		                        {
+		                            "codOrgao": 2008,
+		                            "orgao": "Comissão de Desenvolvimento Econômico, Indústria, Comércio e Serviços",
+		                            "legislatura": 55,
+		                            "codTipoTramitacao": 320,
+		                            "bolInterna": true,
+		                            "numOrdem": 17,
+		                            "codTramitacao": 17,
+		                            "textoTramitacao": "Designado Relator, Dep. Antonio Balhmann (PDT-CE)",
+		                            "siglaOrgao": "CDEICS",
+		                            "bolUltimaAcao": false,
+		                            "dataTramitacao": "2018-06-18T00:00:00",
+		                            "interna": true,
+		                            "id": 2177563,
+		                            "orgaoSiglaNome": "CDEICS - Comissão de Desenvolvimento Econômico, Indústria, Comércio e Serviços",
+		                            "bolExibeNoRoteiro": true
+		                        },
+		                        {
+		                            "codOrgao": 186,
+		                            "orgao": "COORDENAÇÃO DE COMISSÕES PERMANENTES",
+		                            "legislatura": 55,
+		                            "codTipoTramitacao": 500,
+		                            "bolInterna": true,
+		                            "numOrdem": 12,
+		                            "codTramitacao": 12,
+		                            "textoTramitacao": "Recebimento pela CCP.",
+		                            "siglaOrgao": "CCP",
+		                            "bolUltimaAcao": false,
+		                            "dataTramitacao": "2018-06-15T09:30:00",
+		                            "interna": true,
+		                            "id": 2177563,
+		                            "orgaoSiglaNome": "CCP - COORDENAÇÃO DE COMISSÕES PERMANENTES"
+		                        },
+		                        {
+		                            "codOrgao": 100001,
+		                            "orgao": "Seção de Registro e Controle de Análise da Proposição/SGM",
+		                            "legislatura": 55,
+		                            "codTipoTramitacao": 180,
+		                            "bolInterna": true,
+		                            "numOrdem": 11,
+		                            "codTramitacao": 11,
+		                            "textoTramitacao": "Encaminhado à(ao) CCP através da guia de Remessa (GR/SECAP(SGM)) nº 1528/2018.",
+		                            "siglaOrgao": "SECAP(SGM)",
+		                            "bolUltimaAcao": false,
+		                            "dataTramitacao": "2018-06-15T08:56:00",
+		                            "interna": true,
+		                            "id": 2177563,
+		                            "orgaoSiglaNome": "SECAP(SGM) - Seção de Registro e Controle de Análise da Proposição/SGM"
+		                        },
+		                        {
+		                            "codOrgao": 4,
+		                            "orgao": "Mesa Diretora da Câmara dos Deputados",
+		                            "legislatura": 55,
+		                            "codTipoTramitacao": 604,
+		                            "bolInterna": true,
+		                            "numOrdem": 10,
+		                            "codTramitacao": 10,
+		                            "textoTramitacao": "Encaminhamento de Despacho de Distribuição à CCP para publicação.",
+		                            "siglaOrgao": "MESA",
+		                            "bolUltimaAcao": false,
+		                            "dataTramitacao": "2018-06-14T17:15:59",
+		                            "interna": true,
+		                            "id": 2177563,
+		                            "orgaoSiglaNome": "MESA - Mesa Diretora da Câmara dos Deputados"
+		                        },
+		                        {
+		                            "codOrgao": 100001,
+		                            "orgao": "Seção de Registro e Controle de Análise da Proposição/SGM",
+		                            "legislatura": 55,
+		                            "codTipoTramitacao": 1005,
+		                            "bolInterna": true,
+		                            "numOrdem": 8,
+		                            "codTramitacao": 8,
+		                            "textoTramitacao": "Notificação à Sinopse de Despacho Chancelado",
+		                            "siglaOrgao": "SECAP(SGM)",
+		                            "bolUltimaAcao": false,
+		                            "dataTramitacao": "2018-06-14T17:15:00",
+		                            "interna": true,
+		                            "id": 2177563,
+		                            "orgaoSiglaNome": "SECAP(SGM) - Seção de Registro e Controle de Análise da Proposição/SGM"
+		                        },
+		                        {
+		                            "codOrgao": 4,
+		                            "codArquivoTeor": 1668460,
+		                            "orgao": "Mesa Diretora da Câmara dos Deputados",
+		                            "legislatura": 55,
+		                            "codTipoTramitacao": 129,
+		                            "bolInterna": false,
+		                            "numOrdem": 9,
+		                            "codTramitacao": 9,
+		                            "textoTramitacao": "Apense-se à(ao) PL-3213/2008. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+		                            "siglaOrgao": "MESA",
+		                            "bolUltimaAcao": false,
+		                            "dataTramitacao": "2018-06-14T17:15:00",
+		                            "interna": false,
+		                            "id": 2177563,
+		                            "orgaoSiglaNome": "MESA - Mesa Diretora da Câmara dos Deputados"
+		                        },
+		                        {
+		                            "codOrgao": 100001,
+		                            "orgao": "Seção de Registro e Controle de Análise da Proposição/SGM",
+		                            "legislatura": 55,
+		                            "codTipoTramitacao": 180,
+		                            "bolInterna": true,
+		                            "numOrdem": 7,
+		                            "codTramitacao": 7,
+		                            "textoTramitacao": "Despacho Chancelado",
+		                            "siglaOrgao": "SECAP(SGM)",
+		                            "bolUltimaAcao": false,
+		                            "dataTramitacao": "2018-06-14T17:14:00",
+		                            "interna": true,
+		                            "id": 2177563,
+		                            "orgaoSiglaNome": "SECAP(SGM) - Seção de Registro e Controle de Análise da Proposição/SGM"
+		                        },
+		                        {
+		                            "codOrgao": 4,
+		                            "codArquivoTeor": 1668460,
+		                            "orgao": "Mesa Diretora da Câmara dos Deputados",
+		                            "legislatura": 55,
+		                            "codTipoTramitacao": 110,
+		                            "bolInterna": true,
+		                            "numOrdem": 6,
+		                            "codTramitacao": 6,
+		                            "textoTramitacao": "Despacho a Confirmar.",
+		                            "siglaOrgao": "MESA",
+		                            "bolUltimaAcao": false,
+		                            "dataTramitacao": "2018-06-13T00:00:00",
+		                            "interna": true,
+		                            "id": 2177563,
+		                            "orgaoSiglaNome": "MESA - Mesa Diretora da Câmara dos Deputados",
+		                            "bolExibeNoRoteiro": true
+		                        },
+		                        {
+		                            "codOrgao": 100001,
+		                            "orgao": "Seção de Registro e Controle de Análise da Proposição/SGM",
+		                            "legislatura": 55,
+		                            "codTipoTramitacao": 500,
+		                            "bolInterna": true,
+		                            "numOrdem": 5,
+		                            "codTramitacao": 5,
+		                            "textoTramitacao": "Recebimento pela SECAP(SGM).",
+		                            "siglaOrgao": "SECAP(SGM)",
+		                            "bolUltimaAcao": false,
+		                            "dataTramitacao": "2018-06-06T10:53:00",
+		                            "interna": true,
+		                            "id": 2177563,
+		                            "orgaoSiglaNome": "SECAP(SGM) - Seção de Registro e Controle de Análise da Proposição/SGM"
+		                        },
+		                        {
+		                            "codOrgao": 100229,
+		                            "orgao": "Seção de Protocolo",
+		                            "legislatura": 55,
+		                            "codTipoTramitacao": 180,
+		                            "bolInterna": true,
+		                            "numOrdem": 4,
+		                            "codTramitacao": 4,
+		                            "textoTramitacao": "Encaminhado à(ao) SECAP(SGM) através da guia de Remessa (GR/SEPRO) nº 5948/2018.",
+		                            "siglaOrgao": "SEPRO",
+		                            "bolUltimaAcao": false,
+		                            "dataTramitacao": "2018-06-05T20:23:00",
+		                            "interna": true,
+		                            "id": 2177563,
+		                            "orgaoSiglaNome": "SEPRO - Seção de Protocolo"
+		                        },
+		                        {
+		                            "codOrgao": 180,
+		                            "codArquivoTeor": 1665392,
+		                            "orgao": "Plenário",
+		                            "legislatura": 55,
+		                            "codTipoTramitacao": 100,
+		                            "bolInterna": false,
+		                            "numOrdem": 1,
+		                            "codTramitacao": 1,
+		                            "textoTramitacao": "Apresentação do Projeto de Lei n. 10337/2018, pelo Deputado Francisco Floriano (DEM-RJ), que: \"'Altera a Lei nº 13.105, de 16 de março de 2015 - Código de Processo Civil, para dispor sobre os títulos executivos extrajudiciais'\".",
+		                            "siglaOrgao": "PLEN",
+		                            "bolUltimaAcao": false,
+		                            "dataTramitacao": "2018-06-05T15:50:00",
+		                            "interna": false,
+		                            "id": 2177563,
+		                            "orgaoSiglaNome": "PLEN - Plenário",
+		                            "bolExibeNoRoteiro": true
+		                        },
+		                        {
+		                            "codOrgao": 100229,
+		                            "orgao": "Seção de Protocolo",
+		                            "legislatura": 55,
+		                            "codTipoTramitacao": 910,
+		                            "bolInterna": true,
+		                            "numOrdem": 2,
+		                            "codTramitacao": 2,
+		                            "textoTramitacao": "Realizar o Encaminhamento para SECAP(SGM)",
+		                            "siglaOrgao": "SEPRO",
+		                            "bolUltimaAcao": false,
+		                            "dataTramitacao": "2018-06-05T15:50:00",
+		                            "interna": true,
+		                            "id": 2177563,
+		                            "orgaoSiglaNome": "SEPRO - Seção de Protocolo"
+		                        },
+		                        {
+		                            "codOrgao": 100046,
+		                            "orgao": "Centro de Documentação e Informação",
+		                            "legislatura": 55,
+		                            "codTipoTramitacao": 1004,
+		                            "bolInterna": true,
+		                            "numOrdem": 3,
+		                            "codTramitacao": 3,
+		                            "textoTramitacao": "Encaminhado  à CEDI (Legislação Citada)",
+		                            "siglaOrgao": "CEDI",
+		                            "bolUltimaAcao": false,
+		                            "dataTramitacao": "2018-06-05T15:50:00",
+		                            "interna": true,
+		                            "id": 2177563,
+		                            "orgaoSiglaNome": "CEDI - Centro de Documentação e Informação"
+		                        }
+		                    ],
+		                    "faco-referencia": [
+		                        {
+		                            "txtSiglaPai": "PL        ",
+		                            "codArquivoTeor": 552356,
+		                            "txtSiglaOrgao": "PLEN",
+		                            "txtDescricao": "Projeto de Lei",
+		                            "txtNomeOrgao": "PLENÁRIO",
+		                            "txtSiglaPartido": "PTB",
+		                            "txtSiglaUF": "RS",
+		                            "codOrgaoOrigem": 180,
+		                            "codTipoReferencia": 13,
+		                            "generoTipoProposicaoPai": "o",
+		                            "id": 2177563,
+		                            "nomeProposicao": "PL 3213/2008",
+		                            "tipoReferencia": "Apensação",
+		                            "txtNomeAutor": "Luiz Carlos Busato",
+		                            "datApresentacao": "2008-04-09T15:19:56",
+		                            "codAutor": 141485,
+		                            "codTipoProposicaoPai": 301,
+		                            "bolRefPublica": true,
+		                            "txtEmenta": "Altera a Lei nº 9.492, de 10 de setembro de 1997, que \"Define competência, regulamenta os serviços concernentes ao protesto de títulos e outros documentos de dívida e dá outras providências\",  para admitir o protesto de título emitido a partir dos caracteres criados em computador ou meio técnico equivalente previsto no art. 889, § 3º, da Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil). ",
+		                            "codProposicaoReferenciada": 389876,
+		                            "codTipoProposicao": 139,
+		                            "txtSigla": "PL        "
+		                        }
+		                    ],
+		                    "situacaoAtual": "Tramitando em Conjunto",
+		                    "situacaoProposicao": "Tramitando em Conjunto"
+		                },
+		                "highlight": {
+		                    "titulo": [
+		                        "<span class=\"highlight\">PL</span> <span class=\"highlight\">10337</span>/<span class=\"highlight\">2018</span>"
+		                    ]
+		                }
+		            }
+		        ]
+		    },
+		    "aggregations": {
+		        "emTramitacao": {
+		            "doc_count_error_upper_bound": 0,
+		            "sum_other_doc_count": 0,
+		            "buckets": []
+		        },
+		        "ano": {
+		            "doc_count_error_upper_bound": 0,
+		            "sum_other_doc_count": 0,
+		            "buckets": [
+		                {
+		                    "key": 2018,
+		                    "doc_count": 1
+		                }
+		            ]
+		        },
+		        "descricaoProposicao": {
+		            "doc_count_error_upper_bound": 0,
+		            "sum_other_doc_count": 0,
+		            "buckets": [
+		                {
+		                    "key": "Projeto de Lei",
+		                    "doc_count": 1
+		                }
+		            ]
+		        },
+		        "temaPortal": {
+		            "doc_count_error_upper_bound": 0,
+		            "sum_other_doc_count": 0,
+		            "buckets": []
+		        },
+		        "autores.siglaUF": {
+		            "doc_count_error_upper_bound": 0,
+		            "sum_other_doc_count": 0,
+		            "buckets": [
+		                {
+		                    "key": "RJ",
+		                    "doc_count": 1
+		                }
+		            ]
+		        },
+		        "tipoSituacaoProposicao": {
+		            "doc_count": 0,
+		            "tipoSituacaoProposicao": {
+		                "doc_count_error_upper_bound": 0,
+		                "sum_other_doc_count": 0,
+		                "buckets": []
+		            }
+		        },
+		        "autores.siglaPartido": {
+		            "doc_count_error_upper_bound": 0,
+		            "sum_other_doc_count": 0,
+		            "buckets": [
+		                {
+		                    "key": "DEM",
+		                    "doc_count": 1
+		                }
+		            ]
+		        },
+		        "autores.nome": {
+		            "doc_count_error_upper_bound": 0,
+		            "sum_other_doc_count": 0,
+		            "buckets": [
+		                {
+		                    "key": "FRANCISCO FLORIANO",
+		                    "doc_count": 1
+		                }
+		            ]
+		        },
+		        "aprovados": {
+		            "doc_count_error_upper_bound": 0,
+		            "sum_other_doc_count": 0,
+		            "buckets": []
+		        }
+		    }
+      }
+   }
+}

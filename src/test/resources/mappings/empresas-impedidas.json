@@ -1,0 +1,260 @@
+{  
+	"request":{
+      "method":"POST",
+      "url":"/empresas-impedidas/_search"
+   },
+   "response":{
+      "status":200,
+      "headers":{
+         "Content-Type":"application/json"
+      },
+      "jsonBody": {
+      	"took":1,
+		    "timed_out": false,
+		    "_shards": {
+		        "total": 5,
+		        "successful": 5,
+		        "skipped": 0,
+		        "failed": 0
+	  },
+      "hits": {
+        "total": 244,
+        "max_score": 1,
+        "hits": [
+            {
+                "_index": "empresas-impedidas",
+                "_type": "empresas-impedidas",
+                "_id": "1838",
+                "_score": 1,
+                "_source": {
+                    "id": 1838,
+                    "cpfCnpjEmpresa": "03.818.381/0001-09",
+                    "nomeEmpresa": "3º MILÊNIO COMÉRCIO LTDA#",
+                    "tipoIrregularidade": "Suspensão Interna",
+                    "numeroProcesso": "107.205/07",
+                    "notaEmpenho": "2008ne001233",
+                    "contrato": "",
+                    "idEmpenhoOriginal": 38214,
+                    "dataInclusao": "2008-07-23T12:17:22.400",
+                    "numeroPortaria": 88,
+                    "dataPortaria": "2008-07-22T00:00",
+                    "siglaOrgaoPortaria": "DIRAD",
+                    "dataPublicacaoBoletimAdm": "2008-07-22T00:00",
+                    "dataPublicaoDiarioOficial": "2008-08-06T00:00",
+                    "prazoSuspensao": 5,
+                    "unidadePrazoSuspensao": "a",
+                    "dataFimSuspensao": "2013-07-22T00:00"
+                }
+            },
+            {
+                "_index": "empresas-impedidas",
+                "_type": "empresas-impedidas",
+                "_id": "3894",
+                "_score": 1,
+                "_source": {
+                    "id": 3894,
+                    "cpfCnpjEmpresa": "38.077.111/0001-79",
+                    "nomeEmpresa": "ADAM CONSTRUTORA E INCORPORADORA LTDA - EPP",
+                    "tipoIrregularidade": "Suspensão Interna",
+                    "numeroProcesso": "109.934/2011",
+                    "contrato": "",
+                    "idEmpenhoOriginal": 52895,
+                    "dataInclusao": "2014-02-25T18:00:42.293",
+                    "numeroPortaria": 65,
+                    "dataPortaria": "2014-02-24T00:00",
+                    "siglaOrgaoPortaria": "DG",
+                    "dataPublicacaoBoletimAdm": "2014-02-24T00:00",
+                    "prazoSuspensao": 2,
+                    "unidadePrazoSuspensao": "a",
+                    "dataFimSuspensao": "2016-02-24T00:00"
+                }
+            },
+            {
+                "_index": "empresas-impedidas",
+                "_type": "empresas-impedidas",
+                "_id": "4677",
+                "_score": 1,
+                "_source": {
+                    "id": 4677,
+                    "cpfCnpjEmpresa": "16.698.612/0001-30",
+                    "nomeEmpresa": "AMS - EMPRESA COMERCIAL E PRESTADORA DE SERVIÇOS LTDA - ME",
+                    "tipoIrregularidade": "Impedimento",
+                    "numeroProcesso": "124.121/13",
+                    "contrato": "NULL",
+                    "dataInclusao": "2015-09-25T10:02:48.520",
+                    "numeroPortaria": 235,
+                    "dataPortaria": "2014-06-27T00:00",
+                    "siglaOrgaoPortaria": "DG",
+                    "prazoSuspensao": 0,
+                    "prazoImpedimento": 40,
+                    "unidadePrazoImpedimento": "d",
+                    "dataFimImpedimento": "2014-08-06T00:00"
+                }
+            },
+            {
+                "_index": "empresas-impedidas",
+                "_type": "empresas-impedidas",
+                "_id": "2460",
+                "_score": 1,
+                "_source": {
+                    "id": 2460,
+                    "cpfCnpjEmpresa": "00.662.002/0001-46",
+                    "nomeEmpresa": "APOIO EDITORA MULTIMIDIA LTDA",
+                    "tipoIrregularidade": "Suspensão Interna",
+                    "numeroProcesso": "131.803/05",
+                    "contrato": "",
+                    "dataInclusao": "2010-06-07T16:07:28.260",
+                    "numeroPortaria": 153,
+                    "dataPortaria": "2010-05-24T00:00",
+                    "siglaOrgaoPortaria": "DG",
+                    "dataPublicacaoBoletimAdm": "2010-05-25T00:00",
+                    "dataPublicaoDiarioOficial": "2010-06-08T00:00",
+                    "prazoSuspensao": 2,
+                    "unidadePrazoSuspensao": "a",
+                    "dataFimSuspensao": "2012-05-24T00:00"
+                }
+            },
+            {
+                "_index": "empresas-impedidas",
+                "_type": "empresas-impedidas",
+                "_id": "8635",
+                "_score": 1,
+                "_source": {
+                    "id": 8635,
+                    "cpfCnpjEmpresa": "20.327.444/0001-43",
+                    "nomeEmpresa": "ARF EMPREENDIMENTOS LTDA ME",
+                    "tipoIrregularidade": "Impedimento",
+                    "numeroProcesso": "105379/2017",
+                    "contrato": "2018/032",
+                    "dataInclusao": "2019-03-13T11:04:28.533",
+                    "numeroPortaria": 54,
+                    "dataPortaria": "2019-02-22T00:00",
+                    "siglaOrgaoPortaria": "DG",
+                    "dataPublicacaoBoletimAdm": "2019-03-11T00:00",
+                    "dataPublicaoDiarioOficial": "2019-03-07T00:00",
+                    "prazoSuspensao": 0,
+                    "prazoImpedimento": 23,
+                    "unidadePrazoImpedimento": "m",
+                    "dataFimImpedimento": "2021-01-22T00:00"
+                }
+            },
+            {
+                "_index": "empresas-impedidas",
+                "_type": "empresas-impedidas",
+                "_id": "79",
+                "_score": 1,
+                "_source": {
+                    "id": 79,
+                    "cpfCnpjEmpresa": "00.077.986/0001-06",
+                    "nomeEmpresa": "AUDI ENGENHARIA DE VÍDEO LTDA",
+                    "tipoIrregularidade": "Suspensão Interna",
+                    "numeroProcesso": "114.564/98",
+                    "notaEmpenho": "1999NE002629",
+                    "contrato": "",
+                    "idEmpenhoOriginal": 11727,
+                    "dataInclusao": "2002-03-04T13:32:13.467",
+                    "numeroPortaria": 70,
+                    "dataPortaria": "2000-10-26T00:00",
+                    "siglaOrgaoPortaria": "DG",
+                    "prazoSuspensao": 2,
+                    "unidadePrazoSuspensao": "a",
+                    "dataFimSuspensao": "2002-10-26T00:00"
+                }
+            },
+            {
+                "_index": "empresas-impedidas",
+                "_type": "empresas-impedidas",
+                "_id": "8804",
+                "_score": 1,
+                "_source": {
+                    "id": 8804,
+                    "cpfCnpjEmpresa": "20.811.041/0001-75",
+                    "nomeEmpresa": "BRASIL FERTIL AGRONEGÓCIOS EIRELI ME",
+                    "tipoIrregularidade": "Impedimento",
+                    "numeroProcesso": "132.496/2016",
+                    "idEmpenhoOriginal": 71081,
+                    "dataInclusao": "2019-10-23T11:13:11.357",
+                    "numeroPortaria": 242,
+                    "dataPortaria": "2019-10-09T00:00",
+                    "siglaOrgaoPortaria": "DG",
+                    "dataPublicacaoBoletimAdm": "2019-10-16T00:00",
+                    "prazoSuspensao": 0,
+                    "prazoImpedimento": 6,
+                    "unidadePrazoImpedimento": "m",
+                    "dataFimImpedimento": "2020-04-09T00:00"
+                }
+            },
+            {
+                "_index": "empresas-impedidas",
+                "_type": "empresas-impedidas",
+                "_id": "1262",
+                "_score": 1,
+                "_source": {
+                    "id": 1262,
+                    "cpfCnpjEmpresa": "26.995.670/0001-89",
+                    "nomeEmpresa": "BRASMADEIRAS MATERIAIS PARA CONSTRUÇÃO E REFORMAS LTDA",
+                    "tipoIrregularidade": "Suspensão Interna",
+                    "numeroProcesso": "155.562/05",
+                    "notaEmpenho": "2005ne003334",
+                    "contrato": "",
+                    "idEmpenhoOriginal": 33890,
+                    "dataInclusao": "2006-08-02T16:27:33.440",
+                    "numeroPortaria": 73,
+                    "dataPortaria": "2006-07-27T00:00",
+                    "siglaOrgaoPortaria": "DIRAD",
+                    "dataPublicaoDiarioOficial": "2006-08-08T00:00",
+                    "prazoSuspensao": 2,
+                    "unidadePrazoSuspensao": "a",
+                    "dataFimSuspensao": "2008-07-27T00:00"
+                }
+            },
+            {
+                "_index": "empresas-impedidas",
+                "_type": "empresas-impedidas",
+                "_id": "1032",
+                "_score": 1,
+                "_source": {
+                    "id": 1032,
+                    "cpfCnpjEmpresa": "00.732.024/0001-35",
+                    "nomeEmpresa": "BUANI & PAULUCI LTDA.",
+                    "tipoIrregularidade": "Suspensão Interna",
+                    "numeroProcesso": "135.889/03",
+                    "contrato": "2004/167.0",
+                    "dataInclusao": "2005-09-19T15:48:30.283",
+                    "numeroPortaria": 71,
+                    "dataPortaria": "2005-09-19T00:00",
+                    "siglaOrgaoPortaria": "DIRAD",
+                    "prazoSuspensao": 2,
+                    "unidadePrazoSuspensao": "a",
+                    "dataFimSuspensao": "2007-09-19T00:00"
+                }
+            },
+            {
+                "_index": "empresas-impedidas",
+                "_type": "empresas-impedidas",
+                "_id": "3393",
+                "_score": 1,
+                "_source": {
+                    "id": 3393,
+                    "cpfCnpjEmpresa": "07.330.575/0001-11",
+                    "nomeEmpresa": "CDF COMERCIO DE PRODUTOS ELETRICOS ELETRONICOS E EQUIPAMENTO",
+                    "tipoIrregularidade": "Suspensão Interna",
+                    "numeroProcesso": "103.689/2012",
+                    "contrato": "",
+                    "idEmpenhoOriginal": 52424,
+                    "dataInclusao": "2012-12-28T11:01:17.927",
+                    "numeroPortaria": 66,
+                    "dataPortaria": "2012-12-26T00:00",
+                    "siglaOrgaoPortaria": "DIRAD",
+                    "dataPublicacaoBoletimAdm": "2012-12-27T00:00",
+                    "dataPublicaoDiarioOficial": "2013-01-16T00:00",
+                    "prazoSuspensao": 2,
+                    "unidadePrazoSuspensao": "a",
+                    "dataFimSuspensao": "2014-12-26T00:00"
+               }
+            }
+          ]
+       }   
+     }  
+   }
+}

@@ -1,0 +1,977 @@
+{
+   "request":{
+      "method":"POST",
+      "url":"/noticias/_search"
+   },
+   "response":{
+      "status":200,
+      "headers":{
+         "Content-Type":"application/json"
+      },
+      "jsonBody":{
+           "took": 4,
+            "timed_out": false,
+            "_shards": {
+                "total": 5,
+                "successful": 5,
+                "skipped": 0,
+                "failed": 0
+            },
+            "hits": {
+                "total": 247,
+                "max_score": null,
+                "hits": [
+                    {
+                        "_index": "noticias",
+                        "_type": "noticias",
+                        "_id": "597502",
+                        "_score": null,
+                        "_source": {
+                            "veiculo": "agencia",
+                            "retrancas": [
+                                "Política"
+                            ],
+                            "ano": 2019,
+                            "data": "2019-10-10T06:08:26-0300",
+                            "temaPortal": [
+                                "Política e administração pública"
+                            ],
+                            "titulo": "Plenário pode votar projeto que permite construção às margens de rodovias",
+                            "resumo": "",
+                            "dataOrdenacao": "2019-10-10T06:08:26-0300",
+                            "id": "597502",
+                            "temaAutomatico": [],
+                            "rodape": "Da Redação - ND",
+                            "tags": [
+                                "plenário"
+                            ]
+                        },
+                        "sort": [
+                            1570698506000
+                        ]
+                    },
+                    {
+                        "_index": "noticias",
+                        "_type": "noticias",
+                        "_id": "597417",
+                        "_score": null,
+                        "_source": {
+                            "veiculo": "agencia",
+                            "retrancas": [
+                                "Administração Pública"
+                            ],
+                            "ano": 2019,
+                            "data": "2019-10-09T21:23:02-0300",
+                            "temaPortal": [
+                                "Política e administração pública"
+                            ],
+                            "imagem": [
+                                {
+                                    "sizes": {
+                                        "thumbnail": {
+                                            "width": "150",
+                                            "url": "/midias/image/2019/10/img20191009210718400-150x150.jpg",
+                                            "height": "150"
+                                        },
+                                        "medium": {
+                                            "width": "300",
+                                            "url": "/midias/image/2019/10/img20191009210718400-300x200.jpg",
+                                            "height": "200"
+                                        }
+                                    },
+                                    "nome": ">Plenário - Sessão Extraordinária",
+                                    "id": 597383,
+                                    "url": "/midias/image/2019/10/img20191009210718400.jpg"
+                                }
+                            ],
+                            "titulo": "Câmara aprova regras de rateio entre estados e municípios de verba do pré-sal",
+                            "dataOrdenacao": "2019-10-09T21:23:02-0300",
+                            "tags": [
+                                "estados",
+                                "finanças públicas",
+                                "municípios",
+                                "petrobras",
+                                "petróleo e gás",
+                                "plenário",
+                                "pré-sal"
+                            ],
+                            "deputados": [
+                                {
+                                    "nomeDeputado": "DOMINGOS SÁVIO"
+                                },
+                                {
+                                    "nomeDeputado": "RODRIGO MAIA"
+                                }
+                            ],
+                            "resumo": "",
+                            "id": 597417,
+                            "temaAutomatico": [],
+                            "rodape": "Reportagem – Eduardo Piovesan\r\nEdição – Pierre Triboli"
+                        },
+                        "sort": [
+                            1570666982000
+                        ]
+                    },
+                    {
+                        "_index": "noticias",
+                        "_type": "noticias",
+                        "_id": "597438",
+                        "_score": null,
+                        "_source": {
+                            "veiculo": "agencia",
+                            "retrancas": [
+                                "Segurança"
+                            ],
+                            "ano": 2019,
+                            "data": "2019-10-09T20:26:23-0300",
+                            "imagem": [
+                                {
+                                    "sizes": {
+                                        "thumbnail": {
+                                            "width": "150",
+                                            "url": "/midias/image/2019/10/img20191009224246105-150x150.jpg",
+                                            "height": "150"
+                                        },
+                                        "medium": {
+                                            "width": "300",
+                                            "url": "/midias/image/2019/10/img20191009224246105-300x200.jpg",
+                                            "height": "200"
+                                        }
+                                    },
+                                    "nome": ">Plenário - Sessão Extraordinária",
+                                    "id": 597444,
+                                    "url": "/midias/image/2019/10/img20191009224246105.jpg"
+                                }
+                            ],
+                            "temaPortal": [
+                                "Segurança"
+                            ],
+                            "titulo": "Câmara aprova em 1º turno PEC que cria polícias penais",
+                            "dataOrdenacao": "2019-10-09T20:26:23-0300",
+                            "tags": [
+                                "plenário",
+                                "presídios",
+                                "segurança pública",
+                                "servidor público"
+                            ],
+                            "deputados": [
+                                {
+                                    "nomeDeputado": "GLAUBER BRAGA"
+                                },
+                                {
+                                    "nomeDeputado": "JULIAN LEMOS"
+                                },
+                                {
+                                    "nomeDeputado": "CAPITÃO WAGNER"
+                                },
+                                {
+                                    "nomeDeputado": "TIAGO MITRAUD"
+                                },
+                                {
+                                    "nomeDeputado": "EDUARDO BOLSONARO"
+                                },
+                                {
+                                    "nomeDeputado": "CACÁ LEÃO"
+                                }
+                            ],
+                            "resumo": "",
+                            "id": 597438,
+                            "temaAutomatico": [],
+                            "rodape": "Reportagem – Eduardo Piovesan e Carol Siqueira\r\nEdição – Pierre Triboli"
+                        },
+                        "sort": [
+                            1570663583000
+                        ]
+                    },
+                    {
+                        "_index": "noticias",
+                        "_type": "noticias",
+                        "_id": "597434",
+                        "_score": null,
+                        "_source": {
+                            "veiculo": "agencia",
+                            "retrancas": [
+                                "Segurança"
+                            ],
+                            "ano": 2019,
+                            "data": "2019-10-09T19:37:39-0300",
+                            "temaPortal": [
+                                "Segurança"
+                            ],
+                            "titulo": "Plenário rejeita retirada de pauta da PEC que cria polícias penais",
+                            "resumo": "",
+                            "dataOrdenacao": "2019-10-09T19:37:39-0300",
+                            "id": "597434",
+                            "temaAutomatico": [],
+                            "rodape": "Reportagem – Eduardo Piovesan\r\nEdição – Pierre Triboli",
+                            "tags": [
+                                "plenário"
+                            ]
+                        },
+                        "sort": [
+                            1570660659000
+                        ]
+                    },
+                    {
+                        "_index": "noticias",
+                        "_type": "noticias",
+                        "_id": "597426",
+                        "_score": null,
+                        "_source": {
+                            "veiculo": "agencia",
+                            "retrancas": [
+                                "Segurança"
+                            ],
+                            "ano": 2019,
+                            "data": "2019-10-09T19:20:48-0300",
+                            "temaPortal": [
+                                "Segurança"
+                            ],
+                            "titulo": "Plenário analisa PEC que cria polícias penais",
+                            "resumo": "",
+                            "dataOrdenacao": "2019-10-09T19:20:48-0300",
+                            "id": "597426",
+                            "temaAutomatico": [],
+                            "rodape": "Reportagem – Eduardo Piovesan\r\nEdição – Pierre Triboli",
+                            "tags": [
+                                "plenário"
+                            ]
+                        },
+                        "sort": [
+                            1570659648000
+                        ]
+                    },
+                    {
+                        "_index": "noticias",
+                        "_type": "noticias",
+                        "_id": "597392",
+                        "_score": null,
+                        "_source": {
+                            "veiculo": "agencia",
+                            "retrancas": [
+                                "Administração Pública"
+                            ],
+                            "ano": 2019,
+                            "data": "2019-10-09T18:55:40-0300",
+                            "temaPortal": [
+                                "Política e administração pública"
+                            ],
+                            "titulo": "Relator apresenta parecer a projeto sobre rateio dos recursos do pré-sal",
+                            "resumo": "",
+                            "dataOrdenacao": "2019-10-09T18:55:40-0300",
+                            "id": "597392",
+                            "temaAutomatico": [],
+                            "rodape": "Reportagem – Eduardo Piovesan\r\nEdição – Geórgia Moraes",
+                            "tags": [
+                                "plenário"
+                            ]
+                        },
+                        "sort": [
+                            1570658140000
+                        ]
+                    },
+                    {
+                        "_index": "noticias",
+                        "_type": "noticias",
+                        "_id": "597151",
+                        "_score": null,
+                        "_source": {
+                            "veiculo": "agencia",
+                            "retrancas": [
+                                "Administração Pública"
+                            ],
+                            "ano": 2019,
+                            "data": "2019-10-09T18:12:25-0300",
+                            "temaPortal": [
+                                "Política e administração pública"
+                            ],
+                            "titulo": "Plenário aprova urgência para projeto que define divisão de recursos de leilão do pré-sal",
+                            "resumo": "",
+                            "dataOrdenacao": "2019-10-09T18:12:25-0300",
+                            "id": "597151",
+                            "temaAutomatico": [],
+                            "rodape": "Reportagem – Eduardo Piovesan\r\nEdição – Pierre Triboli",
+                            "tags": [
+                                "plenário"
+                            ]
+                        },
+                        "sort": [
+                            1570655545000
+                        ]
+                    },
+                    {
+                        "_index": "noticias",
+                        "_type": "noticias",
+                        "_id": "597159",
+                        "_score": null,
+                        "_source": {
+                            "veiculo": "agencia",
+                            "retrancas": [
+                                "Administração Pública"
+                            ],
+                            "ano": 2019,
+                            "data": "2019-10-09T13:20:15-0300",
+                            "imagem": [
+                                {
+                                    "sizes": {
+                                        "thumbnail": {
+                                            "width": "150",
+                                            "url": "/midias/image/2019/10/img20191009130603602-150x150.jpg",
+                                            "height": "150"
+                                        },
+                                        "medium": {
+                                            "width": "300",
+                                            "url": "/midias/image/2019/10/img20191009130603602-300x200.jpg",
+                                            "height": "200"
+                                        }
+                                    },
+                                    "nome": ">Plenário - Sessão do Congresso",
+                                    "id": 597171,
+                                    "url": "/midias/image/2019/10/img20191009130603602.jpg"
+                                },
+                                {
+                                    "sizes": {
+                                        "thumbnail": {
+                                            "width": "150",
+                                            "url": "/midias/image/2019/10/img20191009130631759-150x150.jpg",
+                                            "height": "150"
+                                        },
+                                        "medium": {
+                                            "width": "300",
+                                            "url": "/midias/image/2019/10/img20191009130631759-300x200.jpg",
+                                            "height": "200"
+                                        }
+                                    },
+                                    "nome": ">Plenário - Sessão do Congresso",
+                                    "id": 597175,
+                                    "url": "/midias/image/2019/10/img20191009130631759.jpg"
+                                }
+                            ],
+                            "temaPortal": [
+                                "Política e administração pública"
+                            ],
+                            "titulo": "Congresso aprova projeto da LDO; texto segue para sanção",
+                            "dataOrdenacao": "2019-10-09T13:20:15-0300",
+                            "tags": [
+                                "finanças públicas",
+                                "LDO",
+                                "orçamento",
+                                "plenário",
+                                "salário mínimo"
+                            ],
+                            "deputados": [
+                                {
+                                    "nomeDeputado": "CACÁ LEÃO"
+                                }
+                            ],
+                            "resumo": "Além da meta fiscal e de outros dados macroeconômicos, a LDO traz regras sobre as ações prioritárias do governo",
+                            "id": "597159",
+                            "temaAutomatico": [],
+                            "rodape": "Reportagem – Eduardo Piovesan\r\nEdição – Pierre Triboli"
+                        },
+                        "sort": [
+                            1570638015000
+                        ]
+                    },
+                    {
+                        "_index": "noticias",
+                        "_type": "noticias",
+                        "_id": "597105",
+                        "_score": null,
+                        "_source": {
+                            "veiculo": "agencia",
+                            "retrancas": [
+                                "Administração Pública"
+                            ],
+                            "ano": 2019,
+                            "data": "2019-10-09T12:42:19-0300",
+                            "temaPortal": [
+                                "Política e administração pública"
+                            ],
+                            "titulo": "Congresso rejeita emenda e conclui análise do projeto da LDO",
+                            "resumo": "",
+                            "dataOrdenacao": "2019-10-09T12:42:19-0300",
+                            "id": 597105,
+                            "temaAutomatico": [],
+                            "rodape": "Reportagem – Eduardo Piovesan\r\nEdição – Pierre Triboli",
+                            "tags": [
+                                "plenário"
+                            ]
+                        },
+                        "sort": [
+                            1570635739000
+                        ]
+                    },
+                    {
+                        "_index": "noticias",
+                        "_type": "noticias",
+                        "_id": "597074",
+                        "_score": null,
+                        "_source": {
+                            "veiculo": "agencia",
+                            "retrancas": [
+                                "Administração Pública"
+                            ],
+                            "ano": 2019,
+                            "data": "2019-10-09T11:53:11-0300",
+                            "imagem": [
+                                {
+                                    "sizes": {
+                                        "thumbnail": {
+                                            "width": "150",
+                                            "url": "/midias/image/2019/10/img20191008221830041-150x150.jpg",
+                                            "height": "150"
+                                        },
+                                        "medium": {
+                                            "width": "300",
+                                            "url": "/midias/image/2019/10/img20191008221830041-300x200.jpg",
+                                            "height": "200"
+                                        }
+                                    },
+                                    "nome": "Plenário - Sessão do Congresso",
+                                    "id": 596701,
+                                    "url": "/midias/image/2019/10/img20191008221830041.jpg"
+                                },
+                                {
+                                    "sizes": {
+                                        "thumbnail": {
+                                            "width": "150",
+                                            "url": "/midias/image/2019/10/img20191009130652208-150x150.jpg",
+                                            "height": "150"
+                                        },
+                                        "medium": {
+                                            "width": "300",
+                                            "url": "/midias/image/2019/10/img20191009130652208-300x200.jpg",
+                                            "height": "200"
+                                        }
+                                    },
+                                    "nome": ">Plenário - Sessão do Congresso",
+                                    "id": 597080,
+                                    "url": "/midias/image/2019/10/img20191009130652208.jpg"
+                                }
+                            ],
+                            "temaPortal": [
+                                "Política e administração pública"
+                            ],
+                            "titulo": "Congresso aprova projeto que remaneja R$ 3 bilhões do Orçamento",
+                            "dataOrdenacao": "2019-10-09T11:53:11-0300",
+                            "tags": [
+                                "créditos orçamentários",
+                                "finanças públicas",
+                                "orçamento",
+                                "plenário"
+                            ],
+                            "resumo": "O Ministério do Desenvolvimento Regional será o maior beneficiário das mudanças, com crédito adicional de R$ 1 bilhão",
+                            "id": 597074,
+                            "temaAutomatico": [],
+                            "rodape": "Reportagem – Eduardo Piovesan\r\nEdição – Pierre Triboli"
+                        },
+                        "sort": [
+                            1570632791000
+                        ]
+                    },
+                    {
+                        "_index": "noticias",
+                        "_type": "noticias",
+                        "_id": "596744",
+                        "_score": null,
+                        "_source": {
+                            "veiculo": "agencia",
+                            "retrancas": [
+                                "Política"
+                            ],
+                            "ano": 2019,
+                            "data": "2019-10-09T06:29:54-0300",
+                            "temaPortal": [
+                                "Política e administração pública"
+                            ],
+                            "titulo": "Arrecadação de ISS e cessão de créditos tributários estão na pauta do Plenário desta tarde",
+                            "resumo": "Líderes partidários reúnem-se às 14h30 para discutir a pauta de votações, que, a princípio, não inclui a proposta que divide os recursos do pré-sal entre estados e municípios",
+                            "dataOrdenacao": "2019-10-09T06:29:54-0300",
+                            "id": 596744,
+                            "temaAutomatico": [],
+                            "rodape": "Da Redação - ND",
+                            "tags": [
+                                "finanças públicas",
+                                "plenário",
+                                "pré-sal",
+                                "tributos"
+                            ]
+                        },
+                        "sort": [
+                            1570613394000
+                        ]
+                    },
+                    {
+                        "_index": "noticias",
+                        "_type": "noticias",
+                        "_id": "596666",
+                        "_score": null,
+                        "_source": {
+                            "veiculo": "agencia",
+                            "retrancas": [
+                                "Administração Pública"
+                            ],
+                            "ano": 2019,
+                            "data": "2019-10-08T19:30:28-0300",
+                            "imagem": [
+                                {
+                                    "sizes": {
+                                        "thumbnail": {
+                                            "width": "150",
+                                            "url": "/midias/image/2019/10/img20191008221830041-150x150.jpg",
+                                            "height": "150"
+                                        },
+                                        "medium": {
+                                            "width": "300",
+                                            "url": "/midias/image/2019/10/img20191008221830041-300x200.jpg",
+                                            "height": "200"
+                                        }
+                                    },
+                                    "nome": "Plenário - Sessão do Congresso",
+                                    "id": 596701,
+                                    "url": "/midias/image/2019/10/img20191008221830041.jpg"
+                                }
+                            ],
+                            "temaPortal": [
+                                "Política e administração pública"
+                            ],
+                            "titulo": "Congresso não conclui votação de projeto que remaneja R$ 3 bilhões do Orçamento",
+                            "dataOrdenacao": "2019-10-08T19:30:28-0300",
+                            "tags": [
+                                "créditos orçamentários",
+                                "orçamento",
+                                "plenário"
+                            ],
+                            "resumo": "Na sessão conjunta desta terça-feira, o texto chegou a ser aprovado por deputados, mas não houve quórum entre os senadores",
+                            "id": 596666,
+                            "temaAutomatico": [],
+                            "rodape": "Reportagem – Eduardo Piovesan\r\nEdição – Pierre Triboli"
+                        },
+                        "sort": [
+                            1570573828000
+                        ]
+                    },
+                    {
+                        "_index": "noticias",
+                        "_type": "noticias",
+                        "_id": "596681",
+                        "_score": null,
+                        "_source": {
+                            "veiculo": "agencia",
+                            "retrancas": [
+                                "Administração Pública"
+                            ],
+                            "ano": 2019,
+                            "data": "2019-10-08T18:46:03-0300",
+                            "imagem": [
+                                {
+                                    "sizes": {
+                                        "thumbnail": {
+                                            "width": "150",
+                                            "url": "/midias/image/2019/10/img20191007113858030-150x150.jpg",
+                                            "height": "150"
+                                        },
+                                        "medium": {
+                                            "width": "300",
+                                            "url": "/midias/image/2019/10/img20191007113858030-300x200.jpg",
+                                            "height": "200"
+                                        }
+                                    },
+                                    "nome": "Plenário- Sessão solene",
+                                    "id": 595911,
+                                    "url": "/midias/image/2019/10/img20191007113858030.jpg"
+                                }
+                            ],
+                            "temaPortal": [
+                                "Política e administração pública"
+                            ],
+                            "titulo": "Maia diz que Previdência foi aprovada por convicção",
+                            "dataOrdenacao": "2019-10-08T18:46:03-0300",
+                            "tags": [
+                                "petróleo e gás",
+                                "plenário",
+                                "pré-sal"
+                            ],
+                            "deputados": [
+                                {
+                                    "nomeDeputado": "RODRIGO MAIA"
+                                }
+                            ],
+                            "resumo": "",
+                            "id": "596681",
+                            "temaAutomatico": [],
+                            "rodape": "Reportagem - Carol Siqueira\r\nEdição - Ana Chalub"
+                        },
+                        "sort": [
+                            1570571163000
+                        ]
+                    },
+                    {
+                        "_index": "noticias",
+                        "_type": "noticias",
+                        "_id": "596454",
+                        "_score": null,
+                        "_source": {
+                            "veiculo": "agencia",
+                            "retrancas": [
+                                "Administração Pública"
+                            ],
+                            "ano": 2019,
+                            "data": "2019-10-08T18:04:22-0300",
+                            "temaPortal": [
+                                "Política e administração pública"
+                            ],
+                            "titulo": "Projeto que remaneja R$ 3 bilhões do orçamento será votado nominalmente",
+                            "resumo": "",
+                            "dataOrdenacao": "2019-10-08T18:04:22-0300",
+                            "id": 596454,
+                            "temaAutomatico": [],
+                            "rodape": "Reportagem – Eduardo Piovesan\r\nEdição – Pierre Triboli",
+                            "tags": [
+                                "plenário"
+                            ]
+                        },
+                        "sort": [
+                            1570568662000
+                        ]
+                    },
+                    {
+                        "_index": "noticias",
+                        "_type": "noticias",
+                        "_id": "596385",
+                        "_score": null,
+                        "_source": {
+                            "veiculo": "agencia",
+                            "retrancas": [
+                                "Administração Pública"
+                            ],
+                            "ano": 2019,
+                            "data": "2019-10-08T17:13:05-0300",
+                            "temaPortal": [
+                                "Política e administração pública"
+                            ],
+                            "imagem": [
+                                {
+                                    "sizes": {
+                                        "thumbnail": {
+                                            "width": "150",
+                                            "url": "/midias/image/2019/10/img20191008215855372-150x150.jpg",
+                                            "height": "150"
+                                        },
+                                        "medium": {
+                                            "width": "300",
+                                            "url": "/midias/image/2019/10/img20191008215855372-300x200.jpg",
+                                            "height": "200"
+                                        }
+                                    },
+                                    "nome": "Plenário - Sessão do Congresso",
+                                    "id": 596700,
+                                    "url": "/midias/image/2019/10/img20191008215855372.jpg"
+                                }
+                            ],
+                            "titulo": "Congresso aprova crédito suplementar para MPU e Justiça Federal",
+                            "dataOrdenacao": "2019-10-08T17:13:05-0300",
+                            "tags": [
+                                "créditos orçamentários",
+                                "orçamento",
+                                "plenário"
+                            ],
+                            "resumo": "",
+                            "id": "596385",
+                            "temaAutomatico": [],
+                            "rodape": "Reportagem – Eduardo Piovesan\r\nEdição – Pierre Triboli"
+                        },
+                        "sort": [
+                            1570565585000
+                        ]
+                    },
+                    {
+                        "_index": "noticias",
+                        "_type": "noticias",
+                        "_id": "596416",
+                        "_score": null,
+                        "_source": {
+                            "veiculo": "agencia",
+                            "retrancas": [
+                                "Administração Pública"
+                            ],
+                            "ano": 2019,
+                            "data": "2019-10-08T15:11:54-0300",
+                            "temaPortal": [
+                                "Política e administração pública"
+                            ],
+                            "titulo": "Oposição critica projeto que libera R$ 3 bilhões para emendas parlamentares",
+                            "resumo": "",
+                            "dataOrdenacao": "2019-10-08T15:11:54-0300",
+                            "id": "596416",
+                            "temaAutomatico": [],
+                            "rodape": "Reportagem – Carol Siqueira\r\nEdição – Pierre Triboli",
+                            "tags": [
+                                "plenário"
+                            ]
+                        },
+                        "sort": [
+                            1570558314000
+                        ]
+                    },
+                    {
+                        "_index": "noticias",
+                        "_type": "noticias",
+                        "_id": "596210",
+                        "_score": null,
+                        "_source": {
+                            "veiculo": "agencia",
+                            "retrancas": [
+                                "Administração Pública"
+                            ],
+                            "ano": 2019,
+                            "data": "2019-10-08T14:05:40-0300",
+                            "temaPortal": [
+                                "Política e administração pública"
+                            ],
+                            "titulo": "Congresso está reunido para analisar LDO e créditos orçamentários",
+                            "resumo": "Veto sobre regras eleitorais foi retirado de pauta",
+                            "dataOrdenacao": "2019-10-08T14:05:40-0300",
+                            "id": "596210",
+                            "temaAutomatico": [],
+                            "rodape": "Reportagem – Eduardo Piovesan\r\nEdição – Pierre Triboli",
+                            "tags": [
+                                "plenário"
+                            ]
+                        },
+                        "sort": [
+                            1570554340000
+                        ]
+                    },
+                    {
+                        "_index": "noticias",
+                        "_type": "noticias",
+                        "_id": "593882",
+                        "_score": null,
+                        "_source": {
+                            "veiculo": "agencia",
+                            "retrancas": [
+                                "Direito e Justiça"
+                            ],
+                            "ano": 2019,
+                            "data": "2019-10-08T07:22:12-0300",
+                            "imagem": [
+                                {
+                                    "sizes": {
+                                        "thumbnail": {
+                                            "width": "150",
+                                            "url": "/midias/image/2019/10/img20191002210123879-150x150.jpg",
+                                            "height": "150"
+                                        },
+                                        "medium": {
+                                            "width": "300",
+                                            "url": "/midias/image/2019/10/img20191002210123879-300x200.jpg",
+                                            "height": "200"
+                                        }
+                                    },
+                                    "nome": ">Plenário - Sessão do Congresso",
+                                    "id": 593878,
+                                    "url": "/midias/image/2019/10/img20191002210123879.jpg"
+                                }
+                            ],
+                            "temaPortal": [
+                                "Política e administração pública"
+                            ],
+                            "titulo": "Veto sobre regras eleitorais pode ser analisado nesta tarde",
+                            "dataOrdenacao": "2019-10-08T07:22:12-0300",
+                            "tags": [
+                                "direito eleitoral",
+                                "eleições",
+                                "plenário",
+                                "vetos presidenciais"
+                            ],
+                            "resumo": "",
+                            "id": "593882",
+                            "temaAutomatico": [],
+                            "rodape": "Reportagem – Eduardo Piovesan\r\nEdição – Pierre Triboli"
+                        },
+                        "sort": [
+                            1570530132000
+                        ]
+                    },
+                    {
+                        "_index": "noticias",
+                        "_type": "noticias",
+                        "_id": "596062",
+                        "_score": null,
+                        "_source": {
+                            "veiculo": "agencia",
+                            "retrancas": [
+                                "Segurança"
+                            ],
+                            "ano": 2019,
+                            "data": "2019-10-08T07:12:44-0300",
+                            "imagem": [
+                                {
+                                    "sizes": {
+                                        "thumbnail": {
+                                            "width": "150",
+                                            "url": "/midias/image/2019/09/img201412051814276566782-150x150.jpg",
+                                            "height": "150"
+                                        },
+                                        "medium": {
+                                            "width": "300",
+                                            "url": "/midias/image/2019/09/img201412051814276566782-300x200.jpg",
+                                            "height": "200"
+                                        }
+                                    },
+                                    "nome": "Fotos Institucionais",
+                                    "id": 586981,
+                                    "url": "/midias/image/2019/09/img201412051814276566782.jpg"
+                                }
+                            ],
+                            "temaPortal": [
+                                "Segurança"
+                            ],
+                            "titulo": "Plenário pode votar proposta sobre cessão de créditos tributários",
+                            "dataOrdenacao": "2019-10-08T07:12:44-0300",
+                            "tags": [
+                                "plenário"
+                            ],
+                            "resumo": "",
+                            "id": "596062",
+                            "temaAutomatico": [],
+                            "rodape": "Da Redação - ND"
+                        },
+                        "sort": [
+                            1570529564000
+                        ]
+                    },
+                    {
+                        "_index": "noticias",
+                        "_type": "noticias",
+                        "_id": "595197",
+                        "_score": null,
+                        "_source": {
+                            "veiculo": "agencia",
+                            "retrancas": [
+                                "Segurança"
+                            ],
+                            "ano": 2019,
+                            "data": "2019-10-04T15:32:50-0300",
+                            "imagem": [
+                                {
+                                    "sizes": {
+                                        "thumbnail": {
+                                            "width": "150",
+                                            "url": "/midias/image/2019/10/img20191001182758631-150x150.jpg",
+                                            "height": "150"
+                                        },
+                                        "medium": {
+                                            "width": "300",
+                                            "url": "/midias/image/2019/10/img20191001182758631-300x200.jpg",
+                                            "height": "200"
+                                        }
+                                    },
+                                    "nome": "Plenário - Sessão Extraordinária",
+                                    "id": 595203,
+                                    "url": "/midias/image/2019/10/img20191001182758631.jpg"
+                                }
+                            ],
+                            "temaPortal": [
+                                "Segurança"
+                            ],
+                            "titulo": "Plenário pode votar proposta que amplia porte de armas",
+                            "dataOrdenacao": "2019-10-04T15:32:50-0300",
+                            "tags": [
+                                "plenário"
+                            ],
+                            "resumo": "",
+                            "id": "595197",
+                            "temaAutomatico": [],
+                            "rodape": "Reportagem – Eduardo Piovesan\r\nEdição – Pierre Triboli"
+                        },
+                        "sort": [
+                            1570213970000
+                        ]
+                    }
+                ]
+            },
+            "aggregations": {
+                "deputados.nomeDeputado": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": []
+                },
+                "ano": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                        {
+                            "key": 2019,
+                            "doc_count": 138
+                        },
+                        {
+                            "key": 2018,
+                            "doc_count": 8
+                        },
+                        {
+                            "key": 2017,
+                            "doc_count": 87
+                        },
+                        {
+                            "key": 2016,
+                            "doc_count": 14
+                        }
+                    ]
+                },
+                "temaPortal": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                        {
+                            "key": "Agropecuária",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "Ciência, tecnologia e comunicações",
+                            "doc_count": 4
+                        },
+                        {
+                            "key": "Consumidor",
+                            "doc_count": 1
+                        },
+                        {
+                            "key": "Direitos humanos",
+                            "doc_count": 6
+                        },
+                        {
+                            "key": "Economia",
+                            "doc_count": 4
+                        },
+                        {
+                            "key": "Meio ambiente e energia",
+                            "doc_count": 5
+                        },
+                        {
+                            "key": "Política e administração pública",
+                            "doc_count": 188
+                        },
+                        {
+                            "key": "Relações exteriores",
+                            "doc_count": 3
+                        },
+                        {
+                            "key": "Saúde",
+                            "doc_count": 2
+                        },
+                        {
+                            "key": "Segurança",
+                            "doc_count": 17
+                        },
+                        {
+                            "key": "Trabalho, previdência e assistência",
+                            "doc_count": 2
+                        }
+                    ]
+                }
+            }
+      }
+   }
+}

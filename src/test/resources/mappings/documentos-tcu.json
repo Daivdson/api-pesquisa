@@ -1,0 +1,210 @@
+{
+	"request": {
+		"method": "POST",
+		"url": "/documentos-tcu/_search"
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json"
+		},
+		"jsonBody": {
+			"took": 2,
+			"timed_out": false,
+			"_shards": {
+				"total": 5,
+				"successful": 5,
+				"skipped": 0,
+				"failed": 0
+			},
+		    "hits": {
+		        "total": 8427,
+		        "max_score": 1,
+		        "hits": [
+		            {
+		                "_index": "documentos-tcu",
+		                "_type": "documentos-tcu",
+		                "_id": "A6FB3719-854F-40B0-81DD-00074479EC22",
+		                "_score": 1,
+		                "_source": {
+		                    "id": "A6FB3719-854F-40B0-81DD-00074479EC22",
+		                    "numero": "00745220179",
+		                    "ano": 2017,
+		                    "data": "2017-08-16T00:00:00-0300",
+		                    "descricao": "Despacho relativo ao processo TC-007.452/2017-9, que trata das obras de implantação do Corredor de Ônibus, Radial Leste, Trecho 2, localizado no município de São Paulo/SP",
+		                    "existeArquivo": 1,
+		                    "siglaUF": "SP",
+		                    "tipo": "Despacho",
+		                    "tipoCorrespondencia": "Despacho",
+		                    "numeroAno": "00745220179/2017",
+		                    "urlArquivo": "https://www.camara.leg.br/cmw/CMW_Obtem_DocumentoTCU_PDF.rule?sys=CMW&p_IdeDocumentoTCU=A6FB3719-854F-40B0-81DD-00074479EC22"
+		                }
+		            },
+		            {
+		                "_index": "documentos-tcu",
+		                "_type": "documentos-tcu",
+		                "_id": "5E230BED-0D3F-466F-BB27-0033810C443F",
+		                "_score": 1,
+		                "_source": {
+		                    "id": "5E230BED-0D3F-466F-BB27-0033810C443F",
+		                    "numero": "3287",
+		                    "ano": 2014,
+		                    "data": "2014-11-26T00:00:00-0200",
+		                    "descricao": "Decisões acerca de pedidos de reexame interpostos em auditoria realizada na Diretoria Executiva do Fundo Nacional de Saúde - FNS, destinada a apurar os critérios de celebração dos convênios para aquisição de Unidade Móvel de Saúde - UMS, bem como os critérios da análise de suas prestações de contas, de competência daquele órgão do Ministério da Saúde - MS.",
+		                    "existeArquivo": 1,
+		                    "siglaUF": "NA",
+		                    "tipo": "TCU-Plenário",
+		                    "tipoCorrespondencia": "Acórdão",
+		                    "numeroAno": "3287/2014",
+		                    "urlArquivo": "https://www.camara.leg.br/cmw/CMW_Obtem_DocumentoTCU_PDF.rule?sys=CMW&p_IdeDocumentoTCU=5E230BED-0D3F-466F-BB27-0033810C443F"
+		                }
+		            },
+		            {
+		                "_index": "documentos-tcu",
+		                "_type": "documentos-tcu",
+		                "_id": "B306932B-05A2-4DF3-87B1-007C34B3615B",
+		                "_score": 1,
+		                "_source": {
+		                    "id": "B306932B-05A2-4DF3-87B1-007C34B3615B",
+		                    "numero": "2590",
+		                    "ano": 2010,
+		                    "descricao": "Relatórios de Gestão Fiscal (RGF) referentes ao 1º quadrimestre de 2010, de Órgãos e Entidades dos Poderes da União.",
+		                    "existeArquivo": 1,
+		                    "siglaUF": "NA",
+		                    "tipo": "TCU-Plenário",
+		                    "tipoCorrespondencia": "Acórdão",
+		                    "numeroAno": "2590/2010",
+		                    "urlArquivo": "https://www.camara.leg.br/cmw/CMW_Obtem_DocumentoTCU_PDF.rule?sys=CMW&p_IdeDocumentoTCU=B306932B-05A2-4DF3-87B1-007C34B3615B"
+		                }
+		            },
+		            {
+		                "_index": "documentos-tcu",
+		                "_type": "documentos-tcu",
+		                "_id": "739408B5-5B7B-4C5D-8F53-00900BC46E6E",
+		                "_score": 1,
+		                "_source": {
+		                    "id": "739408B5-5B7B-4C5D-8F53-00900BC46E6E",
+		                    "numero": "2499",
+		                    "ano": 2019,
+		                    "data": "2019-10-16T00:00:00-0300",
+		                    "descricao": "Trata de contestação de coeficientes de transferências obrigatórias apresentada pelo Estado de Roraima.",
+		                    "existeArquivo": 1,
+		                    "siglaUF": "RR",
+		                    "tipo": "TCU-Plenário",
+		                    "tipoCorrespondencia": "Acórdão",
+		                    "numeroAno": "2499/2019",
+		                    "urlArquivo": "https://www.camara.leg.br/cmw/CMW_Obtem_DocumentoTCU_PDF.rule?sys=CMW&p_IdeDocumentoTCU=739408B5-5B7B-4C5D-8F53-00900BC46E6E"
+		                }
+		            },
+		            {
+		                "_index": "documentos-tcu",
+		                "_type": "documentos-tcu",
+		                "_id": "3A09E716-F014-4A82-B696-0172056B61A1",
+		                "_score": 1,
+		                "_source": {
+		                    "id": "3A09E716-F014-4A82-B696-0172056B61A1",
+		                    "numero": "1896",
+		                    "ano": 2007,
+		                    "descricao": "Obras de dragagem dos berços 100 a 103 e da retroárea dos berços 100 e 101 do Porto do Itaqui/MA.",
+		                    "existeArquivo": 1,
+		                    "siglaUF": "MA",
+		                    "tipo": "TCU-Plenário",
+		                    "tipoCorrespondencia": "Acórdão",
+		                    "numeroAno": "1896/2007",
+		                    "urlArquivo": "https://www.camara.leg.br/cmw/CMW_Obtem_DocumentoTCU_PDF.rule?sys=CMW&p_IdeDocumentoTCU=3A09E716-F014-4A82-B696-0172056B61A1"
+		                }
+		            }
+		        ]
+		    },
+		    "aggregations": {
+		        "ano": {
+		            "doc_count_error_upper_bound": 0,
+		            "sum_other_doc_count": 0,
+		            "buckets": [
+		                {
+		                    "key": 2020,
+		                    "doc_count": 17
+		                },
+		                {
+		                    "key": 2019,
+		                    "doc_count": 127
+		                },
+		                {
+		                    "key": 2018,
+		                    "doc_count": 128
+		                },
+		                {
+		                    "key": 2017,
+		                    "doc_count": 165
+		                },
+		                {
+		                    "key": 2016,
+		                    "doc_count": 139
+		                },
+		                {
+		                    "key": 2015,
+		                    "doc_count": 162
+		                },
+		                {
+		                    "key": 2014,
+		                    "doc_count": 139
+		                },
+		                {
+		                    "key": 2013,
+		                    "doc_count": 195
+		                },
+		                {
+		                    "key": 2012,
+		                    "doc_count": 314
+		                },
+		                {
+		                    "key": 2011,
+		                    "doc_count": 534
+		                },
+		                {
+		                    "key": 2010,
+		                    "doc_count": 667
+		                },
+		                {
+		                    "key": 2009,
+		                    "doc_count": 591
+		                },
+		                {
+		                    "key": 2008,
+		                    "doc_count": 501
+		                },
+		                {
+		                    "key": 2007,
+		                    "doc_count": 568
+		                },
+		                {
+		                    "key": 2006,
+		                    "doc_count": 725
+		                },
+		                {
+		                    "key": 2005,
+		                    "doc_count": 595
+		                },
+		                {
+		                    "key": 2004,
+		                    "doc_count": 864
+		                },
+		                {
+		                    "key": 2003,
+		                    "doc_count": 965
+		                },
+		                {
+		                    "key": 2002,
+		                    "doc_count": 918
+		                },
+		                {
+		                    "key": 2001,
+		                    "doc_count": 3
+		                }
+		            ]
+		        }
+		    }
+		}
+	}
+}
+	

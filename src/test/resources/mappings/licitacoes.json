@@ -1,0 +1,3372 @@
+{
+   "request":{
+      "method":"POST",
+      "url":"/licitacoes/_search"
+   },
+   "response":{
+      "status":200,
+      "headers":{
+         "Content-Type":"application/json"
+      },
+	    "jsonBody":{
+		    "took": 1,
+		    "timed_out": false,
+		    "_shards": {
+		        "total": 5,
+		        "successful": 5,
+		        "skipped": 0,
+		        "failed": 0
+		    },
+		    "hits": {
+		        "total": 1,
+		        "max_score": 1,
+		        "hits": [
+		            {
+		                "_index": "licitacoes",
+		                "_type": "licitacoes",
+		                "_id": "4937",
+		                "_score": 1,
+		                "_source": {
+		                    "id": 4937,
+		                    "ano": 2010,
+		                    "numero": 160,
+		                    "valor": 203540,
+		                    "dataAbertura": "2010-09-01T10:00:00-0300",
+		                    "localRecebimentoProposta": "Proposta eletrônica no site www.camara.gov.br; proposta analítica (somente para empresa vencedora)  Sala 1408, do 14º andar do Edifício Anexo I da Câmara dos Deputados, em Brasília, DF",
+		                    "observacao": "Proc. 172422/2008 : 1. Especificações cadastradas conforme documento anexo.\r\n2. Em caso de dúvidas sobre as especificações, contactar a Seção de Especificações de Ativos de Microinformática pelo telefone (61)3216-3603.\r\n\r\nEspecificado por Fábio Kurokawa, P_6386, COREL, R: 63603.\r\n\r\nConclusão em 22/01/2010 por Gabriel Galvão de Carvalho, P_700342.",
+		                    "dataJulgamento": "2010-09-01T00:00:00-0300",
+		                    "objeto": "Serviços de instalação e customização do software Auto Manager Meridian (AMM), versão 2005, incluindo mapeamento de processos, implementação de fluxo de trabalho, capacitação operacional, operação assistida e garantia de funcionamento pelo período de 12 (doze) meses",
+		                    "dataPublicacao": "2010-08-19T00:00:00-0300",
+		                    "anoProcesso": 2008,
+		                    "numeroProcesso": 172422,
+		                    "modalidade": "Pregão Eletrônico                  ",
+		                    "tipo": "Menor Preço              ",
+		                    "situacao": "Julgada",
+		                    "faixaValor": "De R$ 176.000 a R$ 330.000",
+		                    "arquivos": [
+		                        {
+		                            "tipo": "Anexo I                                           ",
+		                            "nome": "EditalConsultoriaMeridian v12.doc - Processo: 172422/2008",
+		                            "id": 9022
+		                        },
+		                        {
+		                            "tipo": "Anexo II                                          ",
+		                            "nome": "Processo 172.422-08 (pedido original).pdf - Processo: 172422/2008",
+		                            "id": 9023
+		                        },
+		                        {
+		                            "tipo": "Aditivo                                           ",
+		                            "nome": "PE _10 - 172 422_08 - customização software Meridian.doc - Processo: 172422/2008",
+		                            "id": 10188
+		                        },
+		                        {
+		                            "tipo": "Edital                                            ",
+		                            "nome": "PE 160_10 - 172.422_08 - customização software Meridian.doc",
+		                            "id": 10328
+		                        }
+		                    ],
+		                    "itens": [
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 1,
+		                            "valor": 0,
+		                            "subItens": [
+		                                {
+		                                    "situacao": "Ativo",
+		                                    "numero": 1,
+		                                    "valor": 170725,
+		                                    "unidade": "SERVIÇO                                 ",
+		                                    "id": 46197,
+		                                    "quantidade": 1,
+		                                    "descricao": "MAPEAMENTO DE PROCESSOS E IMPLEMENTAÇÃO DE FLUXO DE TRABALHO"
+		                                },
+		                                {
+		                                    "situacao": "Ativo",
+		                                    "numero": 2,
+		                                    "valor": 8055,
+		                                    "unidade": "SERVIÇO                                 ",
+		                                    "id": 46198,
+		                                    "quantidade": 1,
+		                                    "descricao": "CAPACITAÇÃO OPERACIONAL"
+		                                },
+		                                {
+		                                    "situacao": "Ativo",
+		                                    "numero": 3,
+		                                    "valor": 4960,
+		                                    "unidade": "SERVIÇO                                 ",
+		                                    "id": 46199,
+		                                    "quantidade": 1,
+		                                    "descricao": "OPERAÇÃO ASSISTIDA"
+		                                },
+		                                {
+		                                    "situacao": "Ativo",
+		                                    "numero": 4,
+		                                    "valor": 1650,
+		                                    "unidade": "SERVIÇO                                 ",
+		                                    "id": 46200,
+		                                    "quantidade": 12,
+		                                    "descricao": "MANUTENÇÃO E SUPORTE TÉCNICO DOS FLUXOS DE TRABALHO AUTOMATIZADOS"
+		                                }
+		                            ],
+		                            "unidade": "LOTE                                    ",
+		                            "id": 52156,
+		                            "quantidade": 0,
+		                            "descricao": "INSTALAÇÃO E CUSTOMIZAÇÃO DO PROGRAMA AUTO MANAGER MERIDIAN - VERSÃO 2005"
+		                        }
+		                    ],
+		                    "itensAdjudicado": [
+		                        {
+		                            "itens": [
+		                                {
+		                                    "cpfCnpjFornecedor": "03.620.200/0001-35",
+		                                    "nomeFornecedor": "PRO-SYSTEMS INFORMATICA LTDA                                ",
+		                                    "valorTotal": 193363,
+		                                    "subItens": [
+		                                        {
+		                                            "valorTotal": 164000,
+		                                            "id": 26924,
+		                                            "quantidade": 1,
+		                                            "valorUnitario": 164000,
+		                                            "descricao": "MAPEAMENTO DE PROCESSOS E IMPLEMENTAÇÃO DE FLUXO DE TRABALHO"
+		                                        },
+		                                        {
+		                                            "valorTotal": 7000,
+		                                            "id": 26925,
+		                                            "quantidade": 1,
+		                                            "valorUnitario": 7000,
+		                                            "descricao": "CAPACITAÇÃO OPERACIONAL"
+		                                        },
+		                                        {
+		                                            "valorTotal": 4363,
+		                                            "id": 26926,
+		                                            "quantidade": 1,
+		                                            "valorUnitario": 4363,
+		                                            "descricao": "OPERAÇÃO ASSISTIDA"
+		                                        },
+		                                        {
+		                                            "valorTotal": 18000,
+		                                            "id": 26927,
+		                                            "quantidade": 12,
+		                                            "valorUnitario": 1500,
+		                                            "descricao": "MANUTENÇÃO E SUPORTE TÉCNICO DOS FLUXOS DE TRABALHO AUTOMATIZADOS"
+		                                        }
+		                                    ],
+		                                    "id": 22424,
+		                                    "quantidade": 0,
+		                                    "valorUnitario": 0,
+		                                    "descricao": "INSTALAÇÃO E CUSTOMIZAÇÃO DO PROGRAMA AUTO MANAGER MERIDIAN - VERSÃO 2005"
+		                                }
+		                            ],
+		                            "nomeFornecedor": "PRO-SYSTEMS INFORMATICA LTDA                                ",
+		                            "cpfCnpjFornecedor": "03.620.200/0001-35"
+		                        }
+		                    ]
+		                }
+		            },
+		            {
+		                "_index": "licitacoes",
+		                "_type": "licitacoes",
+		                "_id": "155",
+		                "_score": 1,
+		                "_source": {
+		                    "id": 155,
+		                    "ano": 2003,
+		                    "numero": 21,
+		                    "valor": 147347.12,
+		                    "localRecebimentoProposta": "Sala 1408, do 14º andar do Edifício Anexo I da Câmara dos Deputados, em Brasília, DF",
+		                    "dataJulgamento": "2003-09-17T00:00:00-0300",
+		                    "objeto": "Aquisição de material de laboratório para suprimento de estoque do Almoxarifado Médico.",
+		                    "dataPublicacao": "2003-05-30T00:00:00-0300",
+		                    "anoProcesso": 2003,
+		                    "numeroProcesso": 110068,
+		                    "modalidade": "Tomada de Preços                   ",
+		                    "tipo": "Menor Preço              ",
+		                    "situacao": "Julgada",
+		                    "faixaValor": "Até R$ 176.000",
+		                    "arquivos": [
+		                        {
+		                            "tipo": "Edital                                            ",
+		                            "nome": " ",
+		                            "id": 90
+		                        }
+		                    ],
+		                    "itens": [
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 1,
+		                            "valor": 17.9,
+		                            "subItens": [],
+		                            "unidade": "LITRO                                   ",
+		                            "id": 2928,
+		                            "quantidade": 2,
+		                            "descricao": "ÁCIDO ACÉTICO GLACIAL PADRÃO ANALÍTICO"
+		                        },
+		                        {
+		                            "situacao": "Destacado",
+		                            "numero": 2,
+		                            "valor": 9.02,
+		                            "subItens": [],
+		                            "unidade": "LITRO                                   ",
+		                            "id": 2929,
+		                            "quantidade": 12,
+		                            "descricao": "ÁLCOOL ETÍLICO PADRÃO ANALÍTICO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 3,
+		                            "valor": 11.62,
+		                            "subItens": [],
+		                            "unidade": "LITRO                                   ",
+		                            "id": 2930,
+		                            "quantidade": 6,
+		                            "descricao": "ÀLCOOL METÍLICO PADRÃO ANALÍTICO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 4,
+		                            "valor": 0.77,
+		                            "subItens": [],
+		                            "unidade": "PACOTE                                  ",
+		                            "id": 2931,
+		                            "quantidade": 10,
+		                            "descricao": "ALÇA DESCARTÁVEL DE 10uL"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 5,
+		                            "valor": 0.2,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2932,
+		                            "quantidade": 4800,
+		                            "descricao": "COLETOR DE FEZES "
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 6,
+		                            "valor": 0.22,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2933,
+		                            "quantidade": 4800,
+		                            "descricao": "COLETOR DE URINA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 7,
+		                            "valor": 0.29,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2934,
+		                            "quantidade": 1000,
+		                            "descricao": "COLETOR DE URINA ESTÉRIL"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 8,
+		                            "valor": 0.16,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2935,
+		                            "quantidade": 300,
+		                            "descricao": "COLETOR DE URINA INFANTIL UNISSEX"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 9,
+		                            "valor": 11.4,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2936,
+		                            "quantidade": 70,
+		                            "descricao": "DESCARTADOR DE AGULHAS EMPREGADAS EM SISTEMA À VACUO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 10,
+		                            "valor": 0,
+		                            "subItens": [
+		                                {
+		                                    "numero": 1,
+		                                    "valor": 22,
+		                                    "unidade": "UNIDADE                                 ",
+		                                    "id": 57,
+		                                    "quantidade": 2,
+		                                    "descricao": "KIT - SORO PARA TIPAGEM SANGÜÍNEA ANTI-A"
+		                                },
+		                                {
+		                                    "numero": 2,
+		                                    "valor": 22,
+		                                    "unidade": "UNIDADE                                 ",
+		                                    "id": 58,
+		                                    "quantidade": 3,
+		                                    "descricao": "KIT - SORO PARA TIPAGEM SANGÜÍNEA ANTI-B"
+		                                },
+		                                {
+		                                    "numero": 3,
+		                                    "valor": 32,
+		                                    "unidade": "UNIDADE                                 ",
+		                                    "id": 59,
+		                                    "quantidade": 2,
+		                                    "descricao": "KIT - SORO PARA TIPAGEM SANGÜÍNEA ANTI-D"
+		                                }
+		                            ],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2937,
+		                            "quantidade": 0,
+		                            "descricao": "KIT - SORO PARA TIPAGEM SANGÜÍNEA "
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 11,
+		                            "valor": 4.17,
+		                            "subItens": [],
+		                            "unidade": "CAIXA                                   ",
+		                            "id": 2938,
+		                            "quantidade": 80,
+		                            "descricao": "LÂMINA DE VIDRO LISO NÃO LAPIDADO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 12,
+		                            "valor": 0.05,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2939,
+		                            "quantidade": 11000,
+		                            "descricao": "LAMÍNULA DE VIDRO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 13,
+		                            "valor": 0.2398,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2940,
+		                            "quantidade": 200,
+		                            "descricao": "LANCETA DESCARTÁVEL "
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 14,
+		                            "valor": 2,
+		                            "subItens": [],
+		                            "unidade": "PAR                                     ",
+		                            "id": 2941,
+		                            "quantidade": 50,
+		                            "descricao": "LUVA DE BORRACHA ANTIDERRAPANTE "
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 15,
+		                            "valor": 1.42,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2942,
+		                            "quantidade": 100,
+		                            "descricao": "PLACA PARA MICRO-TITULAÇÃO "
+		                        },
+		                        {
+		                            "situacao": "Destacado",
+		                            "numero": 16,
+		                            "valor": 1.35,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2943,
+		                            "quantidade": 400,
+		                            "descricao": "TUBO DE COLETA DE SANGUE À VÁCUO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 17,
+		                            "valor": 23.02,
+		                            "subItens": [],
+		                            "unidade": "CAIXA                                   ",
+		                            "id": 2944,
+		                            "quantidade": 2,
+		                            "descricao": "AGULHA HIPODÉRMICA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 18,
+		                            "valor": 294,
+		                            "subItens": [],
+		                            "unidade": "CAIXA                                   ",
+		                            "id": 2945,
+		                            "quantidade": 40,
+		                            "descricao": "AGULHA HIPODÉRMICA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 19,
+		                            "valor": 147,
+		                            "subItens": [],
+		                            "unidade": "CAIXA                                   ",
+		                            "id": 2946,
+		                            "quantidade": 20,
+		                            "descricao": "AGULHA HIPODÉRMICA "
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 20,
+		                            "valor": 155.2,
+		                            "subItens": [],
+		                            "unidade": "CAIXA                                   ",
+		                            "id": 2947,
+		                            "quantidade": 20,
+		                            "descricao": "AGULHA HIPODÉRMICA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 21,
+		                            "valor": 160,
+		                            "subItens": [],
+		                            "unidade": "CAIXA                                   ",
+		                            "id": 2948,
+		                            "quantidade": 20,
+		                            "descricao": "AGULHA HIPODÉRMICA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 22,
+		                            "valor": 54.4,
+		                            "subItens": [],
+		                            "unidade": "LITRO                                   ",
+		                            "id": 2949,
+		                            "quantidade": 12,
+		                            "descricao": "ÁLCOOL ABSOLUTO 99,5 GL"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 23,
+		                            "valor": 334.5,
+		                            "subItens": [],
+		                            "unidade": "PACOTE                                  ",
+		                            "id": 2950,
+		                            "quantidade": 150,
+		                            "descricao": "ALGODÃO HIDRÓFILO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 24,
+		                            "valor": 150,
+		                            "subItens": [],
+		                            "unidade": "ROLO                                    ",
+		                            "id": 2951,
+		                            "quantidade": 30,
+		                            "descricao": "ALGODÃO HIDRÓFILO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 25,
+		                            "valor": 184,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2952,
+		                            "quantidade": 4,
+		                            "descricao": "BANDEJA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 26,
+		                            "valor": 30,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2953,
+		                            "quantidade": 100,
+		                            "descricao": "BOLSA COLETORA DE URINA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 27,
+		                            "valor": 40.1,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2954,
+		                            "quantidade": 5,
+		                            "descricao": "CABO DE BISTURI"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 28,
+		                            "valor": 39.6,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2955,
+		                            "quantidade": 2,
+		                            "descricao": "CÂNULA ENDOTRAQUEAL"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 29,
+		                            "valor": 44,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2956,
+		                            "quantidade": 2,
+		                            "descricao": "CÂNULA ENDOTRAQUEAL"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 30,
+		                            "valor": 7.61,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2957,
+		                            "quantidade": 1,
+		                            "descricao": "CÂNULA ENDOTRAQUEAL"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 31,
+		                            "valor": 15.22,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2958,
+		                            "quantidade": 2,
+		                            "descricao": "CÂNULA ENDOTRAQUEAL"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 32,
+		                            "valor": 7.61,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2959,
+		                            "quantidade": 1,
+		                            "descricao": "CÂNULA ENDOTRAQUEAL"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 33,
+		                            "valor": 22.83,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2960,
+		                            "quantidade": 3,
+		                            "descricao": "CÂNULA ENDOTRAQUEAL"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 34,
+		                            "valor": 37.8,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2961,
+		                            "quantidade": 3,
+		                            "descricao": "CÂNULA ENDOTRAQUEAL"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 35,
+		                            "valor": 22.83,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2962,
+		                            "quantidade": 3,
+		                            "descricao": "CÂNULA ENDOTRAQUEAL"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 36,
+		                            "valor": 10.36,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2963,
+		                            "quantidade": 2,
+		                            "descricao": "CÂNULA ENDOTRAQUEAL"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 37,
+		                            "valor": 10.36,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2964,
+		                            "quantidade": 2,
+		                            "descricao": "CÂNULA OROFARÍNGEA (GUEDEL)"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 38,
+		                            "valor": 15.22,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2965,
+		                            "quantidade": 2,
+		                            "descricao": "CÂNULA PARA TRAQUEOSTOMIA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 39,
+		                            "valor": 15.22,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2966,
+		                            "quantidade": 2,
+		                            "descricao": "CÂNULA PARA TRAQUEOSTOMIA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 40,
+		                            "valor": 190,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2967,
+		                            "quantidade": 2,
+		                            "descricao": "CATETER DUPLO LÚMEM PARA PUNÇÃO VENOSA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 41,
+		                            "valor": 2.1,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2968,
+		                            "quantidade": 150,
+		                            "descricao": "CATETER INTRAVENOSO RADIOPACO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 42,
+		                            "valor": 2.1,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2969,
+		                            "quantidade": 50,
+		                            "descricao": "CATETER INTRAVENOSO RADIOPACO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 43,
+		                            "valor": 22.1,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2970,
+		                            "quantidade": 50,
+		                            "descricao": "CATETER INTRAVENOSO PERIFÉRICO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 44,
+		                            "valor": 22.1,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2971,
+		                            "quantidade": 50,
+		                            "descricao": "CATETER INTRAVENOSO PERIFÉRICO "
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 45,
+		                            "valor": 1.3,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2972,
+		                            "quantidade": 30,
+		                            "descricao": "CATETER NASAL PARA OXIGÊNIO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 46,
+		                            "valor": 0.5,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2973,
+		                            "quantidade": 2000,
+		                            "descricao": "COLETOR CITOLOGIA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 47,
+		                            "valor": 5.6,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2974,
+		                            "quantidade": 60,
+		                            "descricao": "COLETOR DE LIXO HOSPITALAR"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 48,
+		                            "valor": 4.4,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2975,
+		                            "quantidade": 2,
+		                            "descricao": "COLETOR DE URINA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 49,
+		                            "valor": 13.95,
+		                            "subItens": [],
+		                            "unidade": "PACOTE                                  ",
+		                            "id": 2976,
+		                            "quantidade": 200,
+		                            "descricao": "COMPRESSA DE GAZE"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 50,
+		                            "valor": 69.8,
+		                            "subItens": [],
+		                            "unidade": "PACOTE                                  ",
+		                            "id": 2977,
+		                            "quantidade": 1,
+		                            "descricao": "COMPRESSA CAMPO OPERATÓRIO "
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 51,
+		                            "valor": 210,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2978,
+		                            "quantidade": 2,
+		                            "descricao": "CUBA RIM"
+		                        },
+		                        {
+		                            "situacao": "Destacado",
+		                            "numero": 52,
+		                            "valor": 17.25,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2979,
+		                            "quantidade": 50,
+		                            "descricao": "CURATIVO HIDROCOLÓIDE"
+		                        },
+		                        {
+		                            "situacao": "Destacado",
+		                            "numero": 53,
+		                            "valor": 23.9,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2980,
+		                            "quantidade": 4,
+		                            "descricao": "CURATIVO HIDROCOLÓIDE"
+		                        },
+		                        {
+		                            "situacao": "Destacado",
+		                            "numero": 54,
+		                            "valor": 23.9,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2981,
+		                            "quantidade": 4,
+		                            "descricao": "CURATIVO HIDROGEL"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 55,
+		                            "valor": 33.8,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2982,
+		                            "quantidade": 20,
+		                            "descricao": "CURATIVO DE ALGINATO DE CÁLCIO"
+		                        },
+		                        {
+		                            "situacao": "Destacado",
+		                            "numero": 56,
+		                            "valor": 62.5,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2983,
+		                            "quantidade": 20,
+		                            "descricao": "CURATIVO HIDROCOLÓIDE"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 57,
+		                            "valor": 62.5,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2984,
+		                            "quantidade": 25,
+		                            "descricao": "CURATIVO HIDROCOLÓIDE "
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 58,
+		                            "valor": 63.9,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2985,
+		                            "quantidade": 50,
+		                            "descricao": "CURATIVO HIDROCOLÓIDE TRANSPARENTE"
+		                        },
+		                        {
+		                            "situacao": "Destacado",
+		                            "numero": 59,
+		                            "valor": 4.8,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2986,
+		                            "quantidade": 40,
+		                            "descricao": "CURATIVO HIDROCOLÓIDE"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 60,
+		                            "valor": 4.85,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2987,
+		                            "quantidade": 300,
+		                            "descricao": "CURATIVO TRANSPARENTE COM COMPRESSA ABSORVENTE"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 61,
+		                            "valor": 10.85,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2988,
+		                            "quantidade": 100,
+		                            "descricao": "CURATIVO TRANSPARENTE COM COMPRESSA ABSORVENTE"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 62,
+		                            "valor": 4.8,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2989,
+		                            "quantidade": 100,
+		                            "descricao": "CURATIVO TRANSPARENTE COM COMPRESSA ABSORVENTE"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 63,
+		                            "valor": 0.19,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2990,
+		                            "quantidade": 5000,
+		                            "descricao": "CURATIVO ANTI-SÉPTICO CIRCULAR"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 64,
+		                            "valor": 4,
+		                            "subItens": [],
+		                            "unidade": "CAIXA                                   ",
+		                            "id": 2991,
+		                            "quantidade": 20,
+		                            "descricao": "CURATIVO FLEXÍVEL DE ESPUMA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 65,
+		                            "valor": 9.95,
+		                            "subItens": [],
+		                            "unidade": "QUILOGRAMA                              ",
+		                            "id": 2992,
+		                            "quantidade": 1,
+		                            "descricao": "DESENCROSTANTE DE MATERIAIS"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 66,
+		                            "valor": 6.9,
+		                            "subItens": [],
+		                            "unidade": "FRASCO                                  ",
+		                            "id": 2993,
+		                            "quantidade": 10,
+		                            "descricao": "DETERGENTE LÍQUIDO ANTI-SÉPTICO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 67,
+		                            "valor": 0.46,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2994,
+		                            "quantidade": 25,
+		                            "descricao": "DRENO DE PENROSE"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 68,
+		                            "valor": 0.51,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2995,
+		                            "quantidade": 25,
+		                            "descricao": "DRENO DE PENROSE"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 69,
+		                            "valor": 25,
+		                            "subItens": [],
+		                            "unidade": "PACOTE                                  ",
+		                            "id": 2996,
+		                            "quantidade": 36,
+		                            "descricao": "ELETRODO DE TENS"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 70,
+		                            "valor": 25,
+		                            "subItens": [],
+		                            "unidade": "PACOTE                                  ",
+		                            "id": 2997,
+		                            "quantidade": 36,
+		                            "descricao": "ELETRODO DE TENS"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 71,
+		                            "valor": 25,
+		                            "subItens": [],
+		                            "unidade": "PACOTE                                  ",
+		                            "id": 2998,
+		                            "quantidade": 72,
+		                            "descricao": "ELETRODO DE TENS"
+		                        },
+		                        {
+		                            "situacao": "Destacado",
+		                            "numero": 72,
+		                            "valor": 25,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 2999,
+		                            "quantidade": 10,
+		                            "descricao": "EQUIPO PARA BOMBA DE INFUSÃO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 73,
+		                            "valor": 0.8,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3000,
+		                            "quantidade": 800,
+		                            "descricao": "EQUIPO PARA SORO MODELO PADRÃO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 74,
+		                            "valor": 0.75,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3001,
+		                            "quantidade": 50,
+		                            "descricao": "EQUIPO PARA SORO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 75,
+		                            "valor": 32.2,
+		                            "subItens": [],
+		                            "unidade": "CAIXA                                   ",
+		                            "id": 3002,
+		                            "quantidade": 15,
+		                            "descricao": "ESCALPE APIROGÊNICO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 76,
+		                            "valor": 32.2,
+		                            "subItens": [],
+		                            "unidade": "CAIXA                                   ",
+		                            "id": 3003,
+		                            "quantidade": 24,
+		                            "descricao": "ESCALPE APIROGÊNICO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 77,
+		                            "valor": 32.2,
+		                            "subItens": [],
+		                            "unidade": "CAIXA                                   ",
+		                            "id": 3004,
+		                            "quantidade": 2,
+		                            "descricao": "ESCALPE APIROGÊNICO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 78,
+		                            "valor": 1.2,
+		                            "subItens": [],
+		                            "unidade": "PACOTE                                  ",
+		                            "id": 3005,
+		                            "quantidade": 100,
+		                            "descricao": "ESPÁTULA ( ABAIXADOR DE LÍNGUA )"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 79,
+		                            "valor": 1.85,
+		                            "subItens": [],
+		                            "unidade": "PACOTE                                  ",
+		                            "id": 3006,
+		                            "quantidade": 20,
+		                            "descricao": "ESPÁTULA DE AYRES"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 80,
+		                            "valor": 0.88,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3007,
+		                            "quantidade": 1000,
+		                            "descricao": "ESPÉCULO VAGINAL"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 81,
+		                            "valor": 0.97,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3008,
+		                            "quantidade": 50,
+		                            "descricao": "ESPÉCULO VAGINAL"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 82,
+		                            "valor": 12.32,
+		                            "subItens": [],
+		                            "unidade": "GALÃO                                   ",
+		                            "id": 3009,
+		                            "quantidade": 20,
+		                            "descricao": "ESTERILIZADOR A BASE DE GLUTARALDEÍDO 2%"
+		                        },
+		                        {
+		                            "situacao": "Destacado",
+		                            "numero": 83,
+		                            "valor": 32.4,
+		                            "subItens": [],
+		                            "unidade": "FRASCO                                  ",
+		                            "id": 3010,
+		                            "quantidade": 20,
+		                            "descricao": "ÉTER COMERCIAL "
+		                        },
+		                        {
+		                            "situacao": "Destacado",
+		                            "numero": 84,
+		                            "valor": 0.12,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3011,
+		                            "quantidade": 6000,
+		                            "descricao": "ETIQUETA ADESIVA"
+		                        },
+		                        {
+		                            "situacao": "Destacado",
+		                            "numero": 85,
+		                            "valor": 62.21,
+		                            "subItens": [],
+		                            "unidade": "CAIXA                                   ",
+		                            "id": 3012,
+		                            "quantidade": 3,
+		                            "descricao": "FIO DE SUTURA"
+		                        },
+		                        {
+		                            "situacao": "Destacado",
+		                            "numero": 86,
+		                            "valor": 189.88,
+		                            "subItens": [],
+		                            "unidade": "CAIXA                                   ",
+		                            "id": 3013,
+		                            "quantidade": 4,
+		                            "descricao": "FIO DE SUTURA"
+		                        },
+		                        {
+		                            "situacao": "Destacado",
+		                            "numero": 87,
+		                            "valor": 592.41,
+		                            "subItens": [],
+		                            "unidade": "CAIXA                                   ",
+		                            "id": 3014,
+		                            "quantidade": 4,
+		                            "descricao": "FIO DE SUTURA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 88,
+		                            "valor": 123.75,
+		                            "subItens": [],
+		                            "unidade": "CAIXA                                   ",
+		                            "id": 3015,
+		                            "quantidade": 8,
+		                            "descricao": "FIO DE SUTURA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 89,
+		                            "valor": 159.56,
+		                            "subItens": [],
+		                            "unidade": "CAIXA                                   ",
+		                            "id": 3016,
+		                            "quantidade": 10,
+		                            "descricao": "FIO DE SUTURA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 90,
+		                            "valor": 133.57,
+		                            "subItens": [],
+		                            "unidade": "CAIXA                                   ",
+		                            "id": 3017,
+		                            "quantidade": 8,
+		                            "descricao": "FIO DE SUTURA"
+		                        },
+		                        {
+		                            "situacao": "Destacado",
+		                            "numero": 91,
+		                            "valor": 152.76,
+		                            "subItens": [],
+		                            "unidade": "CAIXA                                   ",
+		                            "id": 3018,
+		                            "quantidade": 4,
+		                            "descricao": "FIO DE SUTURA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 92,
+		                            "valor": 152.76,
+		                            "subItens": [],
+		                            "unidade": "CAIXA                                   ",
+		                            "id": 3019,
+		                            "quantidade": 4,
+		                            "descricao": "FIO DE SUTURA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 93,
+		                            "valor": 2.8,
+		                            "subItens": [],
+		                            "unidade": "ROLO                                    ",
+		                            "id": 3020,
+		                            "quantidade": 25,
+		                            "descricao": "FITA ADESIVA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 94,
+		                            "valor": 5.2,
+		                            "subItens": [],
+		                            "unidade": "ROLO                                    ",
+		                            "id": 3021,
+		                            "quantidade": 10,
+		                            "descricao": "FITA CIRÚRGICA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 95,
+		                            "valor": 3.13,
+		                            "subItens": [],
+		                            "unidade": "ROLO                                    ",
+		                            "id": 3022,
+		                            "quantidade": 24,
+		                            "descricao": "FITA CIRÚRGICA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 96,
+		                            "valor": 3.13,
+		                            "subItens": [],
+		                            "unidade": "ROLO                                    ",
+		                            "id": 3023,
+		                            "quantidade": 100,
+		                            "descricao": "FITA CIRÚRGICA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 97,
+		                            "valor": 2.9,
+		                            "subItens": [],
+		                            "unidade": "FRASCO                                  ",
+		                            "id": 3024,
+		                            "quantidade": 10,
+		                            "descricao": "FIXADOR CELULAR"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 98,
+		                            "valor": 2.95,
+		                            "subItens": [],
+		                            "unidade": "LITRO                                   ",
+		                            "id": 3025,
+		                            "quantidade": 3,
+		                            "descricao": "FORMOL"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 99,
+		                            "valor": 3.06,
+		                            "subItens": [],
+		                            "unidade": "LITRO                                   ",
+		                            "id": 3026,
+		                            "quantidade": 20,
+		                            "descricao": "GEL PARA TRANSMISSÃO ULTRA-SÔNICA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 100,
+		                            "valor": 24.3,
+		                            "subItens": [],
+		                            "unidade": "GALÃO                                   ",
+		                            "id": 3027,
+		                            "quantidade": 10,
+		                            "descricao": "GEL PARA TRANSMISSÃO ULTRA-SÔNICO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 101,
+		                            "valor": 0.1,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3028,
+		                            "quantidade": 100,
+		                            "descricao": "GORRO CIRÚRGICO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 102,
+		                            "valor": 85,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3029,
+		                            "quantidade": 3,
+		                            "descricao": "GUIA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 103,
+		                            "valor": 39.2,
+		                            "subItens": [],
+		                            "unidade": "CAIXA                                   ",
+		                            "id": 3030,
+		                            "quantidade": 1,
+		                            "descricao": "LÂMINA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 104,
+		                            "valor": 36,
+		                            "subItens": [],
+		                            "unidade": "CAIXA                                   ",
+		                            "id": 3031,
+		                            "quantidade": 5,
+		                            "descricao": "LÂMINA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 105,
+		                            "valor": 4.91,
+		                            "subItens": [],
+		                            "unidade": "CAIXA                                   ",
+		                            "id": 3032,
+		                            "quantidade": 80,
+		                            "descricao": "LÂMINA FOSCA PARA MICROSCÓPIO"
+		                        },
+		                        {
+		                            "situacao": "Destacado",
+		                            "numero": 106,
+		                            "valor": 1.68,
+		                            "subItens": [],
+		                            "unidade": "CAIXA                                   ",
+		                            "id": 3033,
+		                            "quantidade": 200,
+		                            "descricao": "LENÇO DE PAPEL"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 107,
+		                            "valor": 40.51,
+		                            "subItens": [],
+		                            "unidade": "ROLO                                    ",
+		                            "id": 3034,
+		                            "quantidade": 70,
+		                            "descricao": "LENÇOL DESCARTÁVEL"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 108,
+		                            "valor": 13.18,
+		                            "subItens": [],
+		                            "unidade": "ROLO                                    ",
+		                            "id": 3035,
+		                            "quantidade": 50,
+		                            "descricao": "LENÇOL DESCARTÁVEL"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 109,
+		                            "valor": 111.1,
+		                            "subItens": [],
+		                            "unidade": "GALÃO                                   ",
+		                            "id": 3036,
+		                            "quantidade": 3,
+		                            "descricao": "DESENCROSTANTE SOLUÇÃO MULTIENZIMÁTICA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 110,
+		                            "valor": 0.74,
+		                            "subItens": [],
+		                            "unidade": "PAR                                     ",
+		                            "id": 3037,
+		                            "quantidade": 800,
+		                            "descricao": "LUVA CIRÚRGICA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 111,
+		                            "valor": 0.74,
+		                            "subItens": [],
+		                            "unidade": "PAR                                     ",
+		                            "id": 3038,
+		                            "quantidade": 1000,
+		                            "descricao": "LUVA CIRÚRGICA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 112,
+		                            "valor": 0.12,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3039,
+		                            "quantidade": 1000,
+		                            "descricao": "LUVA PARA PROCEDIMENTO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 113,
+		                            "valor": 0.14,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3040,
+		                            "quantidade": 25000,
+		                            "descricao": "LUVA PARA PROCEDIMENTO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 114,
+		                            "valor": 0.15,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3041,
+		                            "quantidade": 30,
+		                            "descricao": "MÁSCARA ESPECIAL PARA USO CIRÚRGICO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 115,
+		                            "valor": 0.17,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3042,
+		                            "quantidade": 1500,
+		                            "descricao": "MÁSCARA CIRÚRGICA"
+		                        },
+		                        {
+		                            "situacao": "Destacado",
+		                            "numero": 116,
+		                            "valor": 18.4,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3043,
+		                            "quantidade": 8,
+		                            "descricao": "MÁSCARA DE LIBERAÇÃO SIMPLES DE OXIGÊNIO NA CONCENTRAÇÃO DE 80% A 100%"
+		                        },
+		                        {
+		                            "situacao": "Destacado",
+		                            "numero": 117,
+		                            "valor": 21.95,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3044,
+		                            "quantidade": 10,
+		                            "descricao": "MÁSCARA DE LIBERAÇÃO SIMPLES DE OXIGÊNIO NA CONCENTRAÇÃO DE 40% A 60%"
+		                        },
+		                        {
+		                            "situacao": "Cancelado",
+		                            "numero": 118,
+		                            "valor": 52.42,
+		                            "subItens": [],
+		                            "unidade": "ROLO                                    ",
+		                            "id": 3045,
+		                            "quantidade": 3,
+		                            "descricao": "PAPEL GRAU CIRÚRGICO\r\n"
+		                        },
+		                        {
+		                            "situacao": "Destacado",
+		                            "numero": 119,
+		                            "valor": 76.81,
+		                            "subItens": [],
+		                            "unidade": "ROLO                                    ",
+		                            "id": 3046,
+		                            "quantidade": 5,
+		                            "descricao": "PAPEL GRAU CIRÚRGICO"
+		                        },
+		                        {
+		                            "situacao": "Destacado",
+		                            "numero": 120,
+		                            "valor": 125.07,
+		                            "subItens": [],
+		                            "unidade": "ROLO                                    ",
+		                            "id": 3047,
+		                            "quantidade": 2,
+		                            "descricao": "PAPEL GRAU CIRÚRGICO"
+		                        },
+		                        {
+		                            "situacao": "Destacado",
+		                            "numero": 121,
+		                            "valor": 181.22,
+		                            "subItens": [],
+		                            "unidade": "ROLO                                    ",
+		                            "id": 3048,
+		                            "quantidade": 4,
+		                            "descricao": "PAPEL GRAU CIRÚRGICO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 122,
+		                            "valor": 5.73,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3049,
+		                            "quantidade": 5,
+		                            "descricao": "PINÇA ANATÔMICA DENTE-DE-RATO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 123,
+		                            "valor": 10.53,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3050,
+		                            "quantidade": 5,
+		                            "descricao": "PINÇA ANATÔMICA DENTE-DE-RATO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 124,
+		                            "valor": 15,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3051,
+		                            "quantidade": 5,
+		                            "descricao": "PINÇA DISSECÇÃO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 125,
+		                            "valor": 0.32,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3052,
+		                            "quantidade": 1614,
+		                            "descricao": "PRESERVATIVO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 126,
+		                            "valor": 0.2711,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3053,
+		                            "quantidade": 600,
+		                            "descricao": "SAPATILHA DESCARTÁVEL"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 127,
+		                            "valor": 0.12,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3054,
+		                            "quantidade": 1000,
+		                            "descricao": "SERINGA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 128,
+		                            "valor": 0.16,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3055,
+		                            "quantidade": 1000,
+		                            "descricao": "SERINGA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 129,
+		                            "valor": 0.21,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3056,
+		                            "quantidade": 1000,
+		                            "descricao": "SERINGA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 130,
+		                            "valor": 0.41,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3057,
+		                            "quantidade": 1000,
+		                            "descricao": "SERINGA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 131,
+		                            "valor": 10.88,
+		                            "subItens": [],
+		                            "unidade": "FRASCO                                  ",
+		                            "id": 3058,
+		                            "quantidade": 5,
+		                            "descricao": "SOLUÇÃO AQUOSA À BASE DE PVP-I A 10%"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 132,
+		                            "valor": 13.05,
+		                            "subItens": [],
+		                            "unidade": "LITRO                                   ",
+		                            "id": 3059,
+		                            "quantidade": 5,
+		                            "descricao": "SOLUÇÃO DEGERMANTE À BASE DE PVP-I CONTENDO TENSOATIVO NÃO IÔNICO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 133,
+		                            "valor": 2.75,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3060,
+		                            "quantidade": 4,
+		                            "descricao": "SONDA DE FOLEY"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 134,
+		                            "valor": 2.75,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3061,
+		                            "quantidade": 1,
+		                            "descricao": "SONDA DE FOLEY"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 135,
+		                            "valor": 2.75,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3062,
+		                            "quantidade": 1,
+		                            "descricao": "SONDA DE FOLEY"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 136,
+		                            "valor": 0.53,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3063,
+		                            "quantidade": 4,
+		                            "descricao": "SONDA NASOGÁSTRICA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 137,
+		                            "valor": 0.75,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3064,
+		                            "quantidade": 10,
+		                            "descricao": "SONDA NASOGÁSTRICA"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 138,
+		                            "valor": 1.8,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3065,
+		                            "quantidade": 30,
+		                            "descricao": "TERMÔMETRO CLÍNICO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 139,
+		                            "valor": 32,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3066,
+		                            "quantidade": 10,
+		                            "descricao": "TESOURA DE ÍRIS"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 140,
+		                            "valor": 32,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3067,
+		                            "quantidade": 10,
+		                            "descricao": "TESOURA DE ÍRIS"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 141,
+		                            "valor": 30,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3068,
+		                            "quantidade": 5,
+		                            "descricao": "TESOURA METZEMBAUM"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 142,
+		                            "valor": 25,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3069,
+		                            "quantidade": 200,
+		                            "descricao": "TIRAS REATIVAS PARA DETERMINAÇÃO DE GLICOSE NO SANGUE"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 143,
+		                            "valor": 1.72,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3070,
+		                            "quantidade": 800,
+		                            "descricao": "TIRAS REATIVAS PARA DETERMINAÇÃO DE GLICOSE NO SANGUE"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 144,
+		                            "valor": 2.18,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3071,
+		                            "quantidade": 500,
+		                            "descricao": "TIRAS REATIVAS PARA DETERMINAÇÃO DE COLESTEROL NO SANGUE"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 145,
+		                            "valor": 4.67,
+		                            "subItens": [],
+		                            "unidade": "ROLO                                    ",
+		                            "id": 3072,
+		                            "quantidade": 2,
+		                            "descricao": "TUBO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 146,
+		                            "valor": 7.61,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3073,
+		                            "quantidade": 200,
+		                            "descricao": "TURBANTE CIRÚRGICO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 147,
+		                            "valor": 0.08,
+		                            "subItens": [],
+		                            "unidade": "UNIDADE                                 ",
+		                            "id": 3074,
+		                            "quantidade": 4,
+		                            "descricao": "TAMBOR"
+		                        }
+		                    ],
+		                    "itensAdjudicado": [
+		                        {
+		                            "itens": [
+		                                {
+		                                    "cpfCnpjFornecedor": "00.653.494/0001-03",
+		                                    "nomeFornecedor": "MICROMEDICAL MATERIAL MEDICO HOSPITALAR LTDA                ",
+		                                    "valorTotal": 190,
+		                                    "subItens": [],
+		                                    "id": 980,
+		                                    "quantidade": 1000,
+		                                    "valorUnitario": 0.19,
+		                                    "descricao": "COLETOR DE URINA ESTÉRIL"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "00.653.494/0001-03",
+		                                    "nomeFornecedor": "MICROMEDICAL MATERIAL MEDICO HOSPITALAR LTDA                ",
+		                                    "valorTotal": 600,
+		                                    "subItens": [],
+		                                    "id": 1043,
+		                                    "quantidade": 800,
+		                                    "valorUnitario": 0.75,
+		                                    "descricao": "EQUIPO PARA SORO MODELO PADRÃO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "00.653.494/0001-03",
+		                                    "nomeFornecedor": "MICROMEDICAL MATERIAL MEDICO HOSPITALAR LTDA                ",
+		                                    "valorTotal": 864,
+		                                    "subItens": [],
+		                                    "id": 1100,
+		                                    "quantidade": 4800,
+		                                    "valorUnitario": 0.18,
+		                                    "descricao": "COLETOR DE FEZES "
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "00.653.494/0001-03",
+		                                    "nomeFornecedor": "MICROMEDICAL MATERIAL MEDICO HOSPITALAR LTDA                ",
+		                                    "valorTotal": 864,
+		                                    "subItens": [],
+		                                    "id": 1101,
+		                                    "quantidade": 4800,
+		                                    "valorUnitario": 0.18,
+		                                    "descricao": "COLETOR DE URINA"
+		                                }
+		                            ],
+		                            "nomeFornecedor": "MICROMEDICAL MATERIAL MEDICO HOSPITALAR LTDA                ",
+		                            "cpfCnpjFornecedor": "00.653.494/0001-03"
+		                        },
+		                        {
+		                            "itens": [
+		                                {
+		                                    "cpfCnpjFornecedor": "01.385.320/0001-70",
+		                                    "nomeFornecedor": "MEDICOR PRODUTOS MÉDICOS HOSPITALARES LTDA                  ",
+		                                    "valorTotal": 130,
+		                                    "subItens": [],
+		                                    "id": 1037,
+		                                    "quantidade": 10,
+		                                    "valorUnitario": 13,
+		                                    "descricao": "DETERGENTE LÍQUIDO ANTI-SÉPTICO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "01.385.320/0001-70",
+		                                    "nomeFornecedor": "MEDICOR PRODUTOS MÉDICOS HOSPITALARES LTDA                  ",
+		                                    "valorTotal": 175,
+		                                    "subItens": [],
+		                                    "id": 1067,
+		                                    "quantidade": 5,
+		                                    "valorUnitario": 35,
+		                                    "descricao": "LÂMINA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "01.385.320/0001-70",
+		                                    "nomeFornecedor": "MEDICOR PRODUTOS MÉDICOS HOSPITALARES LTDA                  ",
+		                                    "valorTotal": 110,
+		                                    "subItens": [],
+		                                    "id": 1071,
+		                                    "quantidade": 1000,
+		                                    "valorUnitario": 0.11,
+		                                    "descricao": "LUVA PARA PROCEDIMENTO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "01.385.320/0001-70",
+		                                    "nomeFornecedor": "MEDICOR PRODUTOS MÉDICOS HOSPITALARES LTDA                  ",
+		                                    "valorTotal": 2750,
+		                                    "subItens": [],
+		                                    "id": 1072,
+		                                    "quantidade": 25000,
+		                                    "valorUnitario": 0.11,
+		                                    "descricao": "LUVA PARA PROCEDIMENTO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "01.385.320/0001-70",
+		                                    "nomeFornecedor": "MEDICOR PRODUTOS MÉDICOS HOSPITALARES LTDA                  ",
+		                                    "valorTotal": 1800,
+		                                    "subItens": [],
+		                                    "id": 1019,
+		                                    "quantidade": 200,
+		                                    "valorUnitario": 9,
+		                                    "descricao": "COMPRESSA DE GAZE"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "01.385.320/0001-70",
+		                                    "nomeFornecedor": "MEDICOR PRODUTOS MÉDICOS HOSPITALARES LTDA                  ",
+		                                    "valorTotal": 43,
+		                                    "subItens": [],
+		                                    "id": 1020,
+		                                    "quantidade": 1,
+		                                    "valorUnitario": 43,
+		                                    "descricao": "COMPRESSA CAMPO OPERATÓRIO "
+		                                }
+		                            ],
+		                            "nomeFornecedor": "MEDICOR PRODUTOS MÉDICOS HOSPITALARES LTDA                  ",
+		                            "cpfCnpjFornecedor": "01.385.320/0001-70"
+		                        },
+		                        {
+		                            "itens": [
+		                                {
+		                                    "cpfCnpjFornecedor": "01.536.135/0001-39",
+		                                    "nomeFornecedor": "TIRADENTES MEDICO HOSPITALAR LTDA                           ",
+		                                    "valorTotal": 186,
+		                                    "subItens": [],
+		                                    "id": 995,
+		                                    "quantidade": 30,
+		                                    "valorUnitario": 6.2,
+		                                    "descricao": "ALGODÃO HIDRÓFILO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "01.536.135/0001-39",
+		                                    "nomeFornecedor": "TIRADENTES MEDICO HOSPITALAR LTDA                           ",
+		                                    "valorTotal": 60,
+		                                    "subItens": [],
+		                                    "id": 997,
+		                                    "quantidade": 5,
+		                                    "valorUnitario": 12,
+		                                    "descricao": "CABO DE BISTURI"
+		                                }
+		                            ],
+		                            "nomeFornecedor": "TIRADENTES MEDICO HOSPITALAR LTDA                           ",
+		                            "cpfCnpjFornecedor": "01.536.135/0001-39"
+		                        },
+		                        {
+		                            "itens": [
+		                                {
+		                                    "cpfCnpjFornecedor": "10.779.833/0001-56",
+		                                    "nomeFornecedor": "MEDICAL MERCANTIL DE APARELHAGEM MÉDICA LTDA                ",
+		                                    "valorTotal": 160.28,
+		                                    "subItens": [],
+		                                    "id": 996,
+		                                    "quantidade": 4,
+		                                    "valorUnitario": 40.07,
+		                                    "descricao": "BANDEJA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "10.779.833/0001-56",
+		                                    "nomeFornecedor": "MEDICAL MERCANTIL DE APARELHAGEM MÉDICA LTDA                ",
+		                                    "valorTotal": 4.96,
+		                                    "subItens": [],
+		                                    "id": 1007,
+		                                    "quantidade": 2,
+		                                    "valorUnitario": 2.48,
+		                                    "descricao": "CÂNULA OROFARÍNGEA (GUEDEL)"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "10.779.833/0001-56",
+		                                    "nomeFornecedor": "MEDICAL MERCANTIL DE APARELHAGEM MÉDICA LTDA                ",
+		                                    "valorTotal": 1193,
+		                                    "subItens": [],
+		                                    "id": 1029,
+		                                    "quantidade": 25,
+		                                    "valorUnitario": 47.72,
+		                                    "descricao": "CURATIVO HIDROCOLÓIDE "
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "10.779.833/0001-56",
+		                                    "nomeFornecedor": "MEDICAL MERCANTIL DE APARELHAGEM MÉDICA LTDA                ",
+		                                    "valorTotal": 24.3,
+		                                    "subItens": [],
+		                                    "id": 985,
+		                                    "quantidade": 200,
+		                                    "valorUnitario": 0.1215,
+		                                    "descricao": "LANCETA DESCARTÁVEL "
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "10.779.833/0001-56",
+		                                    "nomeFornecedor": "MEDICAL MERCANTIL DE APARELHAGEM MÉDICA LTDA                ",
+		                                    "valorTotal": 129.5,
+		                                    "subItens": [],
+		                                    "id": 986,
+		                                    "quantidade": 50,
+		                                    "valorUnitario": 2.59,
+		                                    "descricao": "LUVA DE BORRACHA ANTIDERRAPANTE "
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "10.779.833/0001-56",
+		                                    "nomeFornecedor": "MEDICAL MERCANTIL DE APARELHAGEM MÉDICA LTDA                ",
+		                                    "valorTotal": 97.2,
+		                                    "subItens": [],
+		                                    "id": 1061,
+		                                    "quantidade": 10,
+		                                    "valorUnitario": 9.72,
+		                                    "descricao": "FIXADOR CELULAR"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "10.779.833/0001-56",
+		                                    "nomeFornecedor": "MEDICAL MERCANTIL DE APARELHAGEM MÉDICA LTDA                ",
+		                                    "valorTotal": 100.44,
+		                                    "subItens": [],
+		                                    "id": 1065,
+		                                    "quantidade": 3,
+		                                    "valorUnitario": 33.48,
+		                                    "descricao": "GUIA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "10.779.833/0001-56",
+		                                    "nomeFornecedor": "MEDICAL MERCANTIL DE APARELHAGEM MÉDICA LTDA                ",
+		                                    "valorTotal": 37.8,
+		                                    "subItens": [],
+		                                    "id": 1066,
+		                                    "quantidade": 1,
+		                                    "valorUnitario": 37.8,
+		                                    "descricao": "LÂMINA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "10.779.833/0001-56",
+		                                    "nomeFornecedor": "MEDICAL MERCANTIL DE APARELHAGEM MÉDICA LTDA                ",
+		                                    "valorTotal": 349.92,
+		                                    "subItens": [],
+		                                    "id": 1053,
+		                                    "quantidade": 8,
+		                                    "valorUnitario": 43.74,
+		                                    "descricao": "FIO DE SUTURA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "10.779.833/0001-56",
+		                                    "nomeFornecedor": "MEDICAL MERCANTIL DE APARELHAGEM MÉDICA LTDA                ",
+		                                    "valorTotal": 437.4,
+		                                    "subItens": [],
+		                                    "id": 1054,
+		                                    "quantidade": 10,
+		                                    "valorUnitario": 43.74,
+		                                    "descricao": "FIO DE SUTURA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "10.779.833/0001-56",
+		                                    "nomeFornecedor": "MEDICAL MERCANTIL DE APARELHAGEM MÉDICA LTDA                ",
+		                                    "valorTotal": 349.92,
+		                                    "subItens": [],
+		                                    "id": 1055,
+		                                    "quantidade": 8,
+		                                    "valorUnitario": 43.74,
+		                                    "descricao": "FIO DE SUTURA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "10.779.833/0001-56",
+		                                    "nomeFornecedor": "MEDICAL MERCANTIL DE APARELHAGEM MÉDICA LTDA                ",
+		                                    "valorTotal": 97.2,
+		                                    "subItens": [],
+		                                    "id": 1090,
+		                                    "quantidade": 30,
+		                                    "valorUnitario": 3.24,
+		                                    "descricao": "TERMÔMETRO CLÍNICO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "10.779.833/0001-56",
+		                                    "nomeFornecedor": "MEDICAL MERCANTIL DE APARELHAGEM MÉDICA LTDA                ",
+		                                    "valorTotal": 170.6,
+		                                    "subItens": [],
+		                                    "id": 1091,
+		                                    "quantidade": 10,
+		                                    "valorUnitario": 17.06,
+		                                    "descricao": "TESOURA DE ÍRIS"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "10.779.833/0001-56",
+		                                    "nomeFornecedor": "MEDICAL MERCANTIL DE APARELHAGEM MÉDICA LTDA                ",
+		                                    "valorTotal": 127.4,
+		                                    "subItens": [],
+		                                    "id": 1092,
+		                                    "quantidade": 10,
+		                                    "valorUnitario": 12.74,
+		                                    "descricao": "TESOURA DE ÍRIS"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "10.779.833/0001-56",
+		                                    "nomeFornecedor": "MEDICAL MERCANTIL DE APARELHAGEM MÉDICA LTDA                ",
+		                                    "valorTotal": 39.4,
+		                                    "subItens": [],
+		                                    "id": 1077,
+		                                    "quantidade": 5,
+		                                    "valorUnitario": 7.88,
+		                                    "descricao": "PINÇA DISSECÇÃO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "10.779.833/0001-56",
+		                                    "nomeFornecedor": "MEDICAL MERCANTIL DE APARELHAGEM MÉDICA LTDA                ",
+		                                    "valorTotal": 130,
+		                                    "subItens": [],
+		                                    "id": 1080,
+		                                    "quantidade": 1000,
+		                                    "valorUnitario": 0.13,
+		                                    "descricao": "SERINGA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "10.779.833/0001-56",
+		                                    "nomeFornecedor": "MEDICAL MERCANTIL DE APARELHAGEM MÉDICA LTDA                ",
+		                                    "valorTotal": 15,
+		                                    "subItens": [],
+		                                    "id": 1104,
+		                                    "quantidade": 100,
+		                                    "valorUnitario": 0.15,
+		                                    "descricao": "GORRO CIRÚRGICO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "10.779.833/0001-56",
+		                                    "nomeFornecedor": "MEDICAL MERCANTIL DE APARELHAGEM MÉDICA LTDA                ",
+		                                    "valorTotal": 13.608,
+		                                    "subItens": [],
+		                                    "id": 1113,
+		                                    "quantidade": 24,
+		                                    "valorUnitario": 0.567,
+		                                    "descricao": "DRENO DE PENROSE"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "10.779.833/0001-56",
+		                                    "nomeFornecedor": "MEDICAL MERCANTIL DE APARELHAGEM MÉDICA LTDA                ",
+		                                    "valorTotal": 14.904,
+		                                    "subItens": [],
+		                                    "id": 1114,
+		                                    "quantidade": 24,
+		                                    "valorUnitario": 0.621,
+		                                    "descricao": "DRENO DE PENROSE"
+		                                }
+		                            ],
+		                            "nomeFornecedor": "MEDICAL MERCANTIL DE APARELHAGEM MÉDICA LTDA                ",
+		                            "cpfCnpjFornecedor": "10.779.833/0001-56"
+		                        },
+		                        {
+		                            "itens": [
+		                                {
+		                                    "cpfCnpjFornecedor": "26.921.908/0002-02",
+		                                    "nomeFornecedor": "HOSPFAR INDÚSTRIA E COMÉRCIO DE PRODUTOS HOSPITALARES LTDA &",
+		                                    "valorTotal": 4344.9,
+		                                    "subItens": [],
+		                                    "id": 1110,
+		                                    "quantidade": 70,
+		                                    "valorUnitario": 62.07,
+		                                    "descricao": "LENÇOL DESCARTÁVEL"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "26.921.908/0002-02",
+		                                    "nomeFornecedor": "HOSPFAR INDÚSTRIA E COMÉRCIO DE PRODUTOS HOSPITALARES LTDA &",
+		                                    "valorTotal": 2039.5,
+		                                    "subItens": [],
+		                                    "id": 1111,
+		                                    "quantidade": 50,
+		                                    "valorUnitario": 40.79,
+		                                    "descricao": "LENÇOL DESCARTÁVEL"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "26.921.908/0002-02",
+		                                    "nomeFornecedor": "HOSPFAR INDÚSTRIA E COMÉRCIO DE PRODUTOS HOSPITALARES LTDA &",
+		                                    "valorTotal": 510.99,
+		                                    "subItens": [],
+		                                    "id": 1112,
+		                                    "quantidade": 3,
+		                                    "valorUnitario": 170.33,
+		                                    "descricao": "DESENCROSTANTE SOLUÇÃO MULTIENZIMÁTICA"
+		                                }
+		                            ],
+		                            "nomeFornecedor": "HOSPFAR INDÚSTRIA E COMÉRCIO DE PRODUTOS HOSPITALARES LTDA &",
+		                            "cpfCnpjFornecedor": "26.921.908/0002-02"
+		                        },
+		                        {
+		                            "itens": [
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 768.6,
+		                                    "subItens": [],
+		                                    "id": 1105,
+		                                    "quantidade": 70,
+		                                    "valorUnitario": 10.98,
+		                                    "descricao": "DESCARTADOR DE AGULHAS EMPREGADAS EM SISTEMA À VACUO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 14.2,
+		                                    "subItens": [],
+		                                    "id": 1097,
+		                                    "quantidade": 2,
+		                                    "valorUnitario": 7.1,
+		                                    "descricao": "TUBO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 564.9,
+		                                    "subItens": [],
+		                                    "id": 1078,
+		                                    "quantidade": 1614,
+		                                    "valorUnitario": 0.35,
+		                                    "descricao": "PRESERVATIVO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 49.5,
+		                                    "subItens": [],
+		                                    "id": 1083,
+		                                    "quantidade": 5,
+		                                    "valorUnitario": 9.9,
+		                                    "descricao": "SOLUÇÃO AQUOSA À BASE DE PVP-I A 10%"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 55.25,
+		                                    "subItens": [],
+		                                    "id": 1084,
+		                                    "quantidade": 5,
+		                                    "valorUnitario": 11.05,
+		                                    "descricao": "SOLUÇÃO DEGERMANTE À BASE DE PVP-I CONTENDO TENSOATIVO NÃO IÔNICO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 8.8,
+		                                    "subItens": [],
+		                                    "id": 1085,
+		                                    "quantidade": 4,
+		                                    "valorUnitario": 2.2,
+		                                    "descricao": "SONDA DE FOLEY"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 2.2,
+		                                    "subItens": [],
+		                                    "id": 1086,
+		                                    "quantidade": 1,
+		                                    "valorUnitario": 2.2,
+		                                    "descricao": "SONDA DE FOLEY"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 2.2,
+		                                    "subItens": [],
+		                                    "id": 1087,
+		                                    "quantidade": 1,
+		                                    "valorUnitario": 2.2,
+		                                    "descricao": "SONDA DE FOLEY"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 586.56,
+		                                    "subItens": [],
+		                                    "id": 1056,
+		                                    "quantidade": 4,
+		                                    "valorUnitario": 146.64,
+		                                    "descricao": "FIO DE SUTURA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 197.5,
+		                                    "subItens": [],
+		                                    "id": 1044,
+		                                    "quantidade": 50,
+		                                    "valorUnitario": 3.95,
+		                                    "descricao": "EQUIPO PARA SORO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 459.3,
+		                                    "subItens": [],
+		                                    "id": 1045,
+		                                    "quantidade": 15,
+		                                    "valorUnitario": 30.62,
+		                                    "descricao": "ESCALPE APIROGÊNICO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 734.88,
+		                                    "subItens": [],
+		                                    "id": 1046,
+		                                    "quantidade": 24,
+		                                    "valorUnitario": 30.62,
+		                                    "descricao": "ESCALPE APIROGÊNICO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 61.24,
+		                                    "subItens": [],
+		                                    "id": 1047,
+		                                    "quantidade": 2,
+		                                    "valorUnitario": 30.62,
+		                                    "descricao": "ESCALPE APIROGÊNICO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 122.8,
+		                                    "subItens": [],
+		                                    "id": 1063,
+		                                    "quantidade": 20,
+		                                    "valorUnitario": 6.14,
+		                                    "descricao": "GEL PARA TRANSMISSÃO ULTRA-SÔNICA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 229,
+		                                    "subItens": [],
+		                                    "id": 1064,
+		                                    "quantidade": 10,
+		                                    "valorUnitario": 22.9,
+		                                    "descricao": "GEL PARA TRANSMISSÃO ULTRA-SÔNICO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 229.4,
+		                                    "subItens": [],
+		                                    "id": 1052,
+		                                    "quantidade": 20,
+		                                    "valorUnitario": 11.47,
+		                                    "descricao": "ESTERILIZADOR A BASE DE GLUTARALDEÍDO 2%"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 266,
+		                                    "subItens": [],
+		                                    "id": 1060,
+		                                    "quantidade": 100,
+		                                    "valorUnitario": 2.66,
+		                                    "descricao": "FITA CIRÚRGICA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 195,
+		                                    "subItens": [],
+		                                    "id": 1074,
+		                                    "quantidade": 1500,
+		                                    "valorUnitario": 0.13,
+		                                    "descricao": "MÁSCARA CIRÚRGICA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 284,
+		                                    "subItens": [],
+		                                    "id": 989,
+		                                    "quantidade": 40,
+		                                    "valorUnitario": 7.1,
+		                                    "descricao": "AGULHA HIPODÉRMICA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 142,
+		                                    "subItens": [],
+		                                    "id": 990,
+		                                    "quantidade": 20,
+		                                    "valorUnitario": 7.1,
+		                                    "descricao": "AGULHA HIPODÉRMICA "
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 222,
+		                                    "subItens": [],
+		                                    "id": 992,
+		                                    "quantidade": 20,
+		                                    "valorUnitario": 11.1,
+		                                    "descricao": "AGULHA HIPODÉRMICA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 46.8,
+		                                    "subItens": [],
+		                                    "id": 993,
+		                                    "quantidade": 12,
+		                                    "valorUnitario": 3.9,
+		                                    "descricao": "ÁLCOOL ABSOLUTO 99,5 GL"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 2688,
+		                                    "subItens": [],
+		                                    "id": 1030,
+		                                    "quantidade": 50,
+		                                    "valorUnitario": 53.76,
+		                                    "descricao": "CURATIVO HIDROCOLÓIDE TRANSPARENTE"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 1368,
+		                                    "subItens": [],
+		                                    "id": 1031,
+		                                    "quantidade": 300,
+		                                    "valorUnitario": 4.56,
+		                                    "descricao": "CURATIVO TRANSPARENTE COM COMPRESSA ABSORVENTE"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 966,
+		                                    "subItens": [],
+		                                    "id": 1032,
+		                                    "quantidade": 100,
+		                                    "valorUnitario": 9.66,
+		                                    "descricao": "CURATIVO TRANSPARENTE COM COMPRESSA ABSORVENTE"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 423,
+		                                    "subItens": [],
+		                                    "id": 1033,
+		                                    "quantidade": 100,
+		                                    "valorUnitario": 4.23,
+		                                    "descricao": "CURATIVO TRANSPARENTE COM COMPRESSA ABSORVENTE"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 540,
+		                                    "subItens": [],
+		                                    "id": 1034,
+		                                    "quantidade": 5000,
+		                                    "valorUnitario": 0.108,
+		                                    "descricao": "CURATIVO ANTI-SÉPTICO CIRCULAR"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 647.4,
+		                                    "subItens": [],
+		                                    "id": 1028,
+		                                    "quantidade": 20,
+		                                    "valorUnitario": 32.37,
+		                                    "descricao": "CURATIVO DE ALGINATO DE CÁLCIO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 201,
+		                                    "subItens": [],
+		                                    "id": 1017,
+		                                    "quantidade": 60,
+		                                    "valorUnitario": 3.35,
+		                                    "descricao": "COLETOR DE LIXO HOSPITALAR"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 6.2,
+		                                    "subItens": [],
+		                                    "id": 1018,
+		                                    "quantidade": 2,
+		                                    "valorUnitario": 3.1,
+		                                    "descricao": "COLETOR DE URINA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 220,
+		                                    "subItens": [],
+		                                    "id": 1010,
+		                                    "quantidade": 2,
+		                                    "valorUnitario": 110,
+		                                    "descricao": "CATETER DUPLO LÚMEM PARA PUNÇÃO VENOSA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 6.7,
+		                                    "subItens": [],
+		                                    "id": 1000,
+		                                    "quantidade": 1,
+		                                    "valorUnitario": 6.7,
+		                                    "descricao": "CÂNULA ENDOTRAQUEAL"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 13.4,
+		                                    "subItens": [],
+		                                    "id": 1001,
+		                                    "quantidade": 2,
+		                                    "valorUnitario": 6.7,
+		                                    "descricao": "CÂNULA ENDOTRAQUEAL"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 6.7,
+		                                    "subItens": [],
+		                                    "id": 1002,
+		                                    "quantidade": 1,
+		                                    "valorUnitario": 6.7,
+		                                    "descricao": "CÂNULA ENDOTRAQUEAL"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 20.1,
+		                                    "subItens": [],
+		                                    "id": 1003,
+		                                    "quantidade": 3,
+		                                    "valorUnitario": 6.7,
+		                                    "descricao": "CÂNULA ENDOTRAQUEAL"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 20.1,
+		                                    "subItens": [],
+		                                    "id": 1004,
+		                                    "quantidade": 3,
+		                                    "valorUnitario": 6.7,
+		                                    "descricao": "CÂNULA ENDOTRAQUEAL"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 20.1,
+		                                    "subItens": [],
+		                                    "id": 1005,
+		                                    "quantidade": 3,
+		                                    "valorUnitario": 6.7,
+		                                    "descricao": "CÂNULA ENDOTRAQUEAL"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "37.109.097/0001-85",
+		                                    "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                                    "valorTotal": 8.6,
+		                                    "subItens": [],
+		                                    "id": 1006,
+		                                    "quantidade": 2,
+		                                    "valorUnitario": 4.3,
+		                                    "descricao": "CÂNULA ENDOTRAQUEAL"
+		                                }
+		                            ],
+		                            "nomeFornecedor": "DMI MATERIAL MEDICO HOSPITALAR LTDA                         ",
+		                            "cpfCnpjFornecedor": "37.109.097/0001-85"
+		                        },
+		                        {
+		                            "itens": [
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 28.72,
+		                                    "subItens": [],
+		                                    "id": 998,
+		                                    "quantidade": 2,
+		                                    "valorUnitario": 14.36,
+		                                    "descricao": "CÂNULA ENDOTRAQUEAL"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 28.72,
+		                                    "subItens": [],
+		                                    "id": 999,
+		                                    "quantidade": 2,
+		                                    "valorUnitario": 14.36,
+		                                    "descricao": "CÂNULA ENDOTRAQUEAL"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 201,
+		                                    "subItens": [],
+		                                    "id": 1011,
+		                                    "quantidade": 150,
+		                                    "valorUnitario": 1.34,
+		                                    "descricao": "CATETER INTRAVENOSO RADIOPACO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 67,
+		                                    "subItens": [],
+		                                    "id": 1012,
+		                                    "quantidade": 50,
+		                                    "valorUnitario": 1.34,
+		                                    "descricao": "CATETER INTRAVENOSO RADIOPACO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 793,
+		                                    "subItens": [],
+		                                    "id": 1013,
+		                                    "quantidade": 50,
+		                                    "valorUnitario": 15.86,
+		                                    "descricao": "CATETER INTRAVENOSO PERIFÉRICO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 793,
+		                                    "subItens": [],
+		                                    "id": 1014,
+		                                    "quantidade": 50,
+		                                    "valorUnitario": 15.86,
+		                                    "descricao": "CATETER INTRAVENOSO PERIFÉRICO "
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 22.8,
+		                                    "subItens": [],
+		                                    "id": 1015,
+		                                    "quantidade": 30,
+		                                    "valorUnitario": 0.76,
+		                                    "descricao": "CATETER NASAL PARA OXIGÊNIO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 700,
+		                                    "subItens": [],
+		                                    "id": 1016,
+		                                    "quantidade": 2000,
+		                                    "valorUnitario": 0.35,
+		                                    "descricao": "COLETOR CITOLOGIA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 35.04,
+		                                    "subItens": [],
+		                                    "id": 1008,
+		                                    "quantidade": 2,
+		                                    "valorUnitario": 17.52,
+		                                    "descricao": "CÂNULA PARA TRAQUEOSTOMIA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 35.04,
+		                                    "subItens": [],
+		                                    "id": 1009,
+		                                    "quantidade": 2,
+		                                    "valorUnitario": 17.52,
+		                                    "descricao": "CÂNULA PARA TRAQUEOSTOMIA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 58.88,
+		                                    "subItens": [],
+		                                    "id": 1021,
+		                                    "quantidade": 2,
+		                                    "valorUnitario": 29.44,
+		                                    "descricao": "CUBA RIM"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 99.6,
+		                                    "subItens": [],
+		                                    "id": 1035,
+		                                    "quantidade": 20,
+		                                    "valorUnitario": 4.98,
+		                                    "descricao": "CURATIVO FLEXÍVEL DE ESPUMA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 7.26,
+		                                    "subItens": [],
+		                                    "id": 1036,
+		                                    "quantidade": 1,
+		                                    "valorUnitario": 7.26,
+		                                    "descricao": "DESENCROSTANTE DE MATERIAIS"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 309,
+		                                    "subItens": [],
+		                                    "id": 994,
+		                                    "quantidade": 150,
+		                                    "valorUnitario": 2.06,
+		                                    "descricao": "ALGODÃO HIDRÓFILO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 143.6,
+		                                    "subItens": [],
+		                                    "id": 991,
+		                                    "quantidade": 20,
+		                                    "valorUnitario": 7.18,
+		                                    "descricao": "AGULHA HIPODÉRMICA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 25.02,
+		                                    "subItens": [],
+		                                    "id": 988,
+		                                    "quantidade": 2,
+		                                    "valorUnitario": 12.51,
+		                                    "descricao": "AGULHA HIPODÉRMICA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 42,
+		                                    "subItens": [],
+		                                    "id": 981,
+		                                    "quantidade": 300,
+		                                    "valorUnitario": 0.14,
+		                                    "descricao": "COLETOR DE URINA INFANTIL UNISSEX"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 67.9,
+		                                    "subItens": [],
+		                                    "id": 1075,
+		                                    "quantidade": 5,
+		                                    "valorUnitario": 13.58,
+		                                    "descricao": "PINÇA ANATÔMICA DENTE-DE-RATO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 73.15,
+		                                    "subItens": [],
+		                                    "id": 1076,
+		                                    "quantidade": 5,
+		                                    "valorUnitario": 14.63,
+		                                    "descricao": "PINÇA ANATÔMICA DENTE-DE-RATO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 130.2,
+		                                    "subItens": [],
+		                                    "id": 1073,
+		                                    "quantidade": 30,
+		                                    "valorUnitario": 4.34,
+		                                    "descricao": "MÁSCARA ESPECIAL PARA USO CIRÚRGICO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 488,
+		                                    "subItens": [],
+		                                    "id": 1069,
+		                                    "quantidade": 800,
+		                                    "valorUnitario": 0.61,
+		                                    "descricao": "LUVA CIRÚRGICA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 610,
+		                                    "subItens": [],
+		                                    "id": 1070,
+		                                    "quantidade": 1000,
+		                                    "valorUnitario": 0.61,
+		                                    "descricao": "LUVA CIRÚRGICA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 11.4,
+		                                    "subItens": [],
+		                                    "id": 1062,
+		                                    "quantidade": 3,
+		                                    "valorUnitario": 3.8,
+		                                    "descricao": "FORMOL"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 116,
+		                                    "subItens": [],
+		                                    "id": 1048,
+		                                    "quantidade": 100,
+		                                    "valorUnitario": 1.16,
+		                                    "descricao": "ESPÁTULA ( ABAIXADOR DE LÍNGUA )"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 29.2,
+		                                    "subItens": [],
+		                                    "id": 1049,
+		                                    "quantidade": 20,
+		                                    "valorUnitario": 1.46,
+		                                    "descricao": "ESPÁTULA DE AYRES"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 1070,
+		                                    "subItens": [],
+		                                    "id": 1050,
+		                                    "quantidade": 1000,
+		                                    "valorUnitario": 1.07,
+		                                    "descricao": "ESPÉCULO VAGINAL"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 74.5,
+		                                    "subItens": [],
+		                                    "id": 1051,
+		                                    "quantidade": 50,
+		                                    "valorUnitario": 1.49,
+		                                    "descricao": "ESPÉCULO VAGINAL"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 62.5,
+		                                    "subItens": [],
+		                                    "id": 1057,
+		                                    "quantidade": 25,
+		                                    "valorUnitario": 2.5,
+		                                    "descricao": "FITA ADESIVA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 37.7,
+		                                    "subItens": [],
+		                                    "id": 1058,
+		                                    "quantidade": 10,
+		                                    "valorUnitario": 3.77,
+		                                    "descricao": "FITA CIRÚRGICA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 55.68,
+		                                    "subItens": [],
+		                                    "id": 1059,
+		                                    "quantidade": 24,
+		                                    "valorUnitario": 2.32,
+		                                    "descricao": "FITA CIRÚRGICA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 1420.56,
+		                                    "subItens": [],
+		                                    "id": 1040,
+		                                    "quantidade": 36,
+		                                    "valorUnitario": 39.46,
+		                                    "descricao": "ELETRODO DE TENS"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 1987.2,
+		                                    "subItens": [],
+		                                    "id": 1041,
+		                                    "quantidade": 36,
+		                                    "valorUnitario": 55.2,
+		                                    "descricao": "ELETRODO DE TENS"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 4358.16,
+		                                    "subItens": [],
+		                                    "id": 1042,
+		                                    "quantidade": 72,
+		                                    "valorUnitario": 60.53,
+		                                    "descricao": "ELETRODO DE TENS"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 1.72,
+		                                    "subItens": [],
+		                                    "id": 1088,
+		                                    "quantidade": 4,
+		                                    "valorUnitario": 0.43,
+		                                    "descricao": "SONDA NASOGÁSTRICA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 5.9,
+		                                    "subItens": [],
+		                                    "id": 1089,
+		                                    "quantidade": 10,
+		                                    "valorUnitario": 0.59,
+		                                    "descricao": "SONDA NASOGÁSTRICA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 72,
+		                                    "subItens": [],
+		                                    "id": 1079,
+		                                    "quantidade": 600,
+		                                    "valorUnitario": 0.12,
+		                                    "descricao": "SAPATILHA DESCARTÁVEL"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 270,
+		                                    "subItens": [],
+		                                    "id": 1081,
+		                                    "quantidade": 1000,
+		                                    "valorUnitario": 0.27,
+		                                    "descricao": "SERINGA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 360,
+		                                    "subItens": [],
+		                                    "id": 1082,
+		                                    "quantidade": 1000,
+		                                    "valorUnitario": 0.36,
+		                                    "descricao": "SERINGA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 156.7,
+		                                    "subItens": [],
+		                                    "id": 1093,
+		                                    "quantidade": 5,
+		                                    "valorUnitario": 31.34,
+		                                    "descricao": "TESOURA METZEMBAUM"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 298,
+		                                    "subItens": [],
+		                                    "id": 1094,
+		                                    "quantidade": 200,
+		                                    "valorUnitario": 1.49,
+		                                    "descricao": "TIRAS REATIVAS PARA DETERMINAÇÃO DE GLICOSE NO SANGUE"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 1336,
+		                                    "subItens": [],
+		                                    "id": 1095,
+		                                    "quantidade": 800,
+		                                    "valorUnitario": 1.67,
+		                                    "descricao": "TIRAS REATIVAS PARA DETERMINAÇÃO DE GLICOSE NO SANGUE"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 1740,
+		                                    "subItens": [],
+		                                    "id": 1096,
+		                                    "quantidade": 500,
+		                                    "valorUnitario": 3.48,
+		                                    "descricao": "TIRAS REATIVAS PARA DETERMINAÇÃO DE COLESTEROL NO SANGUE"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 17,
+		                                    "subItens": [],
+		                                    "id": 1102,
+		                                    "quantidade": 100,
+		                                    "valorUnitario": 0.17,
+		                                    "descricao": "BOLSA COLETORA DE URINA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 150,
+		                                    "subItens": [],
+		                                    "id": 1103,
+		                                    "quantidade": 1000,
+		                                    "valorUnitario": 0.15,
+		                                    "descricao": "SERINGA"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 18,
+		                                    "subItens": [],
+		                                    "id": 1098,
+		                                    "quantidade": 200,
+		                                    "valorUnitario": 0.09,
+		                                    "descricao": "TURBANTE CIRÚRGICO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 143.56,
+		                                    "subItens": [],
+		                                    "id": 1099,
+		                                    "quantidade": 4,
+		                                    "valorUnitario": 35.89,
+		                                    "descricao": "TAMBOR"
+		                                }
+		                            ],
+		                            "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                            "cpfCnpjFornecedor": "38.054.979/0001-53"
+		                        },
+		                        {
+		                            "itens": [
+		                                {
+		                                    "cpfCnpjFornecedor": "46.849.303/0001-84",
+		                                    "nomeFornecedor": "INTERLAB DSITRIBUIDORA DE PRODUTOS CIENTÍFICOS S/A          ",
+		                                    "valorTotal": 116.7,
+		                                    "subItens": [
+		                                        {
+		                                            "valorTotal": 27,
+		                                            "id": 54,
+		                                            "quantidade": 2,
+		                                            "valorUnitario": 13.5,
+		                                            "descricao": "KIT - SORO PARA TIPAGEM SANGÜÍNEA ANTI-A"
+		                                        },
+		                                        {
+		                                            "valorTotal": 40.5,
+		                                            "id": 55,
+		                                            "quantidade": 3,
+		                                            "valorUnitario": 13.5,
+		                                            "descricao": "KIT - SORO PARA TIPAGEM SANGÜÍNEA ANTI-B"
+		                                        },
+		                                        {
+		                                            "valorTotal": 49.2,
+		                                            "id": 56,
+		                                            "quantidade": 2,
+		                                            "valorUnitario": 24.6,
+		                                            "descricao": "KIT - SORO PARA TIPAGEM SANGÜÍNEA ANTI-D"
+		                                        }
+		                                    ],
+		                                    "id": 982,
+		                                    "quantidade": 0,
+		                                    "valorUnitario": 0,
+		                                    "descricao": "KIT - SORO PARA TIPAGEM SANGÜÍNEA "
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "46.849.303/0001-84",
+		                                    "nomeFornecedor": "INTERLAB DSITRIBUIDORA DE PRODUTOS CIENTÍFICOS S/A          ",
+		                                    "valorTotal": 80,
+		                                    "subItens": [],
+		                                    "id": 979,
+		                                    "quantidade": 5,
+		                                    "valorUnitario": 16,
+		                                    "descricao": "ALÇA DESCARTÁVEL DE 10uL"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "46.849.303/0001-84",
+		                                    "nomeFornecedor": "INTERLAB DSITRIBUIDORA DE PRODUTOS CIENTÍFICOS S/A          ",
+		                                    "valorTotal": 19,
+		                                    "subItens": [],
+		                                    "id": 987,
+		                                    "quantidade": 100,
+		                                    "valorUnitario": 0.19,
+		                                    "descricao": "PLACA PARA MICRO-TITULAÇÃO "
+		                                }
+		                            ],
+		                            "nomeFornecedor": "INTERLAB DSITRIBUIDORA DE PRODUTOS CIENTÍFICOS S/A          ",
+		                            "cpfCnpjFornecedor": "46.849.303/0001-84"
+		                        },
+		                        {
+		                            "itens": [
+		                                {
+		                                    "cpfCnpjFornecedor": "82.296.062/0003-19",
+		                                    "nomeFornecedor": "BIOSYSTEMS COM. IMP. EXP.DE EQUIP. P/ LAB. LTDA             ",
+		                                    "valorTotal": 204.8,
+		                                    "subItens": [],
+		                                    "id": 983,
+		                                    "quantidade": 80,
+		                                    "valorUnitario": 2.56,
+		                                    "descricao": "LÂMINA DE VIDRO LISO NÃO LAPIDADO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "82.296.062/0003-19",
+		                                    "nomeFornecedor": "BIOSYSTEMS COM. IMP. EXP.DE EQUIP. P/ LAB. LTDA             ",
+		                                    "valorTotal": 646.8,
+		                                    "subItens": [],
+		                                    "id": 984,
+		                                    "quantidade": 11000,
+		                                    "valorUnitario": 0.0588,
+		                                    "descricao": "LAMÍNULA DE VIDRO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "82.296.062/0003-19",
+		                                    "nomeFornecedor": "BIOSYSTEMS COM. IMP. EXP.DE EQUIP. P/ LAB. LTDA             ",
+		                                    "valorTotal": 26.88,
+		                                    "subItens": [],
+		                                    "id": 977,
+		                                    "quantidade": 2,
+		                                    "valorUnitario": 13.44,
+		                                    "descricao": "ÁCIDO ACÉTICO GLACIAL PADRÃO ANALÍTICO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "82.296.062/0003-19",
+		                                    "nomeFornecedor": "BIOSYSTEMS COM. IMP. EXP.DE EQUIP. P/ LAB. LTDA             ",
+		                                    "valorTotal": 52.32,
+		                                    "subItens": [],
+		                                    "id": 978,
+		                                    "quantidade": 6,
+		                                    "valorUnitario": 8.72,
+		                                    "descricao": "ÀLCOOL METÍLICO PADRÃO ANALÍTICO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "82.296.062/0003-19",
+		                                    "nomeFornecedor": "BIOSYSTEMS COM. IMP. EXP.DE EQUIP. P/ LAB. LTDA             ",
+		                                    "valorTotal": 351.2,
+		                                    "subItens": [],
+		                                    "id": 1068,
+		                                    "quantidade": 80,
+		                                    "valorUnitario": 4.39,
+		                                    "descricao": "LÂMINA FOSCA PARA MICROSCÓPIO"
+		                                }
+		                            ],
+		                            "nomeFornecedor": "BIOSYSTEMS COM. IMP. EXP.DE EQUIP. P/ LAB. LTDA             ",
+		                            "cpfCnpjFornecedor": "82.296.062/0003-19"
+		                        }
+		                    ]
+		                }
+		            },
+		            {
+		                "_index": "licitacoes",
+		                "_type": "licitacoes",
+		                "_id": "108",
+		                "_score": 1,
+		                "_source": {
+		                    "id": 108,
+		                    "ano": 2003,
+		                    "numero": 0,
+		                    "valor": 2208.06,
+		                    "localRecebimentoProposta": "Sala 1304, do 13º andar do Edifício Anexo I da Câmara dos Deputados, em Brasília, DF",
+		                    "dataJulgamento": "2003-05-08T00:00:00-0300",
+		                    "objeto": "aquisição de medicamentos",
+		                    "dataPublicacao": "2003-04-15T00:00:00-0300",
+		                    "anoProcesso": 2003,
+		                    "numeroProcesso": 112576,
+		                    "modalidade": "Dispensa de Licitação              ",
+		                    "tipo": "Menor Preço              ",
+		                    "situacao": "Julgada",
+		                    "faixaValor": "Até R$ 176.000",
+		                    "itens": [
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 1,
+		                            "valor": 1.71,
+		                            "subItens": [],
+		                            "unidade": "AMPOLA                                  ",
+		                            "id": 425,
+		                            "quantidade": 30,
+		                            "descricao": "AMIODARONA 50MG/ML 3ML SOLUÇÃO INJETÁVEL( ANCORON )"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 2,
+		                            "valor": 0.95,
+		                            "subItens": [],
+		                            "unidade": "COMPRIMIDO                              ",
+		                            "id": 426,
+		                            "quantidade": 120,
+		                            "descricao": "CAPTOPRIL 25MG COMPRIMIDOS ( CAPOTEN )"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 3,
+		                            "valor": 3.32,
+		                            "subItens": [],
+		                            "unidade": "FRASCO                                  ",
+		                            "id": 427,
+		                            "quantidade": 10,
+		                            "descricao": "CEFALOTINA 1G FRASCO-AMPOLA+DILUENTE COM4ML ( KEFLIN )"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 4,
+		                            "valor": 30.1,
+		                            "subItens": [],
+		                            "unidade": "FRASCO                                  ",
+		                            "id": 428,
+		                            "quantidade": 10,
+		                            "descricao": "CEFTRIAXONA 1G FRASCO-AMPOLA DILUENTE ( ROCEFIN )"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 5,
+		                            "valor": 8.2,
+		                            "subItens": [],
+		                            "unidade": "FRASCO                                  ",
+		                            "id": 429,
+		                            "quantidade": 3,
+		                            "descricao": "FIXADOR CELULAR SPRAY BASE DE ACETADO DEVINILA E PIRROLIDONA ( KOLPOFIX )"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 6,
+		                            "valor": 6.7,
+		                            "subItens": [],
+		                            "unidade": "FRASCO                                  ",
+		                            "id": 430,
+		                            "quantidade": 30,
+		                            "descricao": "HIDROCORTISONA SUCCINATO SÓDICO 500MG FRASCO-AMPOLA DILUENTE 4ML - SOLU-CORTEF"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 7,
+		                            "valor": 23.38,
+		                            "subItens": [],
+		                            "unidade": "FRASCO                                  ",
+		                            "id": 431,
+		                            "quantidade": 2,
+		                            "descricao": "INSULINA HUMANA NPH 100UI/ML FRASCO-AMPOLA 10ML"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 8,
+		                            "valor": 4.1,
+		                            "subItens": [],
+		                            "unidade": "FRASCO                                  ",
+		                            "id": 432,
+		                            "quantidade": 30,
+		                            "descricao": "LIDOCAÍNA EPINEFRINA 2 FRASCO-AMPOLA 20ML ( XYLOCAÍNA COM VASO )"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 9,
+		                            "valor": 0.72,
+		                            "subItens": [],
+		                            "unidade": "PAR                                     ",
+		                            "id": 433,
+		                            "quantidade": 200,
+		                            "descricao": "LUVA CIRÚRGICA ESTÉRIL N. 7.1/2"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 10,
+		                            "valor": 14.5,
+		                            "subItens": [],
+		                            "unidade": "FRASCO                                  ",
+		                            "id": 434,
+		                            "quantidade": 50,
+		                            "descricao": "OMEPRAZOL SÓDICO LIOFILIZADO 40MG FRASCO-AMPOLA + SOLVENTE 10 ML"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 11,
+		                            "valor": 4.4,
+		                            "subItens": [],
+		                            "unidade": "FRASCO                                  ",
+		                            "id": 435,
+		                            "quantidade": 5,
+		                            "descricao": "PROXIMETACAÍNA CLORIDRATO 0,5 COLÍRIO 5ML ( ANESTALCON )"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 12,
+		                            "valor": 12.1,
+		                            "subItens": [],
+		                            "unidade": "FRASCO                                  ",
+		                            "id": 436,
+		                            "quantidade": 2,
+		                            "descricao": "SOLUÇÃO AQUOSA À BASE DE PVP-I A 10 - 1LITRO"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 13,
+		                            "valor": 13.9,
+		                            "subItens": [],
+		                            "unidade": "FRASCO                                  ",
+		                            "id": 437,
+		                            "quantidade": 10,
+		                            "descricao": "SOLUÇÃO SAIS REIDRATAÇÃO ORAL 45 MEQ/L SÓDIO FRASCO 500ML"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 14,
+		                            "valor": 4.28,
+		                            "subItens": [],
+		                            "unidade": "FRASCO                                  ",
+		                            "id": 438,
+		                            "quantidade": 50,
+		                            "descricao": "TENOXICAM 20MG FRASCO-AMPOLA DILUENTE ( TILATIL )"
+		                        },
+		                        {
+		                            "situacao": "Ativo",
+		                            "numero": 15,
+		                            "valor": 3.75,
+		                            "subItens": [],
+		                            "unidade": "AMPOLA                                  ",
+		                            "id": 439,
+		                            "quantidade": 12,
+		                            "descricao": "TRAMADOL 50MG/ML INJETÁVEL AMPOLA C/ 1ML(TRAMAL)"
+		                        }
+		                    ],
+		                    "itensAdjudicado": [
+		                        {
+		                            "itens": [
+		                                {
+		                                    "cpfCnpjFornecedor": "00.663.310/0001-96",
+		                                    "nomeFornecedor": "PINHEIRO MATERIAL CIRÚRGICO E HOSPITALAR LTDA               ",
+		                                    "valorTotal": 144,
+		                                    "subItens": [],
+		                                    "id": 127,
+		                                    "quantidade": 30,
+		                                    "valorUnitario": 4.8,
+		                                    "descricao": "LIDOCAÍNA EPINEFRINA 2 FRASCO-AMPOLA 20ML ( XYLOCAÍNA COM VASO )"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "00.663.310/0001-96",
+		                                    "nomeFornecedor": "PINHEIRO MATERIAL CIRÚRGICO E HOSPITALAR LTDA               ",
+		                                    "valorTotal": 39.6,
+		                                    "subItens": [],
+		                                    "id": 135,
+		                                    "quantidade": 12,
+		                                    "valorUnitario": 3.3,
+		                                    "descricao": "TRAMADOL 50MG/ML INJETÁVEL AMPOLA C/ 1ML(TRAMAL)"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "00.663.310/0001-96",
+		                                    "nomeFornecedor": "PINHEIRO MATERIAL CIRÚRGICO E HOSPITALAR LTDA               ",
+		                                    "valorTotal": 49,
+		                                    "subItens": [],
+		                                    "id": 122,
+		                                    "quantidade": 10,
+		                                    "valorUnitario": 4.9,
+		                                    "descricao": "CEFTRIAXONA 1G FRASCO-AMPOLA DILUENTE ( ROCEFIN )"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "00.663.310/0001-96",
+		                                    "nomeFornecedor": "PINHEIRO MATERIAL CIRÚRGICO E HOSPITALAR LTDA               ",
+		                                    "valorTotal": 237,
+		                                    "subItens": [],
+		                                    "id": 124,
+		                                    "quantidade": 30,
+		                                    "valorUnitario": 7.9,
+		                                    "descricao": "HIDROCORTISONA SUCCINATO SÓDICO 500MG FRASCO-AMPOLA DILUENTE 4ML - SOLU-CORTEF"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "00.663.310/0001-96",
+		                                    "nomeFornecedor": "PINHEIRO MATERIAL CIRÚRGICO E HOSPITALAR LTDA               ",
+		                                    "valorTotal": 445,
+		                                    "subItens": [],
+		                                    "id": 130,
+		                                    "quantidade": 50,
+		                                    "valorUnitario": 8.9,
+		                                    "descricao": "OMEPRAZOL SÓDICO LIOFILIZADO 40MG FRASCO-AMPOLA + SOLVENTE 10 ML"
+		                                }
+		                            ],
+		                            "nomeFornecedor": "PINHEIRO MATERIAL CIRÚRGICO E HOSPITALAR LTDA               ",
+		                            "cpfCnpjFornecedor": "00.663.310/0001-96"
+		                        },
+		                        {
+		                            "itens": [
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 22,
+		                                    "subItens": [],
+		                                    "id": 131,
+		                                    "quantidade": 5,
+		                                    "valorUnitario": 4.4,
+		                                    "descricao": "PROXIMETACAÍNA CLORIDRATO 0,5 COLÍRIO 5ML ( ANESTALCON )"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 24.2,
+		                                    "subItens": [],
+		                                    "id": 132,
+		                                    "quantidade": 2,
+		                                    "valorUnitario": 12.1,
+		                                    "descricao": "SOLUÇÃO AQUOSA À BASE DE PVP-I A 10 - 1LITRO"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 139,
+		                                    "subItens": [],
+		                                    "id": 133,
+		                                    "quantidade": 10,
+		                                    "valorUnitario": 13.9,
+		                                    "descricao": "SOLUÇÃO SAIS REIDRATAÇÃO ORAL 45 MEQ/L SÓDIO FRASCO 500ML"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 214,
+		                                    "subItens": [],
+		                                    "id": 134,
+		                                    "quantidade": 50,
+		                                    "valorUnitario": 4.28,
+		                                    "descricao": "TENOXICAM 20MG FRASCO-AMPOLA DILUENTE ( TILATIL )"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 46.76,
+		                                    "subItens": [],
+		                                    "id": 126,
+		                                    "quantidade": 2,
+		                                    "valorUnitario": 23.38,
+		                                    "descricao": "INSULINA HUMANA NPH 100UI/ML FRASCO-AMPOLA 10ML"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 24.6,
+		                                    "subItens": [],
+		                                    "id": 123,
+		                                    "quantidade": 3,
+		                                    "valorUnitario": 8.2,
+		                                    "descricao": "FIXADOR CELULAR SPRAY BASE DE ACETADO DEVINILA E PIRROLIDONA ( KOLPOFIX )"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 51.3,
+		                                    "subItens": [],
+		                                    "id": 119,
+		                                    "quantidade": 30,
+		                                    "valorUnitario": 1.71,
+		                                    "descricao": "AMIODARONA 50MG/ML 3ML SOLUÇÃO INJETÁVEL( ANCORON )"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 114,
+		                                    "subItens": [],
+		                                    "id": 120,
+		                                    "quantidade": 120,
+		                                    "valorUnitario": 0.95,
+		                                    "descricao": "CAPTOPRIL 25MG COMPRIMIDOS ( CAPOTEN )"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 33.2,
+		                                    "subItens": [],
+		                                    "id": 121,
+		                                    "quantidade": 10,
+		                                    "valorUnitario": 3.32,
+		                                    "descricao": "CEFALOTINA 1G FRASCO-AMPOLA+DILUENTE COM4ML ( KEFLIN )"
+		                                },
+		                                {
+		                                    "cpfCnpjFornecedor": "38.054.979/0001-53",
+		                                    "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                                    "valorTotal": 144,
+		                                    "subItens": [],
+		                                    "id": 128,
+		                                    "quantidade": 200,
+		                                    "valorUnitario": 0.72,
+		                                    "descricao": "LUVA CIRÚRGICA ESTÉRIL N. 7.1/2"
+		                                }
+		                            ],
+		                            "nomeFornecedor": "UNICOM PRODUTOS HOSPITALARES S/A                            ",
+		                            "cpfCnpjFornecedor": "38.054.979/0001-53"
+		                        }
+		                    ]
+		                }
+		            }
+		        ]
+		    }
+		}
+   }
+}

@@ -1,0 +1,64 @@
+{
+   "request":{
+      "method":"POST",
+      "url":"/portalcamara/_search"
+   },
+   "response":{
+      "status":200,
+      "headers":{
+         "Content-Type":"application/json"
+      },
+	      "jsonBody":{
+		       "took": 18,
+			    "timed_out": false,
+			    "_shards": {
+			        "total": 5,
+			        "successful": 5,
+			        "skipped": 0,
+			        "failed": 0
+			    },
+			    "hits": {
+			        "total": 1,
+			        "max_score": null,
+			        "hits": [
+			            {
+			                "_index": "portalcamara",
+			                "_type": "document",
+			                "_id": "34b9f20127a81abf7ea1df04a490a93b",
+			                "_score": null,
+			                "_source": {
+			                    "description": "",
+			                    "contributors": [],
+			                    "expires": "None",
+			                    "temaOriginal": [
+			                        "Meio Ambiente e Energia",
+			                        "Agropecuária"
+			                    ],
+			                    "modified": "2019-06-06T14:09:38-03:00",
+			                    "contato": "<p class=\"textoMaior\"><strong>Comissão de Agricultura, Pecuária, Abastecimento e Desenvolvimento Rural</strong></p>\r\n<div class=\"texto\">Praça dos Três Poderes, Câmara dos Deputados</div>\r\n<div class=\"texto\">Anexo II, Ala C, térreo, sala 34<br />Brasília - DF - CEP 70160-900</div>\r\n<div>Telefone: (61) 3216-6403 / 3216-6402</div>\r\n<div>Fax: (61) 3216-6415</div>",
+			                    "id": "capadr",
+			                    "uid": "34b9f20127a81abf7ea1df04a490a93b",
+			                    "rights": "",
+			                    "url": "http://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/capadr",
+			                    "tipo_comissao": "Permanente",
+			                    "title": "Comissão de Agricultura, Pecuária, Abastecimento e Desenv. Rural",
+			                    "dataOrdenacao": "2019-06-06T14:09:38-03:00",
+			                    "created": "2010-04-01T18:00:00-03:00",
+			                    "subjects": [
+			                        "Meio Ambiente e Energia",
+			                        "Agropecuária"
+			                    ],
+			                    "colecao": "Comissões",
+			                    "review_state": "published",
+			                    "codigo": 2001,
+			                    "type": "ComissaoPerene"
+			                },
+			                "sort": [
+			                    1559840978000
+			                ]
+			            }
+			        ]
+			    }
+		}
+   }
+}

@@ -1,0 +1,4270 @@
+{
+   "request":{
+      "method":"POST",
+      "url":"/discursos/_search"
+   },
+   "response":{
+      "status":200,
+      "headers":{
+         "Content-Type":"application/json"
+      },
+	      "jsonBody":{
+		    "took": 31,
+		    "timed_out": false,
+		    "_shards": {
+		        "total": 5,
+		        "successful": 5,
+		        "skipped": 0,
+		        "failed": 0
+		    },
+		    "hits": {
+		        "total": 20485,
+		        "max_score": null,
+		        "hits": [
+		            {
+		                "_index": "discursos",
+		                "_type": "discursos",
+		                "_id": "46819",
+		                "_score": null,
+		                "_source": {
+		                    "numSessao": "46819",
+		                    "horaDiscurso": "10:25",
+		                    "anoDiscurso": "2017",
+		                    "diaDiscurso": "11/04/2017",
+		                    "dataDiscurso": "11/04/2017 10:25",
+		                    "dataSessao": "11/04/2017 10:25",
+		                    "tipoSessao": "Reunião Ordinária",
+		                    "transcricao": "O SR. PRESIDENTE (Caetano. PT - BA) - Havendo número regimental declaro aberta a presente reunião. Dispenso a leitura da ata da terceira reunião, realizada no dia 05 de abril, por ter sido publicada. Em debate a ata. teste.Não havendo nenhum deputado que queira fazer uso da palavra, que queira discuti-la, em votação. Aqueles que a aprovam permaneçam como se encontram. Aprovada a ata.Comunicação da presidência. Informo que foram feitas designações de relatoria nos dias 06 e 10 de abril de 2017. Já que não há nenhum requerimento vamos passar à ordem do dia.Item 1. Projeto de Lei nº 3245/08 da Comissão de Legislação Participativa, SUG 113/2005, que acrescenta artigo à Lei nº 8.987 de 13 de ferereiro de 1995, que dispõe sobre o regime de concessão e permissão da prestação de serviços públicos previstos no artigo 175 da Constituição Federal e dá outras providências (apensados: PL 3857/2008, PL 654/2011, PL 3249/2015, PL 4840/2009, PL 3419/2012, PL 2338/2015, PL 2375/2015, PL 5584/2016).Explicação da ementa: cria tarifa social para subsidiar prestação de serviços públicos essenciais aos consumidores de baixa renda incluindo fornecimento de energia elétrica, água e esgoto sanitário.Relator: Deputado Hildo Rocha.Senhores deputados, sobre a mesa encontra-se o requerimento do deputado que solicita retirada de pauta do item 1. Aqueles que concordam, com a retirada da pauta do item 1, permaneçam como se encontram.Aprovado.Item 2. Quando chegar lá eu falo, deputado.Item 2. Projeto de Lei nº 937/2007 da senhora Íris de Araújo, que dispõe sobre a reserva de habitações para idosos de baixa renda nos programas oficiais de produção de moradia.Relator: Deputado Alex Manente.Quero informar que sobre a mesa há o requerimento da deputada que solicita a retirada de pauta dos itens 2 e 3.Aqueles que concordam com a retirada de pauta dos itens 2 e 3 permaneçam como se encontram. Aprovado.Item 4. Projeto de Lei nº 3936/15 do senhor Marcelo Belinati, que dispõe sobre o sepultamento de animais não humanos em cemitérios públicos. Apensado PL 5627/2016.Relator: Deputado Tenente Lúcio.Cadê o requerimento do deputado Tenente Lúcio?(SUPERVISÃO)Com a palavra.O SR. TENENTE LÚCIO (PSB - MG)  O SR. TENENTE LÚCIO (PSB - MG)  Eu pedi a retirada de pauta do item 4, por favor.O SR. PRESIDENTE (Caetano. PT - BA)  Solicitado pelo deputado Tenente Lúcio, a retirada do item 4 de pauta.Aqueles deputados que aprovam permaneçam como estão.Aprovado.Item 5. Projeto de Lei 5655/16 do senhor Miguel Haddad, que altera a Lei nº 4591 de 06 de dezembro de 1964 que dispõe sobre o condomínio, edificações e as incorporações imobiliárias. Explicação da ementa: dispõe sobre o quórum para a realização de obra que modifique a fachada em unidade autônoma de condomínio.Relator: deputado Júlio Lopes.O SR. MIGUEL HADDAD (PSDB - SP)  Peço a palavra, senhor presidente.O SR. PRESIDENTE (Caetano. PT - BA)  Pois não, deputado.O SR. MIGUEL HADDAD (PSDB - SP)  Como o projeto já está pautado já há algumas semanas, e há um critério de que os projetos, mesmo frente a ausência do relator, possam ser apreciados, eu gostaria que o projeto pudesse ser apreciado de fato aí na manhã de hoje. O projeto tem, no seu escopo, abordagem em relação à mudança de fachadas de condomínios e de prédios. Hoje, a legislação atual exige que qualquer mudança tenha aprovação por unanimidade. O que dificulta e muito qualquer tipo de mudança em fachadas. Mesmo após muitos anos. A proposta inicial. O meu projeto, ele previa que, no caso de edifícios, fossem 3/4 a aprovação de mudança. Ela tivesse que ter a aprovação de 3/4 dos membros, das pessoas que residem nos prédios. E no caso dos condomínios, fosse por 50 porcento mais um. O deputado Júlio Lopes fez uma alteração exigindo, também, 3/4 dos condomínios. É uma medida para resguardar o maior cuidado ainda, a questão de que qualquer mudança nos condomínios residenciais, na minha avaliação, eu entendo que a diferença entre a mudança de fachada em prédios, mudança de fachada em condomínios residenciais, o impacto ele é totalmente distinto e qualquer forma eu vou apoiar a proposta do deputado Júlio Lopes, e queria encaminhar pela aprovação do projeto.O SR. PRESIDENTE (Caetano. PT - BA)  Tendo em vista que o relator do PL nº 5655/16, deputado Júlio Lopes, não se encontra, encontra-se ausente, já tendo a presente proposição figurado na pauta por duas sessões consecutivas, e com base no acordo de procedimentos nº 4 aprovado por esse colegiado, e também em função da solicitação de vossa excelência, designo o próprio deputado Miguel Haddad para ser o relator da presente proposição.O SR. MIGUEL HADDAD (PSDB - SP)  Eu queria propor, se vossa excelência concordar, que o deputado Papa pudesse ser designado como relator.O SR. PRESIDENTE (Caetano. PT - BA)  Se o deputado Papa concordar, está aprovado. Passo à relatoria. Informo que o atual relator poderá proferir o parecer oralmente, ou solicitar prazo de até duas sessões para elaborá-lo.Com a palavra o relator, Papa.O SR. JOÃO PAULO PAPA (PSDB - SP)  Peço licença para ir direto ao voto do relator, deputado Júlio Lopes.A modificação tem por objetivo o parágrafo 2º do artigo 10 da Lei 4591 de 16 de dezembro de 1964, a qual dispõe sobre condomínio, edificações e as incorporações imobiliárias. O dispositivo vigente assim determina, artigo 10: \"É defeso a qualquer condômino:§2º O proprietário ou titular de direito a aquisição de unidade poderá fazer obra que modifique sua fachada se obtiver a aquiescência da unanimidade dos condôminos.\"No entanto o Código Civil, Lei 10406 de 10 de janeiro de 2002 proíbe alterações nas fachadas relacionadas à forma, cor, partes e esquadrias externas conforme o inciso III do artigo 1336 a seguir transcrito:\"Art. 1336 São deveres do condômino:...III  Não alterar a forma, a cor da fachada das partes e esquadrias externas.\"Draconianas, ambas as normas não facilitam modificações nas fachadas das edificações situadas em condomínio. A primeira exige a anuência de todos os condôminos, que na prática equivale à proibição expressa no Código Civil, tendo em vista a enorme dificuldade de se realizar assembleias com a presença do conjunto de moradores.É oportuna portanto a proposição em tela, cujo objetivo é flexibilizar a legislação e manter um controle aceitável dos novos procedimentos com vistas à garantia de intervenções nas fachadas dos imóveis. Não obstante à minha concordância com a matéria, proponho permitir que os proprietários possam realizar as reformas mediante aprovação de 3/4 dos condôminos. Quórum a ser alcançado tanto para as unidades térreas ou assobradadas, como para as unidades situadas em edifícios de dois ou mais pavimentos. Ao ser exigido para certificar a mudança pretendida o quórum qualificado certamente vai inibir os aventureiros e dar suporte aos prudentes. Deste modo, votamos pela aprovação do PL 5645 de 2016, na forma do substitutivo anexo, que assina o deputado Júlio Lopes.O SR. PRESIDENTE (Caetano. PT - BA)  Em discussão a matéria. Os deputados que queiram usar a palavra, está aberto. Não havendo nenhum deputado que queira falar sobre a matéria, está encerrada a discussão. Em votação o parecer do relator substituto, deputado João Paulo Papa. Os deputados que concordam permaneçam como estão.Aprovado.Não havendo mais quem queira... Está também aberta o uso da palavra se algum deputado quiser se manifestar...Não havendo mais quem queira fazer o uso da palavra e nada mais havendo a tratar...O SR. HERÁCLITO FORTES (PSB - PI)  Senhor presidente.O SR. PRESIDENTE (Caetano. PT - BA)  Pois não, senhor deputado Heráclito Fortes. O homem mais forte aqui do Congresso Nacional.O SR. HERÁCLITO FORTES (PSB - PI)  (inaudível).O SR. PRESIDENTE (Caetano. PT - BA)  Infelizmente, não vamos ter a felicidade de ouvir a vossa palavra. Não havendo mais quem queira fazer uso da palavra e nada mais havendo a tratar, vou encerrar a presente reunião, antes porém convocando os senhores membros para a reunião ordinária deliberativa na próxima quarta-feira, 19 de abril, às 09:30hs nesse plenário seguida de reunião extraordinária de audiência pública às 10:30hs, atendendo ao Requerimento 144/2017 de autoria do deputado Givaldo Vieira para ouvir representantes dos setores da sociedade civil, movimentos populares, técnicos do setor, bem como acadêmicos vinculados ao tema central da Medida Provisória nº 759/2016.Muito obrigado a presença de todos, deputados e assessores, imprensa e correlatos. Está encerrada a presente sessão.",
+		                    "discursoEm": "COMISSAO",
+		                    "dataOrdenacao": "2017-04-11T10:25:36",
+		                    "dataISO": "2017-04-11",
+		                    "id": "46819",
+		                    "nomeOrador": [
+		                        "Caetano",
+		                        "Heráclito Fortes",
+		                        "João Paulo Papa",
+		                        "Miguel Haddad",
+		                        "Tenente Lúcio"
+		                    ],
+		                    "local": "Comissão de Desenvolvimento Urbano",
+		                    "url": "http://www.camara.leg.br/internet/sitaqweb/TextoHTML.asp?etapa=11&nuSessao=46819&hrInicio=10:25&dtReuniao=11/04/2017&dtHorarioQuarto=10:25&Data=11/04/2017",
+		                    "oradores": [
+		                        {
+		                            "nomeOrador": "Caetano",
+		                            "ufOrador": "BA",
+		                            "numOrador": "CAETANO",
+		                            "partidoOrador": "PT",
+		                            "numSessao": "46819",
+		                            "id": "46819"
+		                        },
+		                        {
+		                            "nomeOrador": "Heráclito Fortes",
+		                            "ufOrador": "PI",
+		                            "numOrador": "HERÁCLITO FORTES",
+		                            "partidoOrador": "PSB",
+		                            "numSessao": "46819",
+		                            "id": "46819"
+		                        },
+		                        {
+		                            "nomeOrador": "João Paulo Papa",
+		                            "ufOrador": "SP",
+		                            "numOrador": "JOÃO PAULO PAPA",
+		                            "partidoOrador": "PSDB",
+		                            "numSessao": "46819",
+		                            "id": "46819"
+		                        },
+		                        {
+		                            "nomeOrador": "Miguel Haddad",
+		                            "ufOrador": "SP",
+		                            "numOrador": "MIGUEL HADDAD",
+		                            "partidoOrador": "PSDB",
+		                            "numSessao": "46819",
+		                            "id": "46819"
+		                        },
+		                        {
+		                            "nomeOrador": "Tenente Lúcio",
+		                            "ufOrador": "MG",
+		                            "numOrador": "TENENTE LÚCIO",
+		                            "partidoOrador": "PSB",
+		                            "numSessao": "46819",
+		                            "id": "46819"
+		                        }
+		                    ],
+		                    "temaPortal": [
+		                        "Política e administração pública",
+		                        "Direitos humanos",
+		                        "Cidades e transportes"
+		                    ],
+		                    "temaAutomatico": [
+		                        "Processo Legislativo e Atuação Parlamentar",
+		                        "Direito Civil e Processual Civil",
+		                        "Viação, Transporte e Mobilidade"
+		                    ],
+		                    "ano": 2017
+		                },
+		                "sort": [
+		                    1491906336000
+		                ]
+		            },
+		            {
+		                "_index": "discursos",
+		                "_type": "discursos",
+		                "_id": "167477-POS2000",
+		                "_score": null,
+		                "_source": {
+		                    "numSessao": "015.2.53.O",
+		                    "numQuarto": 72,
+		                    "numOrador": 3,
+		                    "numInsercao": 0,
+		                    "nomeOrador": "Marcio Junqueira",
+		                    "partidoOrador": "DEM",
+		                    "ufOrador": "RR",
+		                    "sexoOrador": "M",
+		                    "palavrasChave": "FUNAI, EXPULSÃO, PASTOR, MISSIONÁRIO, IGREJA EVANGÉLICA, RESERVA INDÍGENA, RR, AUTORIZAÇÃO, PERMANÊNCIA, SACERDOTE, IRMÃ DE CARIDADE, IGREJA CATÓLICA, DESRESPEITO, ESCOLHA, ÍNDIO, CRENÇA RELIGIOSA, PROTESTO.",
+		                    "horaDiscurso": "05:36",
+		                    "anoDiscurso": "2008",
+		                    "diaDiscurso": "21/02/2008",
+		                    "dataDiscurso": "21/02/2008 05:36",
+		                    "dataSessao": "21/02/2008 12:00",
+		                    "nomeFase": "Comunicações Parlamentares",
+		                    "siglaFase": "CP",
+		                    "tipoOrador": "Deputado",
+		                    "tipoSessao": "Ordinária - CD",
+		                    "tipoFala": "DISCURSO",
+		                    "tipoIntervencao": "COMUNICAÇÃO PARLAMENTAR",
+		                    "sumario": "Arbitrariedade da determinação, pela FUNAI, da expulsão de missionários e pastores evangélicos de reservas indígenas no Estado de Roraima. Tratamento diferenciado dispensado a sacerdotes católicos em atividade nas reservas. Organização de movimento em protesto contra a medida pelo Movimento em Defesa da Liberdade Religiosa nas Áreas Indígenas.",
+		                    "transcricao": "O SR. MARCIO JUNQUEIRA (DEM-RR. Pronuncia o seguinte discurso.) - Sr. Presidente, Sras. e Srs. Deputados, venho hoje à tribuna da Câmara dos Deputados trazer ao conhecimento do País fatos da maior gravidade e que exigem de todos nós, Parlamentares e cidadãos,  contundente e definitiva resposta, sob pena de sermos cúmplices da prática de segregação racial e religiosa, uma clara violação da Constituição da República Federativa do Brasil.\n\tUma grande nação somente será construída se calcada no respeito à liberdade e aos direitos humanos. E, entre esses direitos sagrados, encontra-se o de professarmos livremente nossa crença ou de mudarmos, se assim nos convir. \n\tO meu Estado, que há muito tempo vem sendo desrespeitado pelo arbítrio do Governo Federal, como se não fizesse parte da Federação, vive agora momentos de perplexidade diante das inusitadas medidas tomadas pela FUNAI. \n\tNão bastasse a violência de uma demarcação sem levar em consideração a segurança nacional, agora decidem que todos os missionários e pastores evangélicos não índios devem ser expulsos da reserva, enquanto que os padres e as freiras não somente são aceitos como também são estimulados a fazer proselitismo em detrimento de outras crenças. E — notem os senhores — o argumento utilizado para a retirada dos missionários evangélicos é o de não serem índios, apesar de brasileiros, enquanto que todos os padres que vivem nessa área são estrangeiros e estão incentivando os índios a lutar contra seus próprios irmãos evangélicos, que não concordam com o monopólio do catolicismo nessa área. \n\tFui procurado pelo Pastor José Dilson Reis de Mesquita, que lidera um movimento em defesa da liberdade religiosa nas áreas indígenas. Informou-me ele que diante das pressões da FUNAI e do Conselho Indígena de Roraima — como todos sabem, liderado pela Igreja Católica —, algumas igrejas já retiraram os seus missionários, deixando os fiéis sem orientação religiosa, razão pela qual consideramos que a hora é grave, e o momento, decisivo. Por isso, os evangélicos reclamam um posicionamento. \n\tTodos aqui conhecem a seriedade e os relevantes serviços prestados pela Igreja Evangélica Assembléia de Deus nos mais distantes recantos do Brasil. Aliás, tenho em mão notificação judicial que obriga a Assembléia de Deus a se retirar da Vila do Surumú, Município de Pacaraima, e das localidades de Água Fria e Socó. Em nenhum momento, o documento faz alusão à Igreja Católica. \nPergunto: quem é a FUNAI para dizer qual pode ser a minha fé? Manter-se na indiferença ou inatividade na presente hora é crime imperdoável de lesa-pátria. Conclamo, então, todos os evangélicos e os amantes da liberdade a repudiarem essa atitude  discriminatória do Governo Lula contra os evangélicos não só de Roraima, mas de todo o Brasil.\n\tÉ bom deixar claro que os evangélicos abominam qualquer tipo de privilégio  religioso e não aceitam que os outros se favoreçam de forma arbitrária e violenta. Os evangélicos de Roraima exigem apenas um tratamento igualitário da parte do Estado para com todos os credos  religiosos. \nA atitude do Governo Lula constitui ultraje a considerável parcela do povo brasileiro, vez que o Estado é laico e não existe religião oficial. \n\tDiante da gravidade dos fatos, o Movimento em Defesa da Liberdade Religiosa nas Áreas Indígenas estará organizando uma grande manifestação pública para o mês de abril, com o objetivo de chamar a atenção de toda a sociedade, para que essa situação absurda e inaceitável que hoje acontece em Roraima acabe. Os evangélicos são um segmento do cristianismo, que é uma religião universal. Todos os  povos necessitam ouvir a Palavra de Deus. Em obediência a uma ordem imperativa do seu fundador, que disse: \"Ide por todo o mundo e pregai o Evangelho a toda  criatura\". Isso  inclui os indígenas da área Raposa do Sol.\n\tNo Governo Lula, o Estado de Roraima está sendo privado da posse de suas terras, o povo já perdeu o direito de ir e vir em território nacional e, agora, até a liberdade religiosa lhe é negada. É hora de nos  unirmos para dar um basta a essa situação.\n\tNão aceitamos esse tipo de coisa. Temos uma posição e cremos num só Deus.\n\tMuito obrigado, Sr. Presidente.",
+		                    "local": "CÂMARA DOS DEPUTADOS",
+		                    "nuIndUnico": 167477,
+		                    "discursoEm": "PLENARIO",
+		                    "dataOrdenacao": "2008-02-21T17:36:00",
+		                    "dataISO": "2008-02-21",
+		                    "id": "167477-POS2000",
+		                    "temaOriginal": [
+		                        "Administração Pública",
+		                        "Direitos Humanos e Minorias"
+		                    ],
+		                    "temaPortal": [
+		                        "Administração Pública",
+		                        "Direitos Humanos, Minorias e Cidadania"
+		                    ],
+		                    "temaAutomatico": [
+		                        "Direitos Humanos e Minorias",
+		                        "Arte, Cultura e Religião"
+		                    ],
+		                    "url": "http://www.camara.leg.br/internet/SitaqWeb/TextoHTML.asp?etapa=5&nuSessao=015.2.53.O&nuQuarto=72&nuOrador=3&nuInsercao=0&dtHorarioQuarto=05:36&sgFaseSessao=&Data=21/02/2008"
+		                },
+		                "sort": [
+		                    1203615360000
+		                ]
+		            },
+		            {
+		                "_index": "discursos",
+		                "_type": "discursos",
+		                "_id": "167454-POS2000",
+		                "_score": null,
+		                "_source": {
+		                    "numSessao": "015.2.53.O",
+		                    "numQuarto": 26,
+		                    "numOrador": 2,
+		                    "numInsercao": 0,
+		                    "nomeOrador": "João Campos",
+		                    "partidoOrador": "PSDB",
+		                    "ufOrador": "GO",
+		                    "sexoOrador": "M",
+		                    "palavrasChave": "FRENTE PARLAMENTAR EVANGÉLICA, DENÚNCIA, NOTA OFICIAL, INVASÃO, POLICIAL MILITAR, IGREJA ASSEMBLÉIA DE DEUS, IGREJA EVANGÉLICA, MUNICÍPIO, FORMOSA, GO.",
+		                    "horaDiscurso": "03:18",
+		                    "anoDiscurso": "2008",
+		                    "diaDiscurso": "21/02/2008",
+		                    "dataDiscurso": "21/02/2008 03:18",
+		                    "dataSessao": "21/02/2008 12:00",
+		                    "nomeFase": "Pequeno Expediente",
+		                    "siglaFase": "PE",
+		                    "tipoOrador": "Deputado",
+		                    "tipoSessao": "Ordinária - CD",
+		                    "tipoFala": "DISCURSO",
+		                    "tipoIntervencao": "PELA ORDEM",
+		                    "sumario": "Nota de repúdio da Frente Parlamentar Evangélica contra a invasão, por policial militar armado, de Igreja Assembléia de Deus no Município de Formosa, Estado do Goiás.",
+		                    "transcricao": "O SR. JOÃO CAMPOS (PSDB-GO. Pela ordem. Sem revisão do orador.) - Sr. Presidente, sei que minha inscrição está prejudicada, mas gostaria de fazer uma grave denúncia. \nEm nome da Frente Parlamentar Evangélica, permita-me ler a seguinte nota:\n\"Nota de repúdio\n(...) A Frente Parlamentar Evangélica — FPE, entidade que congrega 41 Deputados e 2 Senadores, vem a público repudiar, veementemente, fato gravíssimo ocorrido na cidade de Formosa, Estado de Goiás, que representa intensa violação a direitos fundamentais, como, a liberdade de crença, o livre exercício dos cultos religiosos e a proteção aos locais de celebrações. \n\t\tNo último dia 10, lamentavelmente, um policial militar, com arma em punho, invadiu um templo da Igreja Assembléia de Deus, Ministério Madureira, durante horário do culto, ameaçando matar o Pastor, agredindo e insultando os fiéis, danificando as instalações do templo e colocando em risco a vida de crianças e adultos presentes. Como se isso não bastasse, descerrou a calça e exibiu os órgãos genitais a mulheres e crianças já assustadas, dizendo palavrões, em flagrante desrespeito à liberdade de culto e às instituições religiosas de todo o país, caracterizando verdadeira perturbação e ultraje ao culto, fazendo-se necessárias urgentes providências por parte do governo de Goiás, administrativas e penais.\n\tO fato apresenta maior gravidade na medida em que a situação era prevista e temida em virtude das constantes ameaças que aquele policial, residente nas imediações, fazia à liderança daquela Congregação.\n\tImpõe-se que medidas enérgicas, na forma da lei, sejam adotadas até para que ações semelhantes, especialmente praticadas por agentes do Estado, não grassem país afora, e que, ao povo de Formosa, seja assegurada a tranqüilidade e a certeza de que poderão freqüentar seus templos, de qualquer credo, e realizar suas celebrações, sem nenhum receio.\n\tEntendemos que a ação do policial contraria a orientação e a tradição da Polícia Militar do Estado de Goiás, a qual tem a missão de zelar pela paz social e garantir o cumprimento das leis.\n\tPor último, reafirmamos nosso repúdio em forma de denúncia e a nossa convicção de que o governo de Goiás adotará, com prioridade, todas as providências que o fato requer.\n\tBrasília, 20 de fevereiro de 2008.\"\n\tO SR. PRESIDENTE (Lobbe Neto) - Acolhemos a denúncia e a encaminhamos à Presidência da Casa, para que tome as devidas providências.",
+		                    "local": "CÂMARA DOS DEPUTADOS",
+		                    "nuIndUnico": 167454,
+		                    "discursoEm": "PLENARIO",
+		                    "dataOrdenacao": "2008-02-21T15:18:00",
+		                    "dataISO": "2008-02-21",
+		                    "id": "167454-POS2000",
+		                    "temaPortal": [
+		                        "Direitos humanos",
+		                        "Segurança",
+		                        "Política e administração pública"
+		                    ],
+		                    "temaAutomatico": [
+		                        "Direitos Humanos e Minorias",
+		                        "Defesa e Segurança",
+		                        "Administração Pública"
+		                    ],
+		                    "url": "http://www.camara.leg.br/internet/SitaqWeb/TextoHTML.asp?etapa=5&nuSessao=015.2.53.O&nuQuarto=26&nuOrador=2&nuInsercao=0&dtHorarioQuarto=03:18&sgFaseSessao=&Data=21/02/2008"
+		                },
+		                "sort": [
+		                    1203607080000
+		                ]
+		            }
+		        ]
+		    },
+		    "aggregations": {
+		        "nomeOrador": {
+		            "doc_count_error_upper_bound": 0,
+		            "sum_other_doc_count": 0,
+		            "buckets": [
+		                {
+		                    "key": "Abelardo Camarinha",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Abelardo Lupion",
+		                    "doc_count": 20
+		                },
+		                {
+		                    "key": "Acélio Casagrande",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Adelor Vieira",
+		                    "doc_count": 44
+		                },
+		                {
+		                    "key": "Ademir Camilo",
+		                    "doc_count": 20
+		                },
+		                {
+		                    "key": "Adão Pretto",
+		                    "doc_count": 70
+		                },
+		                {
+		                    "key": "Aelton Freitas",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Affonso Camargo",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Afonso Hamm",
+		                    "doc_count": 14
+		                },
+		                {
+		                    "key": "Agnaldo Muniz",
+		                    "doc_count": 29
+		                },
+		                {
+		                    "key": "Agnelo Queiroz",
+		                    "doc_count": 11
+		                },
+		                {
+		                    "key": "Airton Cascavel",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Airton Dipp",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Airton Roveda",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Albano Franco",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Alberto Fraga",
+		                    "doc_count": 75
+		                },
+		                {
+		                    "key": "Alberto Goldman",
+		                    "doc_count": 33
+		                },
+		                {
+		                    "key": "Albérico Filho",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Alceni Guerra",
+		                    "doc_count": 10
+		                },
+		                {
+		                    "key": "Alceste Almeida",
+		                    "doc_count": 42
+		                },
+		                {
+		                    "key": "Alceu Collares",
+		                    "doc_count": 36
+		                },
+		                {
+		                    "key": "Alcione Athayde",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Aldir Cabral",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Aldo Arantes",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Aldo Rebelo",
+		                    "doc_count": 12
+		                },
+		                {
+		                    "key": "Alex Canziani",
+		                    "doc_count": 30
+		                },
+		                {
+		                    "key": "Alexandre Cardoso",
+		                    "doc_count": 31
+		                },
+		                {
+		                    "key": "Alexandre Santos",
+		                    "doc_count": 13
+		                },
+		                {
+		                    "key": "Alexandre Silveira",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Alfredo Kaefer",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Alice Portugal",
+		                    "doc_count": 87
+		                },
+		                {
+		                    "key": "Aline Corrêa",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Almeida De Jesus",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Almerinda De Carvalho",
+		                    "doc_count": 105
+		                },
+		                {
+		                    "key": "Almir Moura",
+		                    "doc_count": 12
+		                },
+		                {
+		                    "key": "Almir Sá",
+		                    "doc_count": 33
+		                },
+		                {
+		                    "key": "Aloizio Mercadante",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Aloysio Nunes Ferreira",
+		                    "doc_count": 24
+		                },
+		                {
+		                    "key": "Aloízio Santos",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Amauri Gasques",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "Ana Alencar",
+		                    "doc_count": 12
+		                },
+		                {
+		                    "key": "Ana Arraes",
+		                    "doc_count": 14
+		                },
+		                {
+		                    "key": "Ana Corso",
+		                    "doc_count": 30
+		                },
+		                {
+		                    "key": "Ana Guerra",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Andreia Zito",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "André Benassi",
+		                    "doc_count": 11
+		                },
+		                {
+		                    "key": "André Costa",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "André De Paula",
+		                    "doc_count": 17
+		                },
+		                {
+		                    "key": "André Figueiredo",
+		                    "doc_count": 25
+		                },
+		                {
+		                    "key": "André Luiz",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "André Zacharow",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Angela Amin",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Angela Guadagnin",
+		                    "doc_count": 77
+		                },
+		                {
+		                    "key": "Angela Portela",
+		                    "doc_count": 11
+		                },
+		                {
+		                    "key": "Angelo Vanhoni",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Anivaldo Vale",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "Ann Pontes",
+		                    "doc_count": 87
+		                },
+		                {
+		                    "key": "Anselmo",
+		                    "doc_count": 15
+		                },
+		                {
+		                    "key": "Antenor Naspolini",
+		                    "doc_count": 22
+		                },
+		                {
+		                    "key": "Antonio Bulhões",
+		                    "doc_count": 22
+		                },
+		                {
+		                    "key": "Antonio Cambraia",
+		                    "doc_count": 11
+		                },
+		                {
+		                    "key": "Antonio Carlos Biscaia",
+		                    "doc_count": 56
+		                },
+		                {
+		                    "key": "Antonio Carlos Magalhães Neto",
+		                    "doc_count": 40
+		                },
+		                {
+		                    "key": "Antonio Carlos Mendes Thame",
+		                    "doc_count": 67
+		                },
+		                {
+		                    "key": "Antonio Carlos Pannunzio",
+		                    "doc_count": 245
+		                },
+		                {
+		                    "key": "Antonio Cruz",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Antonio Feijão",
+		                    "doc_count": 11
+		                },
+		                {
+		                    "key": "Antonio José Medeiros",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Antonio Nogueira",
+		                    "doc_count": 34
+		                },
+		                {
+		                    "key": "Antonio Palocci",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Antônio Andrade",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Antônio Carlos Biffi",
+		                    "doc_count": 75
+		                },
+		                {
+		                    "key": "Antônio Do Valle",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Antônio Jorge",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Antônio Roberto",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Ariosto Holanda",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Ariston Andrade",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "Arlindo Chinaglia",
+		                    "doc_count": 63
+		                },
+		                {
+		                    "key": "Armando Abílio",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "Armando Monteiro",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Arnaldo Faria De Sá",
+		                    "doc_count": 278
+		                },
+		                {
+		                    "key": "Arnaldo Jardim",
+		                    "doc_count": 41
+		                },
+		                {
+		                    "key": "Arnaldo Madeira",
+		                    "doc_count": 14
+		                },
+		                {
+		                    "key": "Arnaldo Vianna",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Arnon Bezerra",
+		                    "doc_count": 24
+		                },
+		                {
+		                    "key": "Arolde De Oliveira",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Aroldo Cedraz",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Arthur Virgílio",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Ary José Vanazzi",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Ary Kara",
+		                    "doc_count": 13
+		                },
+		                {
+		                    "key": "Ary Vanazzi",
+		                    "doc_count": 18
+		                },
+		                {
+		                    "key": "Asdrubal Bentes",
+		                    "doc_count": 43
+		                },
+		                {
+		                    "key": "Assis Do Couto",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Assis Miguel Do Couto",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Athos Avelino",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Augusto Carvalho",
+		                    "doc_count": 33
+		                },
+		                {
+		                    "key": "Augusto Nardes",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Avenzoar Arruda",
+		                    "doc_count": 14
+		                },
+		                {
+		                    "key": "Ayrton Xerez",
+		                    "doc_count": 33
+		                },
+		                {
+		                    "key": "Aécio Neves",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "B. Sá",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Babá",
+		                    "doc_count": 86
+		                },
+		                {
+		                    "key": "Badu Picanço",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Barbosa Neto",
+		                    "doc_count": 27
+		                },
+		                {
+		                    "key": "Bel Mesquita",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Ben-hur Ferreira",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "Benedito De Lira",
+		                    "doc_count": 22
+		                },
+		                {
+		                    "key": "Benito Gama",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Benjamin Maranhão",
+		                    "doc_count": 54
+		                },
+		                {
+		                    "key": "Bernardo Ariston",
+		                    "doc_count": 10
+		                },
+		                {
+		                    "key": "Betinho Rosado",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Beto Albuquerque",
+		                    "doc_count": 136
+		                },
+		                {
+		                    "key": "Beto Faro",
+		                    "doc_count": 13
+		                },
+		                {
+		                    "key": "Beto Mansur",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "Bilac Pinto",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "Bismarck Maia",
+		                    "doc_count": 11
+		                },
+		                {
+		                    "key": "Bispo Gê Tenuta",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Bispo Rodrigues",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Bispo Wanderval",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Bonifácio De Andrada",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Bosco Costa",
+		                    "doc_count": 18
+		                },
+		                {
+		                    "key": "Brizola Neto",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Bruno Araújo",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Bruno Rodrigues",
+		                    "doc_count": 17
+		                },
+		                {
+		                    "key": "Cabo Júlio",
+		                    "doc_count": 19
+		                },
+		                {
+		                    "key": "Caetano",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Candinho Mattos",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Capitão Wayne",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Carlito Merss",
+		                    "doc_count": 33
+		                },
+		                {
+		                    "key": "Carlos Abicalil",
+		                    "doc_count": 58
+		                },
+		                {
+		                    "key": "Carlos Alberto Canuto",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Carlos Alberto Leréia",
+		                    "doc_count": 11
+		                },
+		                {
+		                    "key": "Carlos Batata",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Carlos Bezerra",
+		                    "doc_count": 10
+		                },
+		                {
+		                    "key": "Carlos Brandão",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Carlos Dunga",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Carlos Eduardo Cadoca",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Carlos Melles",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Carlos Mosconi",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Carlos Mota",
+		                    "doc_count": 18
+		                },
+		                {
+		                    "key": "Carlos Nader",
+		                    "doc_count": 106
+		                },
+		                {
+		                    "key": "Carlos Rodrigues",
+		                    "doc_count": 16
+		                },
+		                {
+		                    "key": "Carlos Sampaio",
+		                    "doc_count": 20
+		                },
+		                {
+		                    "key": "Carlos Santana",
+		                    "doc_count": 71
+		                },
+		                {
+		                    "key": "Carlos Souza",
+		                    "doc_count": 42
+		                },
+		                {
+		                    "key": "Carlos Willian",
+		                    "doc_count": 28
+		                },
+		                {
+		                    "key": "Carlos Wilson",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Carlos Zarattini",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Celcita Pinheiro",
+		                    "doc_count": 64
+		                },
+		                {
+		                    "key": "Celso Giglio",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Celso Maldaner",
+		                    "doc_count": 12
+		                },
+		                {
+		                    "key": "Celso Russomanno",
+		                    "doc_count": 62
+		                },
+		                {
+		                    "key": "Cezar Schirmer",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Cezar Silvestri",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Chico Alencar",
+		                    "doc_count": 245
+		                },
+		                {
+		                    "key": "Chico D'angelo",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Chico Lopes",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Chico Sardelli",
+		                    "doc_count": 10
+		                },
+		                {
+		                    "key": "Chicão Brígido",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Chiquinho Feitosa",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Cida Diogo",
+		                    "doc_count": 45
+		                },
+		                {
+		                    "key": "Ciro Nogueira",
+		                    "doc_count": 21
+		                },
+		                {
+		                    "key": "Ciro Pedrosa",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Claudio Cajado",
+		                    "doc_count": 50
+		                },
+		                {
+		                    "key": "Cleber Verde",
+		                    "doc_count": 14
+		                },
+		                {
+		                    "key": "Clementino Coelho",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Cleonâncio Fonseca",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Clodovil Hernandes",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Clovis Ilgenfritz",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Cláudio Magrão",
+		                    "doc_count": 16
+		                },
+		                {
+		                    "key": "Clóvis Fecury",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Colbert Martins",
+		                    "doc_count": 138
+		                },
+		                {
+		                    "key": "Colombo",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Confúcio Moura",
+		                    "doc_count": 15
+		                },
+		                {
+		                    "key": "Corauci Sobrinho",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Coriolano Sales",
+		                    "doc_count": 63
+		                },
+		                {
+		                    "key": "Coronel Alves",
+		                    "doc_count": 33
+		                },
+		                {
+		                    "key": "Costa Ferreira",
+		                    "doc_count": 110
+		                },
+		                {
+		                    "key": "Cristiano Matheus",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Cunha Bueno",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Custódio Mattos",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Cândido Vaccarezza",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "César Bandeira",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "César Medeiros",
+		                    "doc_count": 18
+		                },
+		                {
+		                    "key": "Dagoberto",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Dalva Figueiredo",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Damião Feliciano",
+		                    "doc_count": 18
+		                },
+		                {
+		                    "key": "Daniel Almeida",
+		                    "doc_count": 98
+		                },
+		                {
+		                    "key": "Darci Coelho",
+		                    "doc_count": 10
+		                },
+		                {
+		                    "key": "Darcísio Perondi",
+		                    "doc_count": 41
+		                },
+		                {
+		                    "key": "Davi Alcolumbre",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Davi Alves Silva Júnior",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "De Velasco",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Deley",
+		                    "doc_count": 19
+		                },
+		                {
+		                    "key": "Devanir Ribeiro",
+		                    "doc_count": 10
+		                },
+		                {
+		                    "key": "Dilceu Sperafico",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Dimas Ramalho",
+		                    "doc_count": 21
+		                },
+		                {
+		                    "key": "Divaldo Suruagy",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Djalma Berger",
+		                    "doc_count": 14
+		                },
+		                {
+		                    "key": "Djalma Paes",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Dolores Nunes",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Domiciano Cabral",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Domingos Dutra",
+		                    "doc_count": 49
+		                },
+		                {
+		                    "key": "Dr. Benedito Dias",
+		                    "doc_count": 20
+		                },
+		                {
+		                    "key": "Dr. Evilásio",
+		                    "doc_count": 56
+		                },
+		                {
+		                    "key": "Dr. Francisco Gonçalves",
+		                    "doc_count": 29
+		                },
+		                {
+		                    "key": "Dr. Heleno",
+		                    "doc_count": 55
+		                },
+		                {
+		                    "key": "Dr. Hélio",
+		                    "doc_count": 96
+		                },
+		                {
+		                    "key": "Dr. Nechar",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Dr. Pinotti",
+		                    "doc_count": 32
+		                },
+		                {
+		                    "key": "Dr. Ribamar Alves",
+		                    "doc_count": 13
+		                },
+		                {
+		                    "key": "Dr. Rodolfo Pereira",
+		                    "doc_count": 31
+		                },
+		                {
+		                    "key": "Dr. Rosinha",
+		                    "doc_count": 117
+		                },
+		                {
+		                    "key": "Dr. Talmir",
+		                    "doc_count": 36
+		                },
+		                {
+		                    "key": "Dr. Ubiali",
+		                    "doc_count": 48
+		                },
+		                {
+		                    "key": "Dra. Clair",
+		                    "doc_count": 39
+		                },
+		                {
+		                    "key": "Duarte Nogueira",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Duilio Pisaneschi",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Durval Orlato",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Décio Lima",
+		                    "doc_count": 20
+		                },
+		                {
+		                    "key": "Eber Silva",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Edigar Mão Branca",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Edinho Bez",
+		                    "doc_count": 69
+		                },
+		                {
+		                    "key": "Edinho Montemor",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Edio Lopes",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Edir Oliveira",
+		                    "doc_count": 14
+		                },
+		                {
+		                    "key": "Edison Andrino",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Edmar Moreira",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Edmilson Valentim",
+		                    "doc_count": 11
+		                },
+		                {
+		                    "key": "Edmundo Galdino",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Edna Macedo",
+		                    "doc_count": 16
+		                },
+		                {
+		                    "key": "Edson Duarte",
+		                    "doc_count": 47
+		                },
+		                {
+		                    "key": "Edson Ezequiel",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Edson Santos",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "Eduardo Barbosa",
+		                    "doc_count": 75
+		                },
+		                {
+		                    "key": "Eduardo Campos",
+		                    "doc_count": 11
+		                },
+		                {
+		                    "key": "Eduardo Cunha",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "Eduardo Da Fonte",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Eduardo Gomes",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Eduardo Lopes",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Eduardo Paes",
+		                    "doc_count": 25
+		                },
+		                {
+		                    "key": "Eduardo Sciarra",
+		                    "doc_count": 20
+		                },
+		                {
+		                    "key": "Eduardo Seabra",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Eduardo Valverde",
+		                    "doc_count": 268
+		                },
+		                {
+		                    "key": "Efraim Filho",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Efraim Morais",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Elaine Costa",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Elcione Barbalho",
+		                    "doc_count": 20
+		                },
+		                {
+		                    "key": "Elias Murad",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Eliene Lima",
+		                    "doc_count": 39
+		                },
+		                {
+		                    "key": "Elimar Máximo Damasceno",
+		                    "doc_count": 79
+		                },
+		                {
+		                    "key": "Eliseu Padilha",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "Eliseu Resende",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Elismar Prado",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Emanuel Fernandes",
+		                    "doc_count": 18
+		                },
+		                {
+		                    "key": "Emerson Kapaz",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Eni Voltolini",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Enio Bacci",
+		                    "doc_count": 47
+		                },
+		                {
+		                    "key": "Enivaldo Ribeiro",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Enéas",
+		                    "doc_count": 14
+		                },
+		                {
+		                    "key": "Ernandes Amorim",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Esther Grossi",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Eudes Xavier",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Eugênio Rabelo",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Euler Morais",
+		                    "doc_count": 10
+		                },
+		                {
+		                    "key": "Euler Ribeiro",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Eunício Oliveira",
+		                    "doc_count": 35
+		                },
+		                {
+		                    "key": "Eurico Miranda",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Evandro Milhomen",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "Expedito Júnior",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Felipe Bornier",
+		                    "doc_count": 61
+		                },
+		                {
+		                    "key": "Felipe Maia",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Fernando Chucre",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Fernando Coelho Filho",
+		                    "doc_count": 16
+		                },
+		                {
+		                    "key": "Fernando Coruja",
+		                    "doc_count": 278
+		                },
+		                {
+		                    "key": "Fernando De Fabinho",
+		                    "doc_count": 92
+		                },
+		                {
+		                    "key": "Fernando Diniz",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Fernando Estima",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Fernando Ferro",
+		                    "doc_count": 155
+		                },
+		                {
+		                    "key": "Fernando Gabeira",
+		                    "doc_count": 100
+		                },
+		                {
+		                    "key": "Fernando Gonçalves",
+		                    "doc_count": 16
+		                },
+		                {
+		                    "key": "Fernando Lopes",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Fernando Melo",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Fernando Zuppo",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Feu Rosa",
+		                    "doc_count": 77
+		                },
+		                {
+		                    "key": "Filipe Pereira",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Fioravante",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "Flaviano Melo",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Fleury",
+		                    "doc_count": 10
+		                },
+		                {
+		                    "key": "Flávio Arns",
+		                    "doc_count": 11
+		                },
+		                {
+		                    "key": "Flávio Bezerra",
+		                    "doc_count": 17
+		                },
+		                {
+		                    "key": "Flávio Dino",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Francisca Trindade",
+		                    "doc_count": 13
+		                },
+		                {
+		                    "key": "Francisco Appio",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Francisco Dornelles",
+		                    "doc_count": 29
+		                },
+		                {
+		                    "key": "Francisco Escórcio",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Francisco Garcia",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Francisco Rodrigues",
+		                    "doc_count": 63
+		                },
+		                {
+		                    "key": "Francisco Rossi",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Francisco Turra",
+		                    "doc_count": 17
+		                },
+		                {
+		                    "key": "Frank Aguiar",
+		                    "doc_count": 10
+		                },
+		                {
+		                    "key": "Freire Júnior",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Fábio Faria",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Fábio Ramalho",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Fábio Souto",
+		                    "doc_count": 12
+		                },
+		                {
+		                    "key": "Fátima Bezerra",
+		                    "doc_count": 85
+		                },
+		                {
+		                    "key": "Fátima Pelaes",
+		                    "doc_count": 10
+		                },
+		                {
+		                    "key": "Félix Mendonça",
+		                    "doc_count": 14
+		                },
+		                {
+		                    "key": "Gastão Vieira",
+		                    "doc_count": 28
+		                },
+		                {
+		                    "key": "Geddel Vieira Lima",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "George Hilton",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Geovan Freitas",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "Geraldo Magela",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Geraldo Pudim",
+		                    "doc_count": 18
+		                },
+		                {
+		                    "key": "Geraldo Resende",
+		                    "doc_count": 97
+		                },
+		                {
+		                    "key": "Geraldo Thadeu",
+		                    "doc_count": 37
+		                },
+		                {
+		                    "key": "Germano Bonow",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Germano Rigotto",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Gerson Gabrielli",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Gerson Peres",
+		                    "doc_count": 28
+		                },
+		                {
+		                    "key": "Gervásio Oliveira",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Gervásio Silva",
+		                    "doc_count": 21
+		                },
+		                {
+		                    "key": "Giacobo",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Gilberto Kassab",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Gilberto Nascimento",
+		                    "doc_count": 25
+		                },
+		                {
+		                    "key": "Gilmar Machado",
+		                    "doc_count": 75
+		                },
+		                {
+		                    "key": "Giovanni Queiroz",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Givaldo Carimbão",
+		                    "doc_count": 41
+		                },
+		                {
+		                    "key": "Gladson Cameli",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Gonzaga Mota",
+		                    "doc_count": 24
+		                },
+		                {
+		                    "key": "Gonzaga Patriota",
+		                    "doc_count": 58
+		                },
+		                {
+		                    "key": "Gorete Pereira",
+		                    "doc_count": 20
+		                },
+		                {
+		                    "key": "Guilherme Campos",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Guilherme Menezes",
+		                    "doc_count": 66
+		                },
+		                {
+		                    "key": "Gustavo Fruet",
+		                    "doc_count": 12
+		                },
+		                {
+		                    "key": "Hamilton Casara",
+		                    "doc_count": 44
+		                },
+		                {
+		                    "key": "Haroldo Lima",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Helenildo Ribeiro",
+		                    "doc_count": 11
+		                },
+		                {
+		                    "key": "Heleno Silva",
+		                    "doc_count": 16
+		                },
+		                {
+		                    "key": "Henrique Afonso",
+		                    "doc_count": 46
+		                },
+		                {
+		                    "key": "Henrique Eduardo Alves",
+		                    "doc_count": 24
+		                },
+		                {
+		                    "key": "Henrique Fontana",
+		                    "doc_count": 75
+		                },
+		                {
+		                    "key": "Herculano Anghinetti",
+		                    "doc_count": 10
+		                },
+		                {
+		                    "key": "Hermes Parcianello",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Heráclito Fortes",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Homero Barreto",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Homero Pereira",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Hugo Biehl",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Hugo Leal",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Humberto Michiles",
+		                    "doc_count": 10
+		                },
+		                {
+		                    "key": "Humberto Souto",
+		                    "doc_count": 10
+		                },
+		                {
+		                    "key": "Hélio Costa",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Hélio Esteves",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Iara Bernardi",
+		                    "doc_count": 71
+		                },
+		                {
+		                    "key": "Iberê Ferreira",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Ibrahim Abi-ackel",
+		                    "doc_count": 18
+		                },
+		                {
+		                    "key": "Ibsen Pinheiro",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Igor Avelino",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Ilderlei Cordeiro",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Inaldo Leitão",
+		                    "doc_count": 19
+		                },
+		                {
+		                    "key": "Indio Da Costa",
+		                    "doc_count": 16
+		                },
+		                {
+		                    "key": "Inocêncio Oliveira",
+		                    "doc_count": 176
+		                },
+		                {
+		                    "key": "Inácio Arruda",
+		                    "doc_count": 25
+		                },
+		                {
+		                    "key": "Iran Barbosa",
+		                    "doc_count": 23
+		                },
+		                {
+		                    "key": "Irineu Rodrigues",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Iriny Lopes",
+		                    "doc_count": 79
+		                },
+		                {
+		                    "key": "Isaías Silvestre",
+		                    "doc_count": 36
+		                },
+		                {
+		                    "key": "Itamar Serpa",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Ivan Paixão",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Ivan Ranzolin",
+		                    "doc_count": 37
+		                },
+		                {
+		                    "key": "Ivan Valente",
+		                    "doc_count": 77
+		                },
+		                {
+		                    "key": "Ivo José",
+		                    "doc_count": 15
+		                },
+		                {
+		                    "key": "Iédio Rosa",
+		                    "doc_count": 19
+		                },
+		                {
+		                    "key": "Jackson Barreto",
+		                    "doc_count": 30
+		                },
+		                {
+		                    "key": "Jaime Martins",
+		                    "doc_count": 22
+		                },
+		                {
+		                    "key": "Jair Bolsonaro",
+		                    "doc_count": 57
+		                },
+		                {
+		                    "key": "Jair De Oliveira",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Jair Meneguelli",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Jairo Carneiro",
+		                    "doc_count": 16
+		                },
+		                {
+		                    "key": "Jamil Murad",
+		                    "doc_count": 30
+		                },
+		                {
+		                    "key": "Jandira Feghali",
+		                    "doc_count": 65
+		                },
+		                {
+		                    "key": "Janete Capiberibe",
+		                    "doc_count": 126
+		                },
+		                {
+		                    "key": "Janete Rocha Pietá",
+		                    "doc_count": 45
+		                },
+		                {
+		                    "key": "Jaques Wagner",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Jefferson Campos",
+		                    "doc_count": 37
+		                },
+		                {
+		                    "key": "Jerônimo Reis",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Jilmar Tatto",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Joaquim Francisco",
+		                    "doc_count": 30
+		                },
+		                {
+		                    "key": "Joel De Hollanda",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Jofran Frejat",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Jonival Lucas Junior",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Jorge Alberto",
+		                    "doc_count": 20
+		                },
+		                {
+		                    "key": "Jorge Bittar",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Jorge Boeira",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Jorge Gomes",
+		                    "doc_count": 22
+		                },
+		                {
+		                    "key": "Jorge Khoury",
+		                    "doc_count": 23
+		                },
+		                {
+		                    "key": "Jorge Pinheiro",
+		                    "doc_count": 13
+		                },
+		                {
+		                    "key": "Jorge Tadeu Mudalen",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Jorge Vi",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Jorginho Maluly",
+		                    "doc_count": 27
+		                },
+		                {
+		                    "key": "Joseph Bandeira",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Josias Gomes",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Josias Quintal",
+		                    "doc_count": 30
+		                },
+		                {
+		                    "key": "Josué Bengtson",
+		                    "doc_count": 45
+		                },
+		                {
+		                    "key": "José Airton Cirilo",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "José Aleksandro",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "José Antonio Almeida",
+		                    "doc_count": 24
+		                },
+		                {
+		                    "key": "José Borba",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "José Carlos Aleluia",
+		                    "doc_count": 156
+		                },
+		                {
+		                    "key": "José Carlos Araújo",
+		                    "doc_count": 21
+		                },
+		                {
+		                    "key": "José Carlos Coutinho",
+		                    "doc_count": 18
+		                },
+		                {
+		                    "key": "José Carlos Elias",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "José Carlos Machado",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "José Carlos Vieira",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "José Chaves",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "José Coimbra",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "José De Abreu",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "José Dirceu",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "José Divino",
+		                    "doc_count": 15
+		                },
+		                {
+		                    "key": "José Eduardo Cardozo",
+		                    "doc_count": 29
+		                },
+		                {
+		                    "key": "José Fernando Aparecido De Oliveira",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "José Genoíno",
+		                    "doc_count": 43
+		                },
+		                {
+		                    "key": "José Guimarães",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "José Ivo Sartori",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "José Janene",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "José Linhares",
+		                    "doc_count": 51
+		                },
+		                {
+		                    "key": "José Lourenço",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "José Mendonça Bezerra",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "José Mentor",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "José Militão",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "José Múcio Monteiro",
+		                    "doc_count": 31
+		                },
+		                {
+		                    "key": "José Otávio Germano",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "José Paulo Tóffano",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "José Pimentel",
+		                    "doc_count": 22
+		                },
+		                {
+		                    "key": "José Rajão",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "José Roberto Arruda",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "José Roberto Batochio",
+		                    "doc_count": 21
+		                },
+		                {
+		                    "key": "José Rocha",
+		                    "doc_count": 11
+		                },
+		                {
+		                    "key": "José Santana De Vasconcellos",
+		                    "doc_count": 13
+		                },
+		                {
+		                    "key": "José Thomaz Nonô",
+		                    "doc_count": 35
+		                },
+		                {
+		                    "key": "Jovair Arantes",
+		                    "doc_count": 55
+		                },
+		                {
+		                    "key": "Jovino Cândido",
+		                    "doc_count": 19
+		                },
+		                {
+		                    "key": "João Alfredo",
+		                    "doc_count": 70
+		                },
+		                {
+		                    "key": "João Almeida",
+		                    "doc_count": 27
+		                },
+		                {
+		                    "key": "João Batista",
+		                    "doc_count": 18
+		                },
+		                {
+		                    "key": "João Bittar",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "João Caldas",
+		                    "doc_count": 19
+		                },
+		                {
+		                    "key": "João Campos",
+		                    "doc_count": 43
+		                },
+		                {
+		                    "key": "João Castelo",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "João Correia",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "João Coser",
+		                    "doc_count": 16
+		                },
+		                {
+		                    "key": "João Dado",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "João Eduardo Dado",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "João Fontes",
+		                    "doc_count": 31
+		                },
+		                {
+		                    "key": "João Grandão",
+		                    "doc_count": 144
+		                },
+		                {
+		                    "key": "João Herrmann Neto",
+		                    "doc_count": 15
+		                },
+		                {
+		                    "key": "João Leão",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "João Magalhães",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "João Magno",
+		                    "doc_count": 70
+		                },
+		                {
+		                    "key": "João Matos",
+		                    "doc_count": 26
+		                },
+		                {
+		                    "key": "João Mendes",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "João Mendes De Jesus",
+		                    "doc_count": 27
+		                },
+		                {
+		                    "key": "João Oliveira",
+		                    "doc_count": 22
+		                },
+		                {
+		                    "key": "João Paulo",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "João Paulo Cunha",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "João Paulo Gomes Da Silva",
+		                    "doc_count": 10
+		                },
+		                {
+		                    "key": "João Paulo Papa",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "João Pizzolatti",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "João Sampaio",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "João Tota",
+		                    "doc_count": 20
+		                },
+		                {
+		                    "key": "Julio Lopes",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Julio Semeghini",
+		                    "doc_count": 20
+		                },
+		                {
+		                    "key": "Julião Amin",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Juquinha",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Jurandil Juarez",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Jurandir Boia",
+		                    "doc_count": 10
+		                },
+		                {
+		                    "key": "Jusmari Oliveira",
+		                    "doc_count": 13
+		                },
+		                {
+		                    "key": "Jutahy Junior",
+		                    "doc_count": 25
+		                },
+		                {
+		                    "key": "Juíza Denise Frossard",
+		                    "doc_count": 17
+		                },
+		                {
+		                    "key": "Jô Moraes",
+		                    "doc_count": 16
+		                },
+		                {
+		                    "key": "Júlio Cesar",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Júlio Delgado",
+		                    "doc_count": 23
+		                },
+		                {
+		                    "key": "Júlio Redecker",
+		                    "doc_count": 25
+		                },
+		                {
+		                    "key": "Júnior Betão",
+		                    "doc_count": 21
+		                },
+		                {
+		                    "key": "Kelly Moraes",
+		                    "doc_count": 10
+		                },
+		                {
+		                    "key": "Kátia Abreu",
+		                    "doc_count": 20
+		                },
+		                {
+		                    "key": "Lael Varella",
+		                    "doc_count": 43
+		                },
+		                {
+		                    "key": "Laerte Bessa",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Lamartine Posella",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Laura Carneiro",
+		                    "doc_count": 141
+		                },
+		                {
+		                    "key": "Laurez Moreira",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Lavoisier Maia",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Leandro Sampaio",
+		                    "doc_count": 11
+		                },
+		                {
+		                    "key": "Leandro Vilela",
+		                    "doc_count": 37
+		                },
+		                {
+		                    "key": "Lelo Coimbra",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "Leodegar Tiscoski",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Leonardo Mattos",
+		                    "doc_count": 88
+		                },
+		                {
+		                    "key": "Leonardo Monteiro",
+		                    "doc_count": 33
+		                },
+		                {
+		                    "key": "Leonardo Picciani",
+		                    "doc_count": 36
+		                },
+		                {
+		                    "key": "Leonardo Quintão",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Leonardo Vilela",
+		                    "doc_count": 70
+		                },
+		                {
+		                    "key": "Leônidas Cristino",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Lincoln Portela",
+		                    "doc_count": 292
+		                },
+		                {
+		                    "key": "Lindberg Farias",
+		                    "doc_count": 17
+		                },
+		                {
+		                    "key": "Lindomar Garçon",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Lino Rossi",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Lira Maia",
+		                    "doc_count": 11
+		                },
+		                {
+		                    "key": "Lobbe Neto",
+		                    "doc_count": 83
+		                },
+		                {
+		                    "key": "Lucenira Pimentel",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Luci Choinacki",
+		                    "doc_count": 125
+		                },
+		                {
+		                    "key": "Luciana Genro",
+		                    "doc_count": 54
+		                },
+		                {
+		                    "key": "Luciano Castro",
+		                    "doc_count": 54
+		                },
+		                {
+		                    "key": "Luciano Leitoa",
+		                    "doc_count": 15
+		                },
+		                {
+		                    "key": "Luciano Pizzatto",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Luciano Zica",
+		                    "doc_count": 31
+		                },
+		                {
+		                    "key": "Luis Barbosa",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Luis Carlos Heinze",
+		                    "doc_count": 26
+		                },
+		                {
+		                    "key": "Luisinho",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Luiz Alberto",
+		                    "doc_count": 124
+		                },
+		                {
+		                    "key": "Luiz Antonio Fleury",
+		                    "doc_count": 47
+		                },
+		                {
+		                    "key": "Luiz Bassuma",
+		                    "doc_count": 43
+		                },
+		                {
+		                    "key": "Luiz Bittencourt",
+		                    "doc_count": 111
+		                },
+		                {
+		                    "key": "Luiz Carlos Busato",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "Luiz Carlos Hauly",
+		                    "doc_count": 102
+		                },
+		                {
+		                    "key": "Luiz Carlos Santos",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Luiz Carreira",
+		                    "doc_count": 16
+		                },
+		                {
+		                    "key": "Luiz Couto",
+		                    "doc_count": 266
+		                },
+		                {
+		                    "key": "Luiz Eduardo Greenhalgh",
+		                    "doc_count": 57
+		                },
+		                {
+		                    "key": "Luiz Fernando Faria",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Luiz Inácio Lula Da Silva",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Luiz Moreira",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Luiz Piauhylino",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Luiz Ribeiro",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "Luiz Sérgio",
+		                    "doc_count": 140
+		                },
+		                {
+		                    "key": "Luiza Erundina",
+		                    "doc_count": 147
+		                },
+		                {
+		                    "key": "Lupércio Ramos",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "Lázaro Botelho",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Léo Vivas",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Lídice Da Mata",
+		                    "doc_count": 18
+		                },
+		                {
+		                    "key": "Lúcia Braga",
+		                    "doc_count": 28
+		                },
+		                {
+		                    "key": "Lúcia Vânia",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "Lúcio Vale",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Machado",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Magela",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Magno Malta",
+		                    "doc_count": 13
+		                },
+		                {
+		                    "key": "Manato",
+		                    "doc_count": 46
+		                },
+		                {
+		                    "key": "Maninha",
+		                    "doc_count": 74
+		                },
+		                {
+		                    "key": "Manoel Junior",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Manoel Salviano",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Manoel Vitório",
+		                    "doc_count": 29
+		                },
+		                {
+		                    "key": "Manuela D'ávila",
+		                    "doc_count": 23
+		                },
+		                {
+		                    "key": "Marcelino Fraga",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Marcello Siqueira",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Marcelo Barbieri",
+		                    "doc_count": 14
+		                },
+		                {
+		                    "key": "Marcelo Castro",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "Marcelo Déda",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Marcelo Guimarães Filho",
+		                    "doc_count": 32
+		                },
+		                {
+		                    "key": "Marcelo Itagiba",
+		                    "doc_count": 18
+		                },
+		                {
+		                    "key": "Marcelo Melo",
+		                    "doc_count": 10
+		                },
+		                {
+		                    "key": "Marcelo Ortiz",
+		                    "doc_count": 80
+		                },
+		                {
+		                    "key": "Marcelo Serafim",
+		                    "doc_count": 81
+		                },
+		                {
+		                    "key": "Marcelo Teixeira",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Marcio Junqueira",
+		                    "doc_count": 22
+		                },
+		                {
+		                    "key": "Marco Maia",
+		                    "doc_count": 16
+		                },
+		                {
+		                    "key": "Marcondes Gadelha",
+		                    "doc_count": 36
+		                },
+		                {
+		                    "key": "Marcos Abramo",
+		                    "doc_count": 18
+		                },
+		                {
+		                    "key": "Marcos Afonso",
+		                    "doc_count": 11
+		                },
+		                {
+		                    "key": "Marcos Cintra",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Marcos De Jesus",
+		                    "doc_count": 17
+		                },
+		                {
+		                    "key": "Marcos Medrado",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Marcos Montes",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Marcos Rolim",
+		                    "doc_count": 21
+		                },
+		                {
+		                    "key": "Marcus Vicente",
+		                    "doc_count": 13
+		                },
+		                {
+		                    "key": "Maria Abadia",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Maria Do Carmo Lara",
+		                    "doc_count": 53
+		                },
+		                {
+		                    "key": "Maria Do Rosário",
+		                    "doc_count": 175
+		                },
+		                {
+		                    "key": "Maria Elvira",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Maria Helena",
+		                    "doc_count": 95
+		                },
+		                {
+		                    "key": "Maria Lúcia",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Maria Lúcia Cardoso",
+		                    "doc_count": 12
+		                },
+		                {
+		                    "key": "Marina Maggessi",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Marinha Raupp",
+		                    "doc_count": 30
+		                },
+		                {
+		                    "key": "Marisa Serrano",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Mariângela Duarte",
+		                    "doc_count": 26
+		                },
+		                {
+		                    "key": "Marçal Filho",
+		                    "doc_count": 27
+		                },
+		                {
+		                    "key": "Mauro Benevides",
+		                    "doc_count": 108
+		                },
+		                {
+		                    "key": "Mauro Lopes",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Mauro Nazif",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Mauro Passos",
+		                    "doc_count": 10
+		                },
+		                {
+		                    "key": "Maurício Quintella Lessa",
+		                    "doc_count": 24
+		                },
+		                {
+		                    "key": "Maurício Rabelo",
+		                    "doc_count": 34
+		                },
+		                {
+		                    "key": "Maurício Rands",
+		                    "doc_count": 50
+		                },
+		                {
+		                    "key": "Maurício Trindade",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Maurílio Ferreira Lima",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Max Mauro",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Max Rosenmann",
+		                    "doc_count": 41
+		                },
+		                {
+		                    "key": "Medeiros",
+		                    "doc_count": 26
+		                },
+		                {
+		                    "key": "Mendes Ribeiro Filho",
+		                    "doc_count": 44
+		                },
+		                {
+		                    "key": "Mendonça Prado",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Michel Temer",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Miguel De Souza",
+		                    "doc_count": 11
+		                },
+		                {
+		                    "key": "Miguel Haddad",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Miguel Martini",
+		                    "doc_count": 11
+		                },
+		                {
+		                    "key": "Milton Barbosa",
+		                    "doc_count": 14
+		                },
+		                {
+		                    "key": "Milton Cardias",
+		                    "doc_count": 65
+		                },
+		                {
+		                    "key": "Milton Monti",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Milton Temer",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "Miriam Reid",
+		                    "doc_count": 16
+		                },
+		                {
+		                    "key": "Miro Teixeira",
+		                    "doc_count": 68
+		                },
+		                {
+		                    "key": "Moacir Micheletto",
+		                    "doc_count": 20
+		                },
+		                {
+		                    "key": "Moisés Lipnik",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Moraes Souza",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Moreira Ferreira",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Moreira Franco",
+		                    "doc_count": 16
+		                },
+		                {
+		                    "key": "Moreira Mendes",
+		                    "doc_count": 16
+		                },
+		                {
+		                    "key": "Moroni Torgan",
+		                    "doc_count": 109
+		                },
+		                {
+		                    "key": "Murilo Domingos",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Murilo Zauith",
+		                    "doc_count": 25
+		                },
+		                {
+		                    "key": "Mussa Demes",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Márcio Bittar",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Márcio França",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Márcio Matos",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Mário Assad Júnior",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Mário De Oliveira",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Mário Heringer",
+		                    "doc_count": 34
+		                },
+		                {
+		                    "key": "Mário Negromonte",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Múcio Sá",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Nair Xavier Lobo",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Narcio Rodrigues",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "Natan Donadon",
+		                    "doc_count": 54
+		                },
+		                {
+		                    "key": "Nazareno Fonteles",
+		                    "doc_count": 41
+		                },
+		                {
+		                    "key": "Neilton Mulim",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Neiva Moreira",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Nelo Rodolfo",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Nelson Bornier",
+		                    "doc_count": 115
+		                },
+		                {
+		                    "key": "Nelson Goetten",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Nelson Marchezan",
+		                    "doc_count": 10
+		                },
+		                {
+		                    "key": "Nelson Marquezelli",
+		                    "doc_count": 90
+		                },
+		                {
+		                    "key": "Nelson Otoch",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Nelson Pellegrino",
+		                    "doc_count": 95
+		                },
+		                {
+		                    "key": "Nelson Trad",
+		                    "doc_count": 17
+		                },
+		                {
+		                    "key": "Neri Geller",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Neucimar Fraga",
+		                    "doc_count": 104
+		                },
+		                {
+		                    "key": "Neuton Lima",
+		                    "doc_count": 33
+		                },
+		                {
+		                    "key": "Ney Lopes",
+		                    "doc_count": 15
+		                },
+		                {
+		                    "key": "Neyde Aparecida",
+		                    "doc_count": 23
+		                },
+		                {
+		                    "key": "Nice Lobão",
+		                    "doc_count": 17
+		                },
+		                {
+		                    "key": "Nicias Ribeiro",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Nilmar Ruiz",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "Nilmário Miranda",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Nilson Mourão",
+		                    "doc_count": 132
+		                },
+		                {
+		                    "key": "Nilson Pinto",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Nilton Baiano",
+		                    "doc_count": 13
+		                },
+		                {
+		                    "key": "Nilton Capixaba",
+		                    "doc_count": 25
+		                },
+		                {
+		                    "key": "Nélio Dias",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Odair Cunha",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Odelmo Leão",
+		                    "doc_count": 10
+		                },
+		                {
+		                    "key": "Oliveira Filho",
+		                    "doc_count": 47
+		                },
+		                {
+		                    "key": "Onyx Lorenzoni",
+		                    "doc_count": 89
+		                },
+		                {
+		                    "key": "Orlando Desconsi",
+		                    "doc_count": 24
+		                },
+		                {
+		                    "key": "Orlando Fantazzini",
+		                    "doc_count": 123
+		                },
+		                {
+		                    "key": "Oscar Andrade",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Osmar Júnior",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "Osmar Serraglio",
+		                    "doc_count": 32
+		                },
+		                {
+		                    "key": "Osmar Terra",
+		                    "doc_count": 17
+		                },
+		                {
+		                    "key": "Osmânio Pereira",
+		                    "doc_count": 15
+		                },
+		                {
+		                    "key": "Osvaldo Biolchi",
+		                    "doc_count": 15
+		                },
+		                {
+		                    "key": "Osvaldo Coelho",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Osvaldo Reis",
+		                    "doc_count": 11
+		                },
+		                {
+		                    "key": "Osvaldo Sobrinho",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Osório Adriano",
+		                    "doc_count": 12
+		                },
+		                {
+		                    "key": "Otavio Leite",
+		                    "doc_count": 45
+		                },
+		                {
+		                    "key": "Padre Roque",
+		                    "doc_count": 19
+		                },
+		                {
+		                    "key": "Paes Landim",
+		                    "doc_count": 34
+		                },
+		                {
+		                    "key": "Pastor Amarildo",
+		                    "doc_count": 27
+		                },
+		                {
+		                    "key": "Pastor Francisco Olímpio",
+		                    "doc_count": 13
+		                },
+		                {
+		                    "key": "Pastor Frankembergen",
+		                    "doc_count": 135
+		                },
+		                {
+		                    "key": "Pastor Manoel Ferreira",
+		                    "doc_count": 15
+		                },
+		                {
+		                    "key": "Pastor Pedro Ribeiro",
+		                    "doc_count": 30
+		                },
+		                {
+		                    "key": "Pastor Reinaldo",
+		                    "doc_count": 49
+		                },
+		                {
+		                    "key": "Patrus Ananias",
+		                    "doc_count": 11
+		                },
+		                {
+		                    "key": "Pauderney Avelino",
+		                    "doc_count": 58
+		                },
+		                {
+		                    "key": "Paulo Abi-ackel",
+		                    "doc_count": 40
+		                },
+		                {
+		                    "key": "Paulo Afonso",
+		                    "doc_count": 14
+		                },
+		                {
+		                    "key": "Paulo Baltazar",
+		                    "doc_count": 20
+		                },
+		                {
+		                    "key": "Paulo Bernardo",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Paulo Bornhausen",
+		                    "doc_count": 23
+		                },
+		                {
+		                    "key": "Paulo Delgado",
+		                    "doc_count": 46
+		                },
+		                {
+		                    "key": "Paulo Feijó",
+		                    "doc_count": 11
+		                },
+		                {
+		                    "key": "Paulo Gouvêa",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Paulo Henrique Lustosa",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Paulo José Gouvêa",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Paulo Lessa",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Paulo Lima",
+		                    "doc_count": 14
+		                },
+		                {
+		                    "key": "Paulo Magalhães",
+		                    "doc_count": 10
+		                },
+		                {
+		                    "key": "Paulo Maluf",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Paulo Marinho",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Paulo Mourão",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Paulo Octávio",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Paulo Paim",
+		                    "doc_count": 85
+		                },
+		                {
+		                    "key": "Paulo Piau",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Paulo Pimenta",
+		                    "doc_count": 43
+		                },
+		                {
+		                    "key": "Paulo Renato Souza",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Paulo Roberto",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Paulo Rocha",
+		                    "doc_count": 105
+		                },
+		                {
+		                    "key": "Paulo Rubem Santiago",
+		                    "doc_count": 53
+		                },
+		                {
+		                    "key": "Paulo Teixeira",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Pedro Canedo",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Pedro Celso",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Pedro Chaves",
+		                    "doc_count": 10
+		                },
+		                {
+		                    "key": "Pedro Corrêa",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Pedro Eugênio",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "Pedro Fernandes",
+		                    "doc_count": 32
+		                },
+		                {
+		                    "key": "Pedro Henry",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Pedro Irujo",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Pedro Novais",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Pedro Pedrossian",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Pedro Valadares",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Pedro Wilson",
+		                    "doc_count": 60
+		                },
+		                {
+		                    "key": "Pepe Vargas",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Philemon Rodrigues",
+		                    "doc_count": 18
+		                },
+		                {
+		                    "key": "Pimentel Gomes",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Pinheiro Landim",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Pinto Itamaraty",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Pompeo De Mattos",
+		                    "doc_count": 105
+		                },
+		                {
+		                    "key": "Professor Irapuan Teixeira",
+		                    "doc_count": 20
+		                },
+		                {
+		                    "key": "Professor Luizinho",
+		                    "doc_count": 65
+		                },
+		                {
+		                    "key": "Professor Ruy Pauletti",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Professor Setimo",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Professor Victorio Galli",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "Professora Raquel Teixeira",
+		                    "doc_count": 21
+		                },
+		                {
+		                    "key": "Promotor Afonso Gil",
+		                    "doc_count": 14
+		                },
+		                {
+		                    "key": "Rafael Guerra",
+		                    "doc_count": 25
+		                },
+		                {
+		                    "key": "Raimundo Gomes De Matos",
+		                    "doc_count": 29
+		                },
+		                {
+		                    "key": "Raimundo Santos",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "Ratinho Junior",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Raul Henry",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Raul Jungmann",
+		                    "doc_count": 40
+		                },
+		                {
+		                    "key": "Rebecca Garcia",
+		                    "doc_count": 22
+		                },
+		                {
+		                    "key": "Reginaldo Germano",
+		                    "doc_count": 91
+		                },
+		                {
+		                    "key": "Reginaldo Lopes",
+		                    "doc_count": 105
+		                },
+		                {
+		                    "key": "Regis Cavalcante",
+		                    "doc_count": 18
+		                },
+		                {
+		                    "key": "Regis De Oliveira",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Reinaldo Betão",
+		                    "doc_count": 49
+		                },
+		                {
+		                    "key": "Reinaldo Gripp",
+		                    "doc_count": 18
+		                },
+		                {
+		                    "key": "Reinaldo Nogueira",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Remi Trinta",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Renato Casagrande",
+		                    "doc_count": 16
+		                },
+		                {
+		                    "key": "Renato Cozzolino",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Renato Molling",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Renato Vianna",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Renildo Calheiros",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Renildo Leal",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Ribamar Alves",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Ricardo Barros",
+		                    "doc_count": 48
+		                },
+		                {
+		                    "key": "Ricardo Berzoini",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Ricardo Ferraço",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Ricardo Fiuza",
+		                    "doc_count": 23
+		                },
+		                {
+		                    "key": "Ricardo Izar",
+		                    "doc_count": 33
+		                },
+		                {
+		                    "key": "Ricardo Tripoli",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Ricarte De Freitas",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Rita Camata",
+		                    "doc_count": 37
+		                },
+		                {
+		                    "key": "Roberto Argenta",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Roberto Balestra",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Roberto Brant",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Roberto Britto",
+		                    "doc_count": 12
+		                },
+		                {
+		                    "key": "Roberto Freire",
+		                    "doc_count": 18
+		                },
+		                {
+		                    "key": "Roberto Gouveia",
+		                    "doc_count": 36
+		                },
+		                {
+		                    "key": "Roberto Jefferson",
+		                    "doc_count": 16
+		                },
+		                {
+		                    "key": "Roberto Magalhães",
+		                    "doc_count": 34
+		                },
+		                {
+		                    "key": "Roberto Pessoa",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Roberto Rocha",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Roberto Santiago",
+		                    "doc_count": 11
+		                },
+		                {
+		                    "key": "Robson Tuma",
+		                    "doc_count": 18
+		                },
+		                {
+		                    "key": "Robério Araújo",
+		                    "doc_count": 15
+		                },
+		                {
+		                    "key": "Robério Nunes",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Rocha Loures",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Rodovalho",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Rodrigo Maia",
+		                    "doc_count": 63
+		                },
+		                {
+		                    "key": "Rodrigo Rollemberg",
+		                    "doc_count": 24
+		                },
+		                {
+		                    "key": "Rogério Marinho",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Rogério Silva",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Rogério Teófilo",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Roland Lavigne",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Romel Anizio",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Romeu Queiroz",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Rommel Feijó",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Ronaldo Caiado",
+		                    "doc_count": 65
+		                },
+		                {
+		                    "key": "Ronaldo Cezar Coelho",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Ronaldo Cunha Lima",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Ronaldo Dimas",
+		                    "doc_count": 76
+		                },
+		                {
+		                    "key": "Ronaldo Vasconcellos",
+		                    "doc_count": 11
+		                },
+		                {
+		                    "key": "Rose De Freitas",
+		                    "doc_count": 26
+		                },
+		                {
+		                    "key": "Rubem Medina",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Rubens Bueno",
+		                    "doc_count": 26
+		                },
+		                {
+		                    "key": "Rubens Furlan",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Rubens Otoni",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Rubinelli",
+		                    "doc_count": 23
+		                },
+		                {
+		                    "key": "Rômulo Gouveia",
+		                    "doc_count": 13
+		                },
+		                {
+		                    "key": "Sabino Castelo Branco",
+		                    "doc_count": 11
+		                },
+		                {
+		                    "key": "Salatiel Carvalho",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Salomão Cruz",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Salomão Gurgel",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Salvador Zimbaldi",
+		                    "doc_count": 17
+		                },
+		                {
+		                    "key": "Sandes Júnior",
+		                    "doc_count": 102
+		                },
+		                {
+		                    "key": "Sandra Rosado",
+		                    "doc_count": 61
+		                },
+		                {
+		                    "key": "Sandro Mabel",
+		                    "doc_count": 76
+		                },
+		                {
+		                    "key": "Sandro Matos",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Santos Filho",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Saraiva Felipe",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Sarney Filho",
+		                    "doc_count": 45
+		                },
+		                {
+		                    "key": "Saulo Coelho",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Saulo Pedrosa",
+		                    "doc_count": 24
+		                },
+		                {
+		                    "key": "Sebastião Bala Rocha",
+		                    "doc_count": 19
+		                },
+		                {
+		                    "key": "Sebastião Madeira",
+		                    "doc_count": 26
+		                },
+		                {
+		                    "key": "Selma Schons",
+		                    "doc_count": 50
+		                },
+		                {
+		                    "key": "Serafim Venzon",
+		                    "doc_count": 36
+		                },
+		                {
+		                    "key": "Sergio Petecão",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Severiano Alves",
+		                    "doc_count": 39
+		                },
+		                {
+		                    "key": "Severino Cavalcanti",
+		                    "doc_count": 45
+		                },
+		                {
+		                    "key": "Sigmaringa Seixas",
+		                    "doc_count": 15
+		                },
+		                {
+		                    "key": "Silas Brasileiro",
+		                    "doc_count": 11
+		                },
+		                {
+		                    "key": "Silas Câmara",
+		                    "doc_count": 30
+		                },
+		                {
+		                    "key": "Silvinho Peccioli",
+		                    "doc_count": 10
+		                },
+		                {
+		                    "key": "Silvio Costa",
+		                    "doc_count": 14
+		                },
+		                {
+		                    "key": "Silvio Lopes",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Silvio Torres",
+		                    "doc_count": 16
+		                },
+		                {
+		                    "key": "Simplício Mário",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Simão Sessim",
+		                    "doc_count": 59
+		                },
+		                {
+		                    "key": "Socorro Gomes",
+		                    "doc_count": 35
+		                },
+		                {
+		                    "key": "Solange Almeida",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Solange Amaral",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Sueli Vidigal",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Suely Campos",
+		                    "doc_count": 26
+		                },
+		                {
+		                    "key": "Sérgio Barcellos",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Sérgio Barradas Carneiro",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Sérgio Carvalho",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Sérgio Miranda",
+		                    "doc_count": 37
+		                },
+		                {
+		                    "key": "Sérgio Moraes",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Sérgio Novais",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Tadeu Filippelli",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Takayama",
+		                    "doc_count": 59
+		                },
+		                {
+		                    "key": "Tarcísio Zimmermann",
+		                    "doc_count": 48
+		                },
+		                {
+		                    "key": "Telma De Souza",
+		                    "doc_count": 82
+		                },
+		                {
+		                    "key": "Tenente Lúcio",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Terezinha Fernandes",
+		                    "doc_count": 46
+		                },
+		                {
+		                    "key": "Teté Bezerra",
+		                    "doc_count": 43
+		                },
+		                {
+		                    "key": "Thaís Barbosa",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Thelma De Oliveira",
+		                    "doc_count": 68
+		                },
+		                {
+		                    "key": "Themístocles Sampaio",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Tilden Santiago",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Tonha Magalhães",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Tânia Soares",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Ubiratan Aguiar",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Uldurico Pinto",
+		                    "doc_count": 11
+		                },
+		                {
+		                    "key": "Ursicino Queiroz",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Urzeni Rocha",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "Vadinho Baião",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Vadão Gomes",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Valadares Filho",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Valdeci Paiva",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Valdenor Guedes",
+		                    "doc_count": 19
+		                },
+		                {
+		                    "key": "Valdir Colatto",
+		                    "doc_count": 12
+		                },
+		                {
+		                    "key": "Valtenir Pereira",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Vander Loubet",
+		                    "doc_count": 78
+		                },
+		                {
+		                    "key": "Vanderlei Assis",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Vanderlei Macris",
+		                    "doc_count": 17
+		                },
+		                {
+		                    "key": "Vanessa Grazziotin",
+		                    "doc_count": 133
+		                },
+		                {
+		                    "key": "Veloso",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "Vic Pires Franco",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Vicente Arruda",
+		                    "doc_count": 22
+		                },
+		                {
+		                    "key": "Vicente Caropreso",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Vicente Cascione",
+		                    "doc_count": 12
+		                },
+		                {
+		                    "key": "Vicentinho",
+		                    "doc_count": 144
+		                },
+		                {
+		                    "key": "Vicentinho Alves",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Vieira Da Cunha",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Vieira Reis",
+		                    "doc_count": 15
+		                },
+		                {
+		                    "key": "Vignatti",
+		                    "doc_count": 99
+		                },
+		                {
+		                    "key": "Vilmar Rocha",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Vilson Covatti",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Vinicius Carvalho",
+		                    "doc_count": 13
+		                },
+		                {
+		                    "key": "Virgílio Guimarães",
+		                    "doc_count": 15
+		                },
+		                {
+		                    "key": "Vital Do Rêgo Filho",
+		                    "doc_count": 12
+		                },
+		                {
+		                    "key": "Vitor Penido",
+		                    "doc_count": 12
+		                },
+		                {
+		                    "key": "Vitorassi",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Vittorio Medioli",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Vivaldo Barbosa",
+		                    "doc_count": 10
+		                },
+		                {
+		                    "key": "Wagner Lago",
+		                    "doc_count": 10
+		                },
+		                {
+		                    "key": "Wagner Rossi",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "Wagner Salustiano",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Waldemir Moka",
+		                    "doc_count": 19
+		                },
+		                {
+		                    "key": "Waldir Maranhão",
+		                    "doc_count": 34
+		                },
+		                {
+		                    "key": "Waldir Neves",
+		                    "doc_count": 31
+		                },
+		                {
+		                    "key": "Waldir Pires",
+		                    "doc_count": 16
+		                },
+		                {
+		                    "key": "Waldomiro Fioravante",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Walfrido Mares Guia",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Walter Barelli",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Walter Brito Neto",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Walter Feldman",
+		                    "doc_count": 36
+		                },
+		                {
+		                    "key": "Walter Ihoshi",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Walter Pinheiro",
+		                    "doc_count": 108
+		                },
+		                {
+		                    "key": "Wandenkolk Gonçalves",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "Wanderley Martins",
+		                    "doc_count": 5
+		                },
+		                {
+		                    "key": "Wanderval Santos",
+		                    "doc_count": 11
+		                },
+		                {
+		                    "key": "Washington Luiz",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Wasny De Roure",
+		                    "doc_count": 43
+		                },
+		                {
+		                    "key": "Welinton Fagundes",
+		                    "doc_count": 14
+		                },
+		                {
+		                    "key": "Wellington Dias",
+		                    "doc_count": 24
+		                },
+		                {
+		                    "key": "Wellington Fagundes",
+		                    "doc_count": 12
+		                },
+		                {
+		                    "key": "Wellington Roberto",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Wigberto Tartuce",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "William Woo",
+		                    "doc_count": 26
+		                },
+		                {
+		                    "key": "Wilson Braga",
+		                    "doc_count": 8
+		                },
+		                {
+		                    "key": "Wilson Cignachi",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Wilson Santiago",
+		                    "doc_count": 35
+		                },
+		                {
+		                    "key": "Wilson Santos",
+		                    "doc_count": 26
+		                },
+		                {
+		                    "key": "Wladimir Costa",
+		                    "doc_count": 6
+		                },
+		                {
+		                    "key": "Wolney Queiroz",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Xico Graziano",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "Yeda Crusius",
+		                    "doc_count": 23
+		                },
+		                {
+		                    "key": "Zarattini",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Zelinda Novaes",
+		                    "doc_count": 98
+		                },
+		                {
+		                    "key": "Zenaldo Coutinho",
+		                    "doc_count": 41
+		                },
+		                {
+		                    "key": "Zequinha Marinho",
+		                    "doc_count": 36
+		                },
+		                {
+		                    "key": "Zezé Perrella",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Zezéu Ribeiro",
+		                    "doc_count": 18
+		                },
+		                {
+		                    "key": "Zico Bronzeado",
+		                    "doc_count": 45
+		                },
+		                {
+		                    "key": "Zila Bezerra",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Zonta",
+		                    "doc_count": 61
+		                },
+		                {
+		                    "key": "Zulaiê Cobra",
+		                    "doc_count": 36
+		                },
+		                {
+		                    "key": "Zé Geraldo",
+		                    "doc_count": 67
+		                },
+		                {
+		                    "key": "Zé Gerardo",
+		                    "doc_count": 4
+		                },
+		                {
+		                    "key": "Zé Lima",
+		                    "doc_count": 9
+		                },
+		                {
+		                    "key": "Zé Índio",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Álvaro Dias",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "Átila Lins",
+		                    "doc_count": 16
+		                },
+		                {
+		                    "key": "Átila Lira",
+		                    "doc_count": 10
+		                },
+		                {
+		                    "key": "Érico Ribeiro",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "Íris De Araújo",
+		                    "doc_count": 23
+		                }
+		            ]
+		        },
+		        "ufOrador": {
+		            "doc_count_error_upper_bound": 0,
+		            "sum_other_doc_count": 0,
+		            "buckets": [
+		                {
+		                    "key": "AC",
+		                    "doc_count": 372
+		                },
+		                {
+		                    "key": "AL",
+		                    "doc_count": 184
+		                },
+		                {
+		                    "key": "AM",
+		                    "doc_count": 369
+		                },
+		                {
+		                    "key": "AP",
+		                    "doc_count": 258
+		                },
+		                {
+		                    "key": "BA",
+		                    "doc_count": 1576
+		                },
+		                {
+		                    "key": "CE",
+		                    "doc_count": 618
+		                },
+		                {
+		                    "key": "DF",
+		                    "doc_count": 309
+		                },
+		                {
+		                    "key": "ES",
+		                    "doc_count": 325
+		                },
+		                {
+		                    "key": "GO",
+		                    "doc_count": 710
+		                },
+		                {
+		                    "key": "MA",
+		                    "doc_count": 462
+		                },
+		                {
+		                    "key": "MG",
+		                    "doc_count": 1320
+		                },
+		                {
+		                    "key": "MS",
+		                    "doc_count": 492
+		                },
+		                {
+		                    "key": "MT",
+		                    "doc_count": 264
+		                },
+		                {
+		                    "key": "PA",
+		                    "doc_count": 547
+		                },
+		                {
+		                    "key": "PB",
+		                    "doc_count": 425
+		                },
+		                {
+		                    "key": "PE",
+		                    "doc_count": 1105
+		                },
+		                {
+		                    "key": "PI",
+		                    "doc_count": 167
+		                },
+		                {
+		                    "key": "PR",
+		                    "doc_count": 677
+		                },
+		                {
+		                    "key": "RJ",
+		                    "doc_count": 2045
+		                },
+		                {
+		                    "key": "RN",
+		                    "doc_count": 175
+		                },
+		                {
+		                    "key": "RO",
+		                    "doc_count": 461
+		                },
+		                {
+		                    "key": "RR",
+		                    "doc_count": 404
+		                },
+		                {
+		                    "key": "RS",
+		                    "doc_count": 1357
+		                },
+		                {
+		                    "key": "SC",
+		                    "doc_count": 846
+		                },
+		                {
+		                    "key": "SE",
+		                    "doc_count": 161
+		                },
+		                {
+		                    "key": "SP",
+		                    "doc_count": 3335
+		                },
+		                {
+		                    "key": "TO",
+		                    "doc_count": 225
+		                }
+		            ]
+		        },
+		        "partidoOrador": {
+		            "doc_count_error_upper_bound": 0,
+		            "sum_other_doc_count": 0,
+		            "buckets": [
+		                {
+		                    "key": "DEM",
+		                    "doc_count": 443
+		                },
+		                {
+		                    "key": "PAN",
+		                    "doc_count": 7
+		                },
+		                {
+		                    "key": "PCdoB",
+		                    "doc_count": 665
+		                },
+		                {
+		                    "key": "PDT",
+		                    "doc_count": 696
+		                },
+		                {
+		                    "key": "PFL",
+		                    "doc_count": 1653
+		                },
+		                {
+		                    "key": "PHS",
+		                    "doc_count": 67
+		                },
+		                {
+		                    "key": "PL",
+		                    "doc_count": 870
+		                },
+		                {
+		                    "key": "PMDB",
+		                    "doc_count": 2074
+		                },
+		                {
+		                    "key": "PMN",
+		                    "doc_count": 36
+		                },
+		                {
+		                    "key": "PMR",
+		                    "doc_count": 3
+		                },
+		                {
+		                    "key": "PP",
+		                    "doc_count": 854
+		                },
+		                {
+		                    "key": "PPB",
+		                    "doc_count": 230
+		                },
+		                {
+		                    "key": "PPS",
+		                    "doc_count": 769
+		                },
+		                {
+		                    "key": "PR",
+		                    "doc_count": 368
+		                },
+		                {
+		                    "key": "PRB",
+		                    "doc_count": 21
+		                },
+		                {
+		                    "key": "PRONA",
+		                    "doc_count": 97
+		                },
+		                {
+		                    "key": "PSB",
+		                    "doc_count": 1090
+		                },
+		                {
+		                    "key": "PSC",
+		                    "doc_count": 187
+		                },
+		                {
+		                    "key": "PSDB",
+		                    "doc_count": 1822
+		                },
+		                {
+		                    "key": "PSDC",
+		                    "doc_count": 2
+		                },
+		                {
+		                    "key": "PSL",
+		                    "doc_count": 130
+		                },
+		                {
+		                    "key": "PSOL",
+		                    "doc_count": 318
+		                },
+		                {
+		                    "key": "PST",
+		                    "doc_count": 15
+		                },
+		                {
+		                    "key": "PT",
+		                    "doc_count": 5216
+		                },
+		                {
+		                    "key": "PTB",
+		                    "doc_count": 1154
+		                },
+		                {
+		                    "key": "PTC",
+		                    "doc_count": 19
+		                },
+		                {
+		                    "key": "PTN",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "PTdoB",
+		                    "doc_count": 11
+		                },
+		                {
+		                    "key": "PV",
+		                    "doc_count": 306
+		                }
+		            ]
+		        },
+		        "temaPortal": {
+		            "doc_count_error_upper_bound": 0,
+		            "sum_other_doc_count": 0,
+		            "buckets": []
+		        },
+		        "anoDiscurso": {
+		            "doc_count_error_upper_bound": 0,
+		            "sum_other_doc_count": 0,
+		            "buckets": [
+		                {
+		                    "key": "2017",
+		                    "doc_count": 1
+		                },
+		                {
+		                    "key": "2008",
+		                    "doc_count": 106
+		                },
+		                {
+		                    "key": "2007",
+		                    "doc_count": 5929
+		                },
+		                {
+		                    "key": "2006",
+		                    "doc_count": 3168
+		                },
+		                {
+		                    "key": "2005",
+		                    "doc_count": 2175
+		                },
+		                {
+		                    "key": "2004",
+		                    "doc_count": 2229
+		                },
+		                {
+		                    "key": "2003",
+		                    "doc_count": 3096
+		                },
+		                {
+		                    "key": "2002",
+		                    "doc_count": 1082
+		                },
+		                {
+		                    "key": "2001",
+		                    "doc_count": 2117
+		                },
+		                {
+		                    "key": "2000",
+		                    "doc_count": 375
+		                },
+		                {
+		                    "key": "1900",
+		                    "doc_count": 207
+		                }
+		            ]
+		        }
+		    }
+		}
+   }
+}

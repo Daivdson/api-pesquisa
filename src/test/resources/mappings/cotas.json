@@ -1,0 +1,191 @@
+{
+	"request": {
+		"method": "POST",
+		"url": "/cotas/_search"
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json"
+		},
+		"jsonBody": {
+		    "took": 0,
+		    "timed_out": false,
+		    "_shards": {
+		        "total": 5,
+		        "successful": 5,
+		        "skipped": 0,
+		        "failed": 0
+		    },
+		    "hits": {
+		        "total": 2,
+		        "max_score": 1.0,
+		        "hits": [
+		        	{
+		                "_index": "cotas",
+		                "_type": "cotas",
+		                "_id": "3-7069598",
+		                "_score": null,
+		                "_source": {
+		                    "nomePassageiro": "",
+		                    "mesAno": "7-2020",
+		                    "data": "07/07/2020",
+		                    "lideranca": "LIDERANÇA DO PT",
+		                    "idTipoDespesa": "3",
+		                    "nomeParlamentar": "LIDERANÇA DO PT",
+		                    "mes": "7",
+		                    "numeroDocumento": "11192",
+		                    "id": "3-7069598",
+		                    "tipoDespesa": "COMBUSTÍVEIS E LUBRIFICANTES.",
+		                    "valorReembolso": 150.08,
+		                    "siglaUF": "NA",
+		                    "ano": "2020",
+		                    "tipoSolicitante": "Liderança",
+		                    "valorRestituicao": 0.0,
+		                    "tipoDocumento": "Recibos/Outros",
+		                    "valorDespesa": 150.08,
+		                    "nomeFornecedor": "POSTO DE COMBUSTIVEL GUERREIRINHO LTDA",
+		                    "idDocumento": "7069598",
+		                    "urlDocumento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/2439/2020/7069598.pdf",
+		                    "tipoFornecedor": "Pessoa Física",
+		                    "idSolicitante": "2439",
+		                    "cnpjCpfFornecedor": "35340529000139"
+		                },
+		                "sort": [
+		                    "07/07/2020"
+		                ]
+		            },
+		            {
+		                "_index": "cotas",
+		                "_type": "cotas",
+		                "_id": "3-7069594",
+		                "_score": null,
+		                "_source": {
+		                    "nomePassageiro": "",
+		                    "mesAno": "7-2020",
+		                    "data": "07/07/2020",
+		                    "lideranca": "LIDERANÇA DO PT",
+		                    "idTipoDespesa": "3",
+		                    "nomeParlamentar": "LIDERANÇA DO PT",
+		                    "mes": "7",
+		                    "numeroDocumento": "11193",
+		                    "id": "3-7069594",
+		                    "tipoDespesa": "COMBUSTÍVEIS E LUBRIFICANTES.",
+		                    "valorReembolso": 52.5,
+		                    "siglaUF": "NA",
+		                    "ano": "2020",
+		                    "tipoSolicitante": "Liderança",
+		                    "valorRestituicao": 0.0,
+		                    "tipoDocumento": "Recibos/Outros",
+		                    "valorDespesa": 52.5,
+		                    "nomeFornecedor": "POSTO DE COMBUSTIVEL GUERREIRINHO LTDA",
+		                    "idDocumento": "7069594",
+		                    "urlDocumento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/2439/2020/7069594.pdf",
+		                    "tipoFornecedor": "Pessoa Física",
+		                    "idSolicitante": "2439",
+		                    "cnpjCpfFornecedor": "35340529000139"
+		                },
+		                "sort": [
+		                    "07/07/2020"
+		                ]
+		            }
+		        ]
+		    },
+		    "aggregations": {
+			    "mesAno": {
+		            "doc_count_error_upper_bound": 0,
+		            "sum_other_doc_count": 0,
+		            "buckets": [
+		                {
+		                    "key": "7-2020",
+		                    "doc_count": 8,
+		                    "valor": {
+		                        "value": 12022.819763183594
+		                    }
+		                }
+		            ]
+		        },
+		        "valorTotal": {
+		            "value": 5952942.880163908
+		        },
+		        "quantidadeTotal": {
+		            "value": 16
+		        },
+		        "tipoDespesa": {
+		            "doc_count_error_upper_bound": 0,
+		            "sum_other_doc_count": 0,
+		            "buckets": [
+		                {
+		                    "key": "TELEFONIA",
+		                    "doc_count": 295,
+		                    "valor": {
+		                        "value": 134977.9501056671
+		                    },
+		                    "deputado": {
+		                        "doc_count_error_upper_bound": 0,
+		                        "sum_other_doc_count": 129,
+		                        "buckets": [
+		                            {
+		                                "key": "Áurea Carolina ",
+		                                "doc_count": 1,
+		                                "valor": {
+		                                    "value": 109.9800033569336
+		                                }
+		                            },
+		                            {
+		                                "key": "Átila Lins ",
+		                                "doc_count": 2,
+		                                "valor": {
+		                                    "value": 1982.719970703125
+		                                }
+		                            },
+		                            {
+		                                "key": "Wilson Santiago ",
+		                                "doc_count": 1,
+		                                "valor": {
+		                                    "value": 283.07000732421875
+		                                }
+		                            }
+		                        ]
+		                    }
+		                },
+		                {
+		                    "key": "SERVIÇOS POSTAIS",
+		                    "doc_count": 44,
+		                    "valor": {
+		                        "value": 3950.6399750709534
+		                    },
+		                    "deputado": {
+		                        "doc_count_error_upper_bound": 0,
+		                        "sum_other_doc_count": 0,
+		                        "buckets": [
+		                            {
+		                                "key": "Vitor Lippi ",
+		                                "doc_count": 1,
+		                                "valor": {
+		                                    "value": 35.11000061035156
+		                                }
+		                            },
+		                            {
+		                                "key": "Vitor Hugo ",
+		                                "doc_count": 1,
+		                                "valor": {
+		                                    "value": 25.799999237060547
+		                                }
+		                            },
+		                            {
+		                                "key": "Vander Loubet ",
+		                                "doc_count": 1,
+		                                "valor": {
+		                                    "value": 49.099998474121094
+		                                }
+		                            }
+		                        ]
+		                    }
+		                }
+		            ]
+		        }
+		    }
+		}
+	}
+}

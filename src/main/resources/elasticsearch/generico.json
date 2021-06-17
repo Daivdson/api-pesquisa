@@ -1,0 +1,13 @@
+{  
+	"from" : %d, "size" : %d,
+	"sort" : %s,
+	"_source" :%s,
+    "query" : {     
+       "bool" : { 
+			%s
+    	}
+    },
+    "aggs": {
+    	%s
+    }
+}

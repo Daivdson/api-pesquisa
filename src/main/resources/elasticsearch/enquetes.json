@@ -1,0 +1,110 @@
+{  
+	"from" : %d, "size" : %d,
+	"sort" : %s,
+	"_source" :%s,
+    "query" : {     
+        "bool" : { 
+			%s
+    	}
+    },
+    "aggs": {
+    	"id": {
+        	"terms": {
+            	"field": "id",
+					"size": 100,
+					"order" : { "_count" : "desc" }
+         	}				
+     	},
+    	"idProposta": {
+        	"terms": {
+            	"field": "idProposta.keyword",
+					"size": 100,
+					"order" : { "_count" : "desc" }
+         	}				
+     	},
+    	"siglaTipoProposta": {
+        	"terms": {
+            	"field": "siglaTipoProposta.keyword",
+					"size": 100,
+					"order" : { "_count" : "desc" }
+         	}				
+     	},
+    	"tituloEnquete": {
+        	"terms": {
+            	"field": "tituloEnquete.keyword",
+					"size": 100,
+					"order" : { "_count" : "desc" }
+         	}				
+     	},
+    	"numeroProposta": {
+        	"terms": {
+            	"field": "numeroProposta.keyword",
+					"size": 100,
+					"order" : { "_count" : "desc" }
+         	}				
+     	},
+    	"tipoProposta": {
+        	"terms": {
+            	"field": "tipoProposta.keyword",
+					"size": 100,
+					"order" : { "_count" : "desc" }
+         	}				
+     	},
+    	"descricaoEnquete": {
+        	"terms": {
+            	"field": "descricaoEnquete.keyword",
+					"size": 100,
+					"order" : { "_count" : "desc" }
+         	}				
+     	},
+    	"url": {
+        	"terms": {
+            	"field": "url.keyword",
+					"size": 100,
+					"order" : { "_count" : "desc" }
+         	}				
+     	},
+    	"numeroVotacaoEm7Dias": {
+        	"terms": {
+            	"field": "numeroVotacaoEm7Dias",
+					"size": 100,
+					"order" : { "_count" : "desc" }
+         	}				
+     	},
+		"numeroVotacaoEm1Mes": {
+			"terms": {
+				"field": "numeroVotacaoEm1Mes",
+				"size": 100,
+				"order" : { "_count" : "desc" }
+			}
+		},
+		"numeroVotacaoEm6Meses": {
+			"terms": {
+				"field": "numeroVotacaoEm6Meses",
+				"size": 100,
+				"order" : { "_count" : "desc" }
+			}
+		},
+     	"numeroComentarioEm7Dias": {
+        	"terms": {
+            	"field": "numeroComentarioEm7Dias",
+					"size": 100,
+					"order" : { "_count" : "desc" }
+         	}				
+     	},
+     	"numeroComentarioEm1Mes": {
+        	"terms": {
+            	"field": "numeroComentarioEm1Mes",
+					"size": 100,
+					"order" : { "_count" : "desc" }
+         	}				
+     	},
+     	"numeroComentarioEm6Meses": {
+        	"terms": {
+            	"field": "numeroComentarioEm6Meses",
+					"size": 100,
+					"order" : { "_count" : "desc" }
+         	}				
+     	}
+     }
+}
